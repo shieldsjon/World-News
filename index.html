@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Lens News - Objective Multi-Perspective Global Wire</title>
+    <title>Global Lens - Unbiased World News Aggregator</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -17,8 +17,8 @@
                             900: '#0f172a',
                             950: '#070a12',
                         },
-                        cyan: {
-                            450: '#00d0f5'
+                        amber: {
+                            450: '#f59e0b'
                         }
                     },
                     fontFamily: {
@@ -53,91 +53,90 @@
         .animate-ticker {
             display: inline-block;
             white-space: nowrap;
-            animation: ticker 50s linear infinite;
+            animation: ticker 60s linear infinite;
         }
         .animate-ticker:hover { animation-play-state: paused; }
 
-        /* Smooth theme transition */
         html { transition: background-color 0.3s ease, color 0.3s ease; }
     </style>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col selection:bg-cyan-500 selection:text-slate-950 transition-colors duration-300">
 
     <!-- Live Wire Ticker Bar -->
-    <div class="bg-slate-900 dark:bg-slate-900 border-b border-slate-800 text-xs overflow-hidden flex items-center h-9 sticky top-0 z-50 backdrop-blur-md bg-opacity-95">
-        <div class="bg-red-600 text-white font-bold px-3 py-1.5 flex items-center shrink-0 uppercase tracking-wider text-[10px] z-10 gap-1.5 shadow-sm">
-            <span class="w-2 h-2 rounded-full bg-white animate-ping"></span>
-            Wire Feed (5m Sync)
+    <div class="bg-slate-900 border-b border-slate-800 text-xs overflow-hidden flex items-center h-9 sticky top-0 z-50 backdrop-blur-md bg-opacity-95">
+        <div class="bg-cyan-600 text-slate-950 font-black px-3 py-1.5 flex items-center shrink-0 uppercase tracking-wider text-[10px] z-10 gap-1.5 shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-slate-950 animate-ping"></span>
+            GLOBAL WIRE (5M AUTO-SYNC)
         </div>
         <div class="overflow-hidden w-full relative flex items-center">
             <div id="tickerContent" class="animate-ticker text-slate-300 flex items-center gap-8 pl-4">
-                <!-- Populated dynamically via JavaScript -->
+                <!-- Populated dynamically via JS -->
             </div>
         </div>
     </div>
 
     <!-- Navigation Header -->
-    <header class="border-b border-slate-800 bg-slate-900/90 dark:bg-slate-900/90 backdrop-blur-md sticky top-9 z-40">
+    <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur-md sticky top-9 z-40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
                 
-                <!-- Brand Title -->
+                <!-- Brand Title & Tagline -->
                 <div class="flex items-center justify-between">
                     <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg shadow-cyan-500/20">
-                            <i class="fa-solid fa-globe"></i>
+                        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg shadow-cyan-500/20">
+                            <i class="fa-solid fa-earth-americas"></i>
                         </div>
                         <div>
                             <div class="flex items-center gap-2">
-                                <h1 class="text-xl font-bold tracking-tight text-white dark:text-white font-serif-headline">GLOBAL LENS</h1>
-                                <span class="bg-cyan-950/80 text-cyan-400 text-[10px] font-semibold px-2 py-0.5 rounded border border-cyan-800/50 uppercase tracking-wider">Unbiased Wire</span>
+                                <h1 class="text-xl font-bold tracking-tight text-white font-serif-headline">GLOBAL LENS</h1>
+                                <span class="bg-cyan-950/80 text-cyan-400 text-[10px] font-semibold px-2 py-0.5 rounded border border-cyan-800/50 uppercase tracking-wider">Top 50 GDP Wire</span>
                             </div>
-                            <p class="text-xs text-slate-400">Verifiable, Non-Sensationalist World Journalism • 5-Min Refresh</p>
+                            <p class="text-xs text-slate-400">Objective Aggregator Across 50 Major Economies • Multi-Link Verification</p>
                         </div>
                     </div>
 
-                    <!-- Mobile Menu Button -->
-                    <button id="mobileMenuBtn" class="md:hidden p-2 text-slate-400 hover:text-white rounded-lg border border-slate-800">
+                    <!-- Mobile Toggle -->
+                    <button id="mobileMenuBtn" class="lg:hidden p-2 text-slate-400 hover:text-white rounded-lg border border-slate-800">
                         <i class="fa-solid fa-bars text-lg"></i>
                     </button>
                 </div>
 
-                <!-- Clock & 5-Min Countdown Controls -->
-                <div id="headerControls" class="flex flex-wrap items-center gap-3 text-xs md:flex">
+                <!-- Feel-Good Mode & Header Controls -->
+                <div id="headerControls" class="flex flex-wrap items-center gap-2.5 text-xs">
                     
+                    <!-- PROMPT / TOGGLE: Feel Good Stories Button -->
+                    <button id="feelGoodToggleBtn" class="bg-slate-800/90 hover:bg-amber-950/60 text-slate-300 hover:text-amber-300 border border-slate-700 hover:border-amber-500/50 px-3.5 py-2 rounded-xl transition-all duration-200 flex items-center gap-2 shadow-sm font-medium active:scale-95 group">
+                        <i class="fa-solid fa-sun text-amber-400 text-sm group-hover:rotate-45 transition-transform duration-300"></i>
+                        <span>Feel-Good Mode</span>
+                        <span id="feelGoodBadge" class="bg-amber-500/20 text-amber-400 text-[10px] font-mono-code font-bold px-1.5 py-0.2 rounded border border-amber-500/30">OFF</span>
+                    </button>
+
                     <!-- UTC Clock -->
-                    <div class="bg-slate-800/80 border border-slate-700/60 rounded-lg px-3 py-1.5 flex items-center gap-2">
+                    <div class="bg-slate-800/80 border border-slate-700/60 rounded-xl px-3 py-1.5 flex items-center gap-2">
                         <i class="fa-regular fa-clock text-cyan-400"></i>
                         <div>
-                            <span class="text-slate-400 block text-[9px] uppercase font-semibold">UTC Standard</span>
-                            <span id="utcClock" class="font-mono-code font-medium text-slate-200">00:00:00 UTC</span>
+                            <span class="text-slate-400 block text-[9px] uppercase font-semibold">UTC Clock</span>
+                            <span id="utcClock" class="font-mono-code font-medium text-slate-200">00:00:00</span>
                         </div>
                     </div>
 
-                    <!-- 5-Minute Auto Refresh Countdown -->
-                    <div class="bg-slate-800/80 border border-slate-700/60 rounded-lg px-3 py-1.5 flex items-center gap-2" title="Automatically fetches fresh wire updates every 5 minutes">
+                    <!-- 5-Min Countdown -->
+                    <div class="bg-slate-800/80 border border-slate-700/60 rounded-xl px-3 py-1.5 flex items-center gap-2">
                         <i id="syncSpinner" class="fa-solid fa-arrows-rotate text-emerald-400"></i>
                         <div>
-                            <span class="text-slate-400 block text-[9px] uppercase font-semibold">Next 5m Auto Sync</span>
+                            <span class="text-slate-400 block text-[9px] uppercase font-semibold">5m Refresh</span>
                             <span id="refreshCountdown" class="font-mono-code font-medium text-emerald-400">05:00</span>
                         </div>
                     </div>
 
-                    <!-- Manual Fetch Button -->
-                    <button id="fetchLatestBtn" title="Trigger immediate wire synthesis update" class="bg-cyan-600 hover:bg-cyan-500 text-slate-950 font-semibold px-3 py-2 rounded-lg transition-all flex items-center gap-2 active:scale-95 shadow-md shadow-cyan-600/20">
+                    <!-- Sync Button -->
+                    <button id="fetchLatestBtn" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold px-3 py-2 rounded-xl transition flex items-center gap-1.5 active:scale-95 shadow-md shadow-cyan-500/20">
                         <i class="fa-solid fa-rotate"></i>
-                        <span>Sync Now</span>
+                        <span>Sync</span>
                     </button>
 
-                    <!-- Auto Sync Switch -->
-                    <label class="flex items-center gap-2 bg-slate-800/50 border border-slate-800 px-2.5 py-1.5 rounded-lg cursor-pointer hover:bg-slate-800 transition" title="Toggle 5-minute auto updates">
-                        <input type="checkbox" id="autoRefreshToggle" checked class="sr-only peer">
-                        <div class="w-7 h-4 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-3 after:w-3 after:transition-all peer-checked:bg-cyan-500 relative"></div>
-                        <span class="text-[11px] text-slate-300 select-none font-medium">Auto-Sync</span>
-                    </label>
-
-                    <!-- Dark/Light Theme Toggle -->
-                    <button id="themeToggleBtn" class="bg-slate-800/80 hover:bg-slate-700 border border-slate-700/60 p-2 rounded-lg text-slate-300 hover:text-white transition" title="Toggle Dark/Light Mode">
+                    <!-- Theme Toggle -->
+                    <button id="themeToggleBtn" class="bg-slate-800/80 hover:bg-slate-700 border border-slate-700/60 p-2 rounded-xl text-slate-300 transition" title="Toggle Theme">
                         <i class="fa-solid fa-moon text-cyan-400" id="themeIcon"></i>
                     </button>
                 </div>
@@ -146,209 +145,192 @@
         </div>
     </header>
 
-    <!-- Filters & Navigation Controls -->
+    <!-- Feel-Good Mode Active Notification Banner -->
+    <div id="feelGoodBanner" class="hidden bg-gradient-to-r from-amber-950/80 via-slate-900 to-amber-950/80 border-b border-amber-500/40 text-xs py-2.5 px-4 text-center text-amber-200 flex items-center justify-center gap-3">
+        <i class="fa-solid fa-heart text-amber-400 animate-pulse text-sm"></i>
+        <span><strong>Feel-Good Mode Active:</strong> Showing uplifting, positive, and constructive world developments.</span>
+        <button id="disableFeelGoodBtn" class="bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 underline font-semibold px-2 py-0.5 rounded text-[11px] transition">
+            Disable Filter
+        </button>
+    </div>
+
+    <!-- Filter Bar: Updated Categories & Country Dropdown -->
     <section class="border-b border-slate-800 bg-slate-900/40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+            
+            <div class="flex flex-col gap-3">
                 
-                <!-- Category Selector -->
-                <div class="flex items-center gap-1.5 overflow-x-auto pb-2 lg:pb-0 scrollbar-none text-xs">
-                    <button data-category="All" class="category-btn active bg-slate-800 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:border-cyan-500 transition">
+                <!-- Category Tabs -->
+                <div id="categoryContainer" class="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none text-xs">
+                    <button data-category="All" class="category-btn active bg-slate-800 text-cyan-400 border border-cyan-500/40 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:border-cyan-400 transition">
                         <i class="fa-solid fa-layer-group mr-1.5 text-[10px]"></i>All Top News
                     </button>
-                    <button data-category="World" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
-                        World Affairs
+                    <button data-category="U.S." class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        U.S.
                     </button>
-                    <button data-category="Politics" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                    <button data-category="World" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        World
+                    </button>
+                    <button data-category="Governance & Diplomacy" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
                         Governance & Diplomacy
                     </button>
-                    <button data-category="Economy" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                    <button data-category="Economy & Markets" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
                         Economy & Markets
                     </button>
-                    <button data-category="Tech & Science" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                    <button data-category="Tech & Science" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
                         Tech & Science
                     </button>
-                    <button data-category="Culture" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
-                        Society & Culture
-                    </button>
-                    <button data-category="Environment" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                    <button data-category="Climate & Energy" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
                         Climate & Energy
                     </button>
-                </div>
-
-                <!-- High Factuality Toggle & Search -->
-                <div class="flex items-center gap-3">
-                    <button id="factDensityFilterBtn" class="bg-slate-800/80 hover:bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700/60 flex items-center gap-2 transition shrink-0" title="Filter strictly 97%+ Objectivity items">
-                        <i class="fa-solid fa-shield-halved text-cyan-400"></i>
-                        <span>97%+ Factuality Only</span>
-                        <span id="factBadgeState" class="w-2 h-2 rounded-full bg-slate-500"></span>
+                    <button data-category="Arts" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        Arts
                     </button>
-
-                    <!-- Search Input -->
-                    <div class="relative w-full lg:w-64">
-                        <input type="text" id="searchInput" placeholder="Search stories, countries, topics..." class="w-full bg-slate-950 border border-slate-800 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500/80 transition placeholder-slate-500">
-                        <i class="fa-solid fa-magnifying-glass absolute left-2.5 top-2.5 text-slate-500 text-xs"></i>
-                    </div>
+                    <button data-category="Lifestyle" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        Lifestyle
+                    </button>
+                    <button data-category="Sports" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        Sports
+                    </button>
                 </div>
 
-            </div>
+                <!-- Secondary Filter Bar: Top 50 GDP Country Selector & Search -->
+                <div class="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-slate-800/60 text-xs">
+                    
+                    <!-- Country Dropdown (Top 50 GDP Economies) -->
+                    <div class="flex items-center gap-2 w-full sm:w-auto">
+                        <label for="countrySelect" class="text-slate-400 font-semibold uppercase text-[10px] tracking-wider shrink-0 flex items-center gap-1">
+                            <i class="fa-solid fa-globe text-cyan-400"></i> GDP Top 50 Country:
+                        </label>
+                        <select id="countrySelect" class="bg-slate-950 border border-slate-800 text-slate-200 rounded-lg px-3 py-1.5 text-xs focus:outline-none focus:border-cyan-500 w-full sm:w-64 transition">
+                            <option value="All">All 50 Nations (Global Stream)</option>
+                            <!-- Options populated dynamically from GDP 50 list -->
+                        </select>
+                    </div>
 
-            <!-- Region Filter Navigation Bar -->
-            <div class="mt-3 pt-3 border-t border-slate-800/60 flex items-center gap-2 text-xs overflow-x-auto scrollbar-none">
-                <span class="text-slate-400 font-semibold uppercase text-[10px] tracking-wider shrink-0 mr-1">
-                    <i class="fa-solid fa-earth-americas mr-1 text-cyan-400"></i> Region Filter:
-                </span>
-                <button data-region="All" class="region-btn active bg-cyan-950/80 text-cyan-300 border border-cyan-800/60 px-3 py-1 rounded text-[11px] font-medium transition">Global All</button>
-                <button data-region="North America" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition">North America</button>
-                <button data-region="Europe" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition">Europe</button>
-                <button data-region="Asia-Pacific" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition">Asia-Pacific</button>
-                <button data-region="Middle East & Africa" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition">Middle East & Africa</button>
-                <button data-region="Latin America" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition">Latin America</button>
+                    <!-- Search & Factuality Toggles -->
+                    <div class="flex items-center gap-2.5 w-full sm:w-auto">
+                        <div class="relative w-full sm:w-64">
+                            <input type="text" id="searchInput" placeholder="Search topics, countries, outlets..." class="w-full bg-slate-950 border border-slate-800 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500 transition placeholder-slate-500">
+                            <i class="fa-solid fa-magnifying-glass absolute left-2.5 top-2.5 text-slate-500 text-xs"></i>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Main Content Container -->
+    <!-- Main Content Grid -->
     <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full">
         
-        <!-- Wire Status Banner -->
-        <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 border border-slate-800 rounded-xl p-4 mb-6 shadow-md flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <!-- Live Status Bar -->
+        <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 border border-slate-800 rounded-2xl p-4 mb-6 shadow-md flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <div class="flex items-center gap-3">
-                <div class="p-2.5 bg-cyan-500/10 text-cyan-400 rounded-lg border border-cyan-500/20">
-                    <i class="fa-solid fa-satellite-dish text-xl animate-pulse"></i>
+                <div class="p-2.5 bg-cyan-500/10 text-cyan-400 rounded-xl border border-cyan-500/20">
+                    <i class="fa-solid fa-satellite-dish text-xl"></i>
                 </div>
                 <div>
                     <div class="flex items-center gap-2">
-                        <h2 class="text-sm font-semibold text-slate-100">Live 5-Minute Wire Synthesis Stream</h2>
+                        <h2 class="text-sm font-semibold text-slate-100">Live Top-50 GDP Multi-Outlet Aggregator</h2>
                         <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium bg-emerald-950 text-emerald-400 border border-emerald-800/50">
                             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-ping"></span>
-                            Active Feed
+                            Live Updates
                         </span>
                     </div>
                     <p class="text-xs text-slate-400 mt-0.5">
-                        <span id="lastUpdatedTag">Last updated: Just Now</span> • Synthesizing primary wires (AP, Reuters, AFP, Kyodo, Bloomberg) stripped of emotional bias.
+                        <span id="lastUpdatedTag">Last updated: Just Now</span> • Click any story card to access direct links to original coverage across Reuters, AP, BBC, DW, Bloomberg, and regional outlets.
                     </p>
                 </div>
             </div>
 
-            <!-- Visual Legend -->
-            <div class="flex items-center gap-4 text-xs bg-slate-950/60 p-2.5 rounded-lg border border-slate-800 shrink-0">
-                <div class="flex items-center gap-2">
-                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
-                    <span class="text-slate-300">Verified Facts</span>
-                </div>
-                <div class="flex items-center gap-2">
-                    <span class="w-2.5 h-2.5 rounded-full bg-cyan-400"></span>
-                    <span class="text-slate-300">Multi-Angle Spectrum</span>
+            <!-- Stats Badge -->
+            <div class="flex items-center gap-3 text-xs bg-slate-950/80 px-3 py-2 rounded-xl border border-slate-800">
+                <div class="text-right">
+                    <span class="text-slate-400 block text-[9px] uppercase">Active Index</span>
+                    <span id="totalDatabaseCount" class="font-mono-code text-cyan-400 font-bold">50 Countries / 50 Stories</span>
                 </div>
             </div>
         </div>
 
-        <!-- Layout Grid -->
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
             
-            <!-- Primary Feed Container (Left 8 Cols) -->
-            <div class="lg:col-span-8 space-y-6">
+            <!-- Feed Left Container (8 Cols) -->
+            <div class="lg:col-span-8 space-y-5">
                 
-                <!-- Feed Header Controls -->
+                <!-- Feed Header -->
                 <div class="flex items-center justify-between border-b border-slate-800 pb-3">
                     <div class="flex items-center gap-2">
-                        <h3 class="text-base font-semibold text-slate-200 font-serif-headline">Neutral Wire Reports</h3>
+                        <h3 class="text-base font-semibold text-slate-200 font-serif-headline" id="feedTitle">Neutral Wire Reports</h3>
                         <span id="storyCountBadge" class="bg-slate-800 text-slate-400 text-xs px-2.5 py-0.5 rounded-full font-mono-code">0 stories</span>
                     </div>
-                    
+
                     <div class="flex items-center gap-2 text-xs">
-                        <span class="text-slate-400">Sort by:</span>
-                        <select id="sortSelect" class="bg-slate-900 border border-slate-800 text-slate-300 rounded px-2.5 py-1 focus:outline-none focus:border-cyan-500">
+                        <span class="text-slate-400">Sort:</span>
+                        <select id="sortSelect" class="bg-slate-900 border border-slate-800 text-slate-300 rounded-lg px-2.5 py-1 focus:outline-none focus:border-cyan-500">
                             <option value="newest">Most Recent</option>
-                            <option value="factuality">Highest Objectivity Score</option>
-                            <option value="perspectives">Most Multi-Angle Sources</option>
+                            <option value="factuality">Highest Objectivity</option>
+                            <option value="outlets">Most Outlet Links</option>
                         </select>
                     </div>
                 </div>
 
-                <!-- News Cards Container -->
-                <div id="newsFeed" class="space-y-5">
-                    <!-- Cards dynamically rendered here -->
+                <!-- Cards Container -->
+                <div id="newsFeed" class="space-y-4">
+                    <!-- Dynamic rendering -->
                 </div>
 
-                <!-- Empty State -->
-                <div id="emptyFeedState" class="hidden text-center py-12 border border-dashed border-slate-800 rounded-xl">
+                <!-- Empty Filter State -->
+                <div id="emptyFeedState" class="hidden text-center py-12 border border-dashed border-slate-800 rounded-2xl">
                     <i class="fa-solid fa-filter-circle-xmark text-4xl text-slate-600 mb-3"></i>
-                    <p class="text-slate-400 text-sm">No stories match your search and filter criteria.</p>
-                    <button id="resetFiltersBtn" class="mt-3 text-xs bg-cyan-600/20 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-md hover:bg-cyan-600/30 transition">Clear All Filters</button>
+                    <p class="text-slate-400 text-sm">No stories match your filter combination.</p>
+                    <button id="resetFiltersBtn" class="mt-3 text-xs bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 px-3 py-1.5 rounded-lg hover:bg-cyan-500/30 transition">Reset All Filters</button>
                 </div>
+
             </div>
 
-            <!-- Sidebar (Right 4 Cols) -->
+            <!-- Sidebar (4 Cols) -->
             <aside class="lg:col-span-4 space-y-6">
                 
-                <!-- Regional Focus Fast-Nav Widget -->
-                <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 shadow-lg">
-                    <h3 class="text-xs font-bold text-slate-200 uppercase tracking-wider mb-3 flex items-center justify-between">
-                        <span class="flex items-center gap-2">
-                            <i class="fa-solid fa-globe text-cyan-400"></i> Regional Wire Volume
-                        </span>
-                        <span class="text-[10px] text-slate-500 font-mono-code">5m Live</span>
-                    </h3>
-                    <div id="regionDistributionList" class="space-y-2 text-xs">
-                        <!-- Populated dynamically -->
+                <!-- Feel-Good Mode Quick Action Banner in Sidebar -->
+                <div class="bg-gradient-to-br from-amber-950/40 to-slate-900 border border-amber-500/30 rounded-2xl p-4 shadow-lg">
+                    <div class="flex items-start gap-3">
+                        <div class="p-2.5 bg-amber-500/20 text-amber-400 rounded-xl border border-amber-500/30 shrink-0">
+                            <i class="fa-solid fa-face-smile text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-bold text-amber-200">Constructive News Stream</h4>
+                            <p class="text-xs text-slate-300 mt-1 leading-relaxed">
+                                Need a break from heavy headlines? Activate Feel-Good Mode to highlight positive global breakthroughs, conservation wins, and inspiring human achievements.
+                            </p>
+                            <button id="sidebarFeelGoodBtn" class="mt-3 w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs py-2 rounded-xl transition flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-sun"></i> Enable Feel-Good News
+                            </button>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Wire Objectivity Radar Audit -->
-                <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 shadow-lg">
+                <!-- Top 50 GDP Quick Country Filter Widget -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-lg">
                     <div class="flex items-center justify-between mb-3">
                         <h3 class="text-xs font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2">
-                            <i class="fa-solid fa-chart-pie text-emerald-400"></i> Global Neutrality Index
+                            <i class="fa-solid fa-ranking-star text-cyan-400"></i> Top 10 GDP Quick Filter
                         </h3>
-                        <span class="text-[10px] text-slate-500 bg-slate-950 px-2 py-0.5 rounded">Audit Mode</span>
+                        <span class="text-[10px] text-slate-500 font-mono-code">50 Total</span>
                     </div>
-
-                    <p class="text-xs text-slate-400 mb-4">
-                        Automated natural language processing continuously measures opinion-to-fact ratio across major feeds.
-                    </p>
-
-                    <div class="space-y-3 text-xs">
-                        <div>
-                            <div class="flex justify-between text-slate-300 mb-1">
-                                <span>Fact Density Score</span>
-                                <span class="font-mono-code text-emerald-400 font-semibold">98.2%</span>
-                            </div>
-                            <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
-                                <div class="bg-emerald-500 h-2 rounded-full" style="width: 98.2%"></div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="flex justify-between text-slate-300 mb-1">
-                                <span>Subjective Adjective Ratio</span>
-                                <span class="font-mono-code text-cyan-400 font-semibold">&lt; 0.9% (Very Low)</span>
-                            </div>
-                            <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
-                                <div class="bg-cyan-500 h-2 rounded-full" style="width: 9%"></div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <div class="flex justify-between text-slate-300 mb-1">
-                                <span>Primary Source Verification</span>
-                                <span class="font-mono-code text-blue-400 font-semibold">99.5%</span>
-                            </div>
-                            <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
-                                <div class="bg-blue-500 h-2 rounded-full" style="width: 99.5%"></div>
-                            </div>
-                        </div>
+                    <div id="topGdpQuickList" class="space-y-1.5 text-xs">
+                        <!-- Populated dynamically with top 10 GDP countries -->
                     </div>
                 </div>
 
-                <!-- Editorial Standards Accordion -->
-                <div class="bg-slate-900/60 border border-slate-800 rounded-xl p-4 text-xs text-slate-400">
-                    <h4 class="font-semibold text-slate-300 mb-2 flex items-center gap-2">
-                        <i class="fa-solid fa-scale-balanced text-amber-400"></i> Objectivity Charter
+                <!-- Unbiased Aggregation Standards -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 text-xs text-slate-400">
+                    <h4 class="font-semibold text-slate-200 mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-scale-balanced text-emerald-400"></i> Editorial Standards
                     </h4>
                     <p class="leading-relaxed">
-                        Global Lens strips spin, speculative commentary, and emotional headlines. Every report synthesizes official statements, verifiable data points, and distinct regional stakeholder perspectives.
+                        Global Lens synthesizes primary wire services across the top 50 global economies. Headlines are stripped of sensationalism, adjectives, and editorial bias. Click any story card to open direct external links to original coverage from multiple global perspectives.
                     </p>
                 </div>
 
@@ -356,21 +338,26 @@
         </div>
     </main>
 
-    <!-- Detailed Fact & Multi-Perspective Modal -->
+    <!-- Detailed Story & Direct Multi-Source Outlet Links Modal -->
     <div id="detailModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300">
         <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-hidden flex flex-col shadow-2xl transform scale-95 transition-transform duration-300" id="modalContent">
             
             <!-- Modal Header -->
             <div class="p-5 border-b border-slate-800 flex items-start justify-between bg-slate-950/50">
                 <div class="pr-6">
-                    <div class="flex items-center gap-2 mb-1">
+                    <div class="flex items-center gap-2 mb-1.5 flex-wrap">
                         <span id="modalCategory" class="text-[10px] font-bold uppercase tracking-wider bg-cyan-950 text-cyan-400 border border-cyan-800/60 px-2 py-0.5 rounded">Category</span>
-                        <span id="modalRegion" class="text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Region</span>
-                        <span id="modalTimestamp" class="text-xs text-slate-400 font-mono-code">00:00 UTC</span>
+                        <span id="modalCountry" class="text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-200 px-2 py-0.5 rounded flex items-center gap-1">
+                            <i class="fa-solid fa-flag text-cyan-400"></i> Country
+                        </span>
+                        <span id="modalFeelGoodBadge" class="hidden text-[10px] font-bold uppercase tracking-wider bg-amber-950 text-amber-300 border border-amber-800/60 px-2 py-0.5 rounded">
+                            <i class="fa-solid fa-sun mr-1"></i> Feel-Good Story
+                        </span>
+                        <span id="modalTimestamp" class="text-xs text-slate-400 font-mono-code ml-auto">00:00 UTC</span>
                     </div>
-                    <h3 id="modalHeadline" class="text-xl font-bold text-white font-serif-headline">Modal Headline Placeholder</h3>
+                    <h3 id="modalHeadline" class="text-xl font-bold text-white font-serif-headline">Modal Headline</h3>
                 </div>
-                <button id="closeModalBtn" class="p-2 text-slate-400 hover:text-white rounded-lg bg-slate-800/50 hover:bg-slate-800 transition">
+                <button id="closeModalBtn" class="p-2 text-slate-400 hover:text-white rounded-xl bg-slate-800/50 hover:bg-slate-800 transition">
                     <i class="fa-solid fa-xmark text-lg"></i>
                 </button>
             </div>
@@ -378,40 +365,53 @@
             <!-- Modal Scrollable Body -->
             <div class="p-6 overflow-y-auto space-y-6 text-slate-300 text-sm">
                 
-                <!-- Core Fact List -->
+                <!-- Direct External Outlet Links Box -->
+                <div class="bg-cyan-950/30 border border-cyan-800/50 rounded-xl p-4">
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-1 flex items-center justify-between">
+                        <span class="flex items-center gap-2">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Read Full Story Across Global Outlets
+                        </span>
+                        <span class="text-[10px] text-cyan-300/70 font-normal">Click links to view original coverage</span>
+                    </h4>
+                    <p class="text-xs text-slate-400 mb-3">Compare coverage across distinct editorial orientations:</p>
+                    
+                    <div id="modalLinksList" class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                        <!-- Clickable Outlet Links populated dynamically -->
+                    </div>
+                </div>
+
+                <!-- Verified Fact Bullet Points -->
                 <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-4">
-                    <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-3 flex items-center gap-2">
-                        <i class="fa-solid fa-list-check"></i> Verified Factual Breakdown
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-400 mb-3 flex items-center gap-2">
+                        <i class="fa-solid fa-list-check"></i> Objective Fact Breakdown (Non-Sensational)
                     </h4>
                     <ul id="modalFactList" class="space-y-2 text-xs text-slate-200">
-                        <!-- Fact Bullet points -->
+                        <!-- Fact Points -->
                     </ul>
                 </div>
 
                 <!-- Perspective Spectrum -->
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200 mb-3 flex items-center gap-2">
-                        <i class="fa-solid fa-sitemap text-cyan-400"></i> Multi-Perspective Spectrum Analysis
+                        <i class="fa-solid fa-sitemap text-cyan-400"></i> Multi-Perspective Analysis
                     </h4>
-                    <p class="text-xs text-slate-400 mb-3">How different stakeholders and international outlets report this development:</p>
-
                     <div id="modalSourceSpectrum" class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                         <!-- Perspective Cards -->
                     </div>
                 </div>
 
-                <!-- Factuality Metrics -->
-                <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
-                    <div class="p-3 rounded-lg bg-slate-950 border border-slate-800 text-center">
-                        <div class="text-[10px] text-slate-400 uppercase">Factuality Index</div>
+                <!-- Metadata Metrics -->
+                <div class="grid grid-cols-3 gap-3 pt-2 text-center text-xs">
+                    <div class="p-3 rounded-xl bg-slate-950 border border-slate-800">
+                        <div class="text-[10px] text-slate-400 uppercase">Factuality Density</div>
                         <div id="modalFactScore" class="text-base font-bold text-emerald-400 font-mono-code mt-0.5">98.5%</div>
                     </div>
-                    <div class="p-3 rounded-lg bg-slate-950 border border-slate-800 text-center">
+                    <div class="p-3 rounded-xl bg-slate-950 border border-slate-800">
                         <div class="text-[10px] text-slate-400 uppercase">Tone Neutrality</div>
                         <div id="modalToneScore" class="text-base font-bold text-cyan-400 font-mono-code mt-0.5">Objective</div>
                     </div>
-                    <div class="p-3 rounded-lg bg-slate-950 border border-slate-800 text-center col-span-2 sm:col-span-1">
-                        <div class="text-[10px] text-slate-400 uppercase">Primary Wire Service</div>
+                    <div class="p-3 rounded-xl bg-slate-950 border border-slate-800">
+                        <div class="text-[10px] text-slate-400 uppercase">Primary Wire</div>
                         <div id="modalWireSource" class="text-xs font-medium text-slate-200 mt-1 truncate">Reuters / AP</div>
                     </div>
                 </div>
@@ -420,443 +420,1247 @@
 
             <!-- Modal Footer -->
             <div class="p-4 border-t border-slate-800 bg-slate-950/50 flex justify-end">
-                <button id="closeModalFooterBtn" class="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold px-4 py-2 rounded-lg transition">Close Fact Sheet</button>
+                <button id="closeModalFooterBtn" class="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold px-4 py-2 rounded-xl transition">Close Sheet</button>
             </div>
         </div>
     </div>
 
     <script>
-        // Comprehensive Wire Database (20+ Verified Stories)
+        // Top 50 Countries by GDP Data List
+        const top50GdpCountries = [
+            { rank: 1, name: "United States", code: "US", region: "North America" },
+            { rank: 2, name: "China", code: "CN", region: "Asia-Pacific" },
+            { rank: 3, name: "Germany", code: "DE", region: "Europe" },
+            { rank: 4, name: "Japan", code: "JP", region: "Asia-Pacific" },
+            { rank: 5, name: "India", code: "IN", region: "Asia-Pacific" },
+            { rank: 6, name: "United Kingdom", code: "GB", region: "Europe" },
+            { rank: 7, name: "France", code: "FR", region: "Europe" },
+            { rank: 8, name: "Italy", code: "IT", region: "Europe" },
+            { rank: 9, name: "Brazil", code: "BR", region: "Latin America" },
+            { rank: 10, name: "Canada", code: "CA", region: "North America" },
+            { rank: 11, name: "Russia", code: "RU", region: "Europe/Asia" },
+            { rank: 12, name: "South Korea", code: "KR", region: "Asia-Pacific" },
+            { rank: 13, name: "Australia", code: "AU", region: "Asia-Pacific" },
+            { rank: 14, name: "Mexico", code: "MX", region: "Latin America" },
+            { rank: 15, name: "Spain", code: "ES", region: "Europe" },
+            { rank: 16, name: "Indonesia", code: "ID", region: "Asia-Pacific" },
+            { rank: 17, name: "Saudi Arabia", code: "SA", region: "Middle East" },
+            { rank: 18, name: "Netherlands", code: "NL", region: "Europe" },
+            { rank: 19, name: "Turkey", code: "TR", region: "Middle East/Europe" },
+            { rank: 20, name: "Switzerland", code: "CH", region: "Europe" },
+            { rank: 21, name: "Poland", code: "PL", region: "Europe" },
+            { rank: 22, name: "Argentina", code: "AR", region: "Latin America" },
+            { rank: 23, name: "Sweden", code: "SE", region: "Europe" },
+            { rank: 24, name: "Norway", code: "NO", region: "Europe" },
+            { rank: 25, name: "Belgium", code: "BE", region: "Europe" },
+            { rank: 26, name: "Ireland", code: "IE", region: "Europe" },
+            { rank: 27, name: "Israel", code: "IL", region: "Middle East" },
+            { rank: 28, name: "United Arab Emirates", code: "AE", region: "Middle East" },
+            { rank: 29, name: "Thailand", code: "TH", region: "Asia-Pacific" },
+            { rank: 30, name: "Nigeria", code: "NG", region: "Africa" },
+            { rank: 31, name: "Vietnam", code: "VN", region: "Asia-Pacific" },
+            { rank: 32, name: "Bangladesh", code: "BD", region: "Asia-Pacific" },
+            { rank: 33, name: "Singapore", code: "SG", region: "Asia-Pacific" },
+            { rank: 34, name: "Austria", code: "AT", region: "Europe" },
+            { rank: 35, name: "Malaysia", code: "MY", region: "Asia-Pacific" },
+            { rank: 36, name: "South Africa", code: "ZA", region: "Africa" },
+            { rank: 37, name: "Philippines", code: "PH", region: "Asia-Pacific" },
+            { rank: 38, name: "Denmark", code: "DK", region: "Europe" },
+            { rank: 39, name: "Egypt", code: "EG", region: "Africa/Middle East" },
+            { rank: 40, name: "Pakistan", code: "PK", region: "Asia-Pacific" },
+            { rank: 41, name: "Hong Kong", code: "HK", region: "Asia-Pacific" },
+            { rank: 42, name: "Colombia", code: "CO", region: "Latin America" },
+            { rank: 43, name: "Romania", code: "RO", region: "Europe" },
+            { rank: 44, name: "Chile", code: "CL", region: "Latin America" },
+            { rank: 45, name: "Czechia", code: "CZ", region: "Europe" },
+            { rank: 46, name: "Finland", code: "FI", region: "Europe" },
+            { rank: 47, name: "Iraq", code: "IQ", region: "Middle East" },
+            { rank: 48, name: "Portugal", code: "PT", region: "Europe" },
+            { rank: 49, name: "Peru", code: "PE", region: "Latin America" },
+            { rank: 50, name: "New Zealand", code: "NZ", region: "Asia-Pacific" }
+        ];
+
+        // News Database (50 Stories for 50 GDP Countries + Feel-Good Flags + External Outlet Links)
         const newsDatabase = [
-            // WORLD AFFAIRS
+            // TOP 1-10 GDP
             {
-                id: 'wire-101',
-                title: 'UN Treaty Framework on Subsea Fiber Optic Cable Protection Finalized in Geneva',
-                category: 'World',
-                region: 'Europe',
-                timestamp: '08:25 UTC',
-                readTime: '3 min read',
-                factScore: 99.1,
-                toneScore: '100% Objective',
-                facts: [
-                    'Delegates from 118 maritime states signed a diplomatic consensus establishing legal protection protocols for undersea commercial communications hardware.',
-                    'The treaty designates intentional subsea cable tampering as an international maritime violation under UNCLOS jurisdiction.',
-                    'Joint naval monitoring patrols will begin in key bottlenecks including the Malacca and Bab-el-Mandeb straits by Q4 2027.',
-                    'Funding mechanisms for repair ship fleets received $850M in sovereign allocations.'
-                ],
-                coverageSpectrum: [
-                    { outlet: 'Western Diplomatic Cable', quote: 'Emphasizes national security guarantees for trans-Atlantic digital infrastructure.' },
-                    { outlet: 'Asia Maritime Journal', quote: 'Focuses on shared responsibility protocols for Indo-Pacific territorial waters.' },
-                    { outlet: 'Global Infrastructure Monitor', quote: 'Highlights financial cost-sharing formulas across private telecom owners.' }
-                ],
-                wireSource: 'Reuters / UN Diplomatic Wire',
-                summary: '118 nations ratified an international legal framework securing deep-water undersea fiber optic cables under United Nations oversight.'
-            },
-            {
-                id: 'wire-102',
-                title: 'International Atomic Energy Agency Confirms New Safeguards Accord in East Asia',
-                category: 'World',
-                region: 'Asia-Pacific',
-                timestamp: '08:10 UTC',
-                readTime: '2 min read',
-                factScore: 98.6,
-                toneScore: '99% Neutral',
-                facts: [
-                    'IAEA inspectors completed baseline audit visits to three regional civilian research facilities.',
-                    'Continuous remote monitoring telemetry was activated with real-time data feeds to Vienna headquarters.',
-                    'Joint technical working group meetings were scheduled quarterly through 2029.'
-                ],
-                coverageSpectrum: [
-                    { outlet: 'Vienna Nuclear Review', quote: 'Highlights technical accuracy of continuous sensor telemetric arrays.' },
-                    { outlet: 'Pacific Rim Sentinel', quote: 'Emphasizes regional non-proliferation stability guarantees.' }
-                ],
-                wireSource: 'IAEA Press Wire / Kyodo',
-                summary: 'The IAEA established enhanced continuous monitoring telematics across civilian research reactors under a multi-state agreement.'
-            },
-            {
-                id: 'wire-103',
-                title: 'Pan-African Free Trade Zone Implements Unified Customs Protocol Across 32 Ports',
-                category: 'World',
-                region: 'Middle East & Africa',
-                timestamp: '07:55 UTC',
-                readTime: '4 min read',
-                factScore: 97.8,
-                toneScore: '98% Objective',
-                facts: [
-                    'African Continental Free Trade Area (AfCFTA) officials synchronized digital customs clearing systems.',
-                    'Average port clearance times for essential agricultural goods dropped from 96 hours to 14 hours during trial runs.',
-                    'Standardized tariff code classifications were adopted across 32 major container terminals.'
-                ],
-                coverageSpectrum: [
-                    { outlet: 'African Economic Express', quote: 'Focuses on intra-continental trade volume acceleration and food security.' },
-                    { outlet: 'Global Logistics Digest', quote: 'Analyzes port throughput efficiency and shipping line scheduling.' }
-                ],
-                wireSource: 'Pan-African News Agency / AFP',
-                summary: 'Customs authorities across 32 African ports launched an integrated digital clearing portal under the AfCFTA agreement.'
-            },
-
-            // SOCIETY & CULTURE
-            {
-                id: 'wire-201',
-                title: 'UNESCO Expands Heritage Conservation Grant Program for Island Indigenous Languages',
-                category: 'Culture',
-                region: 'Asia-Pacific',
-                timestamp: '08:20 UTC',
-                readTime: '3 min read',
-                factScore: 98.4,
-                toneScore: '99% Objective',
-                facts: [
-                    'UNESCO allocated $120 million to archive and preserve 45 critically endangered indigenous languages across Oceania.',
-                    'Digital phonetic dictionaries and community oral history archives will be created over five years.',
-                    'University linguists from 14 nations will partner directly with native elder speaker councils.'
-                ],
-                coverageSpectrum: [
-                    { outlet: 'Pacific Heritage Journal', quote: 'Highlights community leadership and ownership over linguistic archives.' },
-                    { outlet: 'Global Cultural Review', quote: 'Notes academic methodologies for digital phonetic preservation.' }
-                ],
-                wireSource: 'UNESCO Press / Associated Press',
-                summary: 'UNESCO launched a $120M linguistic preservation initiative to document 45 endangered island languages in collaboration with local councils.'
-            },
-            {
-                id: 'wire-202',
-                title: 'Global University Study Tracks 10-Year Outcomes of Universal Early Literacy Initiatives',
-                category: 'Culture',
-                region: 'Latin America',
-                timestamp: '07:40 UTC',
-                readTime: '4 min read',
-                factScore: 97.2,
-                toneScore: '98% Neutral',
-                facts: [
-                    'A decade-long study tracking 120,000 students across 6 South American nations was published in Educational Studies.',
-                    'Early-childhood literacy access correlated with a 28% increase in secondary school completion rates.',
-                    'The study controlled for socioeconomic background, urban/rural school placement, and regional funding variations.'
-                ],
-                coverageSpectrum: [
-                    { outlet: 'Latin American Education Monitor', quote: 'Emphasizes long-term economic mobility benefits of early schooling.' },
-                    { outlet: 'Global Public Health & Society', quote: 'Highlights secondary benefits in community healthcare awareness.' }
-                ],
-                wireSource: 'EFE / Academic Wire Service',
-                summary: 'A 10-year multi-country longitudinal study established direct data correlations between early literacy access and high school completion.'
-            },
-            {
-                id: 'wire-203',
-                title: 'International Architectural Congress Sets Standard for Net-Zero Public Housing Design',
-                category: 'Culture',
-                region: 'North America',
-                timestamp: '07:10 UTC',
-                readTime: '3 min read',
-                factScore: 96.9,
-                toneScore: '97% Objective',
-                facts: [
-                    'The International Union of Architects published unified guidelines for climate-resilient social housing.',
-                    'Standards prioritize passive thermal regulation, cross-ventilation, and locally sourced mass timber.',
-                    'Municipalities in 18 countries pledged adoption for future urban housing developments.'
-                ],
-                coverageSpectrum: [
-                    { outlet: 'Urban Design Quarterly', quote: 'Focuses on architectural feasibility and construction material supply chains.' },
-                    { outlet: 'Civic Planning Today', quote: 'Details municipal budgeting frameworks and long-term utility savings.' }
-                ],
-                wireSource: 'Architectural Wire Digest',
-                summary: 'Global architectural bodies released unified design guidelines for high-density, low-carbon public housing developments.'
-            },
-
-            // GOVERNANCE & POLITICS
-            {
-                id: 'wire-301',
-                title: 'Electoral Reform Commission Releases Standardized Voting Technology Audit Protocol',
-                category: 'Politics',
-                region: 'Europe',
-                timestamp: '08:15 UTC',
-                readTime: '3 min read',
+                id: 'wire-1',
+                title: 'FDA Approves Universal Thermal-Stable Gene Therapy for Sickle Cell Treatment',
+                category: 'U.S.',
+                country: 'United States',
+                isFeelGood: true,
+                timestamp: '08:40 UTC',
                 factScore: 99.4,
                 toneScore: '100% Objective',
                 facts: [
-                    'The European Election Integrity Network published open-source verification software for electronic tabulators.',
-                    'The system requires paper trail verification coupled with cryptographic zero-knowledge proof logging.',
-                    'Trial runs were conducted across parliamentary elections in 4 member nations with zero count discrepancies.'
+                    'The US Food and Drug Administration granted full approval for a single-dose gene therapy.',
+                    'Clinical trials showed a 97% permanent cessation of painful vaso-occlusive crises.',
+                    'The manufacturing framework uses non-refrigerated delivery systems for global accessibility.'
+                ],
+                links: [
+                    { name: 'AP News', url: 'https://apnews.com/', bias: 'Wire Standard' },
+                    { name: 'Reuters', url: 'https://www.reuters.com/', bias: 'Wire Standard' },
+                    { name: 'Washington Post', url: 'https://www.washingtonpost.com/', bias: 'U.S. National' }
                 ],
                 coverageSpectrum: [
-                    { outlet: 'European Parliamentary Gazette', quote: 'Focuses on cross-party audit transparency and voter trust.' },
-                    { outlet: 'Cybersecurity & Statecraft', quote: 'Details technical cryptography specs resisting external network attacks.' }
+                    { outlet: 'Medical Science Wire', quote: 'Focuses on the genetic mechanism and safety trial data.' },
+                    { outlet: 'Healthcare Policy Gazette', quote: 'Examines insurance coverage mandates across state Medicaid systems.' }
                 ],
-                wireSource: 'DPA / European Press Syndicate',
-                summary: 'Election observers published open-source ballot verification protocols featuring dual paper-trail cryptographic audits.'
+                wireSource: 'AP / Reuters'
             },
             {
-                id: 'wire-302',
-                title: 'Bilateral Border Commission Finalizes Land Mapping Survey in South America',
-                category: 'Politics',
-                region: 'Latin America',
-                timestamp: '06:45 UTC',
-                readTime: '2 min read',
-                factScore: 98.9,
+                id: 'wire-2',
+                title: 'China Completes World Largest Desert Solar Microgrid Supplying 10 Million Homes',
+                category: 'Climate & Energy',
+                country: 'China',
+                isFeelGood: true,
+                timestamp: '08:25 UTC',
+                factScore: 98.7,
                 toneScore: '99% Neutral',
                 facts: [
-                    'Geographic surveying teams resolved a 45-year frontier marking dispute along river basins.',
-                    'Satellite LIDAR mapping established precise coordinates for 142 boundary markers.',
-                    'Both sovereign governments ratified the boundary maps during a joint presidential ceremony.'
+                    'A 16-gigawatt photovoltaic array in the Kubuqi Desert was successfully integrated into the national grid.',
+                    'The facility incorporates 4 gigawatt-hours of sodium-ion battery storage capacity.',
+                    'Desert vegetation planting beneath panels reduced sand movement by 40%.'
+                ],
+                links: [
+                    { name: 'South China Morning Post', url: 'https://www.scmp.com/', bias: 'Regional Asia' },
+                    { name: 'Reuters', url: 'https://www.reuters.com/', bias: 'Wire Standard' },
+                    { name: 'Bloomberg Energy', url: 'https://www.bloomberg.com/', bias: 'Financial' }
                 ],
                 coverageSpectrum: [
-                    { outlet: 'Andean Diplomatic Review', quote: 'Highlights border town trade benefits and joint infrastructure planning.' },
-                    { outlet: 'South American News Wire', quote: 'Stresses peaceful diplomatic legal resolution mechanisms.' }
+                    { outlet: 'SCMP Energy Desk', quote: 'Highlights regional power transmission stability and battery storage integration.' },
+                    { outlet: 'International Clean Tech Review', quote: 'Analyzes long-term grid balancing during peak demand hours.' }
                 ],
-                wireSource: 'EFE / MercoPress',
-                summary: 'Diplomats ratified LIDAR satellite boundary surveys, formally concluding a multi-decade river basin border demarcation.'
+                wireSource: 'Xinhua / Reuters'
             },
-
-            // ECONOMY & MARKETS
             {
-                id: 'wire-401',
-                title: 'Global Semiconductor Consortium Opens Shared Testing Foundry in East Asia',
-                category: 'Economy',
-                region: 'Asia-Pacific',
-                timestamp: '08:22 UTC',
-                readTime: '3 min read',
-                factScore: 97.9,
-                toneScore: '98% Objective',
+                id: 'wire-3',
+                title: 'German Bundestag Approves $12B Railway Modernization and Zero-Emission Freight Network',
+                category: 'Governance & Diplomacy',
+                country: 'Germany',
+                isFeelGood: true,
+                timestamp: '08:15 UTC',
+                factScore: 99.1,
+                toneScore: '100% Neutral',
                 facts: [
-                    'An $8 billion public-private foundry dedicated to open silicon testing opened operations in Hsinchu.',
-                    'The facility provides start-up chipmakers access to advanced 2nm extreme ultraviolet lithography equipment.',
-                    'Initial capacity is allocated among 40 participating international research teams.'
+                    'German federal parliament voted to fund 2,400 km of electrified freight railway corridors.',
+                    'The infrastructure package shifts an estimated 30 million tons of freight from highway to rail annually.',
+                    'All passenger trains will transition to hydrogen-electric hybrid engines by 2030.'
+                ],
+                links: [
+                    { name: 'Deutsche Welle (DW)', url: 'https://www.dw.com/', bias: 'German Public Broadcaster' },
+                    { name: 'BBC News', url: 'https://www.bbc.com/news', bias: 'UK Public Broadcaster' },
+                    { name: 'Financial Times', url: 'https://www.ft.com/', bias: 'Global Markets' }
                 ],
                 coverageSpectrum: [
-                    { outlet: 'Asian Microelectronics Times', quote: 'Emphasizes reduction in startup capital costs for next-gen silicon research.' },
-                    { outlet: 'Global Trade & Hardware', quote: 'Notes geopolitical diversification of advanced lithography access.' }
+                    { outlet: 'DW Infrastructure', quote: 'Emphasizes emissions reductions in central European freight transit.' },
+                    { outlet: 'Handelsblatt Transit', quote: 'Details public funding mechanisms and contract bidding requirements.' }
                 ],
-                wireSource: 'Bloomberg Wire / Nikkei',
-                summary: 'An open-access semiconductor foundry equipped with 2nm lithography opened to provide global researchers testing facilities.'
+                wireSource: 'DPA / DW Wire'
             },
             {
-                id: 'wire-402',
-                title: 'Central Banks Publish Joint Framework for Cross-Border Wholesale Digital Settlement',
-                category: 'Economy',
-                region: 'North America',
-                timestamp: '07:35 UTC',
-                readTime: '3 min read',
-                factScore: 98.3,
-                toneScore: '99% Neutral',
-                facts: [
-                    'The Bank for International Settlements (BIS) completed Project Nexus testing across 5 currency corridors.',
-                    'Real-time interbank settlement time averaged 1.8 seconds with transaction fees reduced by 85%.',
-                    'Commercial integration guidelines were distributed to 200 international correspondent banks.'
-                ],
-                coverageSpectrum: [
-                    { outlet: 'Wall Street & Central Banking', quote: 'Highlights capital liquidity efficiency for commercial import-export trade.' },
-                    { outlet: 'International Treasury Today', quote: 'Examines regulatory compliance protocols for anti-money-laundering filters.' }
-                ],
-                wireSource: 'BIS Press Release / Reuters',
-                summary: 'The BIS and partner central banks completed cross-border digital settlement trials reducing transfer times to under 2 seconds.'
-            },
-            {
-                id: 'wire-403',
-                title: 'Multilateral Development Bank Approves $3.2B for Sub-Saharan Transit Corridors',
-                category: 'Economy',
-                region: 'Middle East & Africa',
-                timestamp: '06:30 UTC',
-                readTime: '2 min read',
-                factScore: 96.8,
-                toneScore: '97% Objective',
-                facts: [
-                    'The African Development Bank approved sovereign loans for 1,200 km of electrified freight railway.',
-                    'The project connects landlocked mining and agricultural regions directly to deep-water Atlantic ports.',
-                    'Construction tenders require 60% local labor hiring mandates.'
-                ],
-                coverageSpectrum: [
-                    { outlet: 'Sub-Saharan Commerce Journal', quote: 'Focuses on freight transit cost reductions for agricultural exports.' },
-                    { outlet: 'Global Finance & Infrastructure', quote: 'Details sovereign debt repayment structures and concessionary interest rates.' }
-                ],
-                wireSource: 'AfDB Press / Financial Times',
-                summary: 'Development banks approved $3.2 billion financing for electrified rail corridors linking agricultural interior zones with Atlantic ports.'
-            },
-
-            // TECH & SCIENCE
-            {
-                id: 'wire-501',
-                title: 'International Space Agency Network Launches Solar Flare Early Warning Satellite',
+                id: 'wire-4',
+                title: 'Japan Aerospace Exploration Agency Records 90% Efficiency Jump in Space Solar Beaming',
                 category: 'Tech & Science',
-                region: 'North America',
-                timestamp: '08:05 UTC',
-                readTime: '3 min read',
-                factScore: 99.5,
+                country: 'Japan',
+                isFeelGood: true,
+                timestamp: '07:50 UTC',
+                factScore: 98.2,
+                toneScore: '99% Objective',
+                facts: [
+                    'JAXA engineers successfully transmitted 5 kilowatts of microwave power wirelessly over 1.5 kilometers.',
+                    'The ground-receiving antenna array maintained 91.4% conversion efficiency to standard electrical current.',
+                    'Orbital testing for full-scale satellite solar collection is scheduled for 2028.'
+                ],
+                links: [
+                    { name: 'Nikkei Asia', url: 'https://asia.nikkei.com/', bias: 'Asia Financial' },
+                    { name: 'NHK World', url: 'https://www3.nhk.or.jp/nhkworld/', bias: 'Japan Public' },
+                    { name: 'Nature Technology', url: 'https://www.nature.com/', bias: 'Peer-Reviewed Science' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Nikkei Technology', quote: 'Focuses on commercial partnership opportunities for wireless power grids.' },
+                    { outlet: 'NHK World News', quote: 'Details technical precision of phase-controlled microwave transmitters.' }
+                ],
+                wireSource: 'Kyodo / NHK'
+            },
+            {
+                id: 'wire-5',
+                title: 'India Central Bank Launches Zero-Fee Instant Digital Remittance System for Migrant Workers',
+                category: 'Economy & Markets',
+                country: 'India',
+                isFeelGood: true,
+                timestamp: '07:35 UTC',
+                factScore: 97.9,
+                toneScore: '98% Neutral',
+                facts: [
+                    'Reserve Bank of India connected Unified Payments Interface (UPI) with 18 international payment hubs.',
+                    'Cross-border transaction fees dropped from an industry average of 6.2% to 0.1%.',
+                    'Over $12 billion in annual worker remittances will be processed through the zero-fee network.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Times of India', quote: 'Highlights financial inclusion benefits for overseas worker families.' },
+                    { outlet: 'Reuters Asia', quote: 'Notes impact on traditional banking wire transfer revenues.' }
+                ],
+                links: [
+                    { name: 'The Hindu', url: 'https://www.thehindu.com/', bias: 'Indian National' },
+                    { name: 'Reuters', url: 'https://www.reuters.com/', bias: 'Wire Standard' },
+                    { name: 'Bloomberg Asia', url: 'https://www.bloomberg.com/', bias: 'Financial' }
+                ],
+                wireSource: 'PTI / Reuters'
+            },
+            {
+                id: 'wire-6',
+                title: 'UK Ocean Conservation Trust Restores 50,000 Hectares of Kelp Forest Along Coastline',
+                category: 'Climate & Energy',
+                country: 'United Kingdom',
+                isFeelGood: true,
+                timestamp: '07:20 UTC',
+                factScore: 98.8,
+                toneScore: '99% Objective',
+                facts: [
+                    'A five-year marine restoration project successfully re-established native kelp along Sussex and Scottish waters.',
+                    'Fish population density increased by 240% across protected coastal zone monitoring sites.',
+                    'The kelp beds absorb an estimated 150,000 tons of carbon dioxide annually.'
+                ],
+                links: [
+                    { name: 'BBC News', url: 'https://www.bbc.com/news', bias: 'UK Public Broadcaster' },
+                    { name: 'The Guardian', url: 'https://www.theguardian.com/', bias: 'UK National' },
+                    { name: 'Independent', url: 'https://www.independent.co.uk/', bias: 'UK National' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'BBC Environment', quote: 'Focuses on marine biodiversity recovery and fishing community support.' },
+                    { outlet: 'Guardian Eco', quote: 'Details carbon sequestration tracking methodology used by oceanographers.' }
+                ],
+                wireSource: 'Press Association / BBC'
+            },
+            {
+                id: 'wire-7',
+                title: 'France Unveils Public National Digital Library Opening Free Access to 10M Historical Manuscripts',
+                category: 'Arts',
+                country: 'France',
+                isFeelGood: true,
+                timestamp: '07:05 UTC',
+                factScore: 99.0,
                 toneScore: '100% Objective',
                 facts: [
-                    'A joint NASA-ESA space weather observatory achieved Lagrange Point 1 orbit positioning.',
-                    'Instruments provide a 45-minute advance warning buffer for severe coronal mass ejections hitting Earth.',
-                    'Real-time telemetry feeds are publicly broadcast to power grid and telecom operators worldwide.'
+                    'The Bibliothèque Nationale de France digitized 10 million rare books and historical cartographic records.',
+                    'All scans are published under public domain licenses with ultra-high 8K optical detail.',
+                    'AI translation tools were embedded to convert old French and Latin manuscripts into 30 global languages.'
+                ],
+                links: [
+                    { name: 'Le Monde', url: 'https://www.lemonde.fr/', bias: 'French National' },
+                    { name: 'France 24', url: 'https://www.france24.com/', bias: 'French International' },
+                    { name: 'AFP News', url: 'https://www.afp.com/', bias: 'Global Wire' }
                 ],
                 coverageSpectrum: [
-                    { outlet: 'Space Science Daily', quote: 'Details magnetometric sensor sensitivity and solar wind plasma tracking.' },
-                    { outlet: 'Power Grid International', quote: 'Highlights protective blackout mitigation procedures for high-voltage transformers.' }
+                    { outlet: 'France 24 Culture', quote: 'Highlights global educational access for researchers and students.' },
+                    { outlet: 'Le Figaro Digital', quote: 'Details AI optical character recognition technology used in scanning.' }
                 ],
-                wireSource: 'NASA / ESA Wire Service',
-                summary: 'A joint space weather observatory achieved orbit at Lagrange Point 1 to provide 45-minute advance alerts for geomagnetic solar storms.'
+                wireSource: 'AFP / Le Monde Wire'
             },
             {
-                id: 'wire-502',
-                title: 'Biotech Consortium Releases Open-Source Synthetic Vaccine Platform Data',
+                id: 'wire-8',
+                title: 'Italian Architectural Restoration Team Successfully Stabilizes Venice Historic Sea Wall',
+                category: 'Arts',
+                country: 'Italy',
+                isFeelGood: true,
+                timestamp: '06:50 UTC',
+                factScore: 97.6,
+                toneScore: '98% Neutral',
+                facts: [
+                    'Engineers completed a 12-year reinforcement of 45 lagoon floodgates using corrosion-resistant titanium alloys.',
+                    'High-tide flood events in Saint Mark Square decreased by 98% during winter storm trials.',
+                    'Subsea ecological monitoring showed zero disruption to local marine flora.'
+                ],
+                links: [
+                    { name: 'ANSA Press', url: 'https://www.ansa.it/', bias: 'Italian National Wire' },
+                    { name: 'Reuters Europe', url: 'https://www.reuters.com/', bias: 'Wire Standard' },
+                    { name: 'Euronews', url: 'https://www.euronews.com/', bias: 'European Regional' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'ANSA Culture Desk', quote: 'Celebrates protection of Renaissance architectural treasures.' },
+                    { outlet: 'European Maritime Journal', quote: 'Examines civil engineering durability benchmarks.' }
+                ],
+                wireSource: 'ANSA / Reuters'
+            },
+            {
+                id: 'wire-9',
+                title: 'Brazil Amazon Deforestation Rates Fall to 30-Year Low Following Satellite Radar Enforcement',
+                category: 'Climate & Energy',
+                country: 'Brazil',
+                isFeelGood: true,
+                timestamp: '06:30 UTC',
+                factScore: 98.4,
+                toneScore: '99% Objective',
+                facts: [
+                    'Brazil INPE space research agency reported a 52% drop in rainforest clearing over 12 months.',
+                    'Real-time satellite radar alerts dispatched environmental rangers within 20 minutes of illegal canopy cuts.',
+                    'Indigenous land titling expanded by 1.8 million hectares under federal environmental protection laws.'
+                ],
+                links: [
+                    { name: 'Folha de S.Paulo', url: 'https://www.folha.uol.com.br/', bias: 'Brazil National' },
+                    { name: 'BBC World', url: 'https://www.bbc.com/news/world', bias: 'Global Public' },
+                    { name: 'AP News', url: 'https://apnews.com/', bias: 'Wire Standard' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Folha Environment', quote: 'Focuses on enforcement coordination and indigenous community policing.' },
+                    { outlet: 'Global Forest Watch', quote: 'Validates satellite canopy radar telemetry metrics.' }
+                ],
+                wireSource: 'Agência Brasil / AP'
+            },
+            {
+                id: 'wire-10',
+                title: 'Canada Enacts Universal Youth Mental Health Prevention Act Across All 10 Provinces',
+                category: 'Lifestyle',
+                country: 'Canada',
+                isFeelGood: true,
+                timestamp: '06:15 UTC',
+                factScore: 99.2,
+                toneScore: '100% Objective',
+                facts: [
+                    'Canadian federal government allocated $2.4 billion for community youth health clinics and sports access.',
+                    'Programs fund free preventive counseling, outdoor recreational programs, and mindfulness coaching in schools.',
+                    'Trial programs in Ontario showed a 35% reduction in adolescent anxiety hospitalization rates.'
+                ],
+                links: [
+                    { name: 'CBC News', url: 'https://www.cbc.ca/news', bias: 'Canada Public Broadcaster' },
+                    { name: 'Globe and Mail', url: 'https://www.theglobeandmail.com/', bias: 'Canada National' },
+                    { name: 'Toronto Star', url: 'https://www.thestar.com/', bias: 'Canada Regional' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'CBC Health Desk', quote: 'Emphasizes community-led care centers over acute hospital admissions.' },
+                    { outlet: 'National Post Policy', quote: 'Examines provincial funding distribution formulas.' }
+                ],
+                wireSource: 'The Canadian Press / CBC'
+            },
+
+            // TOP 11-20 GDP
+            {
+                id: 'wire-11',
+                title: 'Russian Academy of Sciences Archives 50,000 Siberian Permafrost Seed Samples in Arctic Vault',
+                category: 'World',
+                country: 'Russia',
+                isFeelGood: false,
+                timestamp: '06:00 UTC',
+                factScore: 96.5,
+                toneScore: '97% Neutral',
+                facts: [
+                    'Botanists completed cataloging 50,000 sub-zero seed varieties in a newly constructed Yakutsk cryogenic repository.',
+                    'The vault utilizes natural deep-ground temperature stabilization down to -18°C.',
+                    'Agricultural researchers aim to preserve drought-resistant wild grain strains.'
+                ],
+                links: [
+                    { name: 'TASS', url: 'https://tass.com/', bias: 'State News' },
+                    { name: 'Reuters', url: 'https://www.reuters.com/', bias: 'Wire Standard' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Arctic Research Journal', quote: 'Notes technical specifications of subterranean thermal insulation.' }
+                ],
+                wireSource: 'TASS / Interfax'
+            },
+            {
+                id: 'wire-12',
+                title: 'South Korea Commercializes First Solid-State Battery Line for Electric Buses',
                 category: 'Tech & Science',
-                region: 'Europe',
-                timestamp: '07:20 UTC',
-                readTime: '3 min read',
+                country: 'South Korea',
+                isFeelGood: true,
+                timestamp: '05:45 UTC',
+                factScore: 98.9,
+                toneScore: '99% Objective',
+                facts: [
+                    'Hyundai and Samsung SDI launched automated production for 800 km range solid-state bus batteries.',
+                    'Thermal runaway risk is reduced to near zero due to non-flammable solid ceramic electrolytes.',
+                    'Seoul municipal transit ordered 1,200 zero-emission buses for immediate rollout.'
+                ],
+                links: [
+                    { name: 'Yonhap News', url: 'https://en.yna.co.kr/', bias: 'South Korea Wire' },
+                    { name: 'Korea Herald', url: 'https://www.koreaherald.com/', bias: 'National English' },
+                    { name: 'Bloomberg Tech', url: 'https://www.bloomberg.com/', bias: 'Financial' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Yonhap Tech', quote: 'Highlights battery density breakthroughs and zero fire hazard ratings.' }
+                ],
+                wireSource: 'Yonhap / Reuters'
+            },
+            {
+                id: 'wire-13',
+                title: 'Australia Great Barrier Coral Reef Survey Records Highest Coral Cover Spawning in 15 Years',
+                category: 'Climate & Energy',
+                country: 'Australia',
+                isFeelGood: true,
+                timestamp: '05:30 UTC',
                 factScore: 98.1,
                 toneScore: '99% Neutral',
                 facts: [
-                    'A non-profit scientific alliance published genomic blueprints for a universal thermal-stable mRNA vector.',
-                    'The formulation requires no deep-freeze storage, remaining stable at 4°C for up to 12 months.',
-                    'Patent-free manufacturing licenses were granted to pharmaceutical laboratories in 30 developing nations.'
+                    'Australian Institute of Marine Science logged record mass coral spawning across northern reef sectors.',
+                    'Selective breeding of heat-resilient coral cultivars accelerated reef recovery by 30%.',
+                    'Water quality monitoring showed reduced agricultural runoff following coastal wetland restoration.'
+                ],
+                links: [
+                    { name: 'ABC News Australia', url: 'https://www.abc.net.au/news', bias: 'Australia Public Broadcaster' },
+                    { name: 'The Sydney Morning Herald', url: 'https://www.smh.com.au/', bias: 'Australia National' },
+                    { name: 'BBC World', url: 'https://www.bbc.com/news/world', bias: 'Global Public' }
                 ],
                 coverageSpectrum: [
-                    { outlet: 'European Bio-Journal', quote: 'Focuses on molecular lipid nanoparticle thermal stabilization advances.' },
-                    { outlet: 'Global Health Gazette', quote: 'Emphasizes equitable vaccine distribution capabilities in rural climates.' }
+                    { outlet: 'ABC Marine Desk', quote: 'Celebrates resilient coral larval recruitment numbers.' }
                 ],
-                wireSource: 'Nature Biotechnology / Agence France-Presse',
-                summary: 'Researchers published open-source patent-free designs for thermal-stable vaccines that do not require ultra-cold storage chains.'
+                wireSource: 'AAP / ABC News'
             },
             {
-                id: 'wire-503',
-                title: 'Deep-Sea Robotic Mapping Survey Discovers 1,200 New Marine Species in Pacific Trench',
-                category: 'Tech & Science',
-                region: 'Asia-Pacific',
-                timestamp: '06:15 UTC',
-                readTime: '3 min read',
-                factScore: 97.5,
+                id: 'wire-14',
+                title: 'Mexico National University Discovers Pre-Hispanic Maya Solar Observatory in Campeche',
+                category: 'Arts',
+                country: 'Mexico',
+                isFeelGood: true,
+                timestamp: '05:15 UTC',
+                factScore: 97.8,
                 toneScore: '98% Objective',
                 facts: [
-                    'Autonomous underwater vehicles (AUVs) completed 40,000 square kilometers of 3D seabed mapping at 7,000m depths.',
-                    'Over 1,200 uncatalogued benthic organisms were recorded alongside extensive hydrothermal vent ecosystems.',
-                    'Data was uploaded to the Global Biodiversity Information Facility open catalog.'
+                    'LIDAR satellite mapping revealed a hidden 2,200-year-old astronomical complex beneath jungle canopy.',
+                    'Alignments precisely tracked summer solstice sunrise coordinates and Venus orbital cycles.',
+                    'UNAM archaeologists cataloged 18 unlooted ceremonial structures and jade artifacts.'
+                ],
+                links: [
+                    { name: 'El Universal', url: 'https://www.eluniversal.com.mx/', bias: 'Mexico National' },
+                    { name: 'AP News', url: 'https://apnews.com/', bias: 'Wire Standard' },
+                    { name: 'National Geographic', url: 'https://www.nationalgeographic.com/', bias: 'Science & Exploration' }
                 ],
                 coverageSpectrum: [
-                    { outlet: 'Oceanographic World', quote: 'Highlights robotic manipulator precision and high-resolution camera technology.' },
-                    { outlet: 'Pacific Environment Monitor', quote: 'Calls for marine protected zone designation over discovered trench ecosystems.' }
+                    { outlet: 'El Universal Cultural', quote: 'Emphasizes Maya mathematical and orbital calculating precision.' }
                 ],
-                wireSource: 'Kyodo / Scientific American',
-                summary: 'Deep-sea autonomous mapping drones cataloged 1,200 previously unknown species living near hydrothermal vents in the Pacific Ocean.'
+                wireSource: 'Notimex / AP'
             },
-
-            // ENVIRONMENT & CLIMATE
             {
-                id: 'wire-601',
-                title: 'Global Desalination Alliance Achieves 40% Energy Reduction with Graphene Membranes',
-                category: 'Environment',
-                region: 'Middle East & Africa',
-                timestamp: '08:18 UTC',
-                readTime: '3 min read',
-                factScore: 98.7,
+                id: 'wire-15',
+                title: 'Spain Achieves 100% Renewable Electricity Generation for 30 Consecutive Days',
+                category: 'Climate & Energy',
+                country: 'Spain',
+                isFeelGood: true,
+                timestamp: '05:00 UTC',
+                factScore: 99.3,
+                toneScore: '100% Neutral',
+                facts: [
+                    'Red Eléctrica de España reported zero fossil fuel combustion for electricity generation throughout May.',
+                    'Combined solar, wind, and pumped-hydro storage exceeded total national demand by 14%.',
+                    'Industrial electricity tariffs fell by 42% for domestic manufacturing plants.'
+                ],
+                links: [
+                    { name: 'El País', url: 'https://english.elpais.com/', bias: 'Spain National' },
+                    { name: 'Euronews', url: 'https://www.euronews.com/', bias: 'European Regional' },
+                    { name: 'Reuters', url: 'https://www.reuters.com/', bias: 'Wire Standard' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'El País Energy', quote: 'Focuses on economic savings for industrial electricity consumers.' }
+                ],
+                wireSource: 'EFE / Reuters'
+            },
+            {
+                id: 'wire-16',
+                title: 'Indonesia Opens Southeast Asia Largest Floating Solar Reservoir Project in West Java',
+                category: 'Climate & Energy',
+                country: 'Indonesia',
+                isFeelGood: true,
+                timestamp: '04:45 UTC',
+                factScore: 97.4,
+                toneScore: '98% Objective',
+                facts: [
+                    'A 192-megawatt floating solar array on Cirata Reservoir began full commercial operations.',
+                    'Floating panel placement reduces water evaporation from reservoirs by 25% during dry seasons.',
+                    'Project provides clean power to 50,000 households across Java.'
+                ],
+                links: [
+                    { name: 'Jakarta Post', url: 'https://www.thejakartapost.com/', bias: 'Indonesia National' },
+                    { name: 'Antara News', url: 'https://en.antaranews.com/', bias: 'Indonesia State Wire' },
+                    { name: 'Channel NewsAsia (CNA)', url: 'https://www.channelnewsasia.com/', bias: 'Regional Asia' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Jakarta Post Tech', quote: 'Highlights dual benefits of renewable energy generation and reservoir water conservation.' }
+                ],
+                wireSource: 'Antara / CNA'
+            },
+            {
+                id: 'wire-17',
+                title: 'Saudi Arabia Completes Red Sea Coral Nursery Project Preserving 1 Million Samples',
+                category: 'Climate & Energy',
+                country: 'Saudi Arabia',
+                isFeelGood: true,
+                timestamp: '04:30 UTC',
+                factScore: 96.9,
+                toneScore: '97% Neutral',
+                facts: [
+                    'Marine biologists constructed 100 underwater nursery platforms along the Red Sea coast.',
+                    'Corals cultivated in high-temperature waters demonstrate high heat tolerance during marine heatwaves.',
+                    'Surrounding waters were designated as permanent marine protected reserves.'
+                ],
+                links: [
+                    { name: 'Arab News', url: 'https://www.arabnews.com/', bias: 'Middle East Regional' },
+                    { name: 'Reuters', url: 'https://www.reuters.com/', bias: 'Wire Standard' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Arabian Environment Review', quote: 'Focuses on heat-resilient coral breeding technologies.' }
+                ],
+                wireSource: 'SPA / Reuters'
+            },
+            {
+                id: 'wire-18',
+                title: 'Netherlands Rotterdams Zero-Emission Port Terminal Cuts Maritime Freight Shipping Carbon by 35%',
+                category: 'Economy & Markets',
+                country: 'Netherlands',
+                isFeelGood: true,
+                timestamp: '04:15 UTC',
+                factScore: 98.6,
                 toneScore: '99% Objective',
                 facts: [
-                    'A commercial-scale water treatment facility in Abu Dhabi completed 12 months of nano-graphene filtration trials.',
-                    'Energy consumption dropped from 3.5 kWh/m³ to 2.1 kWh/m³ compared to standard reverse osmosis.',
-                    'Brine discharge salt concentrations were reduced by 25% through advanced crystallizer recovery.'
+                    'Port of Rotterdam deployed electric automated cranes and hydrogen shore-power for docked container vessels.',
+                    'Docked ships connect to shore grid power, allowing onboard diesel generators to shut down completely.',
+                    'Particulate air pollution surrounding the port district fell by 60%.'
+                ],
+                links: [
+                    { name: 'Dutch News', url: 'https://www.dutchnews.nl/', bias: 'Netherlands English' },
+                    { name: 'Financial Times', url: 'https://www.ft.com/', bias: 'Global Markets' },
+                    { name: 'DW News', url: 'https://www.dw.com/', bias: 'European Broadcaster' }
                 ],
                 coverageSpectrum: [
-                    { outlet: 'Middle East Water Tech', quote: 'Focuses on municipal fresh water production cost reductions across arid zones.' },
-                    { outlet: 'Clean Energy & Environment', quote: 'Examines reduced carbon footprints for coastal municipal water plants.' }
+                    { outlet: 'Dutch Logistics Monitor', quote: 'Details shore-power electrical connection standards for international fleets.' }
                 ],
-                wireSource: 'WAM Wire / Reuters',
-                summary: 'Industrial scale tests of nano-graphene water filtration membranes achieved a 40% energy reduction in seawater desalination.'
+                wireSource: 'ANP / Reuters'
             },
             {
-                id: 'wire-602',
-                title: 'Reforestation Monitoring Satellite Constellation Achieves Real-Time Canopy Tracking',
-                category: 'Environment',
-                region: 'Latin America',
-                timestamp: '07:05 UTC',
-                readTime: '2 min read',
+                id: 'wire-19',
+                title: 'Turkey Engineers Restore 1,800-Year-Old Roman Aqueduct System to Irrigate Agriculture',
+                category: 'Arts',
+                country: 'Turkey',
+                isFeelGood: true,
+                timestamp: '04:00 UTC',
+                factScore: 97.1,
+                toneScore: '98% Neutral',
+                facts: [
+                    'A joint team of civil engineers and archaeologists restored gravity-fed stone water channels in Anatolia.',
+                    'The system transports 12,000 cubic meters of natural spring water daily without electrical pumps.',
+                    'Local farmers now cultivate organic olive groves without groundwater depletion.'
+                ],
+                links: [
+                    { name: 'Anadolu Agency', url: 'https://www.aa.com.tr/en', bias: 'Turkey State Wire' },
+                    { name: 'Daily Sabah', url: 'https://www.dailysabah.com/', bias: 'Turkey National' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Anadolu Heritage Desk', quote: 'Celebrates integration of ancient water engineering into modern sustainable farming.' }
+                ],
+                wireSource: 'Anadolu / Daily Sabah'
+            },
+            {
+                id: 'wire-20',
+                title: 'Switzerland Mandates Fully Recyclable Photovoltaic Panel Standards Across Construction',
+                category: 'Governance & Diplomacy',
+                country: 'Switzerland',
+                isFeelGood: true,
+                timestamp: '03:45 UTC',
+                factScore: 99.5,
+                toneScore: '100% Objective',
+                facts: [
+                    'Swiss Federal Council passed regulations requiring 95% material recovery for retired solar panels.',
+                    'Manufacturers must utilize non-toxic silicon refining processes to gain Swiss market certification.',
+                    'A closed-loop recycling fund was established financed by standard retail equipment sales.'
+                ],
+                links: [
+                    { name: 'Swissinfo (SWI)', url: 'https://www.swissinfo.ch/eng', bias: 'Swiss Public Broadcaster' },
+                    { name: 'Reuters Europe', url: 'https://www.reuters.com/', bias: 'Wire Standard' }
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Swiss Environmental Gazette', quote: 'Details closed-loop circular economy manufacturing laws.' }
+                ],
+                wireSource: 'SDA-ATS / SWI'
+            },
+
+            // GDP 21-30
+            {
+                id: 'wire-21',
+                title: 'Poland Opens Central European Clean Energy Tech Hub Offering Free Startup Incubators',
+                category: 'Tech & Science',
+                country: 'Poland',
+                isFeelGood: true,
+                timestamp: '03:30 UTC',
+                factScore: 98.0,
+                factScore: 98.0,
+                toneScore: '99% Neutral',
+                facts: [
+                    'Warsaw CleanTech Campus opened a $300M incubator providing laboratory facilities for green startups.',
+                    'Over 80 international engineering teams received initial zero-equity grants.',
+                    'Focus areas include grid-scale heat pumps and ultra-efficient wind turbine blade design.'
+                ],
+                links: [
+                    { name: 'Notes from Poland', url: 'https://notesfrompoland.com/', bias: 'Poland English' },
+                    { name: 'PAP Press', url: 'https://www.pap.pl/en', bias: 'Poland National Wire' }
+                ],
+                coverageSpectrum: [{ outlet: 'Polish Tech Digest', quote: 'Emphasizes venture support for Central European clean energy engineers.' }],
+                wireSource: 'PAP / Reuters'
+            },
+            {
+                id: 'wire-22',
+                title: 'Argentina Unveils High-Altitude Wind Corridor Power Plant in Patagonia',
+                category: 'Climate & Energy',
+                country: 'Argentina',
+                isFeelGood: true,
+                timestamp: '03:15 UTC',
+                factScore: 97.3,
+                toneScore: '98% Objective',
+                facts: [
+                    'A 500-megawatt wind farm went operational in Chubut province, utilizing constant Patagonian wind flows.',
+                    'Capacity factor reached 62%, significantly above the global wind turbine average of 35%.',
+                    'Electricity will power local green hydrogen production for zero-emission fertilizer.'
+                ],
+                links: [
+                    { name: 'Buenos Aires Times', url: 'https://www.batimes.com.ar/', bias: 'Argentina National' },
+                    { name: 'Télam', url: 'https://www.telam.com.ar/', bias: 'State News' }
+                ],
+                coverageSpectrum: [{ outlet: 'Patagonia Energy Review', quote: 'Notes exceptional wind capacity factors.' }],
+                wireSource: 'Télam / EFE'
+            },
+            {
+                id: 'wire-23',
+                title: 'Sweden Achieves Zero Municipal Solid Waste to Landfills Through Closed-Loop Recycling',
+                category: 'Climate & Energy',
+                country: 'Sweden',
+                isFeelGood: true,
+                timestamp: '03:00 UTC',
+                factScore: 99.4,
+                toneScore: '100% Objective',
+                facts: [
+                    'Swedish Environmental Protection Agency confirmed less than 0.4% of household waste goes to landfills.',
+                    'Advanced optical sorting separates organic, plastic, and metal waste automatically.',
+                    'Heat generated from non-recyclable residual processing provides district heating to 1.2 million homes.'
+                ],
+                links: [
+                    { name: 'The Local Sweden', url: 'https://www.thelocal.se/', bias: 'Sweden English' },
+                    { name: 'SVT News', url: 'https://www.svt.se/', bias: 'Sweden Public Broadcaster' }
+                ],
+                coverageSpectrum: [{ outlet: 'Nordic Eco Gazette', quote: 'Examines automated optical waste separation.' }],
+                wireSource: 'TT / SVT'
+            },
+            {
+                id: 'wire-24',
+                title: 'Norway Fully Electrifies Coastal Ferry Fleet Reducing Harbor Emissions by 90%',
+                category: 'Climate & Energy',
+                country: 'Norway',
+                isFeelGood: true,
+                timestamp: '02:45 UTC',
+                factScore: 99.1,
+                toneScore: '100% Neutral',
+                facts: [
+                    'Norwegian Maritime Authority completed the conversion of 70 fjord ferry routes to electric propulsion.',
+                    'Rapid megawatt-capacity dockside chargers recharge ferries in 8 minutes while passengers disembark.',
+                    'Acoustic underwater monitoring shows dramatic reductions in noise disruption to marine life.'
+                ],
+                links: [
+                    { name: 'NRK News', url: 'https://www.nrk.no/', bias: 'Norway Public Broadcaster' },
+                    { name: 'Reuters Nordic', url: 'https://www.reuters.com/', bias: 'Wire Standard' }
+                ],
+                coverageSpectrum: [{ outlet: 'Fjord Maritime Today', quote: 'Details dockside ultra-fast electrical charging grids.' }],
+                wireSource: 'NTB / NRK'
+            },
+            {
+                id: 'wire-25',
+                title: 'Belgium Inaugurates World First Artificial Energy Island for Offshore Wind Storage',
+                category: 'Climate & Energy',
+                country: 'Belgium',
+                isFeelGood: true,
+                timestamp: '02:30 UTC',
+                factScore: 98.5,
+                toneScore: '99% Objective',
+                facts: [
+                    'Princess Elisabeth Island constructed 45 km off the Belgian coast acts as an electrical hub for North Sea wind farms.',
+                    'The island aggregates 3.5 gigawatts of offshore power and redistributes electricity to Belgium and the UK.',
+                    'Subsea rock berms surrounding the island were seeded with oyster reefs to boost marine habitat.'
+                ],
+                links: [
+                    { name: 'VRT NWS', url: 'https://www.vrt.be/vrtnws/en/', bias: 'Belgium Public Broadcaster' },
+                    { name: 'Brussels Times', url: 'https://www.brusselstimes.com/', bias: 'Belgium English' }
+                ],
+                coverageSpectrum: [{ outlet: 'North Sea Wind Gazette', quote: 'Focuses on cross-border high-voltage direct current grid connection.' }],
+                wireSource: 'Belga / VRT'
+            },
+            {
+                id: 'wire-26',
+                title: 'Ireland Global MedTech Hub Advances Open-Source Cardiac Sensor Devices',
+                category: 'Tech & Science',
+                country: 'Ireland',
+                isFeelGood: true,
+                timestamp: '02:15 UTC',
+                factScore: 98.2,
+                toneScore: '99% Neutral',
+                facts: [
+                    'Galway University research lab published patent-free designs for low-cost wearable cardiac monitors.',
+                    'The sensor costs under $15 to manufacture while matching clinical ICU monitoring accuracy.',
+                    'Open manufacturing files were downloaded by healthcare providers in 40 nations.'
+                ],
+                links: [
+                    { name: 'RTE News', url: 'https://www.rte.ie/news/', bias: 'Ireland Public Broadcaster' },
+                    { name: 'Irish Times', url: 'https://www.irishtimes.com/', bias: 'Ireland National' }
+                ],
+                coverageSpectrum: [{ outlet: 'Irish MedTech Journal', quote: 'Highlights open-source licensing for developing health systems.' }],
+                wireSource: 'RTE / Irish Press'
+            },
+            {
+                id: 'wire-27',
+                title: 'Israel Desalination Infrastructure Achieves 80% National Drinking Water Supply Coverage',
+                category: 'Climate & Energy',
+                country: 'Israel',
+                isFeelGood: true,
+                timestamp: '02:00 UTC',
+                factScore: 97.7,
+                toneScore: '98% Objective',
+                facts: [
+                    'Sorek 2 reverse-osmosis desalination plant achieved full production, supplying 200 million cubic meters annually.',
+                    'Energy usage per cubic meter dropped to 2.9 kWh using energy recovery turbines.',
+                    'Surplus freshwater is pumped into the Sea of Galilee to restore natural lake levels.'
+                ],
+                links: [
+                    { name: 'Haaretz', url: 'https://www.haaretz.com/', bias: 'Israel National' },
+                    { name: 'Times of Israel', url: 'https://www.timesofisrael.com/', bias: 'Israel National' }
+                ],
+                coverageSpectrum: [{ outlet: 'Water Engineering World', quote: 'Details energy recovery turbine efficiency metrics.' }],
+                wireSource: 'TPS / Haaretz'
+            },
+            {
+                id: 'wire-28',
+                title: 'UAE Launches Global Mangrove Alliance Planting 100 Million Coastal Trees',
+                category: 'Climate & Energy',
+                country: 'United Arab Emirates',
+                isFeelGood: true,
+                timestamp: '01:45 UTC',
                 factScore: 97.4,
                 toneScore: '98% Neutral',
                 facts: [
-                    'A network of 24 optical and radar nanosatellites began transmitting daily Amazon basin tree canopy density data.',
-                    'Illegal logging clearing activities are automatically flagged to environmental enforcement agencies within 15 minutes.',
-                    'The data platform is publicly accessible under open data climate initiatives.'
+                    'Environment Agency Abu Dhabi completed planting 20 million mangrove saplings along coastal lagoons.',
+                    'Drones equipped with seed-firing pods accelerated planting in remote muddy intertidal zones by 400%.',
+                    'Mangrove forests act as blue carbon sinks absorbing 4 times more carbon per hectare than terrestrial forests.'
                 ],
-                coverageSpectrum: [
-                    { outlet: 'Amazonia Ecological Review', quote: 'Highlights speed of enforcement alerts dispatched to environmental rangers.' },
-                    { outlet: 'Remote Sensing Today', quote: 'Details synthetic aperture radar capabilities penetrating cloud cover.' }
+                links: [
+                    { name: 'The National UAE', url: 'https://www.thenationalnews.com/', bias: 'UAE Regional' },
+                    { name: 'WAM News', url: 'https://wam.ae/en', bias: 'UAE State Wire' }
                 ],
-                wireSource: 'EFE / Earth Observation Wire',
-                summary: 'A 24-nanosatellite constellation began transmitting real-time radar mapping to detect tropical deforestation within 15 minutes.'
+                coverageSpectrum: [{ outlet: 'Arabian Gulf Ecology', quote: 'Examines drone-assisted seed planting efficiency.' }],
+                wireSource: 'WAM / Reuters'
             },
             {
-                id: 'wire-603',
-                title: 'North American Grid Operators Finalize 100% Interregional Renewable Balancing Protocol',
-                category: 'Environment',
-                region: 'North America',
-                timestamp: '06:00 UTC',
-                readTime: '3 min read',
-                factScore: 96.7,
-                toneScore: '97% Objective',
+                id: 'wire-29',
+                title: 'Thailand Expands Community Organic Rice Farming Grants Across 20 Northern Provinces',
+                category: 'Lifestyle',
+                country: 'Thailand',
+                isFeelGood: true,
+                timestamp: '01:30 UTC',
+                factScore: 98.1,
+                toneScore: '99% Objective',
                 facts: [
-                    'Grid transmission authorities signed interstate agreements allowing automated high-voltage DC power sharing.',
-                    'Excess Midwestern wind power can now automatically reroute to East Coast urban centers during peak load shifts.',
-                    'The system reduces overall natural gas peaking plant reliance by an estimated 18% annually.'
+                    'Ministry of Agriculture distributed zero-interest loans for organic fertilizer and solar irrigation to 100,000 farmers.',
+                    'Organic rice export prices earned smallholder farming families a 35% net income increase.',
+                    'Chemical pesticide runoff in local river systems decreased by 50%.'
                 ],
-                coverageSpectrum: [
-                    { outlet: 'Power Transmission Digest', quote: 'Focuses on high-voltage direct current line stability and transformer switching.' },
-                    { outlet: 'North American Energy Regulatory Review', quote: 'Analyzes interstate tariff sharing formulas for utility companies.' }
+                links: [
+                    { name: 'Bangkok Post', url: 'https://www.bangkokpost.com/', bias: 'Thailand National' },
+                    { name: 'Thai PBS', url: 'https://www.thaipbs.or.th/home', bias: 'Thailand Public Broadcaster' }
                 ],
-                wireSource: 'Associated Press / Energy Wire',
-                summary: 'Interstate power grid operators deployed an automated power-sharing system routing surplus renewable electricity to high-demand urban centers.'
-            }
-        ];
+                coverageSpectrum: [{ outlet: 'Southeast Asia Agriculture', quote: 'Focuses on smallholder income gains and soil health.' }],
+                wireSource: 'TNA / Bangkok Post'
+            },
+            {
+                id: 'wire-30',
+                title: 'Nigeria Completes Solar Electrification of 50 Primary Healthcare Centers in Rural Districts',
+                category: 'Lifestyle',
+                country: 'Nigeria',
+                isFeelGood: true,
+                timestamp: '01:15 UTC',
+                factScore: 96.8,
+                toneScore: '97% Neutral',
+                facts: [
+                    'Rural Electrification Agency installed autonomous solar microgrids with lithium battery storage in rural clinics.',
+                    'Continuous power guarantees continuous refrigeration for vaccines and essential medical equipment.',
+                    'Nighttime emergency maternal care admissions increased by 80% due to reliable lighting.'
+                ],
+                links: [
+                    { name: 'Premium Times Nigeria', url: 'https://www.premiumtimesng.com/', bias: 'Nigeria Independent' },
+                    { name: 'The Guardian Nigeria', url: 'https://guardian.ng/', bias: 'Nigeria National' }
+                ],
+                coverageSpectrum: [{ outlet: 'West Africa Health Digest', quote: 'Emphasizes cold-chain vaccine refrigeration reliability.' }],
+                wireSource: 'NAN / Premium Times'
+            },
 
-        // Ticker Items Array
-        const tickerStories = [
-            "Geneva: UN Treaty on Subsea Fiber Optic Cable Protection signed by 118 maritime states.",
-            "Technology: 2nm Open Silicon Research Foundry opens in East Asia with $8B funding.",
-            "UNIAEA: Continuous remote monitoring telemetry activated across East Asian research reactors.",
-            "Culture: UNESCO allocates $120M grant program preserving 45 indigenous island languages.",
-            "Environment: Graphene membrane desalination achieves 40% energy efficiency breakthrough.",
-            "Trade: Pan-African digital customs portal reduces port clearance times from 96h to 14h."
+            // GDP 31-40
+            {
+                id: 'wire-31',
+                title: 'Vietnam Unveils $5B Mekong Delta Climate Adaptation Infrastructure Program',
+                category: 'Climate & Energy',
+                country: 'Vietnam',
+                isFeelGood: true,
+                timestamp: '01:00 UTC',
+                factScore: 97.6,
+                toneScore: '98% Objective',
+                facts: [
+                    'Government approved construction of elevated freshwater sluice gates and mangrove coastal buffers.',
+                    'Infra projects prevent saltwater intrusion into 500,000 hectares of rice paddies during high tides.',
+                    'World Bank co-financed the project with long-term concessionary climate resilience loans.'
+                ],
+                links: [
+                    { name: 'VnExpress', url: 'https://e.vnexpress.net/', bias: 'Vietnam English' },
+                    { name: 'Vietnam Plus', url: 'https://en.vietnamplus.vn/', bias: 'State Wire' }
+                ],
+                coverageSpectrum: [{ outlet: 'Mekong Delta Eco Review', quote: 'Focuses on agricultural protection against sea-level rises.' }],
+                wireSource: 'VNA / Reuters'
+            },
+            {
+                id: 'wire-32',
+                title: 'Bangladesh Digital Land Registry System Cuts Property Ownership Dispute Processing by 80%',
+                category: 'Governance & Diplomacy',
+                country: 'Bangladesh',
+                isFeelGood: true,
+                timestamp: '00:45 UTC',
+                factScore: 97.2,
+                toneScore: '98% Neutral',
+                facts: [
+                    'Ministry of Land digitized 40 million paper land deeds using blockchain verification records.',
+                    'Citizens verify land boundaries and ownership history via mobile smartphone apps.',
+                    'Bribery complaints and court backlogs fell by over 75% in pilot districts.'
+                ],
+                links: [
+                    { name: 'The Daily Star', url: 'https://www.thedailystar.net/', bias: 'Bangladesh National' },
+                    { name: 'Dhaka Tribune', url: 'https://www.dhakatribune.com/', bias: 'Bangladesh English' }
+                ],
+                coverageSpectrum: [{ outlet: 'Dhaka Tech Review', quote: 'Highlights mobile app accessibility for rural landowners.' }],
+                wireSource: 'BSS / Daily Star'
+            },
+            {
+                id: 'wire-33',
+                title: 'Singapore Opens World Highest Urban Vertical Farm Producing 500 Tons of Produce',
+                category: 'Tech & Science',
+                country: 'Singapore',
+                isFeelGood: true,
+                timestamp: '00:30 UTC',
+                factScore: 99.0,
+                toneScore: '100% Objective',
+                facts: [
+                    'A 12-story automated hydroponic facility began supplying leafy greens to local supermarkets.',
+                    'The vertical farm uses 95% less water and 90% less land compared to traditional soil farming.',
+                    'Closed-loop LED lighting systems run entirely on rooftop solar power.'
+                ],
+                links: [
+                    { name: 'Straits Times', url: 'https://www.straitstimes.com/', bias: 'Singapore National' },
+                    { name: 'CNA', url: 'https://www.channelnewsasia.com/', bias: 'Regional Asia' }
+                ],
+                coverageSpectrum: [{ outlet: 'Singapore AgriTech Today', quote: 'Focuses on urban food security and water recycling efficiency.' }],
+                wireSource: 'Bernama / CNA'
+            },
+            {
+                id: 'wire-34',
+                title: 'Austria Opens Alpine Solar Array Installed on High-Altitude Dam Walls',
+                category: 'Climate & Energy',
+                country: 'Austria',
+                isFeelGood: true,
+                timestamp: '00:15 UTC',
+                factScore: 98.7,
+                toneScore: '99% Neutral',
+                facts: [
+                    'Engineers installed 5,000 solar panels on the vertical concrete wall of the Muttsee dam at 2,500m elevation.',
+                    'Alpine solar panels generate 50% more electricity during winter due to snow reflection (albedo effect).',
+                    'Output supplies clean power during peak winter electricity usage months.'
+                ],
+                links: [
+                    { name: 'ORF News', url: 'https://orf.at/', bias: 'Austria Public Broadcaster' },
+                    { name: 'Kurier', url: 'https://kurier.at/', bias: 'Austria National' }
+                ],
+                coverageSpectrum: [{ outlet: 'Alpine Energy Review', quote: 'Notes snow reflection power boosting metrics.' }],
+                wireSource: 'APA / ORF'
+            },
+            {
+                id: 'wire-35',
+                title: 'Malaysia Tropical Rainforest Conservation Trust Secures 100,000 Hectare Orangutan Reserve',
+                category: 'Climate & Energy',
+                country: 'Malaysia',
+                isFeelGood: true,
+                timestamp: '23:50 UTC',
+                factScore: 98.3,
+                toneScore: '99% Objective',
+                facts: [
+                    'Sabah state government permanently banned logging across 100,000 hectares of primary rainforest in Borneo.',
+                    'Wildlife corridors were reconnected, allowing free movement for wild orangutans and pygmy elephants.',
+                    'Eco-tourism revenue sharing agreements were signed with local indigenous communities.'
+                ],
+                links: [
+                    { name: 'The Star Malaysia', url: 'https://www.thestar.com.my/', bias: 'Malaysia National' },
+                    { name: 'Bernama', url: 'https://www.bernama.com/en/', bias: 'Malaysia State Wire' }
+                ],
+                coverageSpectrum: [{ outlet: 'Borneo Ecology Journal', quote: 'Celebrates wildlife corridor habitat expansion.' }],
+                wireSource: 'Bernama / The Star'
+            },
+            {
+                id: 'wire-36',
+                title: 'South Africa Square Kilometre Array Radio Telescope Detects Oldest Known Cosmic Structure',
+                category: 'Tech & Science',
+                country: 'South Africa',
+                isFeelGood: true,
+                timestamp: '23:35 UTC',
+                factScore: 99.2,
+                toneScore: '100% Objective',
+                facts: [
+                    'The MeerKAT radio telescope array in the Karoo desert detected hydrogen gas clouds formed 13 billion years ago.',
+                    'Data offers astronomers unprecedented resolution of cosmic galaxy formation following the Big Bang.',
+                    'International astrophysics teams published results in Monthly Notices of the Royal Astronomical Society.'
+                ],
+                links: [
+                    { name: 'News24', url: 'https://www.news24.com/', bias: 'South Africa National' },
+                    { name: 'Daily Maverick', url: 'https://www.dailymaverick.co.za/', bias: 'South Africa Independent' }
+                ],
+                coverageSpectrum: [{ outlet: 'Astronomy & Astrophysics World', quote: 'Details radio telescope interferometry precision.' }],
+                wireSource: 'SAPA / Reuters'
+            },
+            {
+                id: 'wire-37',
+                title: 'Philippines Restores 300 Kilometers of Coral Barrier Reefs to Prevent Typhoon Storm Surge',
+                category: 'Climate & Energy',
+                country: 'Philippines',
+                isFeelGood: true,
+                timestamp: '23:20 UTC',
+                factScore: 97.5,
+                toneScore: '98% Neutral',
+                facts: [
+                    'National Disaster Risk Reduction Council completed bio-rock coral reef restoration along vulnerable coastal provinces.',
+                    'Restored reefs absorb up to 97% of wave energy during tropical storm landfalls.',
+                    'Coastal fishing yields doubled near restored reef sectors.'
+                ],
+                links: [
+                    { name: 'Philippine Daily Inquirer', url: 'https://www.inquirer.net/', bias: 'Philippines National' },
+                    { name: 'Rappler', url: 'https://www.rappler.com/', bias: 'Philippines Independent' }
+                ],
+                coverageSpectrum: [{ outlet: 'Pacific Hazard Review', quote: 'Examines natural storm surge wave attenuation.' }],
+                wireSource: 'PNA / Inquirer'
+            },
+            {
+                id: 'wire-38',
+                title: 'Denmark Opens World First Commercial Clean Green Hydrogen Fuel Ship Bunkering Station',
+                category: 'Climate & Energy',
+                country: 'Denmark',
+                isFeelGood: true,
+                timestamp: '23:05 UTC',
+                factScore: 98.8,
+                toneScore: '99% Objective',
+                facts: [
+                    'Port of Esbjerg activated a green hydrogen refueling terminal powered by offshore wind turbines.',
+                    'Container ships and zero-emission ferries can refuel in under 30 minutes.',
+                    'Facility eliminates 250,000 tons of maritime CO2 emissions annually.'
+                ],
+                links: [
+                    { name: 'DR News', url: 'https://www.dr.dk/nyheder', bias: 'Denmark Public Broadcaster' },
+                    { name: 'Berlingske', url: 'https://www.berlingske.dk/', bias: 'Denmark National' }
+                ],
+                coverageSpectrum: [{ outlet: 'Nordic Clean Maritime', quote: 'Focuses on hydrogen fuel safety protocols.' }],
+                wireSource: 'Ritzau / DR'
+            },
+            {
+                id: 'wire-39',
+                title: 'Egypt Solar Irrigation Program Converts 200,000 Nile Delta Farms from Diesel Pumps',
+                category: 'Climate & Energy',
+                country: 'Egypt',
+                isFeelGood: true,
+                timestamp: '22:50 UTC',
+                factScore: 96.9,
+                toneScore: '97% Neutral',
+                facts: [
+                    'Ministry of Water Resources replaced diesel water pumps with solar-powered drip irrigation systems.',
+                    'Farmers saved an average of $800 annually in fuel costs per acre.',
+                    'Carbon emissions dropped by 600,000 tons across participating Nile agricultural cooperatives.'
+                ],
+                links: [
+                    { name: 'Ahram Online', url: 'https://english.ahram.org.eg/', bias: 'Egypt State Wire' },
+                    { name: 'Egypt Today', url: 'https://www.egypttoday.com/', bias: 'Egypt National' }
+                ],
+                coverageSpectrum: [{ outlet: 'Nile Agricultural Monitor', quote: 'Highlights fuel cost savings for smallholder farmers.' }],
+                wireSource: 'MENA / Ahram'
+            },
+            {
+                id: 'wire-40',
+                title: 'Pakistan Installs Solar Power Units in 5,000 Rural Primary Schools in Punjab',
+                category: 'Lifestyle',
+                country: 'Pakistan',
+                isFeelGood: true,
+                timestamp: '22:35 UTC',
+                factScore: 97.1,
+                toneScore: '98% Objective',
+                facts: [
+                    'Punjab Education Department completed solarizing rural school buildings subject to frequent power outages.',
+                    'Classrooms now run fans, digital learning screens, and clean water filtration systems continuously.',
+                    'School attendance rates rose by 18%, particularly during hot summer months.'
+                ],
+                links: [
+                    { name: 'Dawn', url: 'https://www.dawn.com/', bias: 'Pakistan Independent' },
+                    { name: 'Express Tribune', url: 'https://tribune.com.pk/', bias: 'Pakistan National' }
+                ],
+                coverageSpectrum: [{ outlet: 'South Asia Education Review', quote: 'Focuses on classroom attendance gains and clean water availability.' }],
+                wireSource: 'APP / Dawn'
+            },
+
+            // GDP 41-50
+            {
+                id: 'wire-41',
+                title: 'Hong Kong Science Park Launches $1B Open Biomedical AI Research Lab',
+                category: 'Tech & Science',
+                country: 'Hong Kong',
+                isFeelGood: true,
+                timestamp: '22:20 UTC',
+                factScore: 98.4,
+                toneScore: '99% Neutral',
+                facts: [
+                    'Hong Kong Innovation Technology Commission opened a shared AI supercomputing center for drug discovery.',
+                    'Global researchers access computational models predicting protein folding in seconds.',
+                    'Patent sharing agreements prioritize affordable generic medicine production.'
+                ],
+                links: [
+                    { name: 'South China Morning Post', url: 'https://www.scmp.com/', bias: 'Regional Asia' },
+                    { name: 'HKFP', url: 'https://hongkongfp.com/', bias: 'Hong Kong Independent' }
+                ],
+                coverageSpectrum: [{ outlet: 'Hong Kong Tech Journal', quote: 'Notes supercomputing cluster performance benchmarks.' }],
+                wireSource: 'SCMP / HKFP'
+            },
+            {
+                id: 'wire-42',
+                title: 'Colombia Establishes 2 Million Hectare Indigenous Managed National Park in Chiribiquete',
+                category: 'Climate & Energy',
+                country: 'Colombia',
+                isFeelGood: true,
+                timestamp: '22:05 UTC',
+                factScore: 98.0,
+                toneScore: '99% Objective',
+                facts: [
+                    'Ministry of Environment signed co-management agreements with 12 Amazonian indigenous councils.',
+                    'Indigenous park rangers utilize thermal drone patrols to guard against illegal cattle ranching.',
+                    'Park expansion protects ancient rock art sites dating back 20,000 years.'
+                ],
+                links: [
+                    { name: 'El Tiempo', url: 'https://www.eltiempo.com/', bias: 'Colombia National' },
+                    { name: 'El Espectador', url: 'https://www.elespectador.com/', bias: 'Colombia Independent' }
+                ],
+                coverageSpectrum: [{ outlet: 'Andean Amazon Gazette', quote: 'Celebrates indigenous park ranger legal co-management.' }],
+                wireSource: 'Colprensa / El Tiempo'
+            },
+            {
+                id: 'wire-43',
+                title: 'Romania Reintroduces Wild European Bison to Carpathian Mountains After 200 Years',
+                category: 'Climate & Energy',
+                country: 'Romania',
+                isFeelGood: true,
+                timestamp: '21:50 UTC',
+                factScore: 98.6,
+                toneScore: '99% Neutral',
+                facts: [
+                    'WWF Romania released 30 European bison into the Southern Carpathian wilderness.',
+                    'The herd population reached 200 free-roaming individuals, creating natural forest glades that boost biodiversity.',
+                    'Eco-tourism initiatives generated new income for local mountain villages.'
+                ],
+                links: [
+                    { name: 'Agerpres', url: 'https://www.agerpres.ro/english', bias: 'Romania State Wire' },
+                    { name: 'Romania Insider', url: 'https://www.romania-insider.com/', bias: 'Romania English' }
+                ],
+                coverageSpectrum: [{ outlet: 'Carpathian Wildlife Journal', quote: 'Highlights ecosystem engineering benefits of bison grazing.' }],
+                wireSource: 'Agerpres / WWF'
+            },
+            {
+                id: 'wire-44',
+                title: 'Chile Atacama Desert Solar Complex Achieves Record Low Electricity Generation Cost',
+                category: 'Climate & Energy',
+                country: 'Chile',
+                isFeelGood: true,
+                timestamp: '21:35 UTC',
+                factScore: 98.9,
+                toneScore: '100% Objective',
+                facts: [
+                    'A 1-gigawatt bifacial solar plant in the Atacama Desert recorded a generation cost of $0.011 per kWh.',
+                    'High solar irradiance combined with dry atmospheric clarity maximized panel efficiency.',
+                    'Power generated supplies copper mines, transitioning heavy mining operations to zero carbon.'
+                ],
+                links: [
+                    { name: 'El Mercurio', url: 'https://www.elmercurio.com/', bias: 'Chile National' },
+                    { name: 'Reuters Latin America', url: 'https://www.reuters.com/', bias: 'Wire Standard' }
+                ],
+                coverageSpectrum: [{ outlet: 'Chile Mining & Clean Power', quote: 'Examines solar electricity supply agreements for copper mines.' }],
+                wireSource: 'Aton / Reuters'
+            },
+            {
+                id: 'wire-45',
+                title: 'Czechia Opens Ultra-Precise Laser Research Center in Prague for Medical Isotopes',
+                category: 'Tech & Science',
+                country: 'Czechia',
+                isFeelGood: true,
+                timestamp: '21:20 UTC',
+                factScore: 99.1,
+                toneScore: '100% Neutral',
+                facts: [
+                    'ELI Beamlines Facility activated a high-intensity laser producing targeted radioisotopes for targeted cancer therapy.',
+                    'Laser synthesis cuts isotope production time from days to minutes without nuclear reactors.',
+                    'Medical centers across Central Europe will receive daily shipments.'
+                ],
+                links: [
+                    { name: 'Prague Morning', url: 'https://praguemorning.cz/', bias: 'Czechia English' },
+                    { name: 'CTK Press', url: 'https://www.ctk.eu/', bias: 'Czechia National Wire' }
+                ],
+                coverageSpectrum: [{ outlet: 'Central European Physics Review', quote: 'Details laser acceleration mechanics for medical physics.' }],
+                wireSource: 'CTK / Prague Post'
+            },
+            {
+                id: 'wire-46',
+                title: 'Finland Rated First World Leader in Digital Circular Economy and Material Reuse',
+                category: 'Governance & Diplomacy',
+                country: 'Finland',
+                isFeelGood: true,
+                timestamp: '21:05 UTC',
+                factScore: 99.3,
+                toneScore: '100% Objective',
+                facts: [
+                    'Sitra Innovation Fund reported 85% of industrial byproducts in Finland are repurposed into secondary products.',
+                    'A national digital passport tracks raw material compositions across construction buildings.',
+                    'Building demolition waste dropped to under 5% across urban centers.'
+                ],
+                links: [
+                    { name: 'Yle News', url: 'https://yle.fi/news', bias: 'Finland Public Broadcaster' },
+                    { name: 'Helsingin Sanomat', url: 'https://www.hs.fi/', bias: 'Finland National' }
+                ],
+                coverageSpectrum: [{ outlet: 'Nordic Circular Economy', quote: 'Examines digital material passports for urban buildings.' }],
+                wireSource: 'STT / Yle'
+            },
+            {
+                id: 'wire-47',
+                title: 'Iraq Modernizes Historic Tigris River Canal Network Supplying 200 Communities',
+                category: 'World',
+                country: 'Iraq',
+                isFeelGood: false,
+                timestamp: '20:50 UTC',
+                factScore: 96.4,
+                toneScore: '97% Neutral',
+                facts: [
+                    'Ministry of Water Resources reinforced 350 km of concrete-lined canals along the Tigris basin.',
+                    'Seepage losses decreased by 40%, ensuring clean drinking water delivery to 200 rural towns.',
+                    'Automated water gates prevent over-irrigation during dry summer months.'
+                ],
+                links: [
+                    { name: 'INA Press', url: 'https://ina.iq/eng/', bias: 'Iraq State Wire' },
+                    { name: 'Al Jazeera', url: 'https://www.aljazeera.com/', bias: 'Middle East Regional' }
+                ],
+                coverageSpectrum: [{ outlet: 'Mesopotamia Water Review', quote: 'Details canal concrete lining durability and water flow sensors.' }],
+                wireSource: 'INA / Reuters'
+            },
+            {
+                id: 'wire-48',
+                title: 'Portugal Ocean Energy Center Activates Floating Wave Power Generator in Atlantic',
+                category: 'Climate & Energy',
+                country: 'Portugal',
+                isFeelGood: true,
+                timestamp: '20:35 UTC',
+                factScore: 98.5,
+                toneScore: '99% Objective',
+                facts: [
+                    'A 2-megawatt wave energy converter anchored off Aguçadoura began feeding electricity to the grid.',
+                    'Submerged hydraulic pumps utilize deep Atlantic ocean wave motion to drive electric generators.',
+                    'System survived 8-meter winter storm waves with zero mechanical failures.'
+                ],
+                links: [
+                    { name: 'Publico', url: 'https://www.publico.pt/', bias: 'Portugal National' },
+                    { name: 'Lusa News', url: 'https://www.lusa.pt/', bias: 'Portugal National Wire' }
+                ],
+                coverageSpectrum: [{ outlet: 'Atlantic Marine Tech', quote: 'Notes hydraulic wave energy conversion durability.' }],
+                wireSource: 'Lusa / Publico'
+            },
+            {
+                id: 'wire-49',
+                title: 'Peru Agricultural Research Institute Restores 50 Native High-Altitude Potato Varieties',
+                category: 'Lifestyle',
+                country: 'Peru',
+                isFeelGood: true,
+                timestamp: '20:20 UTC',
+                factScore: 98.2,
+                toneScore: '99% Neutral',
+                facts: [
+                    'Andean farming communities collaborated with geneticists to re-introduce drought-resistant native crops.',
+                    'Cultivars thrive at 4,000m altitudes without chemical fertilizers or irrigation.',
+                    'Crop yields protected indigenous mountain communities against seasonal frost cycles.'
+                ],
+                links: [
+                    { name: 'El Comercio', url: 'https://elcomercio.pe/', bias: 'Peru National' },
+                    { name: 'Andina News', url: 'https://andina.pe/ingles/', bias: 'Peru State Wire' }
+                ],
+                coverageSpectrum: [{ outlet: 'Andean Agriculture Today', quote: 'Focuses on high-altitude climate resilience of indigenous tubers.' }],
+                wireSource: 'Andina / EFE'
+            },
+            {
+                id: 'wire-50',
+                title: 'New Zealand Native Bird Sanctuaries Record 300% Kiwi Chick Survival Rate Surge',
+                category: 'Climate & Energy',
+                country: 'New Zealand',
+                isFeelGood: true,
+                timestamp: '20:05 UTC',
+                factScore: 99.4,
+                toneScore: '100% Objective',
+                facts: [
+                    'Department of Conservation predator-free sanctuary zones logged record numbers of hatched kiwi chicks.',
+                    'Community trapping networks successfully cleared stoats and rats across 50,000 hectares of forest.',
+                    'Kiwi populations were reclassified from vulnerable to recovering across two North Island regions.'
+                ],
+                links: [
+                    { name: 'RNZ News', url: 'https://www.rnz.co.nz/', bias: 'New Zealand Public Broadcaster' },
+                    { name: 'NZ Herald', url: 'https://www.nzherald.co.nz/', bias: 'New Zealand National' }
+                ],
+                coverageSpectrum: [{ outlet: 'NZ Wildlife Conservation', quote: 'Celebrates predator-free island ecological sanctuaries.' }],
+                wireSource: 'NZME / RNZ'
+            }
         ];
 
         // Application State
         let currentCategory = 'All';
-        let currentRegion = 'All';
+        let currentCountry = 'All';
         let searchQuery = '';
-        let highFactualityOnly = false;
+        let feelGoodModeActive = false;
         let autoRefreshEnabled = true;
-        let secondsUntilRefresh = 300; // 5 MINUTES (300 seconds)
-        let lastUpdatedTimestamp = 'Just Now';
+        let secondsUntilRefresh = 300; // 5 MINUTES
         let isDarkMode = true;
 
-        // DOM Element Cache
+        // DOM Elements
         const newsFeedEl = document.getElementById('newsFeed');
         const emptyFeedStateEl = document.getElementById('emptyFeedState');
         const tickerContentEl = document.getElementById('tickerContent');
         const utcClockEl = document.getElementById('utcClock');
         const refreshCountdownEl = document.getElementById('refreshCountdown');
-        const autoRefreshToggle = document.getElementById('autoRefreshToggle');
         const fetchLatestBtn = document.getElementById('fetchLatestBtn');
         const searchInput = document.getElementById('searchInput');
-        const factDensityFilterBtn = document.getElementById('factDensityFilterBtn');
-        const factBadgeState = document.getElementById('factBadgeState');
+        const countrySelect = document.getElementById('countrySelect');
+        const feelGoodToggleBtn = document.getElementById('feelGoodToggleBtn');
+        const feelGoodBadge = document.getElementById('feelGoodBadge');
+        const feelGoodBanner = document.getElementById('feelGoodBanner');
+        const disableFeelGoodBtn = document.getElementById('disableFeelGoodBtn');
         const storyCountBadge = document.getElementById('storyCountBadge');
+        const totalDatabaseCount = document.getElementById('totalDatabaseCount');
         const lastUpdatedTag = document.getElementById('lastUpdatedTag');
         const sortSelect = document.getElementById('sortSelect');
         const resetFiltersBtn = document.getElementById('resetFiltersBtn');
         const themeToggleBtn = document.getElementById('themeToggleBtn');
         const themeIcon = document.getElementById('themeIcon');
-        const regionDistributionList = document.getElementById('regionDistributionList');
+        const topGdpQuickList = document.getElementById('topGdpQuickList');
+        const sidebarFeelGoodBtn = document.getElementById('sidebarFeelGoodBtn');
         const syncSpinner = document.getElementById('syncSpinner');
 
-        // Modal DOM Elements
+        // Modal Elements
         const detailModal = document.getElementById('detailModal');
         const modalContent = document.getElementById('modalContent');
         const closeModalBtn = document.getElementById('closeModalBtn');
         const closeModalFooterBtn = document.getElementById('closeModalFooterBtn');
         const modalCategory = document.getElementById('modalCategory');
-        const modalRegion = document.getElementById('modalRegion');
+        const modalCountry = document.getElementById('modalCountry');
+        const modalFeelGoodBadge = document.getElementById('modalFeelGoodBadge');
         const modalTimestamp = document.getElementById('modalTimestamp');
         const modalHeadline = document.getElementById('modalHeadline');
+        const modalLinksList = document.getElementById('modalLinksList');
         const modalFactList = document.getElementById('modalFactList');
         const modalSourceSpectrum = document.getElementById('modalSourceSpectrum');
         const modalFactScore = document.getElementById('modalFactScore');
         const modalToneScore = document.getElementById('modalToneScore');
         const modalWireSource = document.getElementById('modalWireSource');
 
-
-        // Clock Update (Every Second)
+        // Clock Handler
         function updateClock() {
             const now = new Date();
             const hours = String(now.getUTCHours()).padStart(2, '0');
@@ -865,51 +1669,73 @@
             utcClockEl.textContent = `${hours}:${minutes}:${seconds} UTC`;
         }
 
-        // 5-Minute Auto Refresh Timer Logic
+        // 5-Minute Auto-Sync Countdown
         function runCountdown() {
             if (!autoRefreshEnabled) return;
-
             secondsUntilRefresh--;
             if (secondsUntilRefresh <= 0) {
-                secondsUntilRefresh = 300; // Reset to 5 minutes
+                secondsUntilRefresh = 300;
                 fetchLatestWireData(true);
             }
-
             const mins = Math.floor(secondsUntilRefresh / 60);
             const secs = secondsUntilRefresh % 60;
             refreshCountdownEl.textContent = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
         }
 
-        // Render News Cards
+        // Populate Country Select Box with Top 50 GDP
+        function populateCountryDropdown() {
+            countrySelect.innerHTML = '<option value="All">All 50 GDP Nations (Global Wire)</option>';
+            top50GdpCountries.forEach(c => {
+                const opt = document.createElement('option');
+                opt.value = c.name;
+                opt.textContent = `#${c.rank} ${c.name} (${c.region})`;
+                countrySelect.appendChild(opt);
+            });
+        }
+
+        // Render Sidebar Top 10 Quick List
+        function renderTopGdpQuickList() {
+            const top10 = top50GdpCountries.slice(0, 10);
+            topGdpQuickList.innerHTML = top10.map(c => {
+                const isSelected = currentCountry === c.name;
+                const count = newsDatabase.filter(s => s.country === c.name).length;
+                return `
+                    <div onclick="selectCountry('${c.name}')" class="p-2 rounded-lg ${isSelected ? 'bg-cyan-950/80 border-cyan-700/80 text-cyan-300' : 'bg-slate-950/80 border-slate-800 text-slate-300 hover:border-slate-700'} border transition cursor-pointer flex justify-between items-center group">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[10px] font-mono-code text-cyan-400 font-bold w-5">#${c.rank}</span>
+                            <span class="font-medium text-xs">${c.name}</span>
+                        </div>
+                        <span class="font-mono-code text-[10px] bg-slate-900 px-1.5 py-0.5 rounded text-slate-400">
+                            ${count} wire
+                        </span>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Main Feed Renderer
         function renderNewsFeed() {
             let filtered = newsDatabase.filter(story => {
                 const matchCategory = (currentCategory === 'All') || (story.category === currentCategory);
-                
-                // Region Match Logic (Strict region matching)
-                const matchRegion = (currentRegion === 'All') || (story.region === currentRegion);
-                
+                const matchCountry = (currentCountry === 'All') || (story.country === currentCountry);
                 const matchSearch = searchQuery === '' || 
                     story.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                    story.summary.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                    story.country.toLowerCase().includes(searchQuery.toLowerCase()) ||
                     story.facts.some(f => f.toLowerCase().includes(searchQuery.toLowerCase()));
-                
-                const matchFactuality = !highFactualityOnly || story.factScore >= 98.0;
+                const matchFeelGood = !feelGoodModeActive || story.isFeelGood;
 
-                return matchCategory && matchRegion && matchSearch && matchFactuality;
+                return matchCategory && matchCountry && matchSearch && matchFeelGood;
             });
 
             // Sorting Modes
             const sortMode = sortSelect.value;
             if (sortMode === 'factuality') {
                 filtered.sort((a, b) => b.factScore - a.factScore);
-            } else if (sortMode === 'perspectives') {
-                filtered.sort((a, b) => b.coverageSpectrum.length - a.coverageSpectrum.length);
-            } // 'newest' uses default chronological array placement
+            } else if (sortMode === 'outlets') {
+                filtered.sort((a, b) => b.links.length - a.links.length);
+            }
 
-            storyCountBadge.textContent = `${filtered.length} verified reports`;
-
-            // Sidebar Region Distribution Counts Refresh
-            renderRegionDistribution();
+            storyCountBadge.textContent = `${filtered.length} stories`;
 
             if (filtered.length === 0) {
                 newsFeedEl.innerHTML = '';
@@ -918,44 +1744,47 @@
             }
 
             emptyFeedStateEl.classList.add('hidden');
-            
+
             newsFeedEl.innerHTML = filtered.map(story => `
-                <article class="bg-slate-900 border border-slate-800 hover:border-slate-700 rounded-xl p-5 transition-all duration-200 shadow-md group">
+                <article class="bg-slate-900 border border-slate-800 hover:border-slate-700 rounded-2xl p-5 transition-all duration-200 shadow-md group">
                     
-                    <!-- Top Meta Info -->
+                    <!-- Top Info Bar -->
                     <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
-                        <div class="flex items-center gap-2">
-                            <span class="text-[10px] font-bold uppercase tracking-wider bg-cyan-950/80 text-cyan-400 border border-cyan-800/60 px-2 py-0.5 rounded">
+                        <div class="flex items-center gap-2 flex-wrap">
+                            <span class="text-[10px] font-bold uppercase tracking-wider bg-cyan-950/80 text-cyan-400 border border-cyan-800/60 px-2.5 py-0.5 rounded-md">
                                 ${story.category}
                             </span>
-                            <span class="text-[10px] font-semibold text-slate-300 bg-slate-950 px-2 py-0.5 rounded border border-slate-800 flex items-center gap-1">
-                                <i class="fa-solid fa-location-dot text-cyan-400 text-[9px]"></i> ${story.region}
+                            <span class="text-[10px] font-bold uppercase tracking-wider bg-slate-950 text-slate-200 px-2.5 py-0.5 rounded-md border border-slate-800 flex items-center gap-1">
+                                <i class="fa-solid fa-flag text-cyan-400"></i> ${story.country}
                             </span>
+                            ${story.isFeelGood ? `
+                                <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-950/80 text-amber-300 border border-amber-800/60 px-2 py-0.5 rounded-md flex items-center gap-1">
+                                    <i class="fa-solid fa-sun text-amber-400"></i> Feel-Good
+                                </span>
+                            ` : ''}
                         </div>
-                        <div class="flex items-center gap-3 text-xs text-slate-400 font-mono-code">
+                        <div class="flex items-center gap-2 text-xs text-slate-400 font-mono-code">
                             <span><i class="fa-regular fa-clock mr-1 text-slate-500"></i>${story.timestamp}</span>
-                            <span>•</span>
-                            <span>${story.readTime}</span>
                         </div>
                     </div>
 
-                    <!-- Article Title -->
-                    <h3 class="text-lg font-bold text-slate-100 group-hover:text-cyan-300 transition font-serif-headline mb-2.5 leading-snug">
+                    <!-- Headline -->
+                    <h3 onclick="openStoryDetail('${story.id}')" class="text-lg font-bold text-slate-100 group-hover:text-cyan-300 transition font-serif-headline mb-2.5 leading-snug cursor-pointer">
                         ${story.title}
                     </h3>
 
-                    <!-- Objective Key Facts Block -->
-                    <div class="bg-slate-950/70 rounded-lg p-3.5 mb-4 border border-slate-800/80">
+                    <!-- Key Objective Facts Box -->
+                    <div class="bg-slate-950/70 rounded-xl p-3.5 mb-4 border border-slate-800/80">
                         <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2 flex items-center justify-between">
                             <span class="flex items-center gap-1.5 text-slate-300">
-                                <i class="fa-solid fa-check-double text-emerald-400"></i> Core Verified Facts (No Opinion)
+                                <i class="fa-solid fa-check-double text-emerald-400"></i> Neutral Verified Facts
                             </span>
-                            <span class="text-[10px] text-emerald-400 font-mono-code bg-emerald-950/60 px-1.5 py-0.5 rounded border border-emerald-800/40">
-                                ${story.factScore}% Fact Density
+                            <span class="text-[10px] text-emerald-400 font-mono-code bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800/40">
+                                ${story.factScore}% Factuality
                             </span>
                         </div>
                         <ul class="space-y-1.5 text-xs text-slate-300">
-                            ${story.facts.slice(0, 3).map(fact => `
+                            ${story.facts.slice(0, 2).map(fact => `
                                 <li class="flex items-start gap-2">
                                     <span class="text-cyan-400 mt-0.5 font-bold">•</span>
                                     <span>${fact}</span>
@@ -964,25 +1793,15 @@
                         </ul>
                     </div>
 
-                    <!-- Multi-Angle Source Preview Bar -->
-                    <div class="mb-4 pt-1 flex items-center gap-2 overflow-x-auto scrollbar-none text-[11px]">
-                        <span class="text-slate-500 font-semibold uppercase text-[9px] shrink-0">Angles Analyzed:</span>
-                        ${story.coverageSpectrum.map(spec => `
-                            <span class="bg-slate-950 border border-slate-800 text-slate-300 px-2 py-0.5 rounded shrink-0 flex items-center gap-1" title="${spec.quote}">
-                                <i class="fa-solid fa-eye text-cyan-400 text-[9px]"></i> ${spec.outlet}
-                            </span>
-                        `).join('')}
-                    </div>
-
-                    <!-- Bottom Card Footer -->
-                    <div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-800/70 text-xs">
+                    <!-- Direct Link Count Bar & Inspect Button -->
+                    <div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-800 text-xs">
                         <div class="flex items-center gap-2 text-slate-400 text-[11px]">
-                            <i class="fa-solid fa-newspaper text-slate-500"></i>
-                            <span>Wire Source: <strong class="text-slate-300">${story.wireSource}</strong></span>
+                            <i class="fa-solid fa-link text-cyan-400"></i>
+                            <span>Available Coverage: <strong class="text-slate-200 font-mono-code">${story.links.length} Direct Outlets</strong></span>
                         </div>
 
-                        <button onclick="openStoryDetail('${story.id}')" class="bg-cyan-950/50 hover:bg-cyan-900/60 text-cyan-300 border border-cyan-800/60 px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition">
-                            <span>Inspect Multi-Angle Fact Sheet</span>
+                        <button onclick="openStoryDetail('${story.id}')" class="bg-cyan-950/60 hover:bg-cyan-900/80 text-cyan-300 border border-cyan-800/60 px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition">
+                            <span>Inspect Outlet Links & Details</span>
                             <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </button>
                     </div>
@@ -990,71 +1809,51 @@
             `).join('');
         }
 
-        // Render Sidebar Region Distribution Counts
-        function renderRegionDistribution() {
-            const regions = ['North America', 'Europe', 'Asia-Pacific', 'Middle East & Africa', 'Latin America'];
-            
-            regionDistributionList.innerHTML = regions.map(reg => {
-                const count = newsDatabase.filter(s => s.region === reg).length;
-                const isSelected = currentRegion === reg;
-                return `
-                    <div onclick="filterByRegion('${reg}')" class="p-2.5 rounded-lg ${isSelected ? 'bg-cyan-950/80 border-cyan-700/80 text-cyan-300' : 'bg-slate-950/80 border-slate-800 text-slate-300 hover:border-slate-700'} border transition cursor-pointer flex justify-between items-center group">
-                        <div class="flex items-center gap-2">
-                            <i class="fa-solid fa-location-dot text-[10px] ${isSelected ? 'text-cyan-400' : 'text-slate-500 group-hover:text-cyan-400'}"></i>
-                            <span class="font-medium text-xs">${reg}</span>
-                        </div>
-                        <span class="font-mono-code text-[10px] bg-slate-900 border border-slate-800 px-2 py-0.5 rounded text-slate-400 group-hover:text-cyan-300">
-                            ${count} reports
-                        </span>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        // Region Filter Handler (Guarantees robust filtering without breaking)
-        function filterByRegion(regionName) {
-            currentRegion = regionName;
-            
-            // Update Region Buttons State
-            document.querySelectorAll('.region-btn').forEach(btn => {
-                if (btn.dataset.region === regionName) {
-                    btn.className = 'region-btn active bg-cyan-950/80 text-cyan-300 border border-cyan-800/60 px-3 py-1 rounded text-[11px] font-medium transition';
-                } else {
-                    btn.className = 'region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition';
-                }
-            });
-
-            renderNewsFeed();
-        }
-
-        // Open Modal Fact Breakdown Sheet
+        // Open Modal Details with Multi-Source Outlet Links
         function openStoryDetail(storyId) {
             const story = newsDatabase.find(s => s.id === storyId);
             if (!story) return;
 
             modalCategory.textContent = story.category;
-            modalRegion.textContent = story.region;
+            modalCountry.textContent = story.country;
             modalTimestamp.textContent = story.timestamp;
             modalHeadline.textContent = story.title;
             modalFactScore.textContent = `${story.factScore}%`;
             modalToneScore.textContent = story.toneScore;
             modalWireSource.textContent = story.wireSource;
 
-            // Facts List
+            if (story.isFeelGood) {
+                modalFeelGoodBadge.classList.remove('hidden');
+            } else {
+                modalFeelGoodBadge.classList.add('hidden');
+            }
+
+            // EXPLICIT CLICKABLE EXTERNAL LINKS
+            modalLinksList.innerHTML = story.links.map(link => `
+                <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-lg bg-slate-900 hover:bg-cyan-950/80 border border-slate-800 hover:border-cyan-700/80 transition flex items-center justify-between text-slate-200 group">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-newspaper text-cyan-400"></i>
+                        <span class="font-bold text-xs group-hover:text-cyan-300">${link.name}</span>
+                    </div>
+                    <span class="text-[10px] text-slate-400 font-mono-code flex items-center gap-1">
+                        ${link.bias} <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                    </span>
+                </a>
+            `).join('');
+
+            // Verified Fact Points
             modalFactList.innerHTML = story.facts.map(f => `
-                <li class="flex items-start gap-2 leading-relaxed bg-slate-900 p-2 rounded border border-slate-800/50">
-                    <i class="fa-solid fa-shield-check text-emerald-400 mt-1 text-xs shrink-0"></i>
-                    <span><strong class="text-slate-100">Verified Fact:</strong> ${f}</span>
+                <li class="flex items-start gap-2 bg-slate-900 p-2.5 rounded-lg border border-slate-800/60">
+                    <i class="fa-solid fa-circle-check text-emerald-400 mt-1 text-xs shrink-0"></i>
+                    <span>${f}</span>
                 </li>
             `).join('');
 
-            // Multi-Perspective Source Matrix
+            // Multi-Perspective Spectrum
             modalSourceSpectrum.innerHTML = story.coverageSpectrum.map(spec => `
-                <div class="p-3 bg-slate-950 border border-slate-800 rounded-lg">
-                    <div class="font-bold text-cyan-400 text-xs mb-1 flex items-center gap-1.5">
-                        <i class="fa-solid fa-newspaper text-[10px]"></i> ${spec.outlet} Framing
-                    </div>
-                    <div class="text-slate-300 italic text-[11px] leading-snug">"${spec.quote}"</div>
+                <div class="p-3 bg-slate-950 border border-slate-800 rounded-xl">
+                    <div class="font-bold text-cyan-400 text-xs mb-1">${spec.outlet} Framing</div>
+                    <div class="text-slate-300 italic text-[11px]">"${spec.quote}"</div>
                 </div>
             `).join('');
 
@@ -1072,10 +1871,39 @@
             document.body.style.overflow = '';
         }
 
-        // Fetch / Manual Sync Logic (5m timer reset)
+        // Toggle Feel Good Mode Handler
+        function toggleFeelGoodMode(enable) {
+            feelGoodModeActive = enable !== undefined ? enable : !feelGoodModeActive;
+
+            if (feelGoodModeActive) {
+                feelGoodToggleBtn.className = 'bg-amber-500 text-slate-950 font-bold border border-amber-400 px-3.5 py-2 rounded-xl transition-all duration-200 flex items-center gap-2 shadow-lg shadow-amber-500/20 active:scale-95';
+                feelGoodBadge.textContent = 'ACTIVE';
+                feelGoodBadge.className = 'bg-slate-950 text-amber-400 text-[10px] font-mono-code font-bold px-1.5 py-0.2 rounded';
+                feelGoodBanner.classList.remove('hidden');
+                sidebarFeelGoodBtn.textContent = 'Disable Feel-Good Mode';
+            } else {
+                feelGoodToggleBtn.className = 'bg-slate-800/90 hover:bg-amber-950/60 text-slate-300 hover:text-amber-300 border border-slate-700 hover:border-amber-500/50 px-3.5 py-2 rounded-xl transition-all duration-200 flex items-center gap-2 shadow-sm font-medium active:scale-95 group';
+                feelGoodBadge.textContent = 'OFF';
+                feelGoodBadge.className = 'bg-amber-500/20 text-amber-400 text-[10px] font-mono-code font-bold px-1.5 py-0.2 rounded border border-amber-500/30';
+                feelGoodBanner.classList.add('hidden');
+                sidebarFeelGoodBtn.innerHTML = '<i class="fa-solid fa-sun"></i> Enable Feel-Good News';
+            }
+
+            renderNewsFeed();
+        }
+
+        // Select Country Handler
+        function selectCountry(countryName) {
+            currentCountry = countryName;
+            countrySelect.value = countryName;
+            renderTopGdpQuickList();
+            renderNewsFeed();
+        }
+
+        // Manual Wire Fetch Simulation
         function fetchLatestWireData(isAuto = false) {
             fetchLatestBtn.disabled = true;
-            fetchLatestBtn.innerHTML = `<i class="fa-solid fa-spinner animate-spin"></i> Synthesizing...`;
+            fetchLatestBtn.innerHTML = `<i class="fa-solid fa-spinner animate-spin"></i>`;
             syncSpinner.classList.add('animate-spin');
 
             setTimeout(() => {
@@ -1084,71 +1912,24 @@
                 const minutes = String(now.getUTCMinutes()).padStart(2, '0');
                 const timeString = `${hours}:${minutes} UTC`;
 
-                lastUpdatedTimestamp = timeString;
-                lastUpdatedTag.textContent = `Last updated: ${timeString} (5m Wire Sync)`;
-
-                // Dynamic new report injected to demonstrate live sync
-                const dynamicId = `wire-dynamic-${Date.now()}`;
-                const categories = ['World', 'Culture', 'Politics', 'Economy', 'Tech & Science', 'Environment'];
-                const regions = ['North America', 'Europe', 'Asia-Pacific', 'Middle East & Africa', 'Latin America'];
-                
-                const randomCat = categories[Math.floor(Math.random() * categories.length)];
-                const randomReg = regions[Math.floor(Math.random() * regions.length)];
-
-                const newWireReport = {
-                    id: dynamicId,
-                    title: `[5m Wire Update] Diplomatic Working Group Finalizes High-Level Consensus on ${randomCat} Protocol`,
-                    category: randomCat,
-                    region: randomReg,
-                    timestamp: timeString,
-                    readTime: '2 min read',
-                    factScore: 99.3,
-                    toneScore: '100% Objective',
-                    facts: [
-                        `Official representatives concluded a 5-minute fast-track diplomatic review in ${randomReg}.`,
-                        'All verified primary documents were cross-referenced against 4 national wire archives.',
-                        'Implementation mechanisms were approved unanimously with zero reported dissents.'
-                    ],
-                    coverageSpectrum: [
-                        { outlet: 'Global Wire Bureau', quote: 'Stresses speed and legal alignment across participating delegations.' },
-                        { outlet: 'International Analysis Feed', quote: 'Notes procedural verification protocols satisfied all baseline standard tests.' }
-                    ],
-                    wireSource: 'Global Lens Wire Automated Digest',
-                    summary: 'A newly synthesized 5-minute wire report verified consensus agreements across diplomatic representatives.'
-                };
-
-                // Add to database
-                newsDatabase.unshift(newWireReport);
-
-                // Reset timer countdown back to 5 minutes (300 seconds)
+                lastUpdatedTag.textContent = `Last updated: ${timeString}`;
                 secondsUntilRefresh = 300;
 
-                renderNewsFeed();
-
                 fetchLatestBtn.disabled = false;
-                fetchLatestBtn.innerHTML = `<i class="fa-solid fa-rotate"></i> <span>Sync Now</span>`;
+                fetchLatestBtn.innerHTML = `<i class="fa-solid fa-rotate"></i> <span>Sync</span>`;
                 syncSpinner.classList.remove('animate-spin');
-
-                showToast(isAuto ? "5-minute wire auto-sync completed!" : "Wire feed updated with latest synthesis!");
-            }, 700);
+                renderNewsFeed();
+            }, 600);
         }
 
-        // Toast Notification System
-        function showToast(message) {
-            const toast = document.createElement('div');
-            toast.className = 'fixed bottom-5 right-5 bg-cyan-500 text-slate-950 font-bold px-4 py-2.5 rounded-lg shadow-xl text-xs z-50 flex items-center gap-2 animate-bounce';
-            toast.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${message}`;
-            document.body.appendChild(toast);
-            setTimeout(() => toast.remove(), 3200);
-        }
-
-        // Ticker Initialization
+        // Ticker Bar
         function initTicker() {
-            const items = [...tickerStories, ...tickerStories];
-            tickerContentEl.innerHTML = items.map(text => `
+            const headlines = newsDatabase.slice(0, 10).map(s => `[${s.country}] ${s.title}`);
+            const items = [...headlines, ...headlines];
+            tickerContentEl.innerHTML = items.map(t => `
                 <div class="inline-flex items-center gap-2">
                     <span class="text-cyan-400">•</span>
-                    <span>${text}</span>
+                    <span>${t}</span>
                 </div>
             `).join('');
         }
@@ -1165,100 +1946,86 @@
             }
         }
 
+        // Event Listeners
         document.addEventListener('DOMContentLoaded', () => {
-            // Start Clocks & Timers
             updateClock();
             setInterval(updateClock, 1000);
             setInterval(runCountdown, 1000);
 
-            // Init Ticker & Initial News Feed
+            populateCountryDropdown();
             initTicker();
+            renderTopGdpQuickList();
             renderNewsFeed();
 
-            // Category Button Listeners
+            // Category Tab Buttons
             document.querySelectorAll('.category-btn').forEach(btn => {
                 btn.addEventListener('click', () => {
                     document.querySelectorAll('.category-btn').forEach(b => {
-                        b.className = 'category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition';
+                        b.className = 'category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition';
                     });
-                    btn.className = 'category-btn active bg-slate-800 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:border-cyan-500 transition';
+                    btn.className = 'category-btn active bg-slate-800 text-cyan-400 border border-cyan-500/40 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:border-cyan-400 transition';
                     currentCategory = btn.dataset.category;
                     renderNewsFeed();
                 });
             });
 
-            // Region Button Listeners
-            document.querySelectorAll('.region-btn').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    filterByRegion(btn.dataset.region);
-                });
+            // Country Select Dropdown
+            countrySelect.addEventListener('change', (e) => {
+                selectCountry(e.target.value);
             });
 
-            // Search Bar Listener
+            // Feel-Good Mode Toggles
+            feelGoodToggleBtn.addEventListener('click', () => toggleFeelGoodMode());
+            disableFeelGoodBtn.addEventListener('click', () => toggleFeelGoodMode(false));
+            sidebarFeelGoodBtn.addEventListener('click', () => toggleFeelGoodMode(!feelGoodModeActive));
+
+            // Search Bar
             searchInput.addEventListener('input', (e) => {
                 searchQuery = e.target.value.trim();
-                renderNewsFeed();
-            });
-
-            // High Factuality Filter Toggle
-            factDensityFilterBtn.addEventListener('click', () => {
-                highFactualityOnly = !highFactualityOnly;
-                if (highFactualityOnly) {
-                    factDensityFilterBtn.classList.add('border-cyan-500', 'bg-cyan-950/50');
-                    factBadgeState.className = 'w-2 h-2 rounded-full bg-cyan-400 animate-pulse';
-                } else {
-                    factDensityFilterBtn.classList.remove('border-cyan-500', 'bg-cyan-950/50');
-                    factBadgeState.className = 'w-2 h-2 rounded-full bg-slate-500';
-                }
                 renderNewsFeed();
             });
 
             // Sort Select
             sortSelect.addEventListener('change', renderNewsFeed);
 
-            // Manual Fetch Sync Button
+            // Manual Fetch Sync
             fetchLatestBtn.addEventListener('click', () => fetchLatestWireData(false));
 
-            // Auto Sync Toggle Switch
-            autoRefreshToggle.addEventListener('change', (e) => {
-                autoRefreshEnabled = e.target.checked;
-                showToast(autoRefreshEnabled ? "5-minute auto-sync enabled" : "Auto-sync paused");
+            // Reset All Filters
+            resetFiltersBtn.addEventListener('click', () => {
+                currentCategory = 'All';
+                currentCountry = 'All';
+                searchQuery = '';
+                feelGoodModeActive = false;
+                searchInput.value = '';
+                countrySelect.value = 'All';
+                toggleFeelGoodMode(false);
+
+                document.querySelectorAll('.category-btn').forEach(b => {
+                    if (b.dataset.category === 'All') {
+                        b.className = 'category-btn active bg-slate-800 text-cyan-400 border border-cyan-500/40 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:border-cyan-400 transition';
+                    } else {
+                        b.className = 'category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-lg font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition';
+                    }
+                });
+
+                renderTopGdpQuickList();
+                renderNewsFeed();
             });
 
             // Theme Toggle
             themeToggleBtn.addEventListener('click', toggleTheme);
 
-            // Reset Filters Button
-            resetFiltersBtn.addEventListener('click', () => {
-                currentCategory = 'All';
-                currentRegion = 'All';
-                searchQuery = '';
-                highFactualityOnly = false;
-                searchInput.value = '';
-                
-                document.querySelectorAll('.category-btn').forEach(b => {
-                    if (b.dataset.category === 'All') {
-                        b.className = 'category-btn active bg-slate-800 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:border-cyan-500 transition';
-                    } else {
-                        b.className = 'category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition';
-                    }
-                });
-
-                filterByRegion('All');
-            });
-
-            // Modal Controls
+            // Modal Handlers
             closeModalBtn.addEventListener('click', closeModal);
             closeModalFooterBtn.addEventListener('click', closeModal);
             detailModal.addEventListener('click', (e) => {
                 if (e.target === detailModal) closeModal();
             });
 
-            // Mobile Menu Toggle
-            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-            const headerControls = document.getElementById('headerControls');
-            mobileMenuBtn.addEventListener('click', () => {
-                headerControls.classList.toggle('hidden');
+            // Mobile Menu
+            document.getElementById('mobileMenuBtn').addEventListener('click', () => {
+                document.getElementById('headerControls').classList.toggle('hidden');
             });
         });
     </script>
