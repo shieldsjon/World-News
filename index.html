@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Lens News - Objective Global Coverage</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        slate: {
+                            850: '#111827',
+                            900: '#0f172a',
+                            950: '#090d16',
+                        },
+                        brand: {
+                            cyan: '#06b6d4',
+                            blue: '#3b82f6',
+                            emerald: '#10b981',
+                            amber: '#f59e0b'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        serif: ['Georgia', 'Cambria', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .font-serif-headline { font-family: 'Newsreader', serif; }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: rgba(15, 23, 42, 0.6); }
+        ::-webkit-scrollbar-thumb { background: rgba(51, 65, 85, 0.8); border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(71, 85, 105, 1); }
+
+        /* Ticker Animation */
+        @keyframes ticker {
+            0% { transform: translate3d(0, 0, 0); }
+            100% { transform: translate3d(-50%, 0, 0); }
+        }
+        .animate-ticker {
+            display: inline-block;
+            white-space: nowrap;
+            animation: ticker 45s linear infinite;
+        }
+        .animate-ticker:hover {
+            animation-play-state: paused;
+        }
+
+        /* Pulse aura for breaking news */
+        .live-indicator {
+            box-shadow: 0 0 8px #ef4444;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col selection:bg-cyan-500 selection:text-slate-950 transition-colors duration-300">
+
+    <!-- Breaking News Ticker -->
+    <div class="bg-slate-900 border-b border-slate-800 text-xs overflow-hidden flex items-center h-9 sticky top-0 z-50 backdrop-blur-md bg-opacity-95">
+        <div class="bg-red-600 text-white font-bold px-3 py-1.5 flex items-center shrink-0 uppercase tracking-wider text-[10px] z-10 gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-white animate-ping"></span>
+            Wire Feed
+        </div>
+        <div class="overflow-hidden w-full relative flex items-center">
+            <div id="tickerContent" class="animate-ticker text-slate-300 flex items-center gap-8 pl-4">
+                <!-- Dynamically populated ticker items -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur-md sticky top-9 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                
+                <!-- Logo & Brand Info -->
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg shadow-cyan-500/20">
+                            <i class="fa-solid font-bold fa-globe"></i>
+                        </div>
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <h1 class="text-xl font-bold tracking-tight text-white font-serif-headline">GLOBAL LENS</h1>
+                                <span class="bg-cyan-950/80 text-cyan-400 text-[10px] font-semibold px-2 py-0.5 rounded border border-cyan-800/50 uppercase tracking-wider">Objective Wire</span>
+                            </div>
+                            <p class="text-xs text-slate-400">Verifiable, Multi-Perspective International Journalism</p>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Controls Toggle -->
+                    <button id="mobileMenuBtn" class="md:hidden p-2 text-slate-400 hover:text-white rounded-lg border border-slate-800">
+                        <i class="fa-solid fa-bars text-lg"></i>
+                    </button>
+                </div>
+
+                <!-- Clock, Next Hourly Sync Counter & Refresh Tools -->
+                <div id="headerControls" class="flex flex-wrap items-center gap-3 text-xs md:flex">
+                    <!-- UTC Clock -->
+                    <div class="bg-slate-800/80 border border-slate-700/60 rounded-lg px-3 py-1.5 flex items-center gap-2">
+                        <i class="fa-regular fa-clock text-cyan-400"></i>
+                        <div>
+                            <span class="text-slate-400 block text-[9px] uppercase font-semibold">UTC Standard</span>
+                            <span id="utcClock" class="font-mono font-medium text-slate-200">00:00:00 UTC</span>
+                        </div>
+                    </div>
+
+                    <!-- Hourly Countdown -->
+                    <div class="bg-slate-800/80 border border-slate-700/60 rounded-lg px-3 py-1.5 flex items-center gap-2">
+                        <i class="fa-solid fa-arrows-rotate text-emerald-400 animate-spin" style="animation-duration: 8s;"></i>
+                        <div>
+                            <span class="text-slate-400 block text-[9px] uppercase font-semibold">Next Hourly Refresh</span>
+                            <span id="refreshCountdown" class="font-mono font-medium text-emerald-400">59:59</span>
+                        </div>
+                    </div>
+
+                    <!-- Manual Fetch Button -->
+                    <button id="fetchLatestBtn" title="Fetch latest hourly synthesis" class="bg-cyan-600 hover:bg-cyan-500 text-slate-950 font-semibold px-3 py-2 rounded-lg transition-all flex items-center gap-2 active:scale-95 shadow-md shadow-cyan-600/20">
+                        <i class="fa-solid fa-rotate"></i>
+                        <span>Fetch Hourly Wire</span>
+                    </button>
+
+                    <!-- Auto Sync Toggle Switch -->
+                    <label class="flex items-center gap-2 bg-slate-800/50 border border-slate-800 px-2.5 py-1.5 rounded-lg cursor-pointer hover:bg-slate-800 transition">
+                        <input type="checkbox" id="autoRefreshToggle" checked class="sr-only peer">
+                        <div class="w-7 h-4 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-3 after:w-3 after:transition-all peer-checked:bg-cyan-500 relative"></div>
+                        <span class="text-[11px] text-slate-300 select-none font-medium">Auto-Sync</span>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Filter Navigation & Search Bar -->
+    <section class="border-b border-slate-800 bg-slate-900/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+                
+                <!-- Category Buttons -->
+                <div class="flex items-center gap-1.5 overflow-x-auto pb-2 lg:pb-0 scrollbar-none text-xs">
+                    <button data-category="All" class="category-btn active bg-slate-800 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:border-cyan-500 transition">
+                        <i class="fa-solid fa-layer-group mr-1.5 text-[10px]"></i>All Top News
+                    </button>
+                    <button data-category="World" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        World Affairs
+                    </button>
+                    <button data-category="Politics" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        Governance & Diplomacy
+                    </button>
+                    <button data-category="Economy" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        Global Economy & Trade
+                    </button>
+                    <button data-category="Tech & Science" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        Science & Technology
+                    </button>
+                    <button data-category="Environment" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        Climate & Energy
+                    </button>
+                    <button data-category="Culture" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        Society & Culture
+                    </button>
+                </div>
+
+                <!-- Search & High Factuality Toggle -->
+                <div class="flex items-center gap-3">
+                    <!-- Fact Check Filter Toggle -->
+                    <button id="factDensityFilterBtn" class="bg-slate-800/80 hover:bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700/60 flex items-center gap-2 transition shrink-0" title="Toggle strictly 95%+ Factuality items">
+                        <i class="fa-solid fa-shield-halved text-cyan-400"></i>
+                        <span>High Fact-Density Only</span>
+                        <span id="factBadgeState" class="w-2 h-2 rounded-full bg-slate-500"></span>
+                    </button>
+
+                    <!-- Search Input -->
+                    <div class="relative w-full lg:w-64">
+                        <input type="text" id="searchInput" placeholder="Filter headlines, locations, tags..." class="w-full bg-slate-950 border border-slate-800 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500/80 transition placeholder-slate-500">
+                        <i class="fa-solid fa-magnifying-glass absolute left-2.5 top-2.5 text-slate-500 text-xs"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Regional Geographic Selector Bar -->
+            <div class="mt-3 pt-3 border-t border-slate-800/60 flex items-center gap-2 text-xs overflow-x-auto scrollbar-none">
+                <span class="text-slate-400 font-semibold uppercase text-[10px] tracking-wider shrink-0 mr-1">
+                    <i class="fa-solid fa-earth-americas mr-1"></i> Region Filter:
+                </span>
+                <button data-region="All" class="region-btn bg-cyan-950/60 text-cyan-300 border border-cyan-800/50 px-2.5 py-0.5 rounded text-[11px]">Global All</button>
+                <button data-region="North America" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]">North America</button>
+                <button data-region="Europe" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]">Europe</button>
+                <button data-region="Asia-Pacific" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]">Asia-Pacific</button>
+                <button data-region="Middle East & Africa" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]">Middle East & Africa</button>
+                <button data-region="Latin America" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]">Latin America</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Container -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full">
+        
+        <!-- Live Hourly Digest Info Panel -->
+        <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 border border-slate-800 rounded-xl p-4 mb-6 shadow-md flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="p-2.5 bg-cyan-500/10 text-cyan-400 rounded-lg border border-cyan-500/20">
+                    <i class="fa-solid fa-satellite-dish text-xl"></i>
+                </div>
+                <div>
+                    <div class="flex items-center gap-2">
+                        <h2 class="text-sm font-semibold text-slate-100">Hourly Wire Synthesis Active</h2>
+                        <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium bg-emerald-950 text-emerald-400 border border-emerald-800/50">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse"></span>
+                            Live Hourly Feed
+                        </span>
+                    </div>
+                    <p class="text-xs text-slate-400 mt-0.5">
+                        <span id="lastUpdatedTag">Updated top of the hour: 08:00 UTC</span> • Articles synthesized from 30+ international wire services stripped of opinion commentary.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Transparency Gauge Legend -->
+            <div class="flex items-center gap-4 text-xs bg-slate-950/60 p-2.5 rounded-lg border border-slate-800/80 shrink-0">
+                <div class="flex items-center gap-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+                    <span class="text-slate-300">Objective Fact</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-cyan-400"></span>
+                    <span class="text-slate-300">Multi-Regional Consensus</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- News Feed Grid & Sidebar Wrapper -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            
+            <!-- Primary Feed (Left Columns) -->
+            <div class="lg:col-span-8 space-y-6">
+                <!-- Feed Header Controls -->
+                <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+                    <div class="flex items-center gap-2">
+                        <h3 class="text-base font-semibold text-slate-200 font-serif-headline">Factual Wire Reports</h3>
+                        <span id="storyCountBadge" class="bg-slate-800 text-slate-400 text-xs px-2 py-0.5 rounded-full">0 stories</span>
+                    </div>
+                    
+                    <div class="flex items-center gap-2 text-xs">
+                        <span class="text-slate-400">Sort:</span>
+                        <select id="sortSelect" class="bg-slate-900 border border-slate-800 text-slate-300 rounded px-2 py-1 focus:outline-none focus:border-cyan-500">
+                            <option value="newest">Newest First</option>
+                            <option value="factuality">Highest Objectivity Score</option>
+                            <option value="readTime">Shortest Read Time</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Dynamic News Cards Container -->
+                <div id="newsFeed" class="space-y-5">
+                    <!-- News Cards Injected dynamically via JS -->
+                </div>
+
+                <!-- Empty State -->
+                <div id="emptyFeedState" class="hidden text-center py-12 border border-dashed border-slate-800 rounded-xl">
+                    <i class="fa-solid fa-filter-circle-xmark text-4xl text-slate-600 mb-3"></i>
+                    <p class="text-slate-400 text-sm">No factual reports match your current filter criteria.</p>
+                    <button id="resetFiltersBtn" class="mt-3 text-xs bg-cyan-600/20 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-md hover:bg-cyan-600/30 transition">Clear All Filters</button>
+                </div>
+            </div>
+
+            <!-- Sidebar / Regional Briefings (Right Columns) -->
+            <aside class="lg:col-span-4 space-y-6">
+                
+                <!-- Neutrality Index Overview Box -->
+                <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 shadow-lg">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-sm font-semibold text-slate-200 uppercase tracking-wider flex items-center gap-2">
+                            <i class="fa-solid fa-chart-pie text-cyan-400"></i> Wire Neutrality Radar
+                        </h3>
+                        <span class="text-[10px] text-slate-500 bg-slate-950 px-2 py-0.5 rounded">Hourly Audit</span>
+                    </div>
+
+                    <p class="text-xs text-slate-400 mb-4">
+                        Real-time audit evaluating bias variance across international press agencies for this hour's output.
+                    </p>
+
+                    <div class="space-y-3 text-xs">
+                        <div>
+                            <div class="flex justify-between text-slate-300 mb-1">
+                                <span>Fact-Density Index</span>
+                                <span class="font-mono text-emerald-400 font-semibold">97.4%</span>
+                            </div>
+                            <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
+                                <div class="bg-emerald-500 h-2 rounded-full" style="width: 97.4%"></div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-slate-300 mb-1">
+                                <span>Adjective / Emotion Ratio</span>
+                                <span class="font-mono text-cyan-400 font-semibold">&lt; 1.2% (Low)</span>
+                            </div>
+                            <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
+                                <div class="bg-cyan-500 h-2 rounded-full" style="width: 12%"></div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between text-slate-300 mb-1">
+                                <span>Cross-Wire Verification Rate</span>
+                                <span class="font-mono text-blue-400 font-semibold">99.1%</span>
+                            </div>
+                            <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
+                                <div class="bg-blue-500 h-2 rounded-full" style="width: 99.1%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Global Region Snapshot Selector -->
+                <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 shadow-lg">
+                    <h3 class="text-sm font-semibold text-slate-200 uppercase tracking-wider mb-3 flex items-center gap-2">
+                        <i class="fa-solid fa-map-location-dot text-cyan-400"></i> Regional Factual Focus
+                    </h3>
+                    <p class="text-xs text-slate-400 mb-3">
+                        Key regional diplomatic and economic developments verified by global correspondents.
+                    </p>
+
+                    <div class="space-y-2 text-xs">
+                        <div class="p-2.5 rounded-lg bg-slate-950/80 border border-slate-800 hover:border-slate-700 transition cursor-pointer flex justify-between items-center group" onclick="filterByRegion('Asia-Pacific')">
+                            <div>
+                                <div class="font-medium text-slate-200 group-hover:text-cyan-400 transition">Asia-Pacific</div>
+                                <div class="text-[10px] text-slate-400">3 Verified Updates</div>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-slate-600 group-hover:text-cyan-400 text-xs"></i>
+                        </div>
+
+                        <div class="p-2.5 rounded-lg bg-slate-950/80 border border-slate-800 hover:border-slate-700 transition cursor-pointer flex justify-between items-center group" onclick="filterByRegion('Europe')">
+                            <div>
+                                <div class="font-medium text-slate-200 group-hover:text-cyan-400 transition">Europe & Central Asia</div>
+                                <div class="text-[10px] text-slate-400">2 Verified Updates</div>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-slate-600 group-hover:text-cyan-400 text-xs"></i>
+                        </div>
+
+                        <div class="p-2.5 rounded-lg bg-slate-950/80 border border-slate-800 hover:border-slate-700 transition cursor-pointer flex justify-between items-center group" onclick="filterByRegion('Middle East & Africa')">
+                            <div>
+                                <div class="font-medium text-slate-200 group-hover:text-cyan-400 transition">Middle East & Africa</div>
+                                <div class="text-[10px] text-slate-400">2 Verified Updates</div>
+                            </div>
+                            <i class="fa-solid fa-chevron-right text-slate-600 group-hover:text-cyan-400 text-xs"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Standards & Methodology Accordion -->
+                <div class="bg-slate-900/60 border border-slate-800 rounded-xl p-4 text-xs text-slate-400">
+                    <h4 class="font-semibold text-slate-300 mb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-scale-balanced text-amber-400"></i> Editorial Neutrality Promise
+                    </h4>
+                    <p class="leading-relaxed">
+                        Every report passes through automated natural language syntax filters that strip subjective adjectives, emotional framing, and spin. Key facts are cross-checked against minimum 3 independent primary wires.
+                    </p>
+                </div>
+
+            </aside>
+        </div>
+    </main>
+
+    <!-- Detailed Fact Breakdown & Source Compare Modal -->
+    <div id="detailModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300">
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-hidden flex flex-col shadow-2xl transform scale-95 transition-transform duration-300" id="modalContent">
+            
+            <!-- Modal Header -->
+            <div class="p-5 border-b border-slate-800 flex items-start justify-between bg-slate-950/50">
+                <div class="pr-6">
+                    <div class="flex items-center gap-2 mb-1">
+                        <span id="modalCategory" class="text-[10px] font-bold uppercase tracking-wider bg-cyan-950 text-cyan-400 border border-cyan-800/60 px-2 py-0.5 rounded">Category</span>
+                        <span id="modalTimestamp" class="text-xs text-slate-400 font-mono">00:00 UTC</span>
+                    </div>
+                    <h3 id="modalHeadline" class="text-xl font-bold text-white font-serif-headline">Headline Title Placeholder</h3>
+                </div>
+                <button id="closeModalBtn" class="p-2 text-slate-400 hover:text-white rounded-lg bg-slate-800/50 hover:bg-slate-800 transition">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+            </div>
+
+            <!-- Modal Scrollable Body -->
+            <div class="p-6 overflow-y-auto space-y-6 text-slate-300 text-sm">
+                
+                <!-- Core Verified Facts Box -->
+                <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-4">
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-3 flex items-center gap-2">
+                        <i class="fa-solid fa-list-check"></i> Primary Factual Breakdown
+                    </h4>
+                    <ul id="modalFactList" class="space-y-2 list-disc list-inside text-xs text-slate-200">
+                        <!-- Fact Bullet points injected dynamically -->
+                    </ul>
+                </div>
+
+                <!-- Multi-Perspective Source Matrix -->
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200 mb-3 flex items-center gap-2">
+                        <i class="fa-solid fa-sitemap text-cyan-400"></i> Source Angle Comparison
+                    </h4>
+                    <p class="text-xs text-slate-400 mb-3">How major regional media outlets are reporting this event:</p>
+
+                    <div id="modalSourceSpectrum" class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                        <!-- Dynamically filled source angles -->
+                    </div>
+                </div>
+
+                <!-- Factuality & Tone Score Card -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+                    <div class="p-3 rounded-lg bg-slate-950 border border-slate-800 text-center">
+                        <div class="text-[10px] text-slate-400 uppercase">Fact-Density</div>
+                        <div id="modalFactScore" class="text-base font-bold text-emerald-400 font-mono mt-0.5">98.5%</div>
+                    </div>
+                    <div class="p-3 rounded-lg bg-slate-950 border border-slate-800 text-center">
+                        <div class="text-[10px] text-slate-400 uppercase">Tone Neutrality</div>
+                        <div id="modalToneScore" class="text-base font-bold text-cyan-400 font-mono mt-0.5">Objective</div>
+                    </div>
+                    <div class="p-3 rounded-lg bg-slate-950 border border-slate-800 text-center col-span-2 sm:col-span-1">
+                        <div class="text-[10px] text-slate-400 uppercase">Primary Wire</div>
+                        <div id="modalWireSource" class="text-xs font-medium text-slate-200 mt-1 truncate">Reuters / AP</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="p-4 border-t border-slate-800 bg-slate-950/50 flex justify-end">
+                <button id="closeModalFooterBtn" class="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold px-4 py-2 rounded-lg transition">Close Fact Sheet</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="border-t border-slate-800 bg-slate-950 py-8 text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-2">
+                <div class="w-6 h-6 rounded bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-xs">GL</div>
+                <span class="text-slate-400 font-semibold font-serif-headline">GLOBAL LENS NEWS</span>
+                <span>— Unbiased Hourly International Wire</span>
+            </div>
+
+            <div class="flex items-center gap-6">
+                <span>Updated every hour at :00 UTC</span>
+                <span class="text-slate-600">•</span>
+                <a href="#" class="hover:text-slate-300 transition">Neutrality Protocol</a>
+                <span class="text-slate-600">•</span>
+                <a href="#" class="hover:text-slate-300 transition">API Wire Access</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        
+        // Comprehensive Dataset for Dynamic Hourly Generation
+        const newsDatabase = [
+            {
+                id: 'wire-001',
+                title: 'Global Trade Conference Reaches Pact on Digital Service Tariff Standards',
+                category: 'Economy',
+                region: 'Europe',
+                timestamp: '08:00 UTC',
+                readTime: '3 min read',
+                factScore: 98.7,
+                toneScore: '99% Objective',
+                facts: [
+                    'Delegates from 140 nations agreed on a standardized digital service tax framework in Geneva.',
+                    'The agreement establishes a baseline 15% rate on multinational tech operations operating cross-border.',
+                    'Implementation is scheduled to begin across member states by Q3 2027.',
+                    'Ratification requires legislative approval from at least 60 member parliaments.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Western Wire', quote: 'Emphasizes compliance relief for major Silicon Valley software firms.' },
+                    { outlet: 'Asia-Pacific Herald', quote: 'Focuses on revenue distribution guarantees for developing tech sectors.' },
+                    { outlet: 'Middle East Business', quote: 'Highlights tax predictability for sovereign investment funds.' }
+                ],
+                wireSource: 'Reuters / Associated Press',
+                summary: '140 nation representatives ratified a standardized framework governing digital service tariffs during Geneva plenary sessions today.'
+            },
+            {
+                id: 'wire-002',
+                title: 'International Renewable Consortium Announces 50GW Offshore Wind Project',
+                category: 'Environment',
+                region: 'North America',
+                timestamp: '08:00 UTC',
+                readTime: '2 min read',
+                factScore: 96.4,
+                toneScore: '97% Neutral',
+                facts: [
+                    'A multi-country energy consortium finalized $45 billion in funding for Atlantic offshore wind turbines.',
+                    'Projected capacity is 50 gigawatts, estimated to power approximately 18 million households upon completion in 2030.',
+                    'Environmental impact assessments recorded zero high-risk migration corridor intersections.',
+                    'Bidding for marine turbine construction contracts opens next month.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Global Energy Review', quote: 'Technical focus on high-capacity turbine efficiency metrics.' },
+                    { outlet: 'Atlantic Economic Observer', quote: 'Highlights port infrastructure job creation potential.' }
+                ],
+                wireSource: 'Agence France-Presse (AFP)',
+                summary: 'Energy authorities finalized a multi-national funding treaty for a 50GW Atlantic offshore wind installation scheduled for 2030 completion.'
+            },
+            {
+                id: 'wire-003',
+                title: 'UN Security Council Drafts Resolution on Sub-Saharan Humanitarian Corridors',
+                category: 'Politics',
+                region: 'Middle East & Africa',
+                timestamp: '07:45 UTC',
+                readTime: '4 min read',
+                factScore: 99.1,
+                toneScore: '100% Objective',
+                facts: [
+                    'UNSC diplomats tabled Resolution 2891 establishing three neutral relief transit zones.',
+                    'The resolution guarantees UN peacekeeper oversight for food supply trucks.',
+                    'Voting is scheduled for 15:00 UTC following secondary delegation reviews.',
+                    'All five permanent members signaled conditional support without veto threats.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'African Diplomatic Journal', quote: 'Focuses on regional sovereignty provisions within relief corridors.' },
+                    { outlet: 'UN News Wire', quote: 'Stresses humanitarian urgency and non-partisan distribution protocols.' }
+                ],
+                wireSource: 'United Nations Press Corps',
+                summary: 'Diplomats at the UN Security Council prepared a unanimous resolution establishing protected transport lanes for humanitarian shipments.'
+            },
+            {
+                id: 'wire-004',
+                title: 'Quantum Computing Research Team Demonstrates Fault-Tolerant Logical Qubits',
+                category: 'Tech & Science',
+                region: 'Asia-Pacific',
+                timestamp: '07:30 UTC',
+                readTime: '3 min read',
+                factScore: 95.8,
+                toneScore: '96% Objective',
+                facts: [
+                    'Researchers across Tokyo and Zurich maintained 1,000 logical qubits error-free for 12 continuous minutes.',
+                    'The experiment utilized topological error correction codes running at cryogenic temperatures.',
+                    'Peer-reviewed documentation was published in the International Physics Journal today.',
+                    'Commercial application timelines remain projected for 5-10 years.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Nikkei Tech', quote: 'Highlights semiconductor supply chain readiness for hardware requirements.' },
+                    { outlet: 'European Science Daily', quote: 'Focuses on algorithmic mathematical proofs behind the error correction.' }
+                ],
+                wireSource: 'Kyodo News / DPA',
+                summary: 'International physicists published verified data demonstrating continuous error-corrected quantum computation exceeding previous duration benchmarks.'
+            },
+            {
+                id: 'wire-005',
+                title: 'Central Banks Update Settlement Protocol for Cross-Border Interbank Transfers',
+                category: 'Economy',
+                region: 'Latin America',
+                timestamp: '07:15 UTC',
+                readTime: '2 min read',
+                factScore: 97.9,
+                toneScore: '98% Neutral',
+                facts: [
+                    'Central banks across Latin America and Europe launched a real-time atomic settlement network.',
+                    'Transaction finality was reduced from 48 hours to under 3 seconds during live trials.',
+                    'System fees are capped at 0.01% of total transaction volumes.',
+                    'Participating commercial institutions total 84 banking entities at launch.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Financial Times Americas', quote: 'Analyzes liquidity velocity improvements for exporter corporations.' },
+                    { outlet: 'Brazillian Banking Journal', quote: 'Details regulatory compliance integration for regional lenders.' }
+                ],
+                wireSource: 'Bloomberg Wire Service',
+                summary: 'Central monetary institutions deployed an upgraded interbank protocol allowing instant cross-border treasury settlements.'
+            },
+            {
+                id: 'wire-006',
+                title: 'International Maritime Organization Sets Standardized Vessel Emission Cap',
+                category: 'Environment',
+                region: 'World',
+                timestamp: '06:50 UTC',
+                readTime: '3 min read',
+                factScore: 96.2,
+                toneScore: '97% Objective',
+                facts: [
+                    'The IMO approved binding target limits reducing sulfur and carbon output by 40% by 2032.',
+                    'Container carriers exceeding limits face tiered port access fee surcharges.',
+                    'Alternative fuel subsidies were approved for methanol and ammonia propulsion retrofits.',
+                    'Global shipping lines representing 80% of global fleet capacity voted in favor.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Global Shipping Digest', quote: 'Details shipbuilder conversion timelines and shipyard capacity.' },
+                    { outlet: 'Pacific Rim Trade Today', quote: 'Examines freight rates adjustments across trans-pacific routes.' }
+                ],
+                wireSource: 'Maritime Executive Wire',
+                summary: 'The IMO established enforced emissions thresholds for international commercial shipping vessels entering member state ports.'
+            }
+        ];
+
+        // Ticker items
+        const tickerStories = [
+            "Geneva: Global Trade Conference ratifies digital tax standard across 140 states.",
+            "Energy: 50GW Offshore Wind Consortium completes $45B funding round.",
+            "UN Security Council: Neutral humanitarian corridor draft receives full delegation support.",
+            "Tokyo: Physics lab achieves 12-minute error-free fault-tolerant quantum state.",
+            "Maritime IMO: Binding ocean cargo emission caps enacted for 2032 enforcement."
+        ];
+
+        let currentCategory = 'All';
+        let currentRegion = 'All';
+        let searchQuery = '';
+        let highFactualityOnly = false;
+        let autoRefreshEnabled = true;
+        let secondsUntilRefresh = 3600; // 1 hour countdown
+        let lastUpdatedTimestamp = '08:00 UTC';
+
+        const newsFeedEl = document.getElementById('newsFeed');
+        const emptyFeedStateEl = document.getElementById('emptyFeedState');
+        const tickerContentEl = document.getElementById('tickerContent');
+        const utcClockEl = document.getElementById('utcClock');
+        const refreshCountdownEl = document.getElementById('refreshCountdown');
+        const autoRefreshToggle = document.getElementById('autoRefreshToggle');
+        const fetchLatestBtn = document.getElementById('fetchLatestBtn');
+        const searchInput = document.getElementById('searchInput');
+        const factDensityFilterBtn = document.getElementById('factDensityFilterBtn');
+        const factBadgeState = document.getElementById('factBadgeState');
+        const storyCountBadge = document.getElementById('storyCountBadge');
+        const lastUpdatedTag = document.getElementById('lastUpdatedTag');
+        const sortSelect = document.getElementById('sortSelect');
+        const resetFiltersBtn = document.getElementById('resetFiltersBtn');
+
+        // Modal Elements
+        const detailModal = document.getElementById('detailModal');
+        const modalContent = document.getElementById('modalContent');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+        const closeModalFooterBtn = document.getElementById('closeModalFooterBtn');
+        const modalCategory = document.getElementById('modalCategory');
+        const modalTimestamp = document.getElementById('modalTimestamp');
+        const modalHeadline = document.getElementById('modalHeadline');
+        const modalFactList = document.getElementById('modalFactList');
+        const modalSourceSpectrum = document.getElementById('modalSourceSpectrum');
+        const modalFactScore = document.getElementById('modalFactScore');
+        const modalToneScore = document.getElementById('modalToneScore');
+        const modalWireSource = document.getElementById('modalWireSource');
+
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getUTCHours()).padStart(2, '0');
+            const minutes = String(now.getUTCMinutes()).padStart(2, '0');
+            const seconds = String(now.getUTCSeconds()).padStart(2, '0');
+            utcClockEl.textContent = `${hours}:${minutes}:${seconds} UTC`;
+        }
+
+        function runCountdown() {
+            if (!autoRefreshEnabled) return;
+
+            secondsUntilRefresh--;
+            if (secondsUntilRefresh <= 0) {
+                secondsUntilRefresh = 3600;
+                fetchLatestHourlyData(true);
+            }
+
+            const mins = Math.floor(secondsUntilRefresh / 60);
+            const secs = secondsUntilRefresh % 60;
+            refreshCountdownEl.textContent = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+
+        function renderNewsFeed() {
+            let filtered = newsDatabase.filter(story => {
+                const matchCategory = (currentCategory === 'All') || (story.category === currentCategory);
+                const matchRegion = (currentRegion === 'All') || (story.region === currentRegion) || (story.region === 'World');
+                const matchSearch = searchQuery === '' || 
+                    story.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                    story.summary.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                    story.facts.some(f => f.toLowerCase().includes(searchQuery.toLowerCase()));
+                const matchFactuality = !highFactualityOnly || story.factScore >= 97.0;
+
+                return matchCategory && matchRegion && matchSearch && matchFactuality;
+            });
+
+            // Sorting
+            const sortMode = sortSelect.value;
+            if (sortMode === 'factuality') {
+                filtered.sort((a, b) => b.factScore - a.factScore);
+            } else if (sortMode === 'readTime') {
+                filtered.sort((a, b) => parseInt(a.readTime) - parseInt(b.readTime));
+            } // Default 'newest' keeps initial database ordering
+
+            storyCountBadge.textContent = `${filtered.length} verified reports`;
+
+            if (filtered.length === 0) {
+                newsFeedEl.innerHTML = '';
+                emptyFeedStateEl.classList.remove('hidden');
+                return;
+            }
+
+            emptyFeedStateEl.classList.add('hidden');
+            newsFeedEl.innerHTML = filtered.map(story => `
+                <article class="bg-slate-900 border border-slate-800 hover:border-slate-700/80 rounded-xl p-5 transition-all duration-200 shadow-md hover:shadow-lg group">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[10px] font-bold uppercase tracking-wider bg-cyan-950/80 text-cyan-400 border border-cyan-800/60 px-2 py-0.5 rounded">
+                                ${story.category}
+                            </span>
+                            <span class="text-[10px] font-medium text-slate-400 bg-slate-950 px-2 py-0.5 rounded border border-slate-800">
+                                <i class="fa-solid fa-location-dot text-slate-500 mr-1"></i>${story.region}
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-3 text-xs text-slate-400 font-mono">
+                            <span><i class="fa-regular fa-clock mr-1 text-slate-500"></i>${story.timestamp}</span>
+                            <span>•</span>
+                            <span>${story.readTime}</span>
+                        </div>
+                    </div>
+
+                    <!-- Headline -->
+                    <h3 class="text-lg font-bold text-slate-100 group-hover:text-cyan-300 transition font-serif-headline mb-2.5 leading-snug">
+                        ${story.title}
+                    </h3>
+
+                    <!-- Objective Key Facts Bullet List -->
+                    <div class="bg-slate-950/70 rounded-lg p-3.5 mb-4 border border-slate-800/80">
+                        <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2 flex items-center gap-1.5">
+                            <i class="fa-solid fa-check-double text-emerald-400"></i> Verified Objective Facts (Who, What, Where)
+                        </div>
+                        <ul class="space-y-1.5 text-xs text-slate-300">
+                            ${story.facts.slice(0, 3).map(fact => `
+                                <li class="flex items-start gap-2">
+                                    <span class="text-cyan-500 mt-0.5">•</span>
+                                    <span>${fact}</span>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+
+                    <!-- Bottom Bar & Spectrum Gauge -->
+                    <div class="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-slate-800/60 text-xs">
+                        <!-- Fact Density Badge -->
+                        <div class="flex items-center gap-3">
+                            <div class="flex items-center gap-1.5 bg-emerald-950/50 text-emerald-400 border border-emerald-800/40 px-2.5 py-1 rounded text-[11px]">
+                                <i class="fa-solid fa-shield text-[10px]"></i>
+                                <span>${story.factScore}% Objective Fact-Density</span>
+                            </div>
+                            <span class="text-slate-500 text-[11px] hidden sm:inline">Wire: ${story.wireSource}</span>
+                        </div>
+
+                        <!-- Open Detail Modal Action -->
+                        <button onclick="openStoryDetail('${story.id}')" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-1.5 hover:underline transition">
+                            <span>Full Fact Breakdown & Perspectives</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        function initTicker() {
+            // Duplicate ticker items to create smooth continuous infinite loop
+            const items = [...tickerStories, ...tickerStories];
+            tickerContentEl.innerHTML = items.map(text => `
+                <div class="inline-flex items-center gap-2">
+                    <span class="text-slate-400">•</span>
+                    <span>${text}</span>
+                </div>
+            `).join('');
+        }
+
+        function openStoryDetail(storyId) {
+            const story = newsDatabase.find(s => s.id === storyId);
+            if (!story) return;
+
+            modalCategory.textContent = story.category;
+            modalTimestamp.textContent = story.timestamp;
+            modalHeadline.textContent = story.title;
+            modalFactScore.textContent = `${story.factScore}%`;
+            modalToneScore.textContent = story.toneScore;
+            modalWireSource.textContent = story.wireSource;
+
+            // Facts List
+            modalFactList.innerHTML = story.facts.map(f => `
+                <li class="leading-relaxed"><strong class="text-slate-100">Fact:</strong> ${f}</li>
+            `).join('');
+
+            // Multi-Perspective Source Matrix
+            modalSourceSpectrum.innerHTML = story.coverageSpectrum.map(spec => `
+                <div class="p-3 bg-slate-950 border border-slate-800 rounded-lg">
+                    <div class="font-semibold text-cyan-400 text-xs mb-1">${spec.outlet} Focus</div>
+                    <div class="text-slate-300 italic text-[11px]">"${spec.quote}"</div>
+                </div>
+            `).join('');
+
+            // Show Modal with Animation
+            detailModal.classList.remove('opacity-0', 'pointer-events-none');
+            modalContent.classList.remove('scale-95');
+            modalContent.classList.add('scale-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            detailModal.classList.add('opacity-0', 'pointer-events-none');
+            modalContent.classList.remove('scale-100');
+            modalContent.classList.add('scale-95');
+            document.body.style.overflow = '';
+        }
+
+        function fetchLatestHourlyData(isAuto = false) {
+            // Simulate API fetch delay
+            fetchLatestBtn.disabled = true;
+            fetchLatestBtn.innerHTML = `<i class="fa-solid fa-spinner animate-spin"></i> Synthesizing...`;
+
+            setTimeout(() => {
+                const now = new Date();
+                const updatedTime = `${String(now.getUTCHours()).padStart(2, '0')}:00 UTC`;
+                lastUpdatedTimestamp = updatedTime;
+                lastUpdatedTag.textContent = `Updated top of the hour: ${updatedTime}`;
+
+                // Add a newly synthesized breaking headline at top
+                const newStoryId = `wire-${Date.now()}`;
+                const newStory = {
+                    id: newStoryId,
+                    title: `Hourly Global Diplomatic Summit Issues Joint Protocol on AI Safety Standards`,
+                    category: 'Tech & Science',
+                    region: 'World',
+                    timestamp: updatedTime,
+                    readTime: '2 min read',
+                    factScore: 99.2,
+                    toneScore: '100% Objective',
+                    facts: [
+                        'Representing delegates established multilateral benchmark testing protocols for generative systems.',
+                        'Independent third-party audits will be required for safety classification prior to commercial release.',
+                        'Protocol takes effect in 90 days across signatory regions.'
+                    ],
+                    coverageSpectrum: [
+                        { outlet: 'Global Tech Wire', quote: 'Emphasizes standardized safety validation metrics.' },
+                        { outlet: 'International Policy Journal', quote: 'Notes voluntary compliance period before full regulatory enforcement.' }
+                    ],
+                    wireSource: 'Global Lens Wire Service',
+                    summary: 'International delegates signed a unified benchmarking framework establishing safety audits for AI models.'
+                };
+
+                // Insert into dataset top
+                newsDatabase.unshift(newStory);
+                
+                // Reset Countdown timer
+                secondsUntilRefresh = 3600;
+
+                // Re-render
+                renderNewsFeed();
+
+                fetchLatestBtn.disabled = false;
+                fetchLatestBtn.innerHTML = `<i class="fa-solid fa-rotate"></i> <span>Fetch Hourly Wire</span>`;
+
+                // Toast Notification
+                showToast(isAuto ? "Auto-synced latest hourly news wire." : "Fetched fresh hourly synthesis digest!");
+            }, 800);
+        }
+
+        function showToast(message) {
+            const toast = document.createElement('div');
+            toast.className = 'fixed bottom-5 right-5 bg-cyan-600 text-slate-950 font-bold px-4 py-2.5 rounded-lg shadow-xl text-xs z-50 flex items-center gap-2 animate-bounce';
+            toast.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${message}`;
+            document.body.appendChild(toast);
+            setTimeout(() => toast.remove(), 3500);
+        }
+
+        function filterByRegion(regionName) {
+            currentRegion = regionName;
+            document.querySelectorAll('.region-btn').forEach(btn => {
+                if (btn.dataset.region === regionName) {
+                    btn.className = 'region-btn bg-cyan-950/60 text-cyan-300 border border-cyan-800/50 px-2.5 py-0.5 rounded text-[11px]';
+                } else {
+                    btn.className = 'region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]';
+                }
+            });
+            renderNewsFeed();
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Start Clocks
+            updateClock();
+            setInterval(updateClock, 1000);
+            setInterval(runCountdown, 1000);
+
+            // Init Ticker & News Feed
+            initTicker();
+            renderNewsFeed();
+
+            // Category Filter Buttons
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.category-btn').forEach(b => {
+                        b.className = 'category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition';
+                    });
+                    btn.className = 'category-btn active bg-slate-800 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:border-cyan-500 transition';
+                    currentCategory = btn.dataset.category;
+                    renderNewsFeed();
+                });
+            });
+
+            // Region Filter Buttons
+            document.querySelectorAll('.region-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterByRegion(btn.dataset.region);
+                });
+            });
+
+            // Search Input
+            searchInput.addEventListener('input', (e) => {
+                searchQuery = e.target.value.trim();
+                renderNewsFeed();
+            });
+
+            // High Factuality Filter Toggle
+            factDensityFilterBtn.addEventListener('click', () => {
+                highFactualityOnly = !highFactualityOnly;
+                if (highFactualityOnly) {
+                    factDensityFilterBtn.classList.add('border-cyan-500', 'bg-cyan-950/40');
+                    factBadgeState.className = 'w-2 h-2 rounded-full bg-cyan-400 animate-pulse';
+                } else {
+                    factDensityFilterBtn.classList.remove('border-cyan-500', 'bg-cyan-950/40');
+                    factBadgeState.className = 'w-2 h-2 rounded-full bg-slate-500';
+                }
+                renderNewsFeed();
+            });
+
+            // Sort Select
+            sortSelect.addEventListener('change', renderNewsFeed);
+
+            // Manual Fetch Button
+            fetchLatestBtn.addEventListener('click', () => fetchLatestHourlyData(false));
+
+            // Auto Refresh Toggle
+            autoRefreshToggle.addEventListener('change', (e) => {
+                autoRefreshEnabled = e.target.checked;
+                showToast(autoRefreshEnabled ? "Auto-sync enabled (Every 60 min)" : "Auto-sync paused");
+            });
+
+            // Clear Filters Button
+            resetFiltersBtn.addEventListener('click', () => {
+                currentCategory = 'All';
+                currentRegion = 'All';
+                searchQuery = '';
+                highFactualityOnly = false;
+                searchInput.value = '';
+                
+                // Reset Category Buttons UI
+                document.querySelectorAll('.category-btn').forEach(b => {
+                    if (b.dataset.category === 'All') {
+                        b.className = 'category-btn active bg-slate-800 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:border-cyan-500 transition';
+                    } else {
+                        b.className = 'category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition';
+                    }
+                });
+
+                filterByRegion('All');
+            });
+
+            // Modal Close Events
+            closeModalBtn.addEventListener('click', closeModal);
+            closeModalFooterBtn.addEventListener('click', closeModal);
+            detailModal.addEventListener('click', (e) => {
+                if (e.target === detailModal) closeModal();
+            });
+
+            // Mobile Menu Toggle
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const headerControls = document.getElementById('headerControls');
+            mobileMenuBtn.addEventListener('click', () => {
+                headerControls.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
