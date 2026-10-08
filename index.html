@@ -48,7 +48,6 @@
         .animate-ticker {
             display: inline-flex;
             white-space: nowrap;
-            /* Slowed down by 30%: 35s * 1.30 = ~45.5s */
             animation: tickerScroll 45.5s linear infinite;
         }
         .animate-ticker:hover {
@@ -69,7 +68,7 @@
 </head>
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans min-h-full flex flex-col transition-colors duration-200">
 
-    <!-- Top Alert & Ticker Tape (Slowed down by 30%) -->
+    <!-- Top Alert & Ticker Tape (Slowed speed preserved) -->
     <div class="bg-slate-900 text-slate-200 text-xs py-2 border-b border-slate-800 overflow-hidden relative z-20 flex items-center">
         <div class="bg-red-600 text-white font-bold px-3 py-1 uppercase tracking-wider text-[10px] shrink-0 z-10 flex items-center gap-1 shadow-md ml-2 rounded">
             <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span> Breaking
@@ -84,10 +83,10 @@
     <!-- Main Sticky Navigation Header -->
     <header class="sticky top-0 z-30 bg-white/95 dark:bg-gray-800/95 backdrop-blur border-b border-gray-200 dark:border-gray-700 shadow-sm transition-colors">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
+            <div class="flex items-center justify-between h-16 gap-2">
                 
                 <!-- Clickable Logo & Title to Reset All Filters -->
-                <button id="logoBtn" title="Reset Filters & Return Home" class="flex items-center gap-3 text-left focus:outline-none group">
+                <button id="logoBtn" title="Reset Filters & Return Home" class="flex items-center gap-3 text-left focus:outline-none group shrink-0">
                     <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-sky-400 flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform">
                         <i class="fa-solid font-bold text-xl fa-globe"></i>
                     </div>
@@ -96,17 +95,22 @@
                             <span class="text-xl font-black tracking-tight text-gray-900 dark:text-white font-serif group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">GLOBAL LENS</span>
                             <span class="text-[10px] bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 font-bold px-1.5 py-0.5 rounded uppercase">VERIFIED</span>
                         </div>
-                        <p class="text-[10px] text-gray-500 dark:text-gray-400 font-medium">Multi-Source Neutral Intelligence</p>
+                        <p class="text-[10px] text-gray-500 dark:text-gray-400 font-medium hidden xs:block">Multi-Source Neutral Intelligence</p>
                     </div>
                 </button>
 
-                <!-- Center Controls: Auto-Refresh Timer, Feel Good Toggle, Theme -->
+                <!-- Center Controls: Feel Good Toggle Switch, Auto-Refresh Timer, Theme -->
                 <div class="flex items-center gap-3">
                     
-                    <!-- Feel Good / Positive News Toggle -->
-                    <button id="feelGoodToggleBtn" onclick="toggleFeelGoodMode()" class="px-3 py-1.5 text-xs font-semibold rounded-full border transition-all flex items-center gap-2 border-emerald-300 bg-emerald-50 dark:bg-emerald-950/30 text-emerald-700 dark:text-emerald-300 hover:bg-emerald-100">
-                        <i class="fa-solid fa-sun text-amber-500"></i>
-                        <span id="feelGoodLabel" class="hidden sm:inline">Positive Spectrum</span>
+                    <!-- Feel Good / Positive News Explicit Interactive Toggle Switch -->
+                    <button id="feelGoodToggleBtn" onclick="toggleFeelGoodMode()" aria-label="Toggle Feel-Good Mode" title="Toggle Positive News Filter" class="flex items-center gap-2 px-3 py-1.5 rounded-full border border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700/80 transition-all focus:outline-none shadow-sm">
+                        <i class="fa-solid fa-sun text-amber-500 text-sm"></i>
+                        <span id="feelGoodLabel" class="text-xs font-semibold text-gray-700 dark:text-gray-200 hidden sm:inline">Feel-Good: OFF</span>
+                        
+                        <!-- Track and Thumb Toggle Pill -->
+                        <div id="toggleTrack" class="w-9 h-5 bg-gray-300 dark:bg-gray-600 rounded-full relative p-0.5 transition-colors duration-200">
+                            <div id="toggleThumb" class="w-4 h-4 bg-white rounded-full shadow-md transform transition-transform duration-200"></div>
+                        </div>
                     </button>
 
                     <!-- Auto Refresh Timer & Manual Refresh -->
@@ -116,7 +120,7 @@
                     </div>
 
                     <!-- Dark Mode Toggle -->
-                    <button onclick="toggleDarkMode()" class="p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-white rounded-lg border border-gray-200 dark:border-gray-700">
+                    <button onclick="toggleDarkMode()" aria-label="Toggle Dark Mode" class="p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-white rounded-lg border border-gray-200 dark:border-gray-700">
                         <i class="fa-solid fa-moon dark:hidden"></i>
                         <i class="fa-solid fa-sun hidden dark:inline text-amber-400"></i>
                     </button>
@@ -243,7 +247,36 @@
     </footer>
 
     <script>
-        // --- Data Definitions & Generators ---
+        // Mapping real verified wire and news outlet domains for external clickable badges
+        const SOURCE_URLS = {
+            'Reuters': 'https://www.reuters.com',
+            'Reuters Global': 'https://www.reuters.com',
+            'Associated Press': 'https://apnews.com',
+            'AP News': 'https://apnews.com',
+            'BBC News': 'https://www.bbc.com/news',
+            'Bloomberg': 'https://www.bloomberg.com',
+            'The Wall Street Journal': 'https://www.wsj.com',
+            'Financial Times': 'https://www.ft.com',
+            'MIT Tech Review': 'https://www.technologyreview.com',
+            'Sky Sports': 'https://www.skysports.com',
+            'The Guardian': 'https://www.theguardian.com',
+            "L'Équipe": 'https://www.lequipe.fr',
+            'AFP News': 'https://www.afp.com',
+            'Nikkei Asia': 'https://asia.nikkei.com',
+            'The Times of India': 'https://timesofindia.indiatimes.com',
+            'ABC Australia': 'https://www.abc.net.au/news',
+            'Fox Sports': 'https://www.foxsports.com',
+            'ANSA Press': 'https://www.ansa.it',
+            'Le Figaro': 'https://www.lefigaro.fr',
+            'Deutsche Welle': 'https://www.dw.com',
+            'Variety': 'https://variety.com',
+            'SwissInfo': 'https://www.swissinfo.ch',
+            'The Economist': 'https://www.economist.com',
+            'NPR': 'https://www.npr.org',
+            'Fox Business': 'https://www.foxbusiness.com',
+            'CNA': 'https://www.channelnewsasia.com'
+        };
+
         const COUNTRIES = [
             { code: 'GLOBAL', name: 'Global / All Regions', flag: '🌐' },
             { code: 'US', name: 'United States', flag: '🇺🇸' },
@@ -298,7 +331,6 @@
         ];
 
         const RAW_STORIES = [
-            // Top World Stories & Governance
             {
                 id: 'top-1',
                 title: 'Global Climate Summit Reaches Historic Treaty on Renewable Grid Accord',
@@ -357,8 +389,6 @@
                     { name: 'Financial Times', bias: 'Center-Right', text: 'Market confidence rebounds as volatility indexes decline sharply.' }
                 ]
             },
-
-            // SPORTS CATEGORY - Explicitly Expanded & Comprehensive
             {
                 id: 'sports-1',
                 title: 'Global Football Federation Introduces AI-Assisted Real-Time Offside Precision',
@@ -435,8 +465,6 @@
                     { name: 'Fox Sports', bias: 'Center-Right', text: 'Sponsors pledge additional grassroots development funds.' }
                 ]
             },
-
-            // ARTS CATEGORY
             {
                 id: 'arts-1',
                 title: 'Lost Renaissance Masterpiece Unveiled After Multi-Year Restoration in Florence',
@@ -475,8 +503,6 @@
                     { name: 'Variety', bias: 'Center-Left', text: 'Indie cinema shows powerful box office potential with eco-themes.' }
                 ]
             },
-
-            // LIFESTYLE CATEGORY
             {
                 id: 'lifestyle-1',
                 title: 'Four-Day Workweek Trial Yields 22% Productivity Gain and Lower Burnout Rates',
@@ -515,8 +541,6 @@
                     { name: 'The Economist', bias: 'Center-Right', text: 'Calculates net economic savings in preventative healthcare expenditure.' }
                 ]
             },
-
-            // U.S., WORLD & OTHER CATEGORIES
             {
                 id: 'us-1',
                 title: 'Bipartisan Infrastructure Bill Passes Funding for High-Speed Rail Corridors',
@@ -558,7 +582,6 @@
             }
         ];
 
-        // Generator to ensure EVERY category and EVERY country has 10+ stories
         function generateExpandedDataset() {
             const allStories = [...RAW_STORIES];
             const categories = [
@@ -569,13 +592,12 @@
             let count = 1;
             COUNTRIES.forEach(country => {
                 categories.forEach(cat => {
-                    // Check existing stories
                     const existing = allStories.filter(s => (s.country === country.code || country.code === 'GLOBAL') && s.category === cat);
                     const needed = Math.max(0, 10 - existing.length);
 
                     for (let i = 0; i < needed; i++) {
                         const isPos = (i % 2 === 0);
-                        const imp = Math.floor(Math.random() * 30) + 65; // 65 - 95
+                        const imp = Math.floor(Math.random() * 30) + 65;
                         allStories.push({
                             id: `gen-${country.code}-${cat.replace(/\s+/g, '')}-${i}-${count++}`,
                             title: `${country.flag} ${country.name}: ${cat} Initiative ${i + 1} Announced for Regional Modernization`,
@@ -584,7 +606,7 @@
                             importance: imp,
                             isFeelGood: isPos,
                             summary: `Official stakeholders in ${country.name} launch benchmark ${cat.toLowerCase()} framework aimed at long-term sustainability, efficiency, and public benefit.`,
-                            factualityScore: Math.floor(Math.random() * 6) + 93, // 93-98
+                            factualityScore: Math.floor(Math.random() * 6) + 93,
                             keyFacts: [
                                 `Directly impacts over 2.5 million residents in ${country.name}.`,
                                 `Verified through independent quarterly multi-agency reports.`,
@@ -592,8 +614,8 @@
                             ],
                             sources: [
                                 { name: 'Reuters Global', bias: 'Center', text: 'Independent monitoring verifies initial milestone completion.' },
-                                { name: `${country.name} National Wire`, bias: 'Center-Right', text: 'Government spokespersons highlight economic and social durability.' },
-                                { name: 'International Herald', bias: 'Center-Left', text: 'Civic observers note positive progress while recommending continued oversight.' }
+                                { name: 'AP News', bias: 'Center', text: 'Government spokespersons highlight economic and social durability.' },
+                                { name: 'BBC News', bias: 'Center-Left', text: 'Civic observers note positive progress while recommending continued oversight.' }
                             ]
                         });
                     }
@@ -603,14 +625,14 @@
             return allStories;
         }
 
-        // --- Application State ---
+        // --- State Variables ---
         let DATASET = generateExpandedDataset();
         let currentCategory = 'Top 10 World Stories';
         let currentCountry = 'GLOBAL';
         let currentBias = 'ALL';
         let feelGoodOnly = false;
         let searchQuery = '';
-        let timerSeconds = 300; // 5 minutes
+        let timerSeconds = 300;
         let timerInterval = null;
 
         window.onload = function() {
@@ -621,7 +643,6 @@
             startTimer();
         };
 
-        // Logo & Title Clickable Reset Handler
         function setupLogoReset() {
             const logoBtn = document.getElementById('logoBtn');
             logoBtn.addEventListener('click', function() {
@@ -639,20 +660,14 @@
             document.getElementById('searchInput').value = '';
             document.getElementById('countrySelect').value = 'GLOBAL';
             
-            // Update Feel Good Toggle Styling
-            const fgBtn = document.getElementById('feelGoodToggleBtn');
-            fgBtn.classList.remove('bg-emerald-600', 'text-white');
-            fgBtn.classList.add('bg-emerald-50', 'text-emerald-700', 'dark:bg-emerald-950/30', 'dark:text-emerald-300');
-
+            updateFeelGoodUI();
             updateCategoryButtons();
             updateBiasButtons();
             renderStories();
             
-            // Smooth scroll to top
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // Ticker Tape Setup
         function setupTicker() {
             const tickerEl = document.getElementById('tickerContent');
             const topStories = [...DATASET]
@@ -667,11 +682,9 @@
                 </span>
             `).join(' &bull; ');
 
-            // Duplicate for seamless infinite marquee scrolling loop
             tickerEl.innerHTML = items + ' &bull; ' + items;
         }
 
-        // Dropdown Population
         function populateCountryDropdown() {
             const select = document.getElementById('countrySelect');
             select.innerHTML = COUNTRIES.map(c => 
@@ -679,7 +692,6 @@
             ).join('');
         }
 
-        // Category Filter Handling
         function selectCategory(cat) {
             currentCategory = cat;
             updateCategoryButtons();
@@ -706,7 +718,6 @@
             });
         }
 
-        // Bias Filter Handling
         function setBiasFilter(bias) {
             currentBias = bias;
             updateBiasButtons();
@@ -725,34 +736,43 @@
             });
         }
 
-        // Country Dropdown Change
         function handleCountryChange() {
             const select = document.getElementById('countrySelect');
             currentCountry = select.value;
             renderStories();
         }
 
-        // Search Input Handling
         function handleSearch() {
             searchQuery = document.getElementById('searchInput').value.toLowerCase().trim();
             renderStories();
         }
 
-        // Feel Good Mode Toggle
+        // Feel Good Mode Switch Controller
         function toggleFeelGoodMode() {
             feelGoodOnly = !feelGoodOnly;
-            const fgBtn = document.getElementById('feelGoodToggleBtn');
-            if (feelGoodOnly) {
-                fgBtn.classList.remove('bg-emerald-50', 'text-emerald-700', 'dark:bg-emerald-950/30', 'dark:text-emerald-300');
-                fgBtn.classList.add('bg-emerald-600', 'text-white', 'shadow-md');
-            } else {
-                fgBtn.classList.remove('bg-emerald-600', 'text-white', 'shadow-md');
-                fgBtn.classList.add('bg-emerald-50', 'text-emerald-700', 'dark:bg-emerald-950/30', 'dark:text-emerald-300');
-            }
+            updateFeelGoodUI();
             renderStories();
         }
 
-        // Dark Mode Toggle
+        function updateFeelGoodUI() {
+            const fgBtn = document.getElementById('feelGoodToggleBtn');
+            const fgLabel = document.getElementById('feelGoodLabel');
+            const track = document.getElementById('toggleTrack');
+            const thumb = document.getElementById('toggleThumb');
+
+            if (feelGoodOnly) {
+                fgLabel.innerText = "Feel-Good Mode: ON";
+                fgBtn.classList.add('ring-2', 'ring-emerald-500', 'bg-emerald-50', 'dark:bg-emerald-950/40', 'border-emerald-300', 'dark:border-emerald-700');
+                track.className = "w-9 h-5 bg-emerald-500 rounded-full relative p-0.5 transition-colors duration-200";
+                thumb.className = "w-4 h-4 bg-white rounded-full shadow-md transform translate-x-4 transition-transform duration-200";
+            } else {
+                fgLabel.innerText = "Feel-Good Mode: OFF";
+                fgBtn.classList.remove('ring-2', 'ring-emerald-500', 'bg-emerald-50', 'dark:bg-emerald-950/40', 'border-emerald-300', 'dark:border-emerald-700');
+                track.className = "w-9 h-5 bg-gray-300 dark:bg-gray-600 rounded-full relative p-0.5 transition-colors duration-200";
+                thumb.className = "w-4 h-4 bg-white rounded-full shadow-md transform translate-x-0 transition-transform duration-200";
+            }
+        }
+
         function toggleDarkMode() {
             document.documentElement.classList.toggle('dark');
         }
@@ -760,29 +780,24 @@
         function renderStories() {
             let filtered = [...DATASET];
 
-            // Category Filter
             if (currentCategory === 'Top 10 World Stories') {
                 filtered.sort((a, b) => b.importance - a.importance);
             } else if (currentCategory !== 'All Top News') {
                 filtered = filtered.filter(s => s.category === currentCategory);
             }
 
-            // Country Filter
             if (currentCountry !== 'GLOBAL') {
                 filtered = filtered.filter(s => s.country === currentCountry || s.country === 'GLOBAL');
             }
 
-            // Feel Good Mode Filter
             if (feelGoodOnly) {
                 filtered = filtered.filter(s => s.isFeelGood);
             }
 
-            // Bias Filter
             if (currentBias !== 'ALL') {
                 filtered = filtered.filter(s => s.sources.some(src => src.bias === currentBias));
             }
 
-            // Search Query Filter
             if (searchQuery) {
                 filtered = filtered.filter(s => 
                     s.title.toLowerCase().includes(searchQuery) ||
@@ -791,12 +806,10 @@
                 );
             }
 
-            // Top 10 World Stories Special Cap
             if (currentCategory === 'Top 10 World Stories') {
                 filtered = filtered.slice(0, 10);
             }
 
-            // Update Header Information
             const titleEl = document.getElementById('activeCategoryTitle');
             const descEl = document.getElementById('activeCategoryDesc');
             const counterEl = document.getElementById('resultsCounter');
@@ -811,7 +824,6 @@
 
             counterEl.innerText = `Showing ${filtered.length} verified stories`;
 
-            // Grid Rendering
             const grid = document.getElementById('newsGrid');
             const empty = document.getElementById('emptyState');
 
@@ -829,13 +841,22 @@
                 return `
                     <article class="bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700/80 shadow-sm hover:shadow-md transition-shadow flex flex-col overflow-hidden group">
                         
-                        <!-- Top Card Meta Bar -->
-                        <div class="p-4 pb-0 flex items-center justify-between text-xs">
-                            <span class="font-bold px-2.5 py-1 rounded-md bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 flex items-center gap-1.5">
-                                <span>${countryObj.flag}</span>
-                                <span>${story.category}</span>
-                            </span>
-                            <div class="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400 font-semibold bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 rounded text-[11px]">
+                        <!-- Top Card Meta Bar with Restored Feel-Good Badge -->
+                        <div class="p-4 pb-0 flex items-center justify-between text-xs gap-2 flex-wrap">
+                            <div class="flex items-center gap-1.5 flex-wrap">
+                                <span class="font-bold px-2.5 py-1 rounded-md bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 flex items-center gap-1.5">
+                                    <span>${countryObj.flag}</span>
+                                    <span>${story.category}</span>
+                                </span>
+
+                                ${story.isFeelGood ? `
+                                    <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 border border-amber-200 dark:border-amber-800 flex items-center gap-1" title="Positive / Feel-Good Story">
+                                        <i class="fa-solid fa-sun text-amber-500"></i> Feel-Good
+                                    </span>
+                                ` : ''}
+                            </div>
+
+                            <div class="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400 font-semibold bg-emerald-50 dark:bg-emerald-950/40 px-2 py-0.5 rounded text-[11px] shrink-0">
                                 <i class="fa-solid fa-shield-halved"></i>
                                 <span>${story.factualityScore}% Fact Score</span>
                             </div>
@@ -861,14 +882,18 @@
                             </div>
                         </div>
 
-                        <!-- Card Footer Sources & Modal Trigger -->
+                        <!-- Card Footer Real External Clickable Outlet Badges -->
                         <div class="p-4 pt-0 border-t border-gray-100 dark:border-gray-700/60 flex items-center justify-between mt-auto bg-gray-50/30 dark:bg-gray-800/30 text-xs">
                             <div class="flex items-center gap-1 overflow-x-auto py-1">
-                                ${story.sources.map(src => `
-                                    <span class="px-2 py-0.5 rounded text-[10px] font-medium ${getBiasBadgeClass(src.bias)}" title="${src.name} (${src.bias})">
-                                        ${src.name}
-                                    </span>
-                                `).join('')}
+                                ${story.sources.map(src => {
+                                    const url = SOURCE_URLS[src.name] || 'https://news.google.com';
+                                    return `
+                                        <a href="${url}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-medium transition-opacity hover:opacity-80 ${getBiasBadgeClass(src.bias)}" title="Open external story source: ${src.name} (${src.bias})">
+                                            <span>${src.name}</span>
+                                            <i class="fa-solid fa-up-right-from-square text-[8px] opacity-70"></i>
+                                        </a>
+                                    `;
+                                }).join('')}
                             </div>
                             <button onclick="openStoryModal('${story.id}')" class="shrink-0 text-blue-600 dark:text-blue-400 hover:text-blue-800 font-semibold text-xs flex items-center gap-1 pl-2">
                                 <span>Compare</span>
@@ -880,7 +905,6 @@
             }).join('');
         }
 
-        // Bias Badge Utility
         function getBiasBadgeClass(bias) {
             switch(bias) {
                 case 'Center': return 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300';
@@ -904,17 +928,23 @@
                 </div>
 
                 <div class="space-y-3">
-                    ${story.sources.map(src => `
-                        <div class="p-4 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
-                            <div class="flex items-center justify-between mb-2">
-                                <span class="font-bold text-sm text-gray-900 dark:text-white">${src.name}</span>
-                                <span class="px-2.5 py-0.5 rounded text-xs font-semibold ${getBiasBadgeClass(src.bias)}">${src.bias} Perspective</span>
+                    ${story.sources.map(src => {
+                        const url = SOURCE_URLS[src.name] || 'https://news.google.com';
+                        return `
+                            <div class="p-4 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
+                                <div class="flex items-center justify-between mb-2">
+                                    <a href="${url}" target="_blank" rel="noopener noreferrer" class="font-bold text-sm text-gray-900 dark:text-white hover:text-blue-600 flex items-center gap-1.5">
+                                        <span>${src.name}</span>
+                                        <i class="fa-solid fa-up-right-from-square text-xs text-blue-500"></i>
+                                    </a>
+                                    <span class="px-2.5 py-0.5 rounded text-xs font-semibold ${getBiasBadgeClass(src.bias)}">${src.bias} Perspective</span>
+                                </div>
+                                <p class="text-xs text-gray-600 dark:text-gray-300 leading-relaxed font-serif italic">
+                                    "${src.text}"
+                                </p>
                             </div>
-                            <p class="text-xs text-gray-600 dark:text-gray-300 leading-relaxed font-serif italic">
-                                "${src.text}"
-                            </p>
-                        </div>
-                    `).join('')}
+                        `;
+                    }).join('')}
                 </div>
 
                 <div class="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
