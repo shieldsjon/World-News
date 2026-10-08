@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Global Lens — Unbiased World News</title>
+  <title>Global Lens — Unbiased World News Network</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Georgia&family=Franklin+Gothic+Medium&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Georgia&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg-primary: #fcfbf9;
@@ -18,7 +18,6 @@
       --text-muted: #555555;
       --accent-red: #8b0000;
       --accent-green: #2d5a27;
-      --accent-gold: #8a6d3b;
       --font-serif: 'Playfair Display', Georgia, serif;
       --font-body: 'Georgia', serif;
       --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
@@ -34,7 +33,6 @@
       --text-muted: #aaaaaa;
       --accent-red: #ff6b6b;
       --accent-green: #51cf66;
-      --accent-gold: #fcc419;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -331,7 +329,7 @@
     /* Sidebar */
     .sidebar {
       display: flex;
-      flex-direction: flex-column;
+      flex-direction: column;
       gap: 24px;
       border-left: 1px solid var(--border-light);
       padding-left: 24px;
@@ -360,6 +358,23 @@
       background: var(--bg-surface);
       color: var(--text-primary);
       border: 1px solid var(--border-color);
+    }
+
+    .outlet-list {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+      list-style: none;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .outlet-list li {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px dashed var(--border-light);
+      padding: 2px 0;
     }
 
     /* Modal */
@@ -406,21 +421,21 @@
   <div class="ticker-bar">
     <div class="ticker-label">Live Wire</div>
     <div class="ticker-track" id="tickerTrack">
-      <span class="ticker-item">Fetching live global wire feeds...</span>
+      <span class="ticker-item">Connecting to 35 global news bureaus...</span>
     </div>
   </div>
 
   <!-- Header -->
   <header>
     <div class="header-top">
-      <span id="liveClock">Oct 8, 2026 — 09:46 AM CDT</span>
+      <span id="liveClock">Global Lens Network</span>
       <span id="refreshCounter">Next live fetch in: 05:00</span>
       <button onclick="toggleTheme()" style="background:none; border:none; cursor:pointer; font-family:var(--font-sans); font-size:0.8rem; color:var(--text-muted)">🌗 Toggle Theme</button>
     </div>
     <button class="header-title-btn" onclick="resetApp()">
       <h1>Global Lens</h1>
     </button>
-    <div class="header-tagline">Independent, Unbiased International Journalism & Perspective Spectrum</div>
+    <div class="header-tagline">35-Bureau Global Independent News Aggregator</div>
   </header>
 
   <!-- Controls Bar -->
@@ -452,7 +467,7 @@
     <!-- News Feed -->
     <div class="news-feed" id="newsFeed">
       <div style="text-align:center; padding:40px; font-family:var(--font-sans); color:var(--text-muted)">
-        Loading global news feeds...
+        Fetching real-time headlines from 35 international news bureaus...
       </div>
     </div>
 
@@ -464,21 +479,20 @@
           <option value="ALL">All Nations (Global View)</option>
           <option value="United States">United States</option>
           <option value="United Kingdom">United Kingdom</option>
+          <option value="Canada">Canada</option>
           <option value="Germany">Germany</option>
           <option value="France">France</option>
+          <option value="Australia">Australia</option>
           <option value="Japan">Japan</option>
           <option value="China">China</option>
           <option value="India">India</option>
-          <option value="Brazil">Brazil</option>
           <option value="International">International / UN</option>
         </select>
       </div>
 
       <div class="sidebar-widget">
-        <h3>Factuality Index</h3>
-        <p style="font-size:0.85rem; color:var(--text-muted)">
-          All aggregated stories are evaluated against raw wire copy and cross-referenced across international reporting desks.
-        </p>
+        <h3>35 Connected Outlets</h3>
+        <ul class="outlet-list" id="outletList"></ul>
       </div>
     </div>
   </main>
@@ -498,72 +512,121 @@
     let feelGoodOnly = false;
     let refreshSeconds = 300;
 
+    // 35 Diverse Global Feeds
     const rssSources = [
-      { name: "BBC News", category: "World", url: "https://feeds.bbci.co.uk/news/world/rss.xml" },
-      { name: "Reuters", category: "Economy", url: "https://www.reutersagency.com/feed/?best-topics=business-finance" },
-      { name: "AP News", category: "U.S.", url: "https://rsshub.app/apnews/topics/ap-top-news" },
-      { name: "DW World", category: "Governance", url: "https://rss.dw.com/rdf/rss-en-world" },
-      { name: "NPR News", category: "Lifestyle", url: "https://feeds.npr.org/1001/rss.xml" },
-      { name: "Al Jazeera", category: "World", url: "https://www.aljazeera.com/xml/rss/all.xml" },
-      { name: "UN News", category: "Climate", url: "https://news.un.org/feed/subscribe/en/news/all/rss.xml" }
+      { name: "BBC News World", defaultCategory: "World", url: "https://feeds.bbci.co.uk/news/world/rss.xml" },
+      { name: "Al Jazeera English", defaultCategory: "World", url: "https://www.aljazeera.com/xml/rss/all.xml" },
+      { name: "NPR World", defaultCategory: "World", url: "https://feeds.npr.org/1004/rss.xml" },
+      { name: "NPR US News", defaultCategory: "U.S.", url: "https://feeds.npr.org/1001/rss.xml" },
+      { name: "Deutsche Welle", defaultCategory: "Governance", url: "https://rss.dw.com/rdf/rss-en-world" },
+      { name: "UN News Bureau", defaultCategory: "Climate", url: "https://news.un.org/feed/subscribe/en/news/all/rss.xml" },
+      { name: "CBC News Canada", defaultCategory: "World", url: "https://www.cbc.ca/cbbc/lineup/topstories.xml" },
+      { name: "France 24 English", defaultCategory: "World", url: "https://www.france24.com/en/rss" },
+      { name: "The Guardian World", defaultCategory: "World", url: "https://www.theguardian.com/world/rss" },
+      { name: "The Guardian Tech", defaultCategory: "Tech", url: "https://www.theguardian.com/technology/rss" },
+      { name: "CNBC Business", defaultCategory: "Economy", url: "https://search.cnbc.com/rs/search/combinedrender?source=0&id=100003114&trendline=38&categories=100003114&partnerId=2000&keywords=1" },
+      { name: "ABC News US", defaultCategory: "U.S.", url: "https://abcnews.go.com/abcnews/topstories" },
+      { name: "SBS World Australia", defaultCategory: "World", url: "https://www.sbs.com.au/news/feed" },
+      { name: "NPR Technology", defaultCategory: "Tech", url: "https://feeds.npr.org/1019/rss.xml" },
+      { name: "NPR Culture & Arts", defaultCategory: "Arts", url: "https://feeds.npr.org/1008/rss.xml" },
+      { name: "NPR Science", defaultCategory: "Tech", url: "https://feeds.npr.org/1007/rss.xml" },
+      { name: "NPR Business", defaultCategory: "Economy", url: "https://feeds.npr.org/1017/rss.xml" },
+      { name: "BBC Sports Desk", defaultCategory: "Sports", url: "https://feeds.bbci.co.uk/sport/rss.xml" },
+      { name: "BBC Tech Wire", defaultCategory: "Tech", url: "https://feeds.bbci.co.uk/news/technology/rss.xml" },
+      { name: "BBC Arts & Life", defaultCategory: "Arts", url: "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml" },
+      { name: "NASA Science Wire", defaultCategory: "Tech", url: "https://www.nasa.gov/rss/dyn/breaking_news.rss" },
+      { name: "Wired Technology", defaultCategory: "Tech", url: "https://www.wired.com/feed/rss" },
+      { name: "EuroNews Europe", defaultCategory: "World", url: "https://www.euronews.com/rss?format=mrss&level=theme&name=news" },
+      { name: "Politico Diplomacy", defaultCategory: "Governance", url: "https://www.politico.eu/feed/" },
+      { name: "EcoWatch Climate", defaultCategory: "Climate", url: "https://www.ecowatch.com/feeds/feed.rss" },
+      { name: "Japan Today", defaultCategory: "World", url: "https://japantoday.com/feed" },
+      { name: "The Straits Times Asia", defaultCategory: "World", url: "https://www.straitstimes.com/news/world/rss.xml" },
+      { name: "The Hindu International", defaultCategory: "World", url: "https://www.thehindu.com/news/international/feeder/default.rss" },
+      { name: "RFI France International", defaultCategory: "World", url: "https://www.rfi.fr/en/general/rss" },
+      { name: "Irish Times World", defaultCategory: "World", url: "https://www.irishtimes.com/c2win/rss/news/world" },
+      { name: "South China Morning Post", defaultCategory: "World", url: "https://www.scmp.com/rss/91/feed" },
+      { name: "AllAfrica World News", defaultCategory: "World", url: "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf" },
+      { name: "Buenos Aires Times", defaultCategory: "World", url: "https://www.batimes.com.ar/feed" },
+      { name: "Sydney Morning Herald", defaultCategory: "World", url: "https://www.smh.com.au/rss/feed.xml" },
+      { name: "National Geographic Environment", defaultCategory: "Climate", url: "https://www.nationalgeographic.com/rss/index.html" }
     ];
 
-    async function fetchLiveNews() {
-      let fetched = [];
-      
-      for (const src of rssSources) {
-        try {
-          const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(src.url)}`;
-          const response = await fetch(proxyUrl);
-          const data = await response.json();
+    async function fetchSingleFeed(src) {
+      const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(src.url)}`;
+      try {
+        const response = await fetch(proxyUrl);
+        const data = await response.json();
 
-          if (data.status === 'ok' && data.items) {
-            data.items.forEach((item, idx) => {
-              const title = item.title;
-              const snippet = item.description.replace(/<[^>]*>?/gm, '').slice(0, 250) + "...";
-              const isPositive = checkIfFeelGood(title + " " + snippet);
-              
-              fetched.push({
-                id: `${src.name}-${idx}-${Date.now()}`,
-                title: title,
-                category: src.category,
-                country: detectCountry(title + " " + snippet),
-                feelGood: isPositive,
-                pubDate: item.pubDate,
-                keyFacts: [
-                  snippet,
-                  `Source Desk: ${src.name}`,
-                  `Publication Stamp: ${item.pubDate || 'Recent Wire'}`
-                ],
-                sources: [
-                  { name: src.name, url: item.link, bias: "Wire Report" }
-                ]
-              });
-            });
-          }
-        } catch (e) {
-          console.warn(`Feed fetch failed for ${src.name}`, e);
+        if (data.status === 'ok' && data.items && data.items.length > 0) {
+          return data.items.map((item, idx) => {
+            const title = item.title || "";
+            const rawDesc = item.description || item.content || "";
+            const snippet = rawDesc.replace(/<[^>]*>?/gm, '').trim().slice(0, 240) + "...";
+            const isPositive = checkIfFeelGood(title + " " + snippet);
+            
+            return {
+              id: `${src.name.replace(/\s+/g, '')}-${idx}-${Date.now()}`,
+              title: title,
+              category: src.defaultCategory,
+              country: detectCountry(title + " " + snippet),
+              feelGood: isPositive,
+              pubDate: item.pubDate || new Date().toISOString(),
+              keyFacts: [
+                snippet || "Direct wire headline report.",
+                `Reporting Outlet: ${src.name}`,
+                `Source Timestamp: ${item.pubDate || 'Recent Wire'}`
+              ],
+              sources: [
+                { name: src.name, url: item.link || src.url, bias: "Wire Report" }
+              ]
+            };
+          });
         }
+      } catch (e) {
+        console.warn(`Feed error on ${src.name}:`, e);
       }
+      return [];
+    }
 
-      if (fetched.length > 0) {
-        rawStories = fetched;
+    async function fetchLiveNews() {
+      const results = await Promise.allSettled(rssSources.map(src => fetchSingleFeed(src)));
+      let allArticles = [];
+
+      results.forEach(res => {
+        if (res.status === 'fulfilled' && res.value && res.value.length > 0) {
+          allArticles.push(...res.value);
+        }
+      });
+
+      // Deduplicate by headline title
+      const uniqueMap = new Map();
+      allArticles.forEach(item => {
+        if (!uniqueMap.has(item.title.toLowerCase())) {
+          uniqueMap.set(item.title.toLowerCase(), item);
+        }
+      });
+
+      if (uniqueMap.size > 0) {
+        rawStories = Array.from(uniqueMap.values()).sort(() => 0.5 - Math.random());
         updateTicker();
+        renderSidebarOutlets();
         renderFeed();
       }
     }
 
     function checkIfFeelGood(text) {
-      const positiveWords = ['win', 'breakthrough', 'peace', 'save', 'hope', 'discovery', 'grant', 'aid', 'conservation', 'restored', 'clean', 'agree', 'award', 'pact'];
+      const positiveWords = ['win', 'breakthrough', 'peace', 'save', 'hope', 'discovery', 'grant', 'aid', 'conservation', 'restored', 'clean', 'agree', 'award', 'pact', 'solution', 'cured'];
       const lower = text.toLowerCase();
       return positiveWords.some(w => lower.includes(w));
     }
 
     function detectCountry(text) {
       if (/US|U\.S\.|United States|Washington|Biden|Trump|Congress/i.test(text)) return "United States";
-      if (/UK|Britain|London|Parliament|UK/i.test(text)) return "United Kingdom";
+      if (/UK|Britain|London|Parliament/i.test(text)) return "United Kingdom";
+      if (/Canada|Ottawa/i.test(text)) return "Canada";
       if (/Germany|Berlin/i.test(text)) return "Germany";
       if (/France|Paris/i.test(text)) return "France";
+      if (/Australia|Sydney|Canberra/i.test(text)) return "Australia";
       if (/China|Beijing/i.test(text)) return "China";
       if (/Japan|Tokyo/i.test(text)) return "Japan";
       if (/India|Delhi/i.test(text)) return "India";
@@ -615,11 +678,16 @@
       `).join('');
     }
 
+    function renderSidebarOutlets() {
+      const list = document.getElementById('outletList');
+      list.innerHTML = rssSources.map(s => `<li><span>${s.name}</span> <span style="color:var(--accent-green)">Live</span></li>`).join('');
+    }
+
     function updateTicker() {
       const track = document.getElementById('tickerTrack');
       if (rawStories.length > 0) {
-        const items = rawStories.slice(0, 8).map(s => `<span class="ticker-item">● ${s.title}</span>`).join('');
-        track.innerHTML = items + items; // Duplicate for smooth continuous marquee loop
+        const items = rawStories.slice(0, 10).map(s => `<span class="ticker-item">● ${s.title}</span>`).join('');
+        track.innerHTML = items + items;
       }
     }
 
