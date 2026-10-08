@@ -3,13 +3,14 @@ name: Fetch Live News Automated Schedule
 on:
   schedule:
     - cron: '*/5 * * * *'  # Runs automatically every 5 minutes
-  workflow_dispatch:      # Adds a "Run workflow" button in GitHub UI for testing
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 3    # Automatically cancels job if it takes longer than 3 minutes
     permissions:
-      contents: write  # Grants permissions to commit news.json back to repo
+      contents: write
 
     steps:
       - name: Checkout Repository
