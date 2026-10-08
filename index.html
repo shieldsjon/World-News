@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Lens News - Objective Global Coverage</title>
+    <title>Global Lens News - Objective Multi-Perspective Global Wire</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -15,18 +15,15 @@
                         slate: {
                             850: '#111827',
                             900: '#0f172a',
-                            950: '#090d16',
+                            950: '#070a12',
                         },
-                        brand: {
-                            cyan: '#06b6d4',
-                            blue: '#3b82f6',
-                            emerald: '#10b981',
-                            amber: '#f59e0b'
+                        cyan: {
+                            450: '#00d0f5'
                         }
                     },
                     fontFamily: {
                         sans: ['Inter', 'system-ui', 'sans-serif'],
-                        serif: ['Georgia', 'Cambria', 'serif']
+                        serif: ['Newsreader', 'Georgia', 'serif']
                     }
                 }
             }
@@ -37,18 +34,18 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
     <style>
         body { font-family: 'Inter', sans-serif; }
         .font-serif-headline { font-family: 'Newsreader', serif; }
+        .font-mono-code { font-family: 'JetBrains Mono', monospace; }
         
-        /* Custom Scrollbar */
         ::-webkit-scrollbar { width: 6px; height: 6px; }
-        ::-webkit-scrollbar-track { background: rgba(15, 23, 42, 0.6); }
-        ::-webkit-scrollbar-thumb { background: rgba(51, 65, 85, 0.8); border-radius: 3px; }
+        ::-webkit-scrollbar-track { background: rgba(15, 23, 42, 0.4); }
+        ::-webkit-scrollbar-thumb { background: rgba(51, 65, 85, 0.8); border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: rgba(71, 85, 105, 1); }
 
-        /* Ticker Animation */
         @keyframes ticker {
             0% { transform: translate3d(0, 0, 0); }
             100% { transform: translate3d(-50%, 0, 0); }
@@ -56,103 +53,105 @@
         .animate-ticker {
             display: inline-block;
             white-space: nowrap;
-            animation: ticker 45s linear infinite;
+            animation: ticker 50s linear infinite;
         }
-        .animate-ticker:hover {
-            animation-play-state: paused;
-        }
+        .animate-ticker:hover { animation-play-state: paused; }
 
-        /* Pulse aura for breaking news */
-        .live-indicator {
-            box-shadow: 0 0 8px #ef4444;
-        }
+        /* Smooth theme transition */
+        html { transition: background-color 0.3s ease, color 0.3s ease; }
     </style>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col selection:bg-cyan-500 selection:text-slate-950 transition-colors duration-300">
 
-    <!-- Breaking News Ticker -->
-    <div class="bg-slate-900 border-b border-slate-800 text-xs overflow-hidden flex items-center h-9 sticky top-0 z-50 backdrop-blur-md bg-opacity-95">
-        <div class="bg-red-600 text-white font-bold px-3 py-1.5 flex items-center shrink-0 uppercase tracking-wider text-[10px] z-10 gap-1.5">
+    <!-- Live Wire Ticker Bar -->
+    <div class="bg-slate-900 dark:bg-slate-900 border-b border-slate-800 text-xs overflow-hidden flex items-center h-9 sticky top-0 z-50 backdrop-blur-md bg-opacity-95">
+        <div class="bg-red-600 text-white font-bold px-3 py-1.5 flex items-center shrink-0 uppercase tracking-wider text-[10px] z-10 gap-1.5 shadow-sm">
             <span class="w-2 h-2 rounded-full bg-white animate-ping"></span>
-            Wire Feed
+            Wire Feed (5m Sync)
         </div>
         <div class="overflow-hidden w-full relative flex items-center">
             <div id="tickerContent" class="animate-ticker text-slate-300 flex items-center gap-8 pl-4">
-                <!-- Dynamically populated ticker items -->
+                <!-- Populated dynamically via JavaScript -->
             </div>
         </div>
     </div>
 
-    <!-- Main Navigation Header -->
-    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur-md sticky top-9 z-40">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5">
+    <!-- Navigation Header -->
+    <header class="border-b border-slate-800 bg-slate-900/90 dark:bg-slate-900/90 backdrop-blur-md sticky top-9 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
             <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 
-                <!-- Logo & Brand Info -->
+                <!-- Brand Title -->
                 <div class="flex items-center justify-between">
                     <div class="flex items-center gap-3">
                         <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg shadow-cyan-500/20">
-                            <i class="fa-solid font-bold fa-globe"></i>
+                            <i class="fa-solid fa-globe"></i>
                         </div>
                         <div>
                             <div class="flex items-center gap-2">
-                                <h1 class="text-xl font-bold tracking-tight text-white font-serif-headline">GLOBAL LENS</h1>
-                                <span class="bg-cyan-950/80 text-cyan-400 text-[10px] font-semibold px-2 py-0.5 rounded border border-cyan-800/50 uppercase tracking-wider">Objective Wire</span>
+                                <h1 class="text-xl font-bold tracking-tight text-white dark:text-white font-serif-headline">GLOBAL LENS</h1>
+                                <span class="bg-cyan-950/80 text-cyan-400 text-[10px] font-semibold px-2 py-0.5 rounded border border-cyan-800/50 uppercase tracking-wider">Unbiased Wire</span>
                             </div>
-                            <p class="text-xs text-slate-400">Verifiable, Multi-Perspective International Journalism</p>
+                            <p class="text-xs text-slate-400">Verifiable, Non-Sensationalist World Journalism • 5-Min Refresh</p>
                         </div>
                     </div>
 
-                    <!-- Mobile Controls Toggle -->
+                    <!-- Mobile Menu Button -->
                     <button id="mobileMenuBtn" class="md:hidden p-2 text-slate-400 hover:text-white rounded-lg border border-slate-800">
                         <i class="fa-solid fa-bars text-lg"></i>
                     </button>
                 </div>
 
-                <!-- Clock, Next Hourly Sync Counter & Refresh Tools -->
+                <!-- Clock & 5-Min Countdown Controls -->
                 <div id="headerControls" class="flex flex-wrap items-center gap-3 text-xs md:flex">
+                    
                     <!-- UTC Clock -->
                     <div class="bg-slate-800/80 border border-slate-700/60 rounded-lg px-3 py-1.5 flex items-center gap-2">
                         <i class="fa-regular fa-clock text-cyan-400"></i>
                         <div>
                             <span class="text-slate-400 block text-[9px] uppercase font-semibold">UTC Standard</span>
-                            <span id="utcClock" class="font-mono font-medium text-slate-200">00:00:00 UTC</span>
+                            <span id="utcClock" class="font-mono-code font-medium text-slate-200">00:00:00 UTC</span>
                         </div>
                     </div>
 
-                    <!-- Hourly Countdown -->
-                    <div class="bg-slate-800/80 border border-slate-700/60 rounded-lg px-3 py-1.5 flex items-center gap-2">
-                        <i class="fa-solid fa-arrows-rotate text-emerald-400 animate-spin" style="animation-duration: 8s;"></i>
+                    <!-- 5-Minute Auto Refresh Countdown -->
+                    <div class="bg-slate-800/80 border border-slate-700/60 rounded-lg px-3 py-1.5 flex items-center gap-2" title="Automatically fetches fresh wire updates every 5 minutes">
+                        <i id="syncSpinner" class="fa-solid fa-arrows-rotate text-emerald-400"></i>
                         <div>
-                            <span class="text-slate-400 block text-[9px] uppercase font-semibold">Next Hourly Refresh</span>
-                            <span id="refreshCountdown" class="font-mono font-medium text-emerald-400">59:59</span>
+                            <span class="text-slate-400 block text-[9px] uppercase font-semibold">Next 5m Auto Sync</span>
+                            <span id="refreshCountdown" class="font-mono-code font-medium text-emerald-400">05:00</span>
                         </div>
                     </div>
 
                     <!-- Manual Fetch Button -->
-                    <button id="fetchLatestBtn" title="Fetch latest hourly synthesis" class="bg-cyan-600 hover:bg-cyan-500 text-slate-950 font-semibold px-3 py-2 rounded-lg transition-all flex items-center gap-2 active:scale-95 shadow-md shadow-cyan-600/20">
+                    <button id="fetchLatestBtn" title="Trigger immediate wire synthesis update" class="bg-cyan-600 hover:bg-cyan-500 text-slate-950 font-semibold px-3 py-2 rounded-lg transition-all flex items-center gap-2 active:scale-95 shadow-md shadow-cyan-600/20">
                         <i class="fa-solid fa-rotate"></i>
-                        <span>Fetch Hourly Wire</span>
+                        <span>Sync Now</span>
                     </button>
 
-                    <!-- Auto Sync Toggle Switch -->
-                    <label class="flex items-center gap-2 bg-slate-800/50 border border-slate-800 px-2.5 py-1.5 rounded-lg cursor-pointer hover:bg-slate-800 transition">
+                    <!-- Auto Sync Switch -->
+                    <label class="flex items-center gap-2 bg-slate-800/50 border border-slate-800 px-2.5 py-1.5 rounded-lg cursor-pointer hover:bg-slate-800 transition" title="Toggle 5-minute auto updates">
                         <input type="checkbox" id="autoRefreshToggle" checked class="sr-only peer">
                         <div class="w-7 h-4 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-3 after:w-3 after:transition-all peer-checked:bg-cyan-500 relative"></div>
                         <span class="text-[11px] text-slate-300 select-none font-medium">Auto-Sync</span>
                     </label>
+
+                    <!-- Dark/Light Theme Toggle -->
+                    <button id="themeToggleBtn" class="bg-slate-800/80 hover:bg-slate-700 border border-slate-700/60 p-2 rounded-lg text-slate-300 hover:text-white transition" title="Toggle Dark/Light Mode">
+                        <i class="fa-solid fa-moon text-cyan-400" id="themeIcon"></i>
+                    </button>
                 </div>
 
             </div>
         </div>
     </header>
 
-    <!-- Filter Navigation & Search Bar -->
+    <!-- Filters & Navigation Controls -->
     <section class="border-b border-slate-800 bg-slate-900/40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
             <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
                 
-                <!-- Category Buttons -->
+                <!-- Category Selector -->
                 <div class="flex items-center gap-1.5 overflow-x-auto pb-2 lg:pb-0 scrollbar-none text-xs">
                     <button data-category="All" class="category-btn active bg-slate-800 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:border-cyan-500 transition">
                         <i class="fa-solid fa-layer-group mr-1.5 text-[10px]"></i>All Top News
@@ -164,48 +163,47 @@
                         Governance & Diplomacy
                     </button>
                     <button data-category="Economy" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
-                        Global Economy & Trade
+                        Economy & Markets
                     </button>
                     <button data-category="Tech & Science" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
-                        Science & Technology
-                    </button>
-                    <button data-category="Environment" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
-                        Climate & Energy
+                        Tech & Science
                     </button>
                     <button data-category="Culture" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
                         Society & Culture
                     </button>
+                    <button data-category="Environment" class="category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition">
+                        Climate & Energy
+                    </button>
                 </div>
 
-                <!-- Search & High Factuality Toggle -->
+                <!-- High Factuality Toggle & Search -->
                 <div class="flex items-center gap-3">
-                    <!-- Fact Check Filter Toggle -->
-                    <button id="factDensityFilterBtn" class="bg-slate-800/80 hover:bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700/60 flex items-center gap-2 transition shrink-0" title="Toggle strictly 95%+ Factuality items">
+                    <button id="factDensityFilterBtn" class="bg-slate-800/80 hover:bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700/60 flex items-center gap-2 transition shrink-0" title="Filter strictly 97%+ Objectivity items">
                         <i class="fa-solid fa-shield-halved text-cyan-400"></i>
-                        <span>High Fact-Density Only</span>
+                        <span>97%+ Factuality Only</span>
                         <span id="factBadgeState" class="w-2 h-2 rounded-full bg-slate-500"></span>
                     </button>
 
                     <!-- Search Input -->
                     <div class="relative w-full lg:w-64">
-                        <input type="text" id="searchInput" placeholder="Filter headlines, locations, tags..." class="w-full bg-slate-950 border border-slate-800 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500/80 transition placeholder-slate-500">
+                        <input type="text" id="searchInput" placeholder="Search stories, countries, topics..." class="w-full bg-slate-950 border border-slate-800 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-500/80 transition placeholder-slate-500">
                         <i class="fa-solid fa-magnifying-glass absolute left-2.5 top-2.5 text-slate-500 text-xs"></i>
                     </div>
                 </div>
 
             </div>
 
-            <!-- Regional Geographic Selector Bar -->
+            <!-- Region Filter Navigation Bar -->
             <div class="mt-3 pt-3 border-t border-slate-800/60 flex items-center gap-2 text-xs overflow-x-auto scrollbar-none">
                 <span class="text-slate-400 font-semibold uppercase text-[10px] tracking-wider shrink-0 mr-1">
-                    <i class="fa-solid fa-earth-americas mr-1"></i> Region Filter:
+                    <i class="fa-solid fa-earth-americas mr-1 text-cyan-400"></i> Region Filter:
                 </span>
-                <button data-region="All" class="region-btn bg-cyan-950/60 text-cyan-300 border border-cyan-800/50 px-2.5 py-0.5 rounded text-[11px]">Global All</button>
-                <button data-region="North America" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]">North America</button>
-                <button data-region="Europe" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]">Europe</button>
-                <button data-region="Asia-Pacific" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]">Asia-Pacific</button>
-                <button data-region="Middle East & Africa" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]">Middle East & Africa</button>
-                <button data-region="Latin America" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]">Latin America</button>
+                <button data-region="All" class="region-btn active bg-cyan-950/80 text-cyan-300 border border-cyan-800/60 px-3 py-1 rounded text-[11px] font-medium transition">Global All</button>
+                <button data-region="North America" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition">North America</button>
+                <button data-region="Europe" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition">Europe</button>
+                <button data-region="Asia-Pacific" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition">Asia-Pacific</button>
+                <button data-region="Middle East & Africa" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition">Middle East & Africa</button>
+                <button data-region="Latin America" class="region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition">Latin America</button>
             </div>
         </div>
     </section>
@@ -213,166 +211,144 @@
     <!-- Main Content Container -->
     <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full">
         
-        <!-- Live Hourly Digest Info Panel -->
+        <!-- Wire Status Banner -->
         <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 border border-slate-800 rounded-xl p-4 mb-6 shadow-md flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <div class="flex items-center gap-3">
                 <div class="p-2.5 bg-cyan-500/10 text-cyan-400 rounded-lg border border-cyan-500/20">
-                    <i class="fa-solid fa-satellite-dish text-xl"></i>
+                    <i class="fa-solid fa-satellite-dish text-xl animate-pulse"></i>
                 </div>
                 <div>
                     <div class="flex items-center gap-2">
-                        <h2 class="text-sm font-semibold text-slate-100">Hourly Wire Synthesis Active</h2>
+                        <h2 class="text-sm font-semibold text-slate-100">Live 5-Minute Wire Synthesis Stream</h2>
                         <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium bg-emerald-950 text-emerald-400 border border-emerald-800/50">
-                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse"></span>
-                            Live Hourly Feed
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-ping"></span>
+                            Active Feed
                         </span>
                     </div>
                     <p class="text-xs text-slate-400 mt-0.5">
-                        <span id="lastUpdatedTag">Updated top of the hour: 08:00 UTC</span> • Articles synthesized from 30+ international wire services stripped of opinion commentary.
+                        <span id="lastUpdatedTag">Last updated: Just Now</span> • Synthesizing primary wires (AP, Reuters, AFP, Kyodo, Bloomberg) stripped of emotional bias.
                     </p>
                 </div>
             </div>
 
-            <!-- Transparency Gauge Legend -->
-            <div class="flex items-center gap-4 text-xs bg-slate-950/60 p-2.5 rounded-lg border border-slate-800/80 shrink-0">
+            <!-- Visual Legend -->
+            <div class="flex items-center gap-4 text-xs bg-slate-950/60 p-2.5 rounded-lg border border-slate-800 shrink-0">
                 <div class="flex items-center gap-2">
                     <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
-                    <span class="text-slate-300">Objective Fact</span>
+                    <span class="text-slate-300">Verified Facts</span>
                 </div>
                 <div class="flex items-center gap-2">
                     <span class="w-2.5 h-2.5 rounded-full bg-cyan-400"></span>
-                    <span class="text-slate-300">Multi-Regional Consensus</span>
+                    <span class="text-slate-300">Multi-Angle Spectrum</span>
                 </div>
             </div>
         </div>
 
-        <!-- News Feed Grid & Sidebar Wrapper -->
+        <!-- Layout Grid -->
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
             
-            <!-- Primary Feed (Left Columns) -->
+            <!-- Primary Feed Container (Left 8 Cols) -->
             <div class="lg:col-span-8 space-y-6">
+                
                 <!-- Feed Header Controls -->
                 <div class="flex items-center justify-between border-b border-slate-800 pb-3">
                     <div class="flex items-center gap-2">
-                        <h3 class="text-base font-semibold text-slate-200 font-serif-headline">Factual Wire Reports</h3>
-                        <span id="storyCountBadge" class="bg-slate-800 text-slate-400 text-xs px-2 py-0.5 rounded-full">0 stories</span>
+                        <h3 class="text-base font-semibold text-slate-200 font-serif-headline">Neutral Wire Reports</h3>
+                        <span id="storyCountBadge" class="bg-slate-800 text-slate-400 text-xs px-2.5 py-0.5 rounded-full font-mono-code">0 stories</span>
                     </div>
                     
                     <div class="flex items-center gap-2 text-xs">
-                        <span class="text-slate-400">Sort:</span>
-                        <select id="sortSelect" class="bg-slate-900 border border-slate-800 text-slate-300 rounded px-2 py-1 focus:outline-none focus:border-cyan-500">
-                            <option value="newest">Newest First</option>
+                        <span class="text-slate-400">Sort by:</span>
+                        <select id="sortSelect" class="bg-slate-900 border border-slate-800 text-slate-300 rounded px-2.5 py-1 focus:outline-none focus:border-cyan-500">
+                            <option value="newest">Most Recent</option>
                             <option value="factuality">Highest Objectivity Score</option>
-                            <option value="readTime">Shortest Read Time</option>
+                            <option value="perspectives">Most Multi-Angle Sources</option>
                         </select>
                     </div>
                 </div>
 
-                <!-- Dynamic News Cards Container -->
+                <!-- News Cards Container -->
                 <div id="newsFeed" class="space-y-5">
-                    <!-- News Cards Injected dynamically via JS -->
+                    <!-- Cards dynamically rendered here -->
                 </div>
 
                 <!-- Empty State -->
                 <div id="emptyFeedState" class="hidden text-center py-12 border border-dashed border-slate-800 rounded-xl">
                     <i class="fa-solid fa-filter-circle-xmark text-4xl text-slate-600 mb-3"></i>
-                    <p class="text-slate-400 text-sm">No factual reports match your current filter criteria.</p>
+                    <p class="text-slate-400 text-sm">No stories match your search and filter criteria.</p>
                     <button id="resetFiltersBtn" class="mt-3 text-xs bg-cyan-600/20 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-md hover:bg-cyan-600/30 transition">Clear All Filters</button>
                 </div>
             </div>
 
-            <!-- Sidebar / Regional Briefings (Right Columns) -->
+            <!-- Sidebar (Right 4 Cols) -->
             <aside class="lg:col-span-4 space-y-6">
                 
-                <!-- Neutrality Index Overview Box -->
+                <!-- Regional Focus Fast-Nav Widget -->
                 <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 shadow-lg">
-                    <div class="flex items-center justify-between mb-4">
-                        <h3 class="text-sm font-semibold text-slate-200 uppercase tracking-wider flex items-center gap-2">
-                            <i class="fa-solid fa-chart-pie text-cyan-400"></i> Wire Neutrality Radar
+                    <h3 class="text-xs font-bold text-slate-200 uppercase tracking-wider mb-3 flex items-center justify-between">
+                        <span class="flex items-center gap-2">
+                            <i class="fa-solid fa-globe text-cyan-400"></i> Regional Wire Volume
+                        </span>
+                        <span class="text-[10px] text-slate-500 font-mono-code">5m Live</span>
+                    </h3>
+                    <div id="regionDistributionList" class="space-y-2 text-xs">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+
+                <!-- Wire Objectivity Radar Audit -->
+                <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 shadow-lg">
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="text-xs font-bold text-slate-200 uppercase tracking-wider flex items-center gap-2">
+                            <i class="fa-solid fa-chart-pie text-emerald-400"></i> Global Neutrality Index
                         </h3>
-                        <span class="text-[10px] text-slate-500 bg-slate-950 px-2 py-0.5 rounded">Hourly Audit</span>
+                        <span class="text-[10px] text-slate-500 bg-slate-950 px-2 py-0.5 rounded">Audit Mode</span>
                     </div>
 
                     <p class="text-xs text-slate-400 mb-4">
-                        Real-time audit evaluating bias variance across international press agencies for this hour's output.
+                        Automated natural language processing continuously measures opinion-to-fact ratio across major feeds.
                     </p>
 
                     <div class="space-y-3 text-xs">
                         <div>
                             <div class="flex justify-between text-slate-300 mb-1">
-                                <span>Fact-Density Index</span>
-                                <span class="font-mono text-emerald-400 font-semibold">97.4%</span>
+                                <span>Fact Density Score</span>
+                                <span class="font-mono-code text-emerald-400 font-semibold">98.2%</span>
                             </div>
                             <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
-                                <div class="bg-emerald-500 h-2 rounded-full" style="width: 97.4%"></div>
+                                <div class="bg-emerald-500 h-2 rounded-full" style="width: 98.2%"></div>
                             </div>
                         </div>
 
                         <div>
                             <div class="flex justify-between text-slate-300 mb-1">
-                                <span>Adjective / Emotion Ratio</span>
-                                <span class="font-mono text-cyan-400 font-semibold">&lt; 1.2% (Low)</span>
+                                <span>Subjective Adjective Ratio</span>
+                                <span class="font-mono-code text-cyan-400 font-semibold">&lt; 0.9% (Very Low)</span>
                             </div>
                             <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
-                                <div class="bg-cyan-500 h-2 rounded-full" style="width: 12%"></div>
+                                <div class="bg-cyan-500 h-2 rounded-full" style="width: 9%"></div>
                             </div>
                         </div>
 
                         <div>
                             <div class="flex justify-between text-slate-300 mb-1">
-                                <span>Cross-Wire Verification Rate</span>
-                                <span class="font-mono text-blue-400 font-semibold">99.1%</span>
+                                <span>Primary Source Verification</span>
+                                <span class="font-mono-code text-blue-400 font-semibold">99.5%</span>
                             </div>
                             <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
-                                <div class="bg-blue-500 h-2 rounded-full" style="width: 99.1%"></div>
+                                <div class="bg-blue-500 h-2 rounded-full" style="width: 99.5%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Global Region Snapshot Selector -->
-                <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-5 shadow-lg">
-                    <h3 class="text-sm font-semibold text-slate-200 uppercase tracking-wider mb-3 flex items-center gap-2">
-                        <i class="fa-solid fa-map-location-dot text-cyan-400"></i> Regional Factual Focus
-                    </h3>
-                    <p class="text-xs text-slate-400 mb-3">
-                        Key regional diplomatic and economic developments verified by global correspondents.
-                    </p>
-
-                    <div class="space-y-2 text-xs">
-                        <div class="p-2.5 rounded-lg bg-slate-950/80 border border-slate-800 hover:border-slate-700 transition cursor-pointer flex justify-between items-center group" onclick="filterByRegion('Asia-Pacific')">
-                            <div>
-                                <div class="font-medium text-slate-200 group-hover:text-cyan-400 transition">Asia-Pacific</div>
-                                <div class="text-[10px] text-slate-400">3 Verified Updates</div>
-                            </div>
-                            <i class="fa-solid fa-chevron-right text-slate-600 group-hover:text-cyan-400 text-xs"></i>
-                        </div>
-
-                        <div class="p-2.5 rounded-lg bg-slate-950/80 border border-slate-800 hover:border-slate-700 transition cursor-pointer flex justify-between items-center group" onclick="filterByRegion('Europe')">
-                            <div>
-                                <div class="font-medium text-slate-200 group-hover:text-cyan-400 transition">Europe & Central Asia</div>
-                                <div class="text-[10px] text-slate-400">2 Verified Updates</div>
-                            </div>
-                            <i class="fa-solid fa-chevron-right text-slate-600 group-hover:text-cyan-400 text-xs"></i>
-                        </div>
-
-                        <div class="p-2.5 rounded-lg bg-slate-950/80 border border-slate-800 hover:border-slate-700 transition cursor-pointer flex justify-between items-center group" onclick="filterByRegion('Middle East & Africa')">
-                            <div>
-                                <div class="font-medium text-slate-200 group-hover:text-cyan-400 transition">Middle East & Africa</div>
-                                <div class="text-[10px] text-slate-400">2 Verified Updates</div>
-                            </div>
-                            <i class="fa-solid fa-chevron-right text-slate-600 group-hover:text-cyan-400 text-xs"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Standards & Methodology Accordion -->
+                <!-- Editorial Standards Accordion -->
                 <div class="bg-slate-900/60 border border-slate-800 rounded-xl p-4 text-xs text-slate-400">
                     <h4 class="font-semibold text-slate-300 mb-2 flex items-center gap-2">
-                        <i class="fa-solid fa-scale-balanced text-amber-400"></i> Editorial Neutrality Promise
+                        <i class="fa-solid fa-scale-balanced text-amber-400"></i> Objectivity Charter
                     </h4>
                     <p class="leading-relaxed">
-                        Every report passes through automated natural language syntax filters that strip subjective adjectives, emotional framing, and spin. Key facts are cross-checked against minimum 3 independent primary wires.
+                        Global Lens strips spin, speculative commentary, and emotional headlines. Every report synthesizes official statements, verifiable data points, and distinct regional stakeholder perspectives.
                     </p>
                 </div>
 
@@ -380,7 +356,7 @@
         </div>
     </main>
 
-    <!-- Detailed Fact Breakdown & Source Compare Modal -->
+    <!-- Detailed Fact & Multi-Perspective Modal -->
     <div id="detailModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300">
         <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-hidden flex flex-col shadow-2xl transform scale-95 transition-transform duration-300" id="modalContent">
             
@@ -389,9 +365,10 @@
                 <div class="pr-6">
                     <div class="flex items-center gap-2 mb-1">
                         <span id="modalCategory" class="text-[10px] font-bold uppercase tracking-wider bg-cyan-950 text-cyan-400 border border-cyan-800/60 px-2 py-0.5 rounded">Category</span>
-                        <span id="modalTimestamp" class="text-xs text-slate-400 font-mono">00:00 UTC</span>
+                        <span id="modalRegion" class="text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Region</span>
+                        <span id="modalTimestamp" class="text-xs text-slate-400 font-mono-code">00:00 UTC</span>
                     </div>
-                    <h3 id="modalHeadline" class="text-xl font-bold text-white font-serif-headline">Headline Title Placeholder</h3>
+                    <h3 id="modalHeadline" class="text-xl font-bold text-white font-serif-headline">Modal Headline Placeholder</h3>
                 </div>
                 <button id="closeModalBtn" class="p-2 text-slate-400 hover:text-white rounded-lg bg-slate-800/50 hover:bg-slate-800 transition">
                     <i class="fa-solid fa-xmark text-lg"></i>
@@ -401,40 +378,40 @@
             <!-- Modal Scrollable Body -->
             <div class="p-6 overflow-y-auto space-y-6 text-slate-300 text-sm">
                 
-                <!-- Core Verified Facts Box -->
+                <!-- Core Fact List -->
                 <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-4">
                     <h4 class="text-xs font-bold uppercase tracking-wider text-cyan-400 mb-3 flex items-center gap-2">
-                        <i class="fa-solid fa-list-check"></i> Primary Factual Breakdown
+                        <i class="fa-solid fa-list-check"></i> Verified Factual Breakdown
                     </h4>
-                    <ul id="modalFactList" class="space-y-2 list-disc list-inside text-xs text-slate-200">
-                        <!-- Fact Bullet points injected dynamically -->
+                    <ul id="modalFactList" class="space-y-2 text-xs text-slate-200">
+                        <!-- Fact Bullet points -->
                     </ul>
                 </div>
 
-                <!-- Multi-Perspective Source Matrix -->
+                <!-- Perspective Spectrum -->
                 <div>
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200 mb-3 flex items-center gap-2">
-                        <i class="fa-solid fa-sitemap text-cyan-400"></i> Source Angle Comparison
+                        <i class="fa-solid fa-sitemap text-cyan-400"></i> Multi-Perspective Spectrum Analysis
                     </h4>
-                    <p class="text-xs text-slate-400 mb-3">How major regional media outlets are reporting this event:</p>
+                    <p class="text-xs text-slate-400 mb-3">How different stakeholders and international outlets report this development:</p>
 
                     <div id="modalSourceSpectrum" class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-                        <!-- Dynamically filled source angles -->
+                        <!-- Perspective Cards -->
                     </div>
                 </div>
 
-                <!-- Factuality & Tone Score Card -->
+                <!-- Factuality Metrics -->
                 <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
                     <div class="p-3 rounded-lg bg-slate-950 border border-slate-800 text-center">
-                        <div class="text-[10px] text-slate-400 uppercase">Fact-Density</div>
-                        <div id="modalFactScore" class="text-base font-bold text-emerald-400 font-mono mt-0.5">98.5%</div>
+                        <div class="text-[10px] text-slate-400 uppercase">Factuality Index</div>
+                        <div id="modalFactScore" class="text-base font-bold text-emerald-400 font-mono-code mt-0.5">98.5%</div>
                     </div>
                     <div class="p-3 rounded-lg bg-slate-950 border border-slate-800 text-center">
                         <div class="text-[10px] text-slate-400 uppercase">Tone Neutrality</div>
-                        <div id="modalToneScore" class="text-base font-bold text-cyan-400 font-mono mt-0.5">Objective</div>
+                        <div id="modalToneScore" class="text-base font-bold text-cyan-400 font-mono-code mt-0.5">Objective</div>
                     </div>
                     <div class="p-3 rounded-lg bg-slate-950 border border-slate-800 text-center col-span-2 sm:col-span-1">
-                        <div class="text-[10px] text-slate-400 uppercase">Primary Wire</div>
+                        <div class="text-[10px] text-slate-400 uppercase">Primary Wire Service</div>
                         <div id="modalWireSource" class="text-xs font-medium text-slate-200 mt-1 truncate">Reuters / AP</div>
                     </div>
                 </div>
@@ -448,181 +425,402 @@
         </div>
     </div>
 
-    <!-- Footer Section -->
-    <footer class="border-t border-slate-800 bg-slate-950 py-8 text-xs text-slate-500">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div class="flex items-center gap-2">
-                <div class="w-6 h-6 rounded bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-xs">GL</div>
-                <span class="text-slate-400 font-semibold font-serif-headline">GLOBAL LENS NEWS</span>
-                <span>— Unbiased Hourly International Wire</span>
-            </div>
-
-            <div class="flex items-center gap-6">
-                <span>Updated every hour at :00 UTC</span>
-                <span class="text-slate-600">•</span>
-                <a href="#" class="hover:text-slate-300 transition">Neutrality Protocol</a>
-                <span class="text-slate-600">•</span>
-                <a href="#" class="hover:text-slate-300 transition">API Wire Access</a>
-            </div>
-        </div>
-    </footer>
-
     <script>
-        
-        // Comprehensive Dataset for Dynamic Hourly Generation
+        // Comprehensive Wire Database (20+ Verified Stories)
         const newsDatabase = [
+            // WORLD AFFAIRS
             {
-                id: 'wire-001',
-                title: 'Global Trade Conference Reaches Pact on Digital Service Tariff Standards',
-                category: 'Economy',
+                id: 'wire-101',
+                title: 'UN Treaty Framework on Subsea Fiber Optic Cable Protection Finalized in Geneva',
+                category: 'World',
                 region: 'Europe',
-                timestamp: '08:00 UTC',
+                timestamp: '08:25 UTC',
+                readTime: '3 min read',
+                factScore: 99.1,
+                toneScore: '100% Objective',
+                facts: [
+                    'Delegates from 118 maritime states signed a diplomatic consensus establishing legal protection protocols for undersea commercial communications hardware.',
+                    'The treaty designates intentional subsea cable tampering as an international maritime violation under UNCLOS jurisdiction.',
+                    'Joint naval monitoring patrols will begin in key bottlenecks including the Malacca and Bab-el-Mandeb straits by Q4 2027.',
+                    'Funding mechanisms for repair ship fleets received $850M in sovereign allocations.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Western Diplomatic Cable', quote: 'Emphasizes national security guarantees for trans-Atlantic digital infrastructure.' },
+                    { outlet: 'Asia Maritime Journal', quote: 'Focuses on shared responsibility protocols for Indo-Pacific territorial waters.' },
+                    { outlet: 'Global Infrastructure Monitor', quote: 'Highlights financial cost-sharing formulas across private telecom owners.' }
+                ],
+                wireSource: 'Reuters / UN Diplomatic Wire',
+                summary: '118 nations ratified an international legal framework securing deep-water undersea fiber optic cables under United Nations oversight.'
+            },
+            {
+                id: 'wire-102',
+                title: 'International Atomic Energy Agency Confirms New Safeguards Accord in East Asia',
+                category: 'World',
+                region: 'Asia-Pacific',
+                timestamp: '08:10 UTC',
+                readTime: '2 min read',
+                factScore: 98.6,
+                toneScore: '99% Neutral',
+                facts: [
+                    'IAEA inspectors completed baseline audit visits to three regional civilian research facilities.',
+                    'Continuous remote monitoring telemetry was activated with real-time data feeds to Vienna headquarters.',
+                    'Joint technical working group meetings were scheduled quarterly through 2029.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Vienna Nuclear Review', quote: 'Highlights technical accuracy of continuous sensor telemetric arrays.' },
+                    { outlet: 'Pacific Rim Sentinel', quote: 'Emphasizes regional non-proliferation stability guarantees.' }
+                ],
+                wireSource: 'IAEA Press Wire / Kyodo',
+                summary: 'The IAEA established enhanced continuous monitoring telematics across civilian research reactors under a multi-state agreement.'
+            },
+            {
+                id: 'wire-103',
+                title: 'Pan-African Free Trade Zone Implements Unified Customs Protocol Across 32 Ports',
+                category: 'World',
+                region: 'Middle East & Africa',
+                timestamp: '07:55 UTC',
+                readTime: '4 min read',
+                factScore: 97.8,
+                toneScore: '98% Objective',
+                facts: [
+                    'African Continental Free Trade Area (AfCFTA) officials synchronized digital customs clearing systems.',
+                    'Average port clearance times for essential agricultural goods dropped from 96 hours to 14 hours during trial runs.',
+                    'Standardized tariff code classifications were adopted across 32 major container terminals.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'African Economic Express', quote: 'Focuses on intra-continental trade volume acceleration and food security.' },
+                    { outlet: 'Global Logistics Digest', quote: 'Analyzes port throughput efficiency and shipping line scheduling.' }
+                ],
+                wireSource: 'Pan-African News Agency / AFP',
+                summary: 'Customs authorities across 32 African ports launched an integrated digital clearing portal under the AfCFTA agreement.'
+            },
+
+            // SOCIETY & CULTURE
+            {
+                id: 'wire-201',
+                title: 'UNESCO Expands Heritage Conservation Grant Program for Island Indigenous Languages',
+                category: 'Culture',
+                region: 'Asia-Pacific',
+                timestamp: '08:20 UTC',
+                readTime: '3 min read',
+                factScore: 98.4,
+                toneScore: '99% Objective',
+                facts: [
+                    'UNESCO allocated $120 million to archive and preserve 45 critically endangered indigenous languages across Oceania.',
+                    'Digital phonetic dictionaries and community oral history archives will be created over five years.',
+                    'University linguists from 14 nations will partner directly with native elder speaker councils.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Pacific Heritage Journal', quote: 'Highlights community leadership and ownership over linguistic archives.' },
+                    { outlet: 'Global Cultural Review', quote: 'Notes academic methodologies for digital phonetic preservation.' }
+                ],
+                wireSource: 'UNESCO Press / Associated Press',
+                summary: 'UNESCO launched a $120M linguistic preservation initiative to document 45 endangered island languages in collaboration with local councils.'
+            },
+            {
+                id: 'wire-202',
+                title: 'Global University Study Tracks 10-Year Outcomes of Universal Early Literacy Initiatives',
+                category: 'Culture',
+                region: 'Latin America',
+                timestamp: '07:40 UTC',
+                readTime: '4 min read',
+                factScore: 97.2,
+                toneScore: '98% Neutral',
+                facts: [
+                    'A decade-long study tracking 120,000 students across 6 South American nations was published in Educational Studies.',
+                    'Early-childhood literacy access correlated with a 28% increase in secondary school completion rates.',
+                    'The study controlled for socioeconomic background, urban/rural school placement, and regional funding variations.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Latin American Education Monitor', quote: 'Emphasizes long-term economic mobility benefits of early schooling.' },
+                    { outlet: 'Global Public Health & Society', quote: 'Highlights secondary benefits in community healthcare awareness.' }
+                ],
+                wireSource: 'EFE / Academic Wire Service',
+                summary: 'A 10-year multi-country longitudinal study established direct data correlations between early literacy access and high school completion.'
+            },
+            {
+                id: 'wire-203',
+                title: 'International Architectural Congress Sets Standard for Net-Zero Public Housing Design',
+                category: 'Culture',
+                region: 'North America',
+                timestamp: '07:10 UTC',
+                readTime: '3 min read',
+                factScore: 96.9,
+                toneScore: '97% Objective',
+                facts: [
+                    'The International Union of Architects published unified guidelines for climate-resilient social housing.',
+                    'Standards prioritize passive thermal regulation, cross-ventilation, and locally sourced mass timber.',
+                    'Municipalities in 18 countries pledged adoption for future urban housing developments.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Urban Design Quarterly', quote: 'Focuses on architectural feasibility and construction material supply chains.' },
+                    { outlet: 'Civic Planning Today', quote: 'Details municipal budgeting frameworks and long-term utility savings.' }
+                ],
+                wireSource: 'Architectural Wire Digest',
+                summary: 'Global architectural bodies released unified design guidelines for high-density, low-carbon public housing developments.'
+            },
+
+            // GOVERNANCE & POLITICS
+            {
+                id: 'wire-301',
+                title: 'Electoral Reform Commission Releases Standardized Voting Technology Audit Protocol',
+                category: 'Politics',
+                region: 'Europe',
+                timestamp: '08:15 UTC',
+                readTime: '3 min read',
+                factScore: 99.4,
+                toneScore: '100% Objective',
+                facts: [
+                    'The European Election Integrity Network published open-source verification software for electronic tabulators.',
+                    'The system requires paper trail verification coupled with cryptographic zero-knowledge proof logging.',
+                    'Trial runs were conducted across parliamentary elections in 4 member nations with zero count discrepancies.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'European Parliamentary Gazette', quote: 'Focuses on cross-party audit transparency and voter trust.' },
+                    { outlet: 'Cybersecurity & Statecraft', quote: 'Details technical cryptography specs resisting external network attacks.' }
+                ],
+                wireSource: 'DPA / European Press Syndicate',
+                summary: 'Election observers published open-source ballot verification protocols featuring dual paper-trail cryptographic audits.'
+            },
+            {
+                id: 'wire-302',
+                title: 'Bilateral Border Commission Finalizes Land Mapping Survey in South America',
+                category: 'Politics',
+                region: 'Latin America',
+                timestamp: '06:45 UTC',
+                readTime: '2 min read',
+                factScore: 98.9,
+                toneScore: '99% Neutral',
+                facts: [
+                    'Geographic surveying teams resolved a 45-year frontier marking dispute along river basins.',
+                    'Satellite LIDAR mapping established precise coordinates for 142 boundary markers.',
+                    'Both sovereign governments ratified the boundary maps during a joint presidential ceremony.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Andean Diplomatic Review', quote: 'Highlights border town trade benefits and joint infrastructure planning.' },
+                    { outlet: 'South American News Wire', quote: 'Stresses peaceful diplomatic legal resolution mechanisms.' }
+                ],
+                wireSource: 'EFE / MercoPress',
+                summary: 'Diplomats ratified LIDAR satellite boundary surveys, formally concluding a multi-decade river basin border demarcation.'
+            },
+
+            // ECONOMY & MARKETS
+            {
+                id: 'wire-401',
+                title: 'Global Semiconductor Consortium Opens Shared Testing Foundry in East Asia',
+                category: 'Economy',
+                region: 'Asia-Pacific',
+                timestamp: '08:22 UTC',
+                readTime: '3 min read',
+                factScore: 97.9,
+                toneScore: '98% Objective',
+                facts: [
+                    'An $8 billion public-private foundry dedicated to open silicon testing opened operations in Hsinchu.',
+                    'The facility provides start-up chipmakers access to advanced 2nm extreme ultraviolet lithography equipment.',
+                    'Initial capacity is allocated among 40 participating international research teams.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Asian Microelectronics Times', quote: 'Emphasizes reduction in startup capital costs for next-gen silicon research.' },
+                    { outlet: 'Global Trade & Hardware', quote: 'Notes geopolitical diversification of advanced lithography access.' }
+                ],
+                wireSource: 'Bloomberg Wire / Nikkei',
+                summary: 'An open-access semiconductor foundry equipped with 2nm lithography opened to provide global researchers testing facilities.'
+            },
+            {
+                id: 'wire-402',
+                title: 'Central Banks Publish Joint Framework for Cross-Border Wholesale Digital Settlement',
+                category: 'Economy',
+                region: 'North America',
+                timestamp: '07:35 UTC',
+                readTime: '3 min read',
+                factScore: 98.3,
+                toneScore: '99% Neutral',
+                facts: [
+                    'The Bank for International Settlements (BIS) completed Project Nexus testing across 5 currency corridors.',
+                    'Real-time interbank settlement time averaged 1.8 seconds with transaction fees reduced by 85%.',
+                    'Commercial integration guidelines were distributed to 200 international correspondent banks.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Wall Street & Central Banking', quote: 'Highlights capital liquidity efficiency for commercial import-export trade.' },
+                    { outlet: 'International Treasury Today', quote: 'Examines regulatory compliance protocols for anti-money-laundering filters.' }
+                ],
+                wireSource: 'BIS Press Release / Reuters',
+                summary: 'The BIS and partner central banks completed cross-border digital settlement trials reducing transfer times to under 2 seconds.'
+            },
+            {
+                id: 'wire-403',
+                title: 'Multilateral Development Bank Approves $3.2B for Sub-Saharan Transit Corridors',
+                category: 'Economy',
+                region: 'Middle East & Africa',
+                timestamp: '06:30 UTC',
+                readTime: '2 min read',
+                factScore: 96.8,
+                toneScore: '97% Objective',
+                facts: [
+                    'The African Development Bank approved sovereign loans for 1,200 km of electrified freight railway.',
+                    'The project connects landlocked mining and agricultural regions directly to deep-water Atlantic ports.',
+                    'Construction tenders require 60% local labor hiring mandates.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Sub-Saharan Commerce Journal', quote: 'Focuses on freight transit cost reductions for agricultural exports.' },
+                    { outlet: 'Global Finance & Infrastructure', quote: 'Details sovereign debt repayment structures and concessionary interest rates.' }
+                ],
+                wireSource: 'AfDB Press / Financial Times',
+                summary: 'Development banks approved $3.2 billion financing for electrified rail corridors linking agricultural interior zones with Atlantic ports.'
+            },
+
+            // TECH & SCIENCE
+            {
+                id: 'wire-501',
+                title: 'International Space Agency Network Launches Solar Flare Early Warning Satellite',
+                category: 'Tech & Science',
+                region: 'North America',
+                timestamp: '08:05 UTC',
+                readTime: '3 min read',
+                factScore: 99.5,
+                toneScore: '100% Objective',
+                facts: [
+                    'A joint NASA-ESA space weather observatory achieved Lagrange Point 1 orbit positioning.',
+                    'Instruments provide a 45-minute advance warning buffer for severe coronal mass ejections hitting Earth.',
+                    'Real-time telemetry feeds are publicly broadcast to power grid and telecom operators worldwide.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Space Science Daily', quote: 'Details magnetometric sensor sensitivity and solar wind plasma tracking.' },
+                    { outlet: 'Power Grid International', quote: 'Highlights protective blackout mitigation procedures for high-voltage transformers.' }
+                ],
+                wireSource: 'NASA / ESA Wire Service',
+                summary: 'A joint space weather observatory achieved orbit at Lagrange Point 1 to provide 45-minute advance alerts for geomagnetic solar storms.'
+            },
+            {
+                id: 'wire-502',
+                title: 'Biotech Consortium Releases Open-Source Synthetic Vaccine Platform Data',
+                category: 'Tech & Science',
+                region: 'Europe',
+                timestamp: '07:20 UTC',
+                readTime: '3 min read',
+                factScore: 98.1,
+                toneScore: '99% Neutral',
+                facts: [
+                    'A non-profit scientific alliance published genomic blueprints for a universal thermal-stable mRNA vector.',
+                    'The formulation requires no deep-freeze storage, remaining stable at 4°C for up to 12 months.',
+                    'Patent-free manufacturing licenses were granted to pharmaceutical laboratories in 30 developing nations.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'European Bio-Journal', quote: 'Focuses on molecular lipid nanoparticle thermal stabilization advances.' },
+                    { outlet: 'Global Health Gazette', quote: 'Emphasizes equitable vaccine distribution capabilities in rural climates.' }
+                ],
+                wireSource: 'Nature Biotechnology / Agence France-Presse',
+                summary: 'Researchers published open-source patent-free designs for thermal-stable vaccines that do not require ultra-cold storage chains.'
+            },
+            {
+                id: 'wire-503',
+                title: 'Deep-Sea Robotic Mapping Survey Discovers 1,200 New Marine Species in Pacific Trench',
+                category: 'Tech & Science',
+                region: 'Asia-Pacific',
+                timestamp: '06:15 UTC',
+                readTime: '3 min read',
+                factScore: 97.5,
+                toneScore: '98% Objective',
+                facts: [
+                    'Autonomous underwater vehicles (AUVs) completed 40,000 square kilometers of 3D seabed mapping at 7,000m depths.',
+                    'Over 1,200 uncatalogued benthic organisms were recorded alongside extensive hydrothermal vent ecosystems.',
+                    'Data was uploaded to the Global Biodiversity Information Facility open catalog.'
+                ],
+                coverageSpectrum: [
+                    { outlet: 'Oceanographic World', quote: 'Highlights robotic manipulator precision and high-resolution camera technology.' },
+                    { outlet: 'Pacific Environment Monitor', quote: 'Calls for marine protected zone designation over discovered trench ecosystems.' }
+                ],
+                wireSource: 'Kyodo / Scientific American',
+                summary: 'Deep-sea autonomous mapping drones cataloged 1,200 previously unknown species living near hydrothermal vents in the Pacific Ocean.'
+            },
+
+            // ENVIRONMENT & CLIMATE
+            {
+                id: 'wire-601',
+                title: 'Global Desalination Alliance Achieves 40% Energy Reduction with Graphene Membranes',
+                category: 'Environment',
+                region: 'Middle East & Africa',
+                timestamp: '08:18 UTC',
                 readTime: '3 min read',
                 factScore: 98.7,
                 toneScore: '99% Objective',
                 facts: [
-                    'Delegates from 140 nations agreed on a standardized digital service tax framework in Geneva.',
-                    'The agreement establishes a baseline 15% rate on multinational tech operations operating cross-border.',
-                    'Implementation is scheduled to begin across member states by Q3 2027.',
-                    'Ratification requires legislative approval from at least 60 member parliaments.'
+                    'A commercial-scale water treatment facility in Abu Dhabi completed 12 months of nano-graphene filtration trials.',
+                    'Energy consumption dropped from 3.5 kWh/m³ to 2.1 kWh/m³ compared to standard reverse osmosis.',
+                    'Brine discharge salt concentrations were reduced by 25% through advanced crystallizer recovery.'
                 ],
                 coverageSpectrum: [
-                    { outlet: 'Western Wire', quote: 'Emphasizes compliance relief for major Silicon Valley software firms.' },
-                    { outlet: 'Asia-Pacific Herald', quote: 'Focuses on revenue distribution guarantees for developing tech sectors.' },
-                    { outlet: 'Middle East Business', quote: 'Highlights tax predictability for sovereign investment funds.' }
+                    { outlet: 'Middle East Water Tech', quote: 'Focuses on municipal fresh water production cost reductions across arid zones.' },
+                    { outlet: 'Clean Energy & Environment', quote: 'Examines reduced carbon footprints for coastal municipal water plants.' }
                 ],
-                wireSource: 'Reuters / Associated Press',
-                summary: '140 nation representatives ratified a standardized framework governing digital service tariffs during Geneva plenary sessions today.'
+                wireSource: 'WAM Wire / Reuters',
+                summary: 'Industrial scale tests of nano-graphene water filtration membranes achieved a 40% energy reduction in seawater desalination.'
             },
             {
-                id: 'wire-002',
-                title: 'International Renewable Consortium Announces 50GW Offshore Wind Project',
+                id: 'wire-602',
+                title: 'Reforestation Monitoring Satellite Constellation Achieves Real-Time Canopy Tracking',
                 category: 'Environment',
-                region: 'North America',
-                timestamp: '08:00 UTC',
-                readTime: '2 min read',
-                factScore: 96.4,
-                toneScore: '97% Neutral',
-                facts: [
-                    'A multi-country energy consortium finalized $45 billion in funding for Atlantic offshore wind turbines.',
-                    'Projected capacity is 50 gigawatts, estimated to power approximately 18 million households upon completion in 2030.',
-                    'Environmental impact assessments recorded zero high-risk migration corridor intersections.',
-                    'Bidding for marine turbine construction contracts opens next month.'
-                ],
-                coverageSpectrum: [
-                    { outlet: 'Global Energy Review', quote: 'Technical focus on high-capacity turbine efficiency metrics.' },
-                    { outlet: 'Atlantic Economic Observer', quote: 'Highlights port infrastructure job creation potential.' }
-                ],
-                wireSource: 'Agence France-Presse (AFP)',
-                summary: 'Energy authorities finalized a multi-national funding treaty for a 50GW Atlantic offshore wind installation scheduled for 2030 completion.'
-            },
-            {
-                id: 'wire-003',
-                title: 'UN Security Council Drafts Resolution on Sub-Saharan Humanitarian Corridors',
-                category: 'Politics',
-                region: 'Middle East & Africa',
-                timestamp: '07:45 UTC',
-                readTime: '4 min read',
-                factScore: 99.1,
-                toneScore: '100% Objective',
-                facts: [
-                    'UNSC diplomats tabled Resolution 2891 establishing three neutral relief transit zones.',
-                    'The resolution guarantees UN peacekeeper oversight for food supply trucks.',
-                    'Voting is scheduled for 15:00 UTC following secondary delegation reviews.',
-                    'All five permanent members signaled conditional support without veto threats.'
-                ],
-                coverageSpectrum: [
-                    { outlet: 'African Diplomatic Journal', quote: 'Focuses on regional sovereignty provisions within relief corridors.' },
-                    { outlet: 'UN News Wire', quote: 'Stresses humanitarian urgency and non-partisan distribution protocols.' }
-                ],
-                wireSource: 'United Nations Press Corps',
-                summary: 'Diplomats at the UN Security Council prepared a unanimous resolution establishing protected transport lanes for humanitarian shipments.'
-            },
-            {
-                id: 'wire-004',
-                title: 'Quantum Computing Research Team Demonstrates Fault-Tolerant Logical Qubits',
-                category: 'Tech & Science',
-                region: 'Asia-Pacific',
-                timestamp: '07:30 UTC',
-                readTime: '3 min read',
-                factScore: 95.8,
-                toneScore: '96% Objective',
-                facts: [
-                    'Researchers across Tokyo and Zurich maintained 1,000 logical qubits error-free for 12 continuous minutes.',
-                    'The experiment utilized topological error correction codes running at cryogenic temperatures.',
-                    'Peer-reviewed documentation was published in the International Physics Journal today.',
-                    'Commercial application timelines remain projected for 5-10 years.'
-                ],
-                coverageSpectrum: [
-                    { outlet: 'Nikkei Tech', quote: 'Highlights semiconductor supply chain readiness for hardware requirements.' },
-                    { outlet: 'European Science Daily', quote: 'Focuses on algorithmic mathematical proofs behind the error correction.' }
-                ],
-                wireSource: 'Kyodo News / DPA',
-                summary: 'International physicists published verified data demonstrating continuous error-corrected quantum computation exceeding previous duration benchmarks.'
-            },
-            {
-                id: 'wire-005',
-                title: 'Central Banks Update Settlement Protocol for Cross-Border Interbank Transfers',
-                category: 'Economy',
                 region: 'Latin America',
-                timestamp: '07:15 UTC',
+                timestamp: '07:05 UTC',
                 readTime: '2 min read',
-                factScore: 97.9,
+                factScore: 97.4,
                 toneScore: '98% Neutral',
                 facts: [
-                    'Central banks across Latin America and Europe launched a real-time atomic settlement network.',
-                    'Transaction finality was reduced from 48 hours to under 3 seconds during live trials.',
-                    'System fees are capped at 0.01% of total transaction volumes.',
-                    'Participating commercial institutions total 84 banking entities at launch.'
+                    'A network of 24 optical and radar nanosatellites began transmitting daily Amazon basin tree canopy density data.',
+                    'Illegal logging clearing activities are automatically flagged to environmental enforcement agencies within 15 minutes.',
+                    'The data platform is publicly accessible under open data climate initiatives.'
                 ],
                 coverageSpectrum: [
-                    { outlet: 'Financial Times Americas', quote: 'Analyzes liquidity velocity improvements for exporter corporations.' },
-                    { outlet: 'Brazillian Banking Journal', quote: 'Details regulatory compliance integration for regional lenders.' }
+                    { outlet: 'Amazonia Ecological Review', quote: 'Highlights speed of enforcement alerts dispatched to environmental rangers.' },
+                    { outlet: 'Remote Sensing Today', quote: 'Details synthetic aperture radar capabilities penetrating cloud cover.' }
                 ],
-                wireSource: 'Bloomberg Wire Service',
-                summary: 'Central monetary institutions deployed an upgraded interbank protocol allowing instant cross-border treasury settlements.'
+                wireSource: 'EFE / Earth Observation Wire',
+                summary: 'A 24-nanosatellite constellation began transmitting real-time radar mapping to detect tropical deforestation within 15 minutes.'
             },
             {
-                id: 'wire-006',
-                title: 'International Maritime Organization Sets Standardized Vessel Emission Cap',
+                id: 'wire-603',
+                title: 'North American Grid Operators Finalize 100% Interregional Renewable Balancing Protocol',
                 category: 'Environment',
-                region: 'World',
-                timestamp: '06:50 UTC',
+                region: 'North America',
+                timestamp: '06:00 UTC',
                 readTime: '3 min read',
-                factScore: 96.2,
+                factScore: 96.7,
                 toneScore: '97% Objective',
                 facts: [
-                    'The IMO approved binding target limits reducing sulfur and carbon output by 40% by 2032.',
-                    'Container carriers exceeding limits face tiered port access fee surcharges.',
-                    'Alternative fuel subsidies were approved for methanol and ammonia propulsion retrofits.',
-                    'Global shipping lines representing 80% of global fleet capacity voted in favor.'
+                    'Grid transmission authorities signed interstate agreements allowing automated high-voltage DC power sharing.',
+                    'Excess Midwestern wind power can now automatically reroute to East Coast urban centers during peak load shifts.',
+                    'The system reduces overall natural gas peaking plant reliance by an estimated 18% annually.'
                 ],
                 coverageSpectrum: [
-                    { outlet: 'Global Shipping Digest', quote: 'Details shipbuilder conversion timelines and shipyard capacity.' },
-                    { outlet: 'Pacific Rim Trade Today', quote: 'Examines freight rates adjustments across trans-pacific routes.' }
+                    { outlet: 'Power Transmission Digest', quote: 'Focuses on high-voltage direct current line stability and transformer switching.' },
+                    { outlet: 'North American Energy Regulatory Review', quote: 'Analyzes interstate tariff sharing formulas for utility companies.' }
                 ],
-                wireSource: 'Maritime Executive Wire',
-                summary: 'The IMO established enforced emissions thresholds for international commercial shipping vessels entering member state ports.'
+                wireSource: 'Associated Press / Energy Wire',
+                summary: 'Interstate power grid operators deployed an automated power-sharing system routing surplus renewable electricity to high-demand urban centers.'
             }
         ];
 
-        // Ticker items
+        // Ticker Items Array
         const tickerStories = [
-            "Geneva: Global Trade Conference ratifies digital tax standard across 140 states.",
-            "Energy: 50GW Offshore Wind Consortium completes $45B funding round.",
-            "UN Security Council: Neutral humanitarian corridor draft receives full delegation support.",
-            "Tokyo: Physics lab achieves 12-minute error-free fault-tolerant quantum state.",
-            "Maritime IMO: Binding ocean cargo emission caps enacted for 2032 enforcement."
+            "Geneva: UN Treaty on Subsea Fiber Optic Cable Protection signed by 118 maritime states.",
+            "Technology: 2nm Open Silicon Research Foundry opens in East Asia with $8B funding.",
+            "UNIAEA: Continuous remote monitoring telemetry activated across East Asian research reactors.",
+            "Culture: UNESCO allocates $120M grant program preserving 45 indigenous island languages.",
+            "Environment: Graphene membrane desalination achieves 40% energy efficiency breakthrough.",
+            "Trade: Pan-African digital customs portal reduces port clearance times from 96h to 14h."
         ];
 
+        // Application State
         let currentCategory = 'All';
         let currentRegion = 'All';
         let searchQuery = '';
         let highFactualityOnly = false;
         let autoRefreshEnabled = true;
-        let secondsUntilRefresh = 3600; // 1 hour countdown
-        let lastUpdatedTimestamp = '08:00 UTC';
+        let secondsUntilRefresh = 300; // 5 MINUTES (300 seconds)
+        let lastUpdatedTimestamp = 'Just Now';
+        let isDarkMode = true;
 
+        // DOM Element Cache
         const newsFeedEl = document.getElementById('newsFeed');
         const emptyFeedStateEl = document.getElementById('emptyFeedState');
         const tickerContentEl = document.getElementById('tickerContent');
@@ -637,13 +835,18 @@
         const lastUpdatedTag = document.getElementById('lastUpdatedTag');
         const sortSelect = document.getElementById('sortSelect');
         const resetFiltersBtn = document.getElementById('resetFiltersBtn');
+        const themeToggleBtn = document.getElementById('themeToggleBtn');
+        const themeIcon = document.getElementById('themeIcon');
+        const regionDistributionList = document.getElementById('regionDistributionList');
+        const syncSpinner = document.getElementById('syncSpinner');
 
-        // Modal Elements
+        // Modal DOM Elements
         const detailModal = document.getElementById('detailModal');
         const modalContent = document.getElementById('modalContent');
         const closeModalBtn = document.getElementById('closeModalBtn');
         const closeModalFooterBtn = document.getElementById('closeModalFooterBtn');
         const modalCategory = document.getElementById('modalCategory');
+        const modalRegion = document.getElementById('modalRegion');
         const modalTimestamp = document.getElementById('modalTimestamp');
         const modalHeadline = document.getElementById('modalHeadline');
         const modalFactList = document.getElementById('modalFactList');
@@ -652,6 +855,8 @@
         const modalToneScore = document.getElementById('modalToneScore');
         const modalWireSource = document.getElementById('modalWireSource');
 
+
+        // Clock Update (Every Second)
         function updateClock() {
             const now = new Date();
             const hours = String(now.getUTCHours()).padStart(2, '0');
@@ -660,13 +865,14 @@
             utcClockEl.textContent = `${hours}:${minutes}:${seconds} UTC`;
         }
 
+        // 5-Minute Auto Refresh Timer Logic
         function runCountdown() {
             if (!autoRefreshEnabled) return;
 
             secondsUntilRefresh--;
             if (secondsUntilRefresh <= 0) {
-                secondsUntilRefresh = 3600;
-                fetchLatestHourlyData(true);
+                secondsUntilRefresh = 300; // Reset to 5 minutes
+                fetchLatestWireData(true);
             }
 
             const mins = Math.floor(secondsUntilRefresh / 60);
@@ -674,28 +880,36 @@
             refreshCountdownEl.textContent = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
         }
 
+        // Render News Cards
         function renderNewsFeed() {
             let filtered = newsDatabase.filter(story => {
                 const matchCategory = (currentCategory === 'All') || (story.category === currentCategory);
-                const matchRegion = (currentRegion === 'All') || (story.region === currentRegion) || (story.region === 'World');
+                
+                // Region Match Logic (Strict region matching)
+                const matchRegion = (currentRegion === 'All') || (story.region === currentRegion);
+                
                 const matchSearch = searchQuery === '' || 
                     story.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                     story.summary.toLowerCase().includes(searchQuery.toLowerCase()) ||
                     story.facts.some(f => f.toLowerCase().includes(searchQuery.toLowerCase()));
-                const matchFactuality = !highFactualityOnly || story.factScore >= 97.0;
+                
+                const matchFactuality = !highFactualityOnly || story.factScore >= 98.0;
 
                 return matchCategory && matchRegion && matchSearch && matchFactuality;
             });
 
-            // Sorting
+            // Sorting Modes
             const sortMode = sortSelect.value;
             if (sortMode === 'factuality') {
                 filtered.sort((a, b) => b.factScore - a.factScore);
-            } else if (sortMode === 'readTime') {
-                filtered.sort((a, b) => parseInt(a.readTime) - parseInt(b.readTime));
-            } // Default 'newest' keeps initial database ordering
+            } else if (sortMode === 'perspectives') {
+                filtered.sort((a, b) => b.coverageSpectrum.length - a.coverageSpectrum.length);
+            } // 'newest' uses default chronological array placement
 
             storyCountBadge.textContent = `${filtered.length} verified reports`;
+
+            // Sidebar Region Distribution Counts Refresh
+            renderRegionDistribution();
 
             if (filtered.length === 0) {
                 newsFeedEl.innerHTML = '';
@@ -704,58 +918,71 @@
             }
 
             emptyFeedStateEl.classList.add('hidden');
+            
             newsFeedEl.innerHTML = filtered.map(story => `
-                <article class="bg-slate-900 border border-slate-800 hover:border-slate-700/80 rounded-xl p-5 transition-all duration-200 shadow-md hover:shadow-lg group">
+                <article class="bg-slate-900 border border-slate-800 hover:border-slate-700 rounded-xl p-5 transition-all duration-200 shadow-md group">
+                    
+                    <!-- Top Meta Info -->
                     <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
                         <div class="flex items-center gap-2">
                             <span class="text-[10px] font-bold uppercase tracking-wider bg-cyan-950/80 text-cyan-400 border border-cyan-800/60 px-2 py-0.5 rounded">
                                 ${story.category}
                             </span>
-                            <span class="text-[10px] font-medium text-slate-400 bg-slate-950 px-2 py-0.5 rounded border border-slate-800">
-                                <i class="fa-solid fa-location-dot text-slate-500 mr-1"></i>${story.region}
+                            <span class="text-[10px] font-semibold text-slate-300 bg-slate-950 px-2 py-0.5 rounded border border-slate-800 flex items-center gap-1">
+                                <i class="fa-solid fa-location-dot text-cyan-400 text-[9px]"></i> ${story.region}
                             </span>
                         </div>
-                        <div class="flex items-center gap-3 text-xs text-slate-400 font-mono">
+                        <div class="flex items-center gap-3 text-xs text-slate-400 font-mono-code">
                             <span><i class="fa-regular fa-clock mr-1 text-slate-500"></i>${story.timestamp}</span>
                             <span>•</span>
                             <span>${story.readTime}</span>
                         </div>
                     </div>
 
-                    <!-- Headline -->
+                    <!-- Article Title -->
                     <h3 class="text-lg font-bold text-slate-100 group-hover:text-cyan-300 transition font-serif-headline mb-2.5 leading-snug">
                         ${story.title}
                     </h3>
 
-                    <!-- Objective Key Facts Bullet List -->
+                    <!-- Objective Key Facts Block -->
                     <div class="bg-slate-950/70 rounded-lg p-3.5 mb-4 border border-slate-800/80">
-                        <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2 flex items-center gap-1.5">
-                            <i class="fa-solid fa-check-double text-emerald-400"></i> Verified Objective Facts (Who, What, Where)
+                        <div class="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2 flex items-center justify-between">
+                            <span class="flex items-center gap-1.5 text-slate-300">
+                                <i class="fa-solid fa-check-double text-emerald-400"></i> Core Verified Facts (No Opinion)
+                            </span>
+                            <span class="text-[10px] text-emerald-400 font-mono-code bg-emerald-950/60 px-1.5 py-0.5 rounded border border-emerald-800/40">
+                                ${story.factScore}% Fact Density
+                            </span>
                         </div>
                         <ul class="space-y-1.5 text-xs text-slate-300">
                             ${story.facts.slice(0, 3).map(fact => `
                                 <li class="flex items-start gap-2">
-                                    <span class="text-cyan-500 mt-0.5">•</span>
+                                    <span class="text-cyan-400 mt-0.5 font-bold">•</span>
                                     <span>${fact}</span>
                                 </li>
                             `).join('')}
                         </ul>
                     </div>
 
-                    <!-- Bottom Bar & Spectrum Gauge -->
-                    <div class="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-slate-800/60 text-xs">
-                        <!-- Fact Density Badge -->
-                        <div class="flex items-center gap-3">
-                            <div class="flex items-center gap-1.5 bg-emerald-950/50 text-emerald-400 border border-emerald-800/40 px-2.5 py-1 rounded text-[11px]">
-                                <i class="fa-solid fa-shield text-[10px]"></i>
-                                <span>${story.factScore}% Objective Fact-Density</span>
-                            </div>
-                            <span class="text-slate-500 text-[11px] hidden sm:inline">Wire: ${story.wireSource}</span>
+                    <!-- Multi-Angle Source Preview Bar -->
+                    <div class="mb-4 pt-1 flex items-center gap-2 overflow-x-auto scrollbar-none text-[11px]">
+                        <span class="text-slate-500 font-semibold uppercase text-[9px] shrink-0">Angles Analyzed:</span>
+                        ${story.coverageSpectrum.map(spec => `
+                            <span class="bg-slate-950 border border-slate-800 text-slate-300 px-2 py-0.5 rounded shrink-0 flex items-center gap-1" title="${spec.quote}">
+                                <i class="fa-solid fa-eye text-cyan-400 text-[9px]"></i> ${spec.outlet}
+                            </span>
+                        `).join('')}
+                    </div>
+
+                    <!-- Bottom Card Footer -->
+                    <div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-slate-800/70 text-xs">
+                        <div class="flex items-center gap-2 text-slate-400 text-[11px]">
+                            <i class="fa-solid fa-newspaper text-slate-500"></i>
+                            <span>Wire Source: <strong class="text-slate-300">${story.wireSource}</strong></span>
                         </div>
 
-                        <!-- Open Detail Modal Action -->
-                        <button onclick="openStoryDetail('${story.id}')" class="text-cyan-400 hover:text-cyan-300 font-medium flex items-center gap-1.5 hover:underline transition">
-                            <span>Full Fact Breakdown & Perspectives</span>
+                        <button onclick="openStoryDetail('${story.id}')" class="bg-cyan-950/50 hover:bg-cyan-900/60 text-cyan-300 border border-cyan-800/60 px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition">
+                            <span>Inspect Multi-Angle Fact Sheet</span>
                             <i class="fa-solid fa-arrow-right text-[10px]"></i>
                         </button>
                     </div>
@@ -763,22 +990,50 @@
             `).join('');
         }
 
-        function initTicker() {
-            // Duplicate ticker items to create smooth continuous infinite loop
-            const items = [...tickerStories, ...tickerStories];
-            tickerContentEl.innerHTML = items.map(text => `
-                <div class="inline-flex items-center gap-2">
-                    <span class="text-slate-400">•</span>
-                    <span>${text}</span>
-                </div>
-            `).join('');
+        // Render Sidebar Region Distribution Counts
+        function renderRegionDistribution() {
+            const regions = ['North America', 'Europe', 'Asia-Pacific', 'Middle East & Africa', 'Latin America'];
+            
+            regionDistributionList.innerHTML = regions.map(reg => {
+                const count = newsDatabase.filter(s => s.region === reg).length;
+                const isSelected = currentRegion === reg;
+                return `
+                    <div onclick="filterByRegion('${reg}')" class="p-2.5 rounded-lg ${isSelected ? 'bg-cyan-950/80 border-cyan-700/80 text-cyan-300' : 'bg-slate-950/80 border-slate-800 text-slate-300 hover:border-slate-700'} border transition cursor-pointer flex justify-between items-center group">
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-location-dot text-[10px] ${isSelected ? 'text-cyan-400' : 'text-slate-500 group-hover:text-cyan-400'}"></i>
+                            <span class="font-medium text-xs">${reg}</span>
+                        </div>
+                        <span class="font-mono-code text-[10px] bg-slate-900 border border-slate-800 px-2 py-0.5 rounded text-slate-400 group-hover:text-cyan-300">
+                            ${count} reports
+                        </span>
+                    </div>
+                `;
+            }).join('');
         }
 
+        // Region Filter Handler (Guarantees robust filtering without breaking)
+        function filterByRegion(regionName) {
+            currentRegion = regionName;
+            
+            // Update Region Buttons State
+            document.querySelectorAll('.region-btn').forEach(btn => {
+                if (btn.dataset.region === regionName) {
+                    btn.className = 'region-btn active bg-cyan-950/80 text-cyan-300 border border-cyan-800/60 px-3 py-1 rounded text-[11px] font-medium transition';
+                } else {
+                    btn.className = 'region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-3 py-1 rounded text-[11px] font-medium transition';
+                }
+            });
+
+            renderNewsFeed();
+        }
+
+        // Open Modal Fact Breakdown Sheet
         function openStoryDetail(storyId) {
             const story = newsDatabase.find(s => s.id === storyId);
             if (!story) return;
 
             modalCategory.textContent = story.category;
+            modalRegion.textContent = story.region;
             modalTimestamp.textContent = story.timestamp;
             modalHeadline.textContent = story.title;
             modalFactScore.textContent = `${story.factScore}%`;
@@ -787,18 +1042,23 @@
 
             // Facts List
             modalFactList.innerHTML = story.facts.map(f => `
-                <li class="leading-relaxed"><strong class="text-slate-100">Fact:</strong> ${f}</li>
+                <li class="flex items-start gap-2 leading-relaxed bg-slate-900 p-2 rounded border border-slate-800/50">
+                    <i class="fa-solid fa-shield-check text-emerald-400 mt-1 text-xs shrink-0"></i>
+                    <span><strong class="text-slate-100">Verified Fact:</strong> ${f}</span>
+                </li>
             `).join('');
 
             // Multi-Perspective Source Matrix
             modalSourceSpectrum.innerHTML = story.coverageSpectrum.map(spec => `
                 <div class="p-3 bg-slate-950 border border-slate-800 rounded-lg">
-                    <div class="font-semibold text-cyan-400 text-xs mb-1">${spec.outlet} Focus</div>
-                    <div class="text-slate-300 italic text-[11px]">"${spec.quote}"</div>
+                    <div class="font-bold text-cyan-400 text-xs mb-1 flex items-center gap-1.5">
+                        <i class="fa-solid fa-newspaper text-[10px]"></i> ${spec.outlet} Framing
+                    </div>
+                    <div class="text-slate-300 italic text-[11px] leading-snug">"${spec.quote}"</div>
                 </div>
             `).join('');
 
-            // Show Modal with Animation
+            // Show Modal
             detailModal.classList.remove('opacity-0', 'pointer-events-none');
             modalContent.classList.remove('scale-95');
             modalContent.classList.add('scale-100');
@@ -812,91 +1072,112 @@
             document.body.style.overflow = '';
         }
 
-        function fetchLatestHourlyData(isAuto = false) {
-            // Simulate API fetch delay
+        // Fetch / Manual Sync Logic (5m timer reset)
+        function fetchLatestWireData(isAuto = false) {
             fetchLatestBtn.disabled = true;
             fetchLatestBtn.innerHTML = `<i class="fa-solid fa-spinner animate-spin"></i> Synthesizing...`;
+            syncSpinner.classList.add('animate-spin');
 
             setTimeout(() => {
                 const now = new Date();
-                const updatedTime = `${String(now.getUTCHours()).padStart(2, '0')}:00 UTC`;
-                lastUpdatedTimestamp = updatedTime;
-                lastUpdatedTag.textContent = `Updated top of the hour: ${updatedTime}`;
+                const hours = String(now.getUTCHours()).padStart(2, '0');
+                const minutes = String(now.getUTCMinutes()).padStart(2, '0');
+                const timeString = `${hours}:${minutes} UTC`;
 
-                // Add a newly synthesized breaking headline at top
-                const newStoryId = `wire-${Date.now()}`;
-                const newStory = {
-                    id: newStoryId,
-                    title: `Hourly Global Diplomatic Summit Issues Joint Protocol on AI Safety Standards`,
-                    category: 'Tech & Science',
-                    region: 'World',
-                    timestamp: updatedTime,
+                lastUpdatedTimestamp = timeString;
+                lastUpdatedTag.textContent = `Last updated: ${timeString} (5m Wire Sync)`;
+
+                // Dynamic new report injected to demonstrate live sync
+                const dynamicId = `wire-dynamic-${Date.now()}`;
+                const categories = ['World', 'Culture', 'Politics', 'Economy', 'Tech & Science', 'Environment'];
+                const regions = ['North America', 'Europe', 'Asia-Pacific', 'Middle East & Africa', 'Latin America'];
+                
+                const randomCat = categories[Math.floor(Math.random() * categories.length)];
+                const randomReg = regions[Math.floor(Math.random() * regions.length)];
+
+                const newWireReport = {
+                    id: dynamicId,
+                    title: `[5m Wire Update] Diplomatic Working Group Finalizes High-Level Consensus on ${randomCat} Protocol`,
+                    category: randomCat,
+                    region: randomReg,
+                    timestamp: timeString,
                     readTime: '2 min read',
-                    factScore: 99.2,
+                    factScore: 99.3,
                     toneScore: '100% Objective',
                     facts: [
-                        'Representing delegates established multilateral benchmark testing protocols for generative systems.',
-                        'Independent third-party audits will be required for safety classification prior to commercial release.',
-                        'Protocol takes effect in 90 days across signatory regions.'
+                        `Official representatives concluded a 5-minute fast-track diplomatic review in ${randomReg}.`,
+                        'All verified primary documents were cross-referenced against 4 national wire archives.',
+                        'Implementation mechanisms were approved unanimously with zero reported dissents.'
                     ],
                     coverageSpectrum: [
-                        { outlet: 'Global Tech Wire', quote: 'Emphasizes standardized safety validation metrics.' },
-                        { outlet: 'International Policy Journal', quote: 'Notes voluntary compliance period before full regulatory enforcement.' }
+                        { outlet: 'Global Wire Bureau', quote: 'Stresses speed and legal alignment across participating delegations.' },
+                        { outlet: 'International Analysis Feed', quote: 'Notes procedural verification protocols satisfied all baseline standard tests.' }
                     ],
-                    wireSource: 'Global Lens Wire Service',
-                    summary: 'International delegates signed a unified benchmarking framework establishing safety audits for AI models.'
+                    wireSource: 'Global Lens Wire Automated Digest',
+                    summary: 'A newly synthesized 5-minute wire report verified consensus agreements across diplomatic representatives.'
                 };
 
-                // Insert into dataset top
-                newsDatabase.unshift(newStory);
-                
-                // Reset Countdown timer
-                secondsUntilRefresh = 3600;
+                // Add to database
+                newsDatabase.unshift(newWireReport);
 
-                // Re-render
+                // Reset timer countdown back to 5 minutes (300 seconds)
+                secondsUntilRefresh = 300;
+
                 renderNewsFeed();
 
                 fetchLatestBtn.disabled = false;
-                fetchLatestBtn.innerHTML = `<i class="fa-solid fa-rotate"></i> <span>Fetch Hourly Wire</span>`;
+                fetchLatestBtn.innerHTML = `<i class="fa-solid fa-rotate"></i> <span>Sync Now</span>`;
+                syncSpinner.classList.remove('animate-spin');
 
-                // Toast Notification
-                showToast(isAuto ? "Auto-synced latest hourly news wire." : "Fetched fresh hourly synthesis digest!");
-            }, 800);
+                showToast(isAuto ? "5-minute wire auto-sync completed!" : "Wire feed updated with latest synthesis!");
+            }, 700);
         }
 
+        // Toast Notification System
         function showToast(message) {
             const toast = document.createElement('div');
-            toast.className = 'fixed bottom-5 right-5 bg-cyan-600 text-slate-950 font-bold px-4 py-2.5 rounded-lg shadow-xl text-xs z-50 flex items-center gap-2 animate-bounce';
+            toast.className = 'fixed bottom-5 right-5 bg-cyan-500 text-slate-950 font-bold px-4 py-2.5 rounded-lg shadow-xl text-xs z-50 flex items-center gap-2 animate-bounce';
             toast.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${message}`;
             document.body.appendChild(toast);
-            setTimeout(() => toast.remove(), 3500);
+            setTimeout(() => toast.remove(), 3200);
         }
 
-        function filterByRegion(regionName) {
-            currentRegion = regionName;
-            document.querySelectorAll('.region-btn').forEach(btn => {
-                if (btn.dataset.region === regionName) {
-                    btn.className = 'region-btn bg-cyan-950/60 text-cyan-300 border border-cyan-800/50 px-2.5 py-0.5 rounded text-[11px]';
-                } else {
-                    btn.className = 'region-btn bg-slate-900 text-slate-400 hover:text-slate-200 border border-slate-800 px-2.5 py-0.5 rounded text-[11px]';
-                }
-            });
-            renderNewsFeed();
+        // Ticker Initialization
+        function initTicker() {
+            const items = [...tickerStories, ...tickerStories];
+            tickerContentEl.innerHTML = items.map(text => `
+                <div class="inline-flex items-center gap-2">
+                    <span class="text-cyan-400">•</span>
+                    <span>${text}</span>
+                </div>
+            `).join('');
+        }
+
+        // Dark/Light Theme Toggle
+        function toggleTheme() {
+            isDarkMode = !isDarkMode;
+            if (isDarkMode) {
+                document.documentElement.classList.add('dark');
+                themeIcon.className = 'fa-solid fa-moon text-cyan-400';
+            } else {
+                document.documentElement.classList.remove('dark');
+                themeIcon.className = 'fa-solid fa-sun text-amber-400';
+            }
         }
 
         document.addEventListener('DOMContentLoaded', () => {
-            // Start Clocks
+            // Start Clocks & Timers
             updateClock();
             setInterval(updateClock, 1000);
             setInterval(runCountdown, 1000);
 
-            // Init Ticker & News Feed
+            // Init Ticker & Initial News Feed
             initTicker();
             renderNewsFeed();
 
-            // Category Filter Buttons
+            // Category Button Listeners
             document.querySelectorAll('.category-btn').forEach(btn => {
-                btn.addEventListener('click', (e) => {
+                btn.addEventListener('click', () => {
                     document.querySelectorAll('.category-btn').forEach(b => {
                         b.className = 'category-btn bg-slate-900 text-slate-300 border border-slate-800 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:bg-slate-800 hover:text-white transition';
                     });
@@ -906,14 +1187,14 @@
                 });
             });
 
-            // Region Filter Buttons
+            // Region Button Listeners
             document.querySelectorAll('.region-btn').forEach(btn => {
                 btn.addEventListener('click', () => {
                     filterByRegion(btn.dataset.region);
                 });
             });
 
-            // Search Input
+            // Search Bar Listener
             searchInput.addEventListener('input', (e) => {
                 searchQuery = e.target.value.trim();
                 renderNewsFeed();
@@ -923,10 +1204,10 @@
             factDensityFilterBtn.addEventListener('click', () => {
                 highFactualityOnly = !highFactualityOnly;
                 if (highFactualityOnly) {
-                    factDensityFilterBtn.classList.add('border-cyan-500', 'bg-cyan-950/40');
+                    factDensityFilterBtn.classList.add('border-cyan-500', 'bg-cyan-950/50');
                     factBadgeState.className = 'w-2 h-2 rounded-full bg-cyan-400 animate-pulse';
                 } else {
-                    factDensityFilterBtn.classList.remove('border-cyan-500', 'bg-cyan-950/40');
+                    factDensityFilterBtn.classList.remove('border-cyan-500', 'bg-cyan-950/50');
                     factBadgeState.className = 'w-2 h-2 rounded-full bg-slate-500';
                 }
                 renderNewsFeed();
@@ -935,16 +1216,19 @@
             // Sort Select
             sortSelect.addEventListener('change', renderNewsFeed);
 
-            // Manual Fetch Button
-            fetchLatestBtn.addEventListener('click', () => fetchLatestHourlyData(false));
+            // Manual Fetch Sync Button
+            fetchLatestBtn.addEventListener('click', () => fetchLatestWireData(false));
 
-            // Auto Refresh Toggle
+            // Auto Sync Toggle Switch
             autoRefreshToggle.addEventListener('change', (e) => {
                 autoRefreshEnabled = e.target.checked;
-                showToast(autoRefreshEnabled ? "Auto-sync enabled (Every 60 min)" : "Auto-sync paused");
+                showToast(autoRefreshEnabled ? "5-minute auto-sync enabled" : "Auto-sync paused");
             });
 
-            // Clear Filters Button
+            // Theme Toggle
+            themeToggleBtn.addEventListener('click', toggleTheme);
+
+            // Reset Filters Button
             resetFiltersBtn.addEventListener('click', () => {
                 currentCategory = 'All';
                 currentRegion = 'All';
@@ -952,7 +1236,6 @@
                 highFactualityOnly = false;
                 searchInput.value = '';
                 
-                // Reset Category Buttons UI
                 document.querySelectorAll('.category-btn').forEach(b => {
                     if (b.dataset.category === 'All') {
                         b.className = 'category-btn active bg-slate-800 text-cyan-400 border border-cyan-500/30 px-3 py-1.5 rounded-md font-medium whitespace-nowrap hover:border-cyan-500 transition';
@@ -964,7 +1247,7 @@
                 filterByRegion('All');
             });
 
-            // Modal Close Events
+            // Modal Controls
             closeModalBtn.addEventListener('click', closeModal);
             closeModalFooterBtn.addEventListener('click', closeModal);
             detailModal.addEventListener('click', (e) => {
