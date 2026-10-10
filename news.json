@@ -1,5 +1,45 @@
 [
   {
+    "title": "The Kennedy Center names new artistic director, amid concerns",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The center's executive director has named an agent who has worked with ZZ Top and Motley Crue drummer Tommy Lee as the head of programming for the arts institution.",
+      "Reporting Desk: NPR US News",
+      "Source Stamp: Sat, 10 Oct 2026 14:17:12 -0400"
+    ],
+    "sources": [
+      {
+        "name": "NPR US News",
+        "url": "https://www.npr.org/2026/10/10/nx-s1-5996934/kennedy-center-rick-canny-new-artistic-director",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-1"
+  },
+  {
+    "title": "At least 2 deaths attributed to Isaias after hurricane bashes Florida and Alabama",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Hurricane Isaias is blamed for at least two deaths, after the storm made landfall on the Florida coast and ran through Alabama. There are numerous reports of downed trees, with hundreds of thousands of people without power.",
+      "Reporting Desk: NPR US News",
+      "Source Stamp: Sat, 10 Oct 2026 13:14:03 -0400"
+    ],
+    "sources": [
+      {
+        "name": "NPR US News",
+        "url": "https://www.npr.org/2026/10/10/g-s1-147632/at-least-2-deaths-attributed-to-isaias-after-hurricane-bashes-florida-and-alabama",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-2"
+  },
+  {
     "title": "Opinion: Can I keep the baseball I caught?",
     "category": "U.S.",
     "country": "United States",
@@ -17,7 +57,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-1"
+    "id": "story-3"
   },
   {
     "title": "Ongoing lawsuits allege GLP-1s can cause serious harm. But we don't know how often",
@@ -37,7 +77,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-2"
+    "id": "story-4"
   },
   {
     "title": "16 cozy activities to add to your fall bucket list",
@@ -57,7 +97,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-3"
+    "id": "story-5"
   },
   {
     "title": "After losing ground with Latino voters, Democrats are turning to influencers for help",
@@ -77,7 +117,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-4"
+    "id": "story-6"
   },
   {
     "title": "The Met puts a modern artist front and center (and there's some Jackson Pollock, too)",
@@ -97,10 +137,10 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-5"
+    "id": "story-7"
   },
   {
-    "title": "A year of ceasefire in Gaza through the lens of NPR's reporter",
+    "title": "Photos: What a year of ceasefire in Gaza looks like",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
@@ -117,7 +157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-6"
+    "id": "story-8"
   },
   {
     "title": "India cracks down on youth protests as anger grows against Modi and election chief",
@@ -126,7 +166,7 @@
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Indian authorities have launched a major security crackdown in New Delhi, detaining thousands of protesters who intended to hold a mass demonstration against Prime Minister Narendra Modi's government.",
+      "The protests focus on the Election Commission's voter list revision, which the opposition claims disenfranchises millions. The government denies the allegations, saying the revision aims to eliminate duplicate entries.",
       "Reporting Desk: NPR US News",
       "Source Stamp: Sat, 10 Oct 2026 04:31:28 -0400"
     ],
@@ -137,7 +177,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-7"
+    "id": "story-9"
   },
   {
     "title": "Kalshi taps former FBI agent to fight against money laundering",
@@ -157,46 +197,6 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-8"
-  },
-  {
-    "title": "Fired OpenAI employees question the company's commitment to safety",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The three fired workers say OpenAI punished them for being outspoken about safety. The company disputes the claims and says they were fired over mishandling sensitive information.",
-      "Reporting Desk: NPR US News",
-      "Source Stamp: Fri, 09 Oct 2026 17:28:09 -0400"
-    ],
-    "sources": [
-      {
-        "name": "NPR US News",
-        "url": "https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-9"
-  },
-  {
-    "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow, to combat prices before midterms. He said he struck the deal with Russian President Vladimir Putin in a phone call.",
-      "Reporting Desk: NPR US News",
-      "Source Stamp: Fri, 09 Oct 2026 17:24:13 -0400"
-    ],
-    "sources": [
-      {
-        "name": "NPR US News",
-        "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-10"
   },
   {
@@ -208,7 +208,7 @@
     "keyFacts": [
       "The Gulf Coast is bracing for dangerous conditions, extreme wind and flooding.",
       "Reporting Desk: ABC News US",
-      "Source Stamp: Sat, 10 Oct 2026 10:47:39 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 12:03:33 -0400"
     ],
     "sources": [
       {
@@ -240,40 +240,40 @@
     "id": "story-12"
   },
   {
-    "title": "Fort Hood survivors speak out on Pentagon's decision to livestream Hasan's execution",
+    "title": "Christa Pike released from hospital following botched execution, attorneys say",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Alonzo Lunsford, who was shot several times, said he plans to attend in person and wants to \"lock eyes\" with the shooter, Nidal Hasan.",
+      "Christa Pike was released from the hospital and transferred back to prison more than a week after her botched execution, her attorneys said Saturday.",
       "Reporting Desk: ABC News US",
-      "Source Stamp: Sat, 10 Oct 2026 05:12:20 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 12:19:20 -0400"
     ],
     "sources": [
       {
         "name": "ABC News US",
-        "url": "https://abcnews.com/Politics/fort-hood-survivors-speak-pentagons-decision-livestream-hasans/story?id=137144236",
+        "url": "https://abcnews.com/US/christa-pike-released-hospital-botched-execution/story?id=137160162",
         "bias": "CENTER"
       }
     ],
     "id": "story-13"
   },
   {
-    "title": "Ella Langley's Tulsa concert canceled over reported security threat",
+    "title": "Man attacked by tiger after entering enclosure at England wildlife park",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Ella Langley's Friday night concert in Tulsa, Oklahoma, was canceled due to what is being described as a \"serious security threat.\"",
+      "The tigers remained inside the enclosure and there was no danger to the public.",
       "Reporting Desk: ABC News US",
-      "Source Stamp: Fri, 09 Oct 2026 23:59:24 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 14:36:40 -0400"
     ],
     "sources": [
       {
         "name": "ABC News US",
-        "url": "https://abcnews.com/GMA/News/ella-langelys-tulsa-show-canceled-security-threat-police/story?id=137147457",
+        "url": "https://abcnews.com/International/wireStory/man-attacked-tiger-after-entering-enclosure-wildlife-park-137161794",
         "bias": "CENTER"
       }
     ],
@@ -400,44 +400,64 @@
     "id": "story-20"
   },
   {
-    "title": "Multiple people, including 2 children, killed in reported mass shooting in Erie",
+    "title": "At least 4 dead as Isaias brings threat of floods across the Southeast",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Two women were found dead in the street, two children were killed, and the victim reportedly took their own life in a mass shooting in Erie, Pa.",
+      "More than 700,000 customers are without power after Isaias made landfall as a hurricane on the northern Gulf Coast.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 10 Oct 2026 10:50:39 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 15:00:13 -0400"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/erie-pennsylvania-mass-shooting-perry-street/",
+        "url": "https://www.cbsnews.com/live-updates/isaias-southeastern-u-s-gulf-coast/",
         "bias": "CENTER"
       }
     ],
     "id": "story-21"
   },
   {
-    "title": "Trump touts diesel deal with Putin ahead of midterms",
+    "title": "Officer dies from injuries, another hurt in West Philadelphia shooting",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "President Trump says Russia has agreed to release millions of tons of diesel fuel over the next several months in an attempt to combat high prices amid the Iran war. The move comes weeks ahead of the U.S. midterm elections.",
+      "Authorities identified the fallen officer as 40-year-old Shane Seiber, a 10-year veteran of the force.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 10 Oct 2026 10:46:18 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 14:35:02 -0400"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/trump-touts-diesel-deal-with-putin-ahead-of-midterms/",
+        "url": "https://www.cbsnews.com/news/philadelphia-police-officers-shot-today-52nd-street/",
         "bias": "CENTER"
       }
     ],
     "id": "story-22"
+  },
+  {
+    "title": "This week on \"Sunday Morning\" (Oct. 11)",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A look at the features for this week's broadcast of the Emmy-winning program, hosted by Jane Pauley.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sat, 10 Oct 2026 14:04:52 -0400"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/news/this-week-on-sunday-morning-oct-11-2026/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-23"
   },
   {
     "title": "Putin relays Iran's position on deal to President Trump",
@@ -448,7 +468,7 @@
     "keyFacts": [
       "Russian President Vladimir Putin played mediator between Iran and President Trump on Friday, talking to the U.S. president about what Iran wants to end the war.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 10 Oct 2026 10:39:49 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 14:01:08 -0400"
     ],
     "sources": [
       {
@@ -457,207 +477,207 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-23"
-  },
-  {
-    "title": "Isaias makes landfall as Category 2 hurricane",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Isaias made landfall on the northern Gulf Coast as a Category 2 hurricane, but within hours weakened to a post-tropical cyclone.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 10 Oct 2026 10:33:44 -0400"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/isaias-makes-landfall-as-category-2-hurricane/",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-24"
   },
   {
-    "title": "Eye Opener: Isaias hammers the Gulf Coast",
+    "title": "Vehicle driven by ICE agents in Texas hits and injures man, sheriff says",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Isaias makes landfall and an art heist in France. All that and all that matters in today's Eye Opener.",
+      "The Harris County Sheriff's Office said in a statement that the incident appears to have occurred during an ICE enforcement action.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 10 Oct 2026 10:30:15 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 14:00:58 -0400"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/eye-opener-isaias-hammers-the-gulf-coast/",
+        "url": "https://www.cbsnews.com/news/ice-agents-vehicle-hits-man-harris-county-texas/",
         "bias": "CENTER"
       }
     ],
     "id": "story-25"
   },
   {
-    "title": "Gunman shoots 2 police officers in West Philadelphia",
+    "title": "Trump says Ukraine needs new president, blames Zelenskyy for diesel prices",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Two Philadelphia police officers were hurt in a shooting in West Philadelphia early Saturday morning. One officer was hit 12 times.",
+      "President Trump's criticism of Ukrainian President Volodymyr Zelenskyy comes after Russian strikes killed at least 20 people, including three children, in Ukraine.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 10 Oct 2026 10:28:47 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 13:53:34 -0400"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/philadelphia-police-officers-shot-today-52nd-street/",
+        "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/",
         "bias": "CENTER"
       }
     ],
     "id": "story-26"
   },
   {
-    "title": "Blanche, other DOJ appointees can take part in campaigns, memo says",
+    "title": "Man attacked by tiger in England after entering enclosure at wildlife park",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "The Justice Department has loosened the guidelines for the attorney general and other senior ​political appointees, allowing them to participate in political activities.",
+      "The incident occurred at the Yorkshire Wildlife Park near the city of Doncaster, police said.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 10 Oct 2026 10:09:08 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 13:35:51 -0400"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/ag-blanche-other-high-level-doj-appointees-can-take-part-in-political-campaigns-memo/",
+        "url": "https://www.cbsnews.com/news/yorkshire-wildlife-park-tiger-enclosure-attack/",
         "bias": "CENTER"
       }
     ],
     "id": "story-27"
   },
   {
-    "title": "Trump says Russia will release millions of tons of diesel to help with costs",
+    "title": "Secret Service director warns of unprecedented threats",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Russian President Vladimir Putin agreed to release 300,000 tons of diesel immediately and millions more over the coming months.",
+      "The director of the Secret Service tells 60 Minutes the threat environment in the U.S. is unlike anything he's seen before. And it's not just gunmen anymore. Can the Secret Service still protect the president in the age of drones, political violence ...",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 10 Oct 2026 10:08:15 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 13:01:00 -0400"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/trump-russia-release-diesel-oil-iran-skyrocketing-costs/",
+        "url": "https://www.cbsnews.com/video/secret-service-director-warns-of-unprecedented-threats/",
         "bias": "CENTER"
       }
     ],
     "id": "story-28"
   },
   {
-    "title": "Abbas delays Palestinian elections to 2027, marking 20 years without a vote",
+    "title": "\"Tulsa King\" star Garrett Hedlund talks season 4",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Palestinians have not held a legislative election since 2006, when Hamas won a majority of seats.",
+      "Actor and musician Garrett Hedlund joins \"CBS Saturday Morning\" to chat about the upcoming season 4 of \"Tulsa King.\"",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 10 Oct 2026 10:08:00 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 12:50:36 -0400"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/mahmoud-abbas-postpones-palestinian-legislative-elections/",
+        "url": "https://www.cbsnews.com/video/tulsa-king-star-garrett-hedlund-talks-season-4/",
         "bias": "CENTER"
       }
     ],
     "id": "story-29"
   },
   {
-    "title": "Deadly Isaias weakens as it lashes Southeast with rain and flooding",
+    "title": "The legacy of Mike Ditka, Chicago Bears icon",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Nearly 900,000 people were without power after Isaias made landfall as a hurricane on the northern Gulf coast near Destin, Florida, on Friday night.",
+      "Mike Ditka, a star tight end and renowned coach for the Chicago Bears, has died at the age of 86.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 10 Oct 2026 10:00:32 -0400"
+      "Source Stamp: Sat, 10 Oct 2026 12:46:20 -0400"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/live-updates/isaias-southeastern-u-s-gulf-coast/",
+        "url": "https://www.cbsnews.com/video/the-legacy-of-mike-ditka-chicago-bears-icon/",
         "bias": "CENTER"
       }
     ],
     "id": "story-30"
   },
   {
-    "title": "Isaias pushes further inland with strong winds, heavy rain",
+    "title": "Hurricane Isaias leaves at least two people dead",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "NBC News' Jesse Kirsch, along with Rachel Flynn of WJHG and meteorologist Angie Lassman report on storm Isaias' impact as it spreads north after slamming the Gulf Coast.",
+      "At least two people were killed after Hurricane Isaias made landfall on the Florida Panhandle as a Category 2 storm. NBC News’ Jesse Kirsch and Angie Lassman report.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sat, 10 Oct 2026 10:44:09 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 16:20:15 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/video/isaias-pushes-further-inland-271385157665",
+        "url": "https://www.nbcnews.com/now/video/hurricane-isaias-leaves-at-least-two-people-dead-271390277531",
         "bias": "CENTER"
       }
     ],
     "id": "story-31"
   },
   {
-    "title": "Backlash to livestream of firing squad execution",
+    "title": "9 dead in Pennsylvania shooting, Erie officials say",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "There is criticism of the Trump administration’s decision to livestream the firing squad execution of the Fort Hood mass killer. NBC News’ Ryan Chandler reports.",
+      "Nine people are dead after a shooting in Erie, Pennsylvania, on Friday night, city officials said.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Fri, 09 Oct 2026 22:55:17 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 17:39:59 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/nightly-news/video/backlash-to-livestream-of-firing-squad-execution-271368773744",
+        "url": "https://www.nbcnews.com/news/us-news/erie-pennsylvania-mass-shooting-rcna602669",
         "bias": "CENTER"
       }
     ],
     "id": "story-32"
   },
   {
-    "title": "James Talarico back on the trail after absence with flu drew scrutiny",
+    "title": "Trump says he’ll decide whether to livestream the execution of Fort Hood shooter Nidal Hasan",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "After drawing scrutiny for his absence from the campaign trail, Democratic Texas Senate candidate James Talarico, who had been sick with the flu, returned to the stump.",
+      "President Donald Trump said Saturday that he hasn’t yet made a final decision on whether to livestream the execution of former Army Maj.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Fri, 09 Oct 2026 21:09:54 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 18:15:17 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/politics/2026-election/james-talarico-back-campaign-trail-absence-flu-rcna602599",
+        "url": "https://www.nbcnews.com/politics/donald-trump/trump-execution-fort-hood-livestream-rcna602672",
         "bias": "CENTER"
       }
     ],
     "id": "story-33"
+  },
+  {
+    "title": "Can you trust the vote?",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Pennsylvania’s top election official explains how claims of voter fraud make it harder to make the vote secure",
+      "Reporting Desk: NBC News Top Stories",
+      "Source Stamp: Thu, 08 Oct 2026 22:54:54 GMT"
+    ],
+    "sources": [
+      {
+        "name": "NBC News Top Stories",
+        "url": "https://www.nbcnews.com/video/can-you-trust-the-vote-271298629776",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-34"
   },
   {
     "title": "Mail ballot concerns are changing how Democrats vote",
@@ -677,7 +697,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-34"
+    "id": "story-35"
   },
   {
     "title": "A high-profile Supreme Court recusal, and sailors come home to a baby boom: The news quiz",
@@ -697,47 +717,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-35"
-  },
-  {
-    "title": "Trump: Russia will send diesel fuel to the U.S. to bring down prices",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "President Trump said he spoke to Vladimir Putin and Russia will send hundreds of thousands of barrels of diesel fuel to the U.S. aimed at bringing down prices at the pump. NBC News’ Garrett Haake reports.",
-      "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sat, 10 Oct 2026 00:07:47 GMT"
-    ],
-    "sources": [
-      {
-        "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/nightly-news/video/trump-russia-will-send-diesel-fuel-to-the-u-s-to-bring-down-prices-271372357511",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-36"
-  },
-  {
-    "title": "Food pantries overwhelmed by Trump cuts",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Those on the front lines of feeding their neighbors in rural West Virginia say they face unprecedented challenges brought on by Washington.",
-      "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Fri, 09 Oct 2026 09:00:43 GMT"
-    ],
-    "sources": [
-      {
-        "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/news/us-news/west-virginia-hunger-trump-cuts-food-stamps-gas-prices-iran-rcna601637",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-37"
   },
   {
     "title": "MAHA fractures deepen as some RFK Jr. followers turn into harsh critics",
@@ -757,7 +737,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-38"
+    "id": "story-37"
   },
   {
     "title": "Affording America: How a single mother in Chicago turned to gig work to survive",
@@ -777,7 +757,167 @@
         "bias": "CENTER"
       }
     ],
+    "id": "story-38"
+  },
+  {
+    "title": "Trump rips Zelensky amid Russia diesel deal feud: ‘I suggest they get a new leader’",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "President Trump on Saturday pushed back on criticism from Ukrainian President Volodymyr Zelensky to the White House’s decision to lift sanctions on Russian diesel amid the Russia-Ukraine war.&#160; The president told reporters outside the White House...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 10 Oct 2026 18:26:04 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/administration/6140694-trump-defends-russian-diesel-deal/",
+        "bias": "CENTER"
+      }
+    ],
     "id": "story-39"
+  },
+  {
+    "title": "The fight for EPA workers’ rights is a fight for the American public",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Federal employees do not work for a president, a political party or an ideology — we work for America.",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 10 Oct 2026 18:00:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/opinion/congress-blog/labor/6139141-epa-union-contract-lawsuit/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-40"
+  },
+  {
+    "title": "Pope Leo decries death penalty as Hegseth’s public execution plan sparks backlash",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Pope Leo XIV on Saturday called capital punishment &#8220;inadmissible&#8221; on World Day Against the Death Penalty, amid the Pentagon’s plans to livestream the December execution of former Army Maj. Nidal Hasan in Texas.&#160; “The death penalty is...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 10 Oct 2026 17:37:50 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/policy/international/6140669-pope-decries-death-penalty/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-41"
+  },
+  {
+    "title": "AI will make Americans dumber and poorer",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The author argues that the rapid advancement of artificial intelligence risks establishing a high-tech feudalism where a few mega-corporations exert unprecedented control over human cognition and social infrastructure.",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 10 Oct 2026 17:00:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/opinion/technology/6139168-ai-risks-high-tech-feudalism/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-42"
+  },
+  {
+    "title": "9 people dead in Erie, Pennsylvania mass shooting",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "ERIE, Pa. (WJET) &#8212; Nine people are dead after what Pennsylvania Governor Josh Shapiro described as a mass shooting in the City of Erie Friday night. The City of Erie also confirmed Saturday morning that nine people lost their lives in what they...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 10 Oct 2026 16:26:18 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/state-watch/6140615-erie-mass-shooting-nine-dead/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-43"
+  },
+  {
+    "title": "The Memo: Guilfoyle furor rises as Trump stops short of expressing support",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The uproar isn’t dying down over U.S. Ambassador to Greece Kimberly Guilfoyle and her reported request to have a MAGA donor pay down her personal credit card debt. President Trump, when asked about the matter as he prepared to leave for New York Frid...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 10 Oct 2026 16:00:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/analysis/6140076-trump-guilfoyle-controversy-response-column/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-44"
+  },
+  {
+    "title": "Forget the next big thing: How America’s old things keep us safe",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Be it our military or our commercial sector, everyone seems to be pushing for the next new thing in America. That’s great, but what if the old things are ultimately more critical to our national and economic security? Take the Boeing B-52 Stratofortr...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 10 Oct 2026 16:00:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/opinion/national-security/6139525-american-national-security-maintenance/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-45"
+  },
+  {
+    "title": "Talarico makes first appearance in 13-days at music festival after flu absence",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Texas Senate candidate James Talarico (D) made his first appearance in nearly two weeks on Friday after his campaign said he was recovering from a bout of the flu.&#160; The Democratic nominee was seen strolling around Austin City Limits (ACL) — the ...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 10 Oct 2026 15:18:51 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6140552-james-talarico-returns-flu-absence-campaign/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-46"
   },
   {
     "title": "Kalshi investigating suspicious bets tied to White house press secretary pick: Report",
@@ -797,7 +937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-40"
+    "id": "story-47"
   },
   {
     "title": "Special counsel gone wild: Jack Smith makes a splash at a ‘No Kings’ concert",
@@ -817,167 +957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-41"
-  },
-  {
-    "title": "Democrats explode over Trump’s Russia diesel deal",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Democratic lawmakers pushed back Friday on President Trump’s decision to lift sanctions on Russian oil amid global fuel shortages during U.S. military operations against Iran and the Russia-Ukraine war.  The deal will permit Russian President Vladimi...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 10 Oct 2026 13:02:54 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/administration/6140462-democrats-slam-trump-putin-diesel-deal/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-42"
-  },
-  {
-    "title": "Live updates: Trump headlines rally in Tennessee; Debate continues over Hasan’s execution livestream",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "President Trump confirmed Friday that he would no longer be attending the University of Georgia vs. University of Alabama football game in Tuscaloosa due to Hurricane Isaias, but still plans on traveling to Tennessee for a midterm rally. “I will go t...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 10 Oct 2026 13:00:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/administration/6140148-live-updates-trump-tennessee-rally-execution-livestream/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-43"
-  },
-  {
-    "title": "America’s adversaries are attacking sideways",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "A global system of allies also presents Washington’s adversaries with more targets.",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 10 Oct 2026 13:00:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/opinion/national-security/6139049-combating-horizontal-escalation-adversaries/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-44"
-  },
-  {
-    "title": "These households could spend more to heat their homes this winter, federal outlook says",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The fuel you use and where you live could have a huge impact on your heating bill this year.",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 10 Oct 2026 12:00:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/state-watch/6134062-these-households-could-spend-more-to-heat-their-homes-this-winter-federal-outlook-says/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-45"
-  },
-  {
-    "title": "America’s trillion-dollar bet on AI",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Like it or not, we are all in on the ginormous AI bet.",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 10 Oct 2026 12:00:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/opinion/finance/6139410-us-fiscal-crisis-ai-bet/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-46"
-  },
-  {
-    "title": "Trump: I ‘should have won’ Nobel Peace Prize, award is ‘forever discredited’",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "President Trump argued Friday that he should have been awarded the Nobel Peace Prize over this year’s Nobel laureate, former International Criminal Court (ICC) judge Navi Pillay.&#160; The president, who has long coveted the honor, was gifted the awa...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 10 Oct 2026 11:55:40 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/administration/6140425-trump-nobel-peace-prize-criticism/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-47"
-  },
-  {
-    "title": "GOP lawmakers push back on Hegseth decision to livestream execution",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Republican lawmakers are pushing back on Defense Secretary Pete Hegseth’s decision to livestream the execution of the convicted Fort Hood shooter, former Army Maj. Nidal Hasan, who killed 13 people in Texas in 2009.&#160; Lawmakers in both chambers s...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 10 Oct 2026 10:00:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/policy/defense/6139961-republicans-condemn-hegseth-execution-spectacle/",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-48"
-  },
-  {
-    "title": "Federal judge: DOJ cannot request states’ voter lists for eligibility database",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "A federal judge struck down on Friday the Justice Department’s nationwide effort to collect voter registration records and identify suspected non-U.S. citizens, blocking the Trump administration from continuing the program even in states that volunta...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 10 Oct 2026 03:13:42 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/regulation/court-battles/6140273-judge-blocks-doj-voter-rolls-program/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-49"
   },
   {
     "title": "Commentary: Public executions are the work of tyrants. Now, the U.S. is joining in",
@@ -997,7 +977,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-50"
+    "id": "story-49"
   },
   {
     "title": "U.S. plan to livestream execution by firing squad draws bipartisan, international outrage",
@@ -1017,7 +997,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-51"
+    "id": "story-50"
   },
   {
     "title": "The hidden cost of farmed fish: Pollution, forced labor and the depletion of wild fish",
@@ -1037,7 +1017,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-52"
+    "id": "story-51"
   },
   {
     "title": "With Hollywood's history of failed mergers, this is the rocky road ahead for David Ellison and Skydance",
@@ -1057,7 +1037,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-53"
+    "id": "story-52"
   },
   {
     "title": "White House targets Stanford, Caltech and tech giants in visa crackdown",
@@ -1077,7 +1057,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-54"
+    "id": "story-53"
   },
   {
     "title": "Commentary: To Trump, the Cornell Seven are victims. It's a familiar refrain for him",
@@ -1097,7 +1077,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-55"
+    "id": "story-54"
   },
   {
     "title": "At the ground zero of the AI boom, San Francisco Bay residents grapple with the technology",
@@ -1117,7 +1097,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-56"
+    "id": "story-55"
   },
   {
     "title": "ICE detainees sprayed with toxic cleaner during COVID crisis to get six-figure payout in settlement",
@@ -1137,7 +1117,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-57"
+    "id": "story-56"
   },
   {
     "title": "Trump says he won't let Iran strike L.A. or San Diego: 'Not going to let that happen'",
@@ -1157,7 +1137,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-58"
+    "id": "story-57"
   },
   {
     "title": "California's trucking industry is running out of gas—and money",
@@ -1177,7 +1157,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-59"
+    "id": "story-58"
   },
   {
     "title": "To gauge the U.S.’s political currents, start in Minnesota and follow the Mississippi",
@@ -1197,7 +1177,107 @@
         "bias": "CENTER"
       }
     ],
+    "id": "story-59"
+  },
+  {
+    "title": "Trump says Ukraine needs a new president, blames Zelensky for high diesel prices",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Kyiv warns deal with Putin would help bankroll Moscow’s war",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sat, 10 Oct 2026 11:44:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-ukraine-russia-war-zaporizhzhia-trump-diesel-deal/",
+        "bias": "CENTER"
+      }
+    ],
     "id": "story-60"
+  },
+  {
+    "title": "Riyadh airport attacked again as official says missile struck terminal complex",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Airport in Saudi Arabian capital was evacuated and official says many people were wounded",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sat, 10 Oct 2026 16:06:15 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-riyadh-airport-attack-oct-10/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-61"
+  },
+  {
+    "title": "Palestinian President postpones elections, sets presidential poll for September, 2027",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "There had been serious doubts that the Palestinian Authority vote would go ahead next month",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sat, 10 Oct 2026 16:49:04 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-palestinian-president-postpones-elections-sets-presidential-poll-for/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-62"
+  },
+  {
+    "title": "Christa Pike is discharged from hospital after execution attempt, lawyers say",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Pike, who survived two doses of pentobarbital, was moved back to a Tennessee prison",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sat, 10 Oct 2026 16:39:07 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-christa-pike-is-discharged-from-hospital-after-execution-attempt/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-63"
+  },
+  {
+    "title": "Pope Leo calls capital punishment ‘inadmissible’ as U.S. plans to livestream execution",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Leo quotes revised Catholic teaching ushered in by Pope Francis on World Day Against the Death Penalty",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sat, 10 Oct 2026 16:29:20 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-pope-leo-death-penalty-inadmissible/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-64"
   },
   {
     "title": "World Medical Association adopts policy combatting false health information",
@@ -1217,27 +1297,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-61"
-  },
-  {
-    "title": "Russian attacks kill at least 12 in Ukraine’s Zaporizhzhia after Trump strikes diesel deal with Putin",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Kyiv warned deal would help bankroll Moscow’s war in Ukraine",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sat, 10 Oct 2026 11:44:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-ukraine-russia-war-zaporizhzhia-trump-diesel-deal/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-62"
+    "id": "story-65"
   },
   {
     "title": "Anthropic AI model submits false homicide tip to Philadelphia police",
@@ -1257,7 +1317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-63"
+    "id": "story-66"
   },
   {
     "title": "India cracks down on youth ‘Cockroach’ movement as anger grows against Modi, election chief",
@@ -1277,7 +1337,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-64"
+    "id": "story-67"
   },
   {
     "title": "Explore our U.S. midterms series, The Restless River",
@@ -1297,87 +1357,87 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-65"
-  },
-  {
-    "title": "Olive harvest in Gaza decimated by loss of more than a million trees in the war",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "In Palestinian culture, olives represent a deep connection to the land, but number of farmers has fallen from about 7,000 to 600",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 09 Oct 2026 22:34:17 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-gaza-olive-harvest-trees-war/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-66"
-  },
-  {
-    "title": "Fish farming in Xinjiang is being sold as proof that technology can overcome geography. The reality is more complicated",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The desert seafood boom is built on political control, imported feed, and a food system that masks its real burdens",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 09 Oct 2026 13:00:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-fish-farming-in-xinjiang-is-being-sold-as-proof-that-technology-can/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-67"
-  },
-  {
-    "title": "Two powerful earthquakes rock Panama, damaging buildings and roads",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "A 7.7 and 6.6 magnitude earthquake, followed by a series of aftershocks, prompted evacuations across the country",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 09 Oct 2026 19:10:39 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-panama-magnitude-76-earthquake-oct-9/",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-68"
   },
   {
-    "title": "South African judge wins Nobel Peace Prize, signalling pushback to U.S. campaign against ICC",
+    "title": "Trump says Ukraine should get a new president as he blames Zelenskyy for US diesel prices",
     "category": "World",
     "country": "Canada",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Navi Pillay, a former ICC judge and anti-apartheid lawyer, was honoured as the Nobel committee defended the role of international law against mounting political pressure",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 09 Oct 2026 20:54:18 +0000"
+      "President Trump said Saturday it was time for Ukraine to get a new president, saying Zelenskyy hasn't done enough to end the war with Russia and blaming him for high diesel prices.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Sat, 10 Oct 2026 18:29:33 +0000"
     ],
     "sources": [
       {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-navi-pillay-south-african-judge-wins-nobel-peace-prize/",
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/news/12098573/trump-says-ukraine-should-get-a-new-president-as-he-blames-zelenskyy-for-us-diesel-prices/",
         "bias": "CENTER"
       }
     ],
     "id": "story-69"
+  },
+  {
+    "title": "9 dead after shooting in Erie, Pennsylvania: police",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Nine people were killed Friday in a shooting in Erie, Pennsylvania, Gov. Josh Shapiro said Saturday. Police said the suspected shooter was also dead.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Sat, 10 Oct 2026 16:51:56 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/news/12098523/9-dead-pennsylvania-shooting/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-70"
+  },
+  {
+    "title": "Lotto Max jackpot set for $85M, largest prize in history of Canadian lotto",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "With no ticket matching all seven numbers on Friday night’s Lotto Max draw, players now have the chance to win $85 million, the largest jackpot in the history of Canadian lotto.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Sat, 10 Oct 2026 15:33:39 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/news/12098460/lotto-max-jackpot-85-million/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-71"
+  },
+  {
+    "title": "The Curator: 8 comfortable sleeper sofas for every space and budget",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "From Canadian favourites Article, Simons and Cozey to Walmart, Amazon and more, there's a sleeper sofa to suit every budget, style and need.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Sat, 10 Oct 2026 15:00:57 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/the-curator/11890687/best-sleeper-sofas/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-72"
   },
   {
     "title": "Pope Leo declares death penalty ‘inadmissible’ as his native US plans to livestream execution",
@@ -1397,7 +1457,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-70"
+    "id": "story-73"
   },
   {
     "title": "Suspect sought in early morning break-in, sexual assault: Toronto police",
@@ -1417,7 +1477,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-71"
+    "id": "story-74"
   },
   {
     "title": "Tommy Time taking over in Saskatchewan",
@@ -1437,7 +1497,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-72"
+    "id": "story-75"
   },
   {
     "title": "Friendship Inn seeing increase in demand ahead of Thanksgiving Weekend",
@@ -1457,7 +1517,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-73"
+    "id": "story-76"
   },
   {
     "title": "Simon strengthens into a Category 4 hurricane as it approaches Mexico’s coast",
@@ -1477,7 +1537,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-74"
+    "id": "story-77"
   },
   {
     "title": "Isaias weakens but flash flooding threat persist as hundred of thousands grapple with power outages",
@@ -1497,87 +1557,227 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-75"
-  },
-  {
-    "title": "Chinese court sentenced former mayor of Wuhan city to 14 years in prison for bribery",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "A former mayor of a Chinese city hit by the coronavirus outbreak more than six years ago was sentenced Saturday to 14 years in prison after being convicted of bribery.",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Sat, 10 Oct 2026 12:22:18 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/news/12098392/former-mayor-wuhan-prison-bribery/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-76"
-  },
-  {
-    "title": "Dual elections a headache for some B.C. voters",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The local elections are on Oct. 17 for local officials, while a provincial vote will be held Oct. 24 to elect the legislature, which will determine B.C.'s next premier.",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Sat, 10 Oct 2026 12:21:11 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/news/12098390/dual-elections-headache-b-c-voters/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-77"
-  },
-  {
-    "title": "Complaint filed over MP saying fentanyl ‘readily available’ in MAID report",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The quote is included in Powlowski's written argument against expanding access to MAID for mental illness until fundamental concerns are addressed.",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Sat, 10 Oct 2026 12:19:16 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/news/12098388/complaint-mp-fentanyl-maid-report/",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-78"
   },
   {
-    "title": "Provinces call on Ottawa to expand mining credit",
-    "category": "World",
+    "title": "Philadelphia police officer killed, another injured after responding to reports of man with a gun",
+    "category": "U.S.",
     "country": "Canada",
-    "leaning": "CENTER",
+    "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "Nearly half of Canada's provinces and territories are calling on the federal Liberals to fulfil their election promise to expand eligibility for a mining exploration tax credit.",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Sat, 10 Oct 2026 12:17:12 +0000"
+      "A Philadelphia police officer was shot and killed and another officer was injured Saturday after responding to a report of a man with a gun, police said.",
+      "Reporting Desk: Toronto Star",
+      "Source Stamp: Sat, 10 Oct 2026 14:44:02 -0400"
     ],
     "sources": [
       {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/news/12098386/provinces-ottawa-expand-mining-credit/",
-        "bias": "CENTER"
+        "name": "Toronto Star",
+        "url": "https://www.thestar.com/news/world/united-states/philadelphia-police-officer-killed-another-injured-after-responding-to-reports-of-man-with-a-gun/article_4fd6ba8b-b226-5a09-a275-5b2991028d56.html",
+        "bias": "LEFT"
       }
     ],
     "id": "story-79"
+  },
+  {
+    "title": "Park service could remove more than 500 trees at historic golf course Trump wants to redesign",
+    "category": "U.S.",
+    "country": "Canada",
+    "leaning": "LEFT",
+    "feelGood": false,
+    "keyFacts": [
+      "WASHINGTON (AP) — The National Park Service has begun a new round of tree-cutting at a historic golf course near the National Mall as the Trump administration proceeds with a plan to renovate the East Potomac Golf Links into a…",
+      "Reporting Desk: Toronto Star",
+      "Source Stamp: Sat, 10 Oct 2026 14:34:59 -0400"
+    ],
+    "sources": [
+      {
+        "name": "Toronto Star",
+        "url": "https://www.thestar.com/news/world/united-states/park-service-could-remove-more-than-500-trees-at-historic-golf-course-trump-wants-to-redesign/article_1859b87f-6acf-58bd-81d1-422da0d30fcd.html",
+        "bias": "LEFT"
+      }
+    ],
+    "id": "story-80"
+  },
+  {
+    "title": "Mysterious noises annoy Toronto residents early Saturday morning",
+    "category": "U.S.",
+    "country": "Canada",
+    "leaning": "LEFT",
+    "feelGood": false,
+    "keyFacts": [
+      "Reddit users complained of noises similar to a loud car exhaust or a revving motorcycle engine near Queen Street West and Spadina Avenue.",
+      "Reporting Desk: Toronto Star",
+      "Source Stamp: Sat, 10 Oct 2026 14:17:00 -0400"
+    ],
+    "sources": [
+      {
+        "name": "Toronto Star",
+        "url": "https://www.thestar.com/news/gta/mysterious-noises-annoy-toronto-residents-early-saturday-morning/article_cbe5d38f-4a35-492a-a584-4bb4f49e1bab.html",
+        "bias": "LEFT"
+      }
+    ],
+    "id": "story-81"
+  },
+  {
+    "title": "Lotto Max reaches historic $85-million jackpot",
+    "category": "U.S.",
+    "country": "Canada",
+    "leaning": "LEFT",
+    "feelGood": false,
+    "keyFacts": [
+      "It will the largest prize in Canadian history, surpassing the previous record of $80 million.",
+      "Reporting Desk: Toronto Star",
+      "Source Stamp: Sat, 10 Oct 2026 14:03:00 -0400"
+    ],
+    "sources": [
+      {
+        "name": "Toronto Star",
+        "url": "https://www.thestar.com/news/gta/lotto-max-reaches-historic-85-million-jackpot/article_e02de0f3-d787-41ec-acf3-32eee148de14.html",
+        "bias": "LEFT"
+      }
+    ],
+    "id": "story-82"
+  },
+  {
+    "title": "A timeline of developments in AI safety since the attack on Hugging Face",
+    "category": "U.S.",
+    "country": "Canada",
+    "leaning": "LEFT",
+    "feelGood": false,
+    "keyFacts": [
+      "In one alarming announcement after another, artificial intelligence companies in recent months have shared examples of their technology acting in ways that appeared to evade instructions from humans.",
+      "Reporting Desk: Toronto Star",
+      "Source Stamp: Sat, 10 Oct 2026 12:42:00 -0400"
+    ],
+    "sources": [
+      {
+        "name": "Toronto Star",
+        "url": "https://www.thestar.com/news/world/united-states/a-timeline-of-developments-in-ai-safety-since-the-attack-on-hugging-face/article_dd9a16e4-526c-5550-976d-717992f400ea.html",
+        "bias": "LEFT"
+      }
+    ],
+    "id": "story-83"
+  },
+  {
+    "title": "Man attacked by tiger after entering enclosure at wildlife park in northern England",
+    "category": "U.S.",
+    "country": "Canada",
+    "leaning": "LEFT",
+    "feelGood": false,
+    "keyFacts": [
+      "LONDON (AP) — A man sustained serious injuries Saturday after entering the tiger enclosure at a wildlife park in northern England, police said.",
+      "Reporting Desk: Toronto Star",
+      "Source Stamp: Sat, 10 Oct 2026 12:33:29 -0400"
+    ],
+    "sources": [
+      {
+        "name": "Toronto Star",
+        "url": "https://www.thestar.com/news/world/europe/man-attacked-by-tiger-after-entering-enclosure-at-wildlife-park-in-northern-england/article_40601e3c-a9b5-5a46-80bd-d3344ea3fc21.html",
+        "bias": "LEFT"
+      }
+    ],
+    "id": "story-84"
+  },
+  {
+    "title": "Unnerved Panamanians sleep in streets as aftershocks rattle quake-hit towns",
+    "category": "U.S.",
+    "country": "Canada",
+    "leaning": "LEFT",
+    "feelGood": false,
+    "keyFacts": [
+      "LA VILLA DE LOS SANTOS, Panama (AP) — Unnerved residents of rural Panama awoke Saturday on the streets as the aftershocks of two powerful earthquakes that roiled the country shook their communities for hours.",
+      "Reporting Desk: Toronto Star",
+      "Source Stamp: Sat, 10 Oct 2026 12:18:29 -0400"
+    ],
+    "sources": [
+      {
+        "name": "Toronto Star",
+        "url": "https://www.thestar.com/news/world/americas/unnerved-panamanians-sleep-in-streets-as-aftershocks-rattle-quake-hit-towns/article_af227448-e004-5649-806b-372574364162.html",
+        "bias": "LEFT"
+      }
+    ],
+    "id": "story-85"
+  },
+  {
+    "title": "Here's what's open and closed in Toronto on the Thanksgiving long weekend",
+    "category": "U.S.",
+    "country": "Canada",
+    "leaning": "LEFT",
+    "feelGood": false,
+    "keyFacts": [
+      "Most grocery stores and all LCBO and Beer Store locations will be closed on Monday.",
+      "Reporting Desk: Toronto Star",
+      "Source Stamp: Sat, 10 Oct 2026 12:12:00 -0400"
+    ],
+    "sources": [
+      {
+        "name": "Toronto Star",
+        "url": "https://www.thestar.com/news/gta/here-s-what-s-open-and-closed-in-toronto-on-the-thanksgiving-long-weekend/article_905c2d40-6d85-4855-8b7c-64b532c86206.html",
+        "bias": "LEFT"
+      }
+    ],
+    "id": "story-86"
+  },
+  {
+    "title": "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case",
+    "category": "U.S.",
+    "country": "Canada",
+    "leaning": "LEFT",
+    "feelGood": false,
+    "keyFacts": [
+      "NEW YORK (AP) — An Anthropic artificial intelligence model submitted a false tip to a Philadelphia police website about an unsolved homicide case, authorities and Anthropic said.",
+      "Reporting Desk: Toronto Star",
+      "Source Stamp: Sat, 10 Oct 2026 11:47:01 -0400"
+    ],
+    "sources": [
+      {
+        "name": "Toronto Star",
+        "url": "https://www.thestar.com/news/world/anthropic-s-claude-ai-submits-a-false-tip-on-a-philadelphia-unsolved-homicide-case/article_bcaacdaf-2009-57ce-a9cc-5365606408b0.html",
+        "bias": "LEFT"
+      }
+    ],
+    "id": "story-87"
+  },
+  {
+    "title": "U.S. lethal injection survivor returns to prison",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "Christa Pike, 50, was administered two lethal doses of the drug pentobarbital on September 30 that failed to kill her",
+      "Reporting Desk: National Post",
+      "Source Stamp: Sat, 10 Oct 2026 16:58:29 +0000"
+    ],
+    "sources": [
+      {
+        "name": "National Post",
+        "url": "https://nationalpost.com/news/world/u-s-lethal-injection-survivor-returns-to-prison",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-88"
+  },
+  {
+    "title": "Carney government must hold Palestinian Authority to account for postponing elections: CIJA",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "On Saturday, Palestinian President Mahmoud Abbas announced the postponement of legislative elections scheduled for next month until Sept. 11, 2027",
+      "Reporting Desk: National Post",
+      "Source Stamp: Sat, 10 Oct 2026 16:42:14 +0000"
+    ],
+    "sources": [
+      {
+        "name": "National Post",
+        "url": "https://nationalpost.com/news/canada/jewish-group-calls-on-carney-government-to-hold-palestinian-authority-to-account-for-failure-to-hold-elections",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-89"
   },
   {
     "title": "Zelensky blasts diesel deal after Russian strikes kill 15",
@@ -1597,7 +1797,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-80"
+    "id": "story-90"
   },
   {
     "title": "Isaias brings rain, wind and leaves thousands without power",
@@ -1617,7 +1817,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-81"
+    "id": "story-91"
   },
   {
     "title": "India detains student leaders in major crackdown on protests",
@@ -1637,7 +1837,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-82"
+    "id": "story-92"
   },
   {
     "title": "Supreme Court split over sentencing when the offender and the victim are both Indigenous",
@@ -1657,7 +1857,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-83"
+    "id": "story-93"
   },
   {
     "title": "Collin May: Shame on lawyer associations for trying to silence criticism of courts",
@@ -1677,7 +1877,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-84"
+    "id": "story-94"
   },
   {
     "title": "Conrad Black: Quebec’s Gilbert and Sullivan election",
@@ -1697,7 +1897,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-85"
+    "id": "story-95"
   },
   {
     "title": "NP View: Vancouver must vote to end disorder on its streets",
@@ -1717,7 +1917,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-86"
+    "id": "story-96"
   },
   {
     "title": "Colby Cosh: The mechanical monster storming through an ancient priesthood",
@@ -1737,47 +1937,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-87"
-  },
-  {
-    "title": "Geoff Russ: Don’t compare today’s immigrants to the Loyalists of early Canada",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "The Loyalists already shared Canada's culture and King, and they did not engage shady consultancy firms on the way in",
-      "Reporting Desk: National Post",
-      "Source Stamp: Sat, 10 Oct 2026 10:00:06 +0000"
-    ],
-    "sources": [
-      {
-        "name": "National Post",
-        "url": "https://nationalpost.com/opinion/geoff-russ-dont-compare-todays-immigrants-to-the-loyalists-of-early-canada",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-88"
-  },
-  {
-    "title": "Scott Speedman on Florida: ‘a very strange, weird, wonderful place’",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "Canadian actor stars in R.J. Decker, which is filmed and set in the state",
-      "Reporting Desk: National Post",
-      "Source Stamp: Sat, 10 Oct 2026 05:49:12 +0000"
-    ],
-    "sources": [
-      {
-        "name": "National Post",
-        "url": "https://nationalpost.com/entertainment/television/scott-speedman-on-florida-a-very-strange-weird-wonderful-place",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-89"
+    "id": "story-97"
   },
   {
     "title": "Why American investors love European defense startups",
@@ -1797,7 +1957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-90"
+    "id": "story-98"
   },
   {
     "title": "Who will win the 2026 Nobel Prize in economics?",
@@ -1817,7 +1977,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-91"
+    "id": "story-99"
   },
   {
     "title": "What voters in 6 key states could tell us about the 2026 midterms",
@@ -1837,7 +1997,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-92"
+    "id": "story-100"
   },
   {
     "title": "Economist Betsey Stevenson breaks down the gender gap in recent hiring reports",
@@ -1857,7 +2017,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-93"
+    "id": "story-101"
   },
   {
     "title": "The U.S. added only 29,000 jobs in September as job market lacks spark",
@@ -1877,7 +2037,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-94"
+    "id": "story-102"
   },
   {
     "title": "Why is diesel more expensive than regular gas?",
@@ -1897,7 +2057,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-95"
+    "id": "story-103"
   },
   {
     "title": "U.S. employers add only 29,000 jobs in September, much less than August",
@@ -1917,7 +2077,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-96"
+    "id": "story-104"
   },
   {
     "title": "Economist discusses high bond yields and the September jobs report",
@@ -1937,7 +2097,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-97"
+    "id": "story-105"
   },
   {
     "title": "Some of the super wealthy are plowing money into a tax loophole to slash taxes to 0",
@@ -1957,7 +2117,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-98"
+    "id": "story-106"
   },
   {
     "title": "The rising cost of borrowing piles more financial pressure onto consumers",
@@ -1977,7 +2137,87 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-99"
+    "id": "story-107"
+  },
+  {
+    "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "“I presume these are sophisticated investors taking a profit.”",
+      "Reporting Desk: MarketWatch",
+      "Source Stamp: Sat, 10 Oct 2026 18:31:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-108"
+  },
+  {
+    "title": "Elon Musk is now richer than any American ever — and it’s not even close",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Musk’s trillioniare status means he’s wealthier than his next three contemporaries combined — and also worth more than historical tycoons like John D. Rockefeller.",
+      "Reporting Desk: MarketWatch",
+      "Source Stamp: Sat, 10 Oct 2026 16:50:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/elon-musk-is-now-richer-than-any-american-ever-and-its-not-even-close-58f31401?mod=mw_rss_topstories",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-109"
+  },
+  {
+    "title": "A friend in her 80s fell down her basement stairs. Is this a hidden danger lurking in people’s home?",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "“She developed pleural effusion — fluid between the lungs and ribs — compressing her lungs and making it hard for her to breathe.”",
+      "Reporting Desk: MarketWatch",
+      "Source Stamp: Sat, 10 Oct 2026 16:00:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/the-pain-was-excruciating-a-friend-in-her-80s-fell-down-her-basement-stairs-could-it-have-been-avoided-ce105db6?mod=mw_rss_topstories",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-110"
+  },
+  {
+    "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
+      "Reporting Desk: MarketWatch",
+      "Source Stamp: Sat, 10 Oct 2026 15:30:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-111"
   },
   {
     "title": "Flu season is already here. Here’s what to know about this year’s flu shots.",
@@ -1997,7 +2237,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-100"
+    "id": "story-112"
   },
   {
     "title": "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected applications from wealthy couples. Here’s why.",
@@ -2017,27 +2257,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-101"
-  },
-  {
-    "title": "‘The pain was excruciating’: A friend in her 80s fell down her basement stairs. What could we have done to prevent it?",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "“She developed pleural effusion — fluid between the lungs and ribs — compressing her lungs and making it hard for her to breathe.”",
-      "Reporting Desk: MarketWatch",
-      "Source Stamp: Sat, 10 Oct 2026 13:15:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/the-pain-was-excruciating-a-friend-in-her-80s-fell-down-her-basement-stairs-could-it-have-been-avoided-ce105db6?mod=mw_rss_topstories",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-102"
+    "id": "story-113"
   },
   {
     "title": "Winter is coming and energy bills are climbing. ‘Everything just keeps going up.’",
@@ -2057,7 +2277,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-103"
+    "id": "story-114"
   },
   {
     "title": "Why Nvidia’s stock is dodging the AI credit scare that is crushing Broadcom and Oracle",
@@ -2077,7 +2297,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-104"
+    "id": "story-115"
   },
   {
     "title": "‘What you don’t know is greater than anything you do know’: How Ray Dalio would build a portfolio to withstand a popping AI bubble",
@@ -2097,7 +2317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-105"
+    "id": "story-116"
   },
   {
     "title": "S&P 500 at 10,000 or bust: New ETF offers investors all-or-nothing bet on the index",
@@ -2117,67 +2337,87 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-106"
+    "id": "story-117"
   },
   {
-    "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
+    "title": "Saudi Arabia Suspends Operations at Riyadh Airport After Attack - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
-      "Reporting Desk: MarketWatch",
-      "Source Stamp: Sat, 10 Oct 2026 11:00:00 GMT"
+      "Saudi Arabia Suspends Operations at Riyadh Airport After Attack&nbsp;&nbsp;Bloomberg.com",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Sat, 10 Oct 2026 16:47:10 GMT"
     ],
     "sources": [
       {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONlhKZ2t3ZDBmbnc3Umd3am1aWF9pcXp0a1U5SmFyZVRjUkpBT0pnclZuQk52MXRPb1EwZjJEb09aTEdPU2gzb09SbUJ0NjNTdnJJa2FDS2NlS0FKRlJPU21fMWZaWEZnZlBNS09BWDVyUkY2dnJDMm5sU01OUjdQSUg0MW82SHNGcXJ1ZjlaWk9XVjZZZ1ZHb0RZTzN4dmtJd1E4LWFGYWtFQTlseTBMUl9lN2Y?oc=5",
         "bias": "CENTER"
       }
     ],
-    "id": "story-107"
+    "id": "story-118"
   },
   {
-    "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Should I be worried?",
+    "title": "Trump Hypes Megaprojects to Voters Who Lament Gas, Food Costs - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "“I presume these are sophisticated investors taking a profit.”",
-      "Reporting Desk: MarketWatch",
-      "Source Stamp: Sat, 10 Oct 2026 10:30:00 GMT"
+      "Trump Hypes Megaprojects to Voters Who Lament Gas, Food Costs&nbsp;&nbsp;Bloomberg.com",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Sat, 10 Oct 2026 14:00:00 GMT"
     ],
     "sources": [
       {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYng4TlNKTjVSMTJMUVZxOXpKVjNZcDg5azdleGpqdWpvT0l3MW5sYkZOUnpQbzVaRWQ3ZjZyWmdmcGdtNjczMVY5TUpocFZRRUhPd19ZNWQySWg5cVhFME5ZRmhUNmRXT0dnaDVORW52RXh6R1dPMjFDaEdITk5HNllSMWxvcWxTT2VtRm9FZFRQMFZpcnZnWHpHck40WFpsWWF6R1Z1Mm9sdVZLV3FEYw?oc=5",
         "bias": "CENTER"
       }
     ],
-    "id": "story-108"
+    "id": "story-119"
   },
   {
-    "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+    "title": "One of Russia’s Richest Men Says Economy Has Yet to Hit Bottom - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "“Both properties will be solely in his name.”",
-      "Reporting Desk: MarketWatch",
-      "Source Stamp: Fri, 09 Oct 2026 23:15:00 GMT"
+      "One of Russia’s Richest Men Says Economy Has Yet to Hit Bottom&nbsp;&nbsp;Bloomberg.com",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Sat, 10 Oct 2026 12:38:27 GMT"
     ],
     "sources": [
       {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcjladzVxY0V6YzdfMUNHa093b3FacHVoUFZnNHdEcjQ2aTJNdzY2Q2xuUldmRDFDX3dOYkgtUkNpVGU2OEttMkIwYmQ0Y1B0QkU4M19aT0tjZmFiR0o3OXJmMlRERWMxTy1PaHlhLWk5REg3NnVvZnREc0hKSVhFMVZKb2lYcm95YkIwLV9abFpJTkhEenhyQzZpYWktdzM3ckFNcjl5TTRUQmlnQmhTdS0xYw?oc=5",
         "bias": "CENTER"
       }
     ],
-    "id": "story-109"
+    "id": "story-120"
+  },
+  {
+    "title": "Trump’s AI Liability Push Opens Blame Game for Models Gone Rogue - Bloomberg.com",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Trump’s AI Liability Push Opens Blame Game for Models Gone Rogue&nbsp;&nbsp;Bloomberg.com",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Sat, 10 Oct 2026 14:19:14 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWlEwdWh3UlBnVFNxWEtNemNtUzI4eXppbzRTV1E5eTFkVmMyYXAxcVdXd2ZXLUtIcHhpWkRNUlFuQUd5TjE0T21MY2E4UG9xOG0wbDBDemFoMXRpQVRrYWJjU0hVN0N0eTFCd0Rnc21CbTF2NURqWllxZzF6RmZXZkExX1JxZVk5cGczRG16dktMRE5sTk1vTDQ1YVdDTWI5TnR5Mm93UndTWDBZZDM1aTlHdWdoZw?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-121"
   },
   {
     "title": "Rich Countries Are Now on Front Lines as World’s Risk Map Shifts - Bloomberg.com",
@@ -2197,27 +2437,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-110"
-  },
-  {
-    "title": "China Passenger Vehicle Retail Sales Drop 24% in September - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "China Passenger Vehicle Retail Sales Drop 24% in September&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sat, 10 Oct 2026 09:53:56 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQT1gtd3Z0REN3OUVUT1ZneTRMSVBCdkZXOWgwNncyeWVxRzgzMWl6Z0tIS2p6bUdQMXB4TnhRS2QtZFBKTG9EempaS2xlY3psVy1wcmg1dU84VjJjZHdROHZGQTVTcXN6SnhGRDUzYmQ2VmNzM01tcVRnYTFUcDFja0luOE5yek13aEJOeFVmNWVkUE1yYlNYb2lINWQ2N256T0hNMW11aUFCcS1C?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-111"
+    "id": "story-122"
   },
   {
     "title": "AI's Supercharging a Scam Economy Bigger Than the Cocaine Trade - Bloomberg.com",
@@ -2237,147 +2457,107 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-112"
+    "id": "story-123"
   },
   {
-    "title": "Trump Warns Norway He Won’t Forget Nobel Peace Prize Snub - Bloomberg.com",
+    "title": "One Year After $19 Billion Crash, Crypto Faces a New Reality - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Trump Warns Norway He Won’t Forget Nobel Peace Prize Snub&nbsp;&nbsp;Bloomberg.com",
+      "One Year After $19 Billion Crash, Crypto Faces a New Reality&nbsp;&nbsp;Bloomberg.com",
       "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sat, 10 Oct 2026 02:06:00 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 12:30:00 GMT"
     ],
     "sources": [
       {
         "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObjd4M2hoaWRYUEhnc2F3VFUySnFHTmxFN3VRRlZwVkxobGlNZk9rSzB6dkpBVk1zVW9VYzZuV2REbjhzeGpadHFHSHhqdHl1Wmc3ZXo4ckJtSEpRaGFyc2FlZ29SZ2w4Q0VOdW1vWS1uV2NJOXFtR3pOZnR6d0gtQTc3cGJYWlE1cWc1ZG1pZ25fVkxJaENpdERYUEVIMm51MF9xdWRYOTBFMzJt?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYU4yVk5GemU5VWh6dkZhRDByZTREMHZjbDJIWVBoNzBLNVkwQXZ2UUZ3WVhYWmtqdzdERGdiSDBkR25YR1YxeW5fcDlPTHB6YWRtMVV1X180WlR2QzNiMDU3eFZScGttYlZlaG1saHBaYmVhdHBOWlpWQ093R0tPbVU0Y05lOE5FZzcxd2ExVWhXcGNYOVRISi1wTWJFb0x1RlpRMHBxZklTUkZnY0E?oc=5",
         "bias": "CENTER"
       }
     ],
-    "id": "story-113"
+    "id": "story-124"
   },
   {
-    "title": "Australia Says Doesn’t Need Russian Fuel After Trump Diesel Move - Bloomberg.com",
+    "title": "How Data Centers Are Pushing Up US Power Costs - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Australia Says Doesn’t Need Russian Fuel After Trump Diesel Move&nbsp;&nbsp;Bloomberg.com",
+      "How Data Centers Are Pushing Up US Power Costs&nbsp;&nbsp;Bloomberg.com",
       "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sat, 10 Oct 2026 02:30:00 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 14:00:00 GMT"
     ],
     "sources": [
       {
         "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTnBKMlpSWmJpTXBXV1pWdWIzeTVRSGxjSlNjV2tUTVNxTWNhUXZyNzZIRjI2elE2c2w4TXVHN2VBbDFNZ3BjcF9VU3ExQzNNWUt2YVZtVk5ZYjdmYnVyUlpTZEFUSVB4MTBtbFZEOVdMLXdDbzJzTmJWRkpKRlJ4ak5UYXFvX0o3V25nUE9Ed0RXMjdrZ21QU3FSVWw3OVd3OFY3aTJfaXpUX0hMSXhaS0ZQb0dHdw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaUJIS21IU3NScXNGc3llSVpWd1VYeG1FZFR4WjIzdldoalpsQ2hzUWVaWWRYQVplUDNkb1lpd1VBY0d6TENSaHRScWJPaDQyQ3VlUkpia2tyWG13STVfQnlVaF9EWnhOdGhxbmMyMk12UTZYWjRGWWtjaThBSzBndVcwY1BKNV9RbUdwXzgwc3pRYXVwRXhkdmQ3ZE56MkZYamx6RFFlOA?oc=5",
         "bias": "CENTER"
       }
     ],
-    "id": "story-114"
+    "id": "story-125"
   },
   {
-    "title": "Russia Drops Deadly Bombs on Ukraine Homes After US Diesel Deal - Bloomberg.com",
+    "title": "Jefferies Says It Found Fraud in $900 Million of Radiant Deals - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Russia Drops Deadly Bombs on Ukraine Homes After US Diesel Deal&nbsp;&nbsp;Bloomberg.com",
+      "Jefferies Says It Found Fraud in $900 Million of Radiant Deals&nbsp;&nbsp;Bloomberg.com",
       "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sat, 10 Oct 2026 11:35:56 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 15:03:27 GMT"
     ],
     "sources": [
       {
         "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONDdmYktGY0ZqRDJ2dGwwaEk4ZjJkUkxIUUhpb09RY3cxTTBQT0tsZHdweTc5dXdXUlhZS0djNk9tbUJGT2ZXQmNTaXVUZ0R4R0lURHlqdGxqbzBEc2ZwSFBndGFIcTlBXzJlNkg2dGI0d19DZnU5UlFkczIyUUhjRDRQY1pJOC1FQzBWaW9YQU5zaDZCU0ZRbzN4c01jQXpMUFdnejN6LUNYX3VuQWM4RVF2cUg?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb0R3TWE0cE1EdHhOR0FBVV9RM211MkFFSlNwREQ0d3BhTEtPLXFxeWs0MnlFVzlsUlYtSE9YYUpZMDl3SlJ1RWRZSTdyclM4SklFNG8zZUVwS2NaTUo4d1FNQTJ6MkVCcy1CNTN2NnpBMjRxWGJtQ0dad2Z4SHBvVVNxTW8zbFRMamtxQnE0U2dJaENXT2xSRC1QU0I3S2R5SENTUVp0T01uRFF3M05FQURn?oc=5",
         "bias": "CENTER"
       }
     ],
-    "id": "story-115"
+    "id": "story-126"
   },
   {
-    "title": "China Targets AI-Linked Jobs With New Employment Initiative - Bloomberg.com",
+    "title": "China Passenger Vehicle Retail Sales Drop 24% in September - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "China Targets AI-Linked Jobs With New Employment Initiative&nbsp;&nbsp;Bloomberg.com",
+      "China Passenger Vehicle Retail Sales Drop 24% in September&nbsp;&nbsp;Bloomberg.com",
       "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sat, 10 Oct 2026 03:43:00 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 09:53:56 GMT"
     ],
     "sources": [
       {
         "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOWZ0WW5FdzVqWThwZEZ2QWh0SFlRUHBCYkt2NTl3aHJMbmxsUEZjeVNjOEZEYlBYRXpXSk12UG5TSklWQ3Rsd3RqWmJpY2lEcENQNEptUUE0QXZHUEFTbHNTZlNSOVlLc19nMjFUTWt2TzV4ZnZTdGg0Tkszb29pUXk4YWNKdGp0ejZPOUxaMkR4SWpHc1hkZ3lrXzVZek5TLUtQbm5EdXFQTFBVMGJR?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQT1gtd3Z0REN3OUVUT1ZneTRMSVBCdkZXOWgwNncyeWVxRzgzMWl6Z0tIS2p6bUdQMXB4TnhRS2QtZFBKTG9EempaS2xlY3psVy1wcmg1dU84VjJjZHdROHZGQTVTcXN6SnhGRDUzYmQ2VmNzM01tcVRnYTFUcDFja0luOE5yek13aEJOeFVmNWVkUE1yYlNYb2lINWQ2N256T0hNMW11aUFCcS1C?oc=5",
         "bias": "CENTER"
       }
     ],
-    "id": "story-116"
+    "id": "story-127"
   },
   {
-    "title": "Anthropic Cites New AI Misbehavior, Some on Government Sites - Bloomberg.com",
+    "title": "Saudi Arabia Closes Airport in Riyadh After Damaging New Houthi Attack - WSJ",
     "category": "Economy",
     "country": "United States",
-    "leaning": "CENTER",
+    "leaning": "RIGHT",
     "feelGood": false,
     "keyFacts": [
-      "Anthropic Cites New AI Misbehavior, Some on Government Sites&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sat, 10 Oct 2026 08:08:24 GMT"
+      "Saudi Arabia Closes Airport in Riyadh After Damaging New Houthi Attack&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Sat, 10 Oct 2026 18:06:00 GMT"
     ],
     "sources": [
       {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc2RTWTd6RjNMSVZQb1hpRGVUY242T1JoTVdjcy1CQUItM0VOWnBIaC0xUjRhaTBSVW1nYXNnNnRFdWplQjU1LXQzcDR5dWt0cXJvYm1yOHNUcnF6U294Z3RuZHVxM1VoenlOazIxZ1FMSkR4NlBObVJLaklhTmlEeG1Cb19kcUZFdGVhWVNXU3gzT3ZWUWFzT1o3VGZTdXJQOTBNQXNUMkREcDg5czhjSg?oc=5",
-        "bias": "CENTER"
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY3A1N0dSaEowdHRsQm11d1EzUnJneHRRYWRYa2NWU0ZfeUgwOUNzMHpNN2dVWFJQeVRZRDdYTTJ5YUtwX2YwUEprdWowUW1hYXplbjlsbnBuaTk1RUc3ZnBseDgyMFI2Q09BNllMRXVUWm52RXQ1R3ViSEZpZW1OOWlqenhMSDlPMXY2NWVzOEpHTkctQld3WWJaNVh0M05rdUhTQlBCNGl2SXVqR29UbkVNMm8wR00?oc=5",
+        "bias": "RIGHT"
       }
     ],
-    "id": "story-117"
-  },
-  {
-    "title": "Burnham’s Senior Officials Are Trading Blame Over Economic Pain - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Burnham’s Senior Officials Are Trading Blame Over Economic Pain&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sat, 10 Oct 2026 05:00:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNckItanN6ZEFUX3dFNFdZWGdJYnB6U0drbEdFZUhnQ2d4NnpjZFVYR1E1aFkzVkRyNDFteS0tOXlxb1dWQ0dRX1Q5T1NtLW9mMm9HLUZVTXNpMXpNUnJ3VHlQaTAxbUlRdVl4cGk3T3ZESWpNcnNIMnVoall1aWRDNlZuUXBPdER2dDdiX25wZXZyclVuRWZfdmIzVjFvZGw1VjNZNTZKZk16bE0xakZoa0lNY3g?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-118"
-  },
-  {
-    "title": "Ramp Hits $60 Billion Valuation in $1.85 Billion Funding Round - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Ramp Hits $60 Billion Valuation in $1.85 Billion Funding Round&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Fri, 09 Oct 2026 20:36:10 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQmtDWkliRlRySXZybVd3dVp0aWNmdkJnaHZrdVUxWHg0LTQ3dW5kOEplTGNkMnhGVjFTQWdhV3dOYkxZcE1wYTUwMko4ZHk2RjdmY0xPblBXbC1IRGdCU0pqOXF4YmFhbHVrNUtvYzl5VE5GZUE0ejdiUzZJZHRkNWhyWUwybjNhTnlkaUZkVWJqYWd4Z09laTlXU182WWktOVFQT005V2JXNThJNFdpSg?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-119"
+    "id": "story-128"
   },
   {
     "title": "Exclusive | Historic Homes: A Sugar Heir’s 100-Year-Old Hawaii House - WSJ",
@@ -2388,7 +2568,7 @@
     "keyFacts": [
       "Exclusive | Historic Homes: A Sugar Heir’s 100-Year-Old Hawaii House&nbsp;&nbsp;WSJ",
       "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Fri, 09 Oct 2026 22:30:53 GMT"
+      "Source Stamp: Fri, 09 Oct 2026 22:00:53 GMT"
     ],
     "sources": [
       {
@@ -2397,7 +2577,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-120"
+    "id": "story-129"
   },
   {
     "title": "Print Edition | Wall Street Journal - WSJ",
@@ -2408,7 +2588,7 @@
     "keyFacts": [
       "Print Edition | Wall Street Journal&nbsp;&nbsp;WSJ",
       "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sat, 10 Oct 2026 13:32:53 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 17:00:32 GMT"
     ],
     "sources": [
       {
@@ -2417,18 +2597,38 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-121"
+    "id": "story-130"
   },
   {
-    "title": "Hurricane Isaias Makes Landfall in Florida - WSJ",
+    "title": "The Conspiracy Probe of Trump Foes Is Faltering - WSJ",
     "category": "Economy",
     "country": "United States",
     "leaning": "RIGHT",
     "feelGood": false,
     "keyFacts": [
-      "Hurricane Isaias Makes Landfall in Florida&nbsp;&nbsp;WSJ",
+      "The Conspiracy Probe of Trump Foes Is Faltering&nbsp;&nbsp;WSJ",
       "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sat, 10 Oct 2026 12:58:00 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 18:10:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRUlYSlZTb1RNUm9wLTdVQlhYUTJBSVNiaWxZa3J0VGc3Z0owMzJhOU5Ta1hRWnYzb2R6LS1XeVFjNmw3VFN6OFJTTGVNTEhOMFI0aE5LcXJmQmFaSjhRSzdOTVRhMDZEU0ZjVmJwYmV1MDdJR1RWX3Bld1lLTm94aG04YnhVaW1ZbWlV?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-131"
+  },
+  {
+    "title": "Two Dead After Isaias Crashes Into Gulf Coast - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "Two Dead After Isaias Crashes Into Gulf Coast&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Sat, 10 Oct 2026 17:08:00 GMT"
     ],
     "sources": [
       {
@@ -2437,7 +2637,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-122"
+    "id": "story-132"
   },
   {
     "title": "Houthis Bombard Saudi Air Links in Effort to Cut Kingdom Off From Rest of World - WSJ",
@@ -2457,7 +2657,27 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-123"
+    "id": "story-133"
+  },
+  {
+    "title": "America’s Gig Workers Turn to an Old-School Union - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "America’s Gig Workers Turn to an Old-School Union&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Sat, 10 Oct 2026 17:00:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN2lVSGZ3NXlabE9IbzIyUExXcjNua2Q5MDJlb1Y5WW5mTDRLTU1TOVVIMFRsc0ZOM2tndGMxc3FDVVBRSlFaUmQyQXdOS181YjFNWVZkcnNqWEtJSW1XVzRuYV9PY1h4NWRRSjg3M2R1Uk5hUjZxWHN1UGZndmpqbFpLMmpLblZsLWZLQVVB?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-134"
   },
   {
     "title": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions - WSJ",
@@ -2477,7 +2697,27 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-124"
+    "id": "story-135"
+  },
+  {
+    "title": "Let’s Talk About Erling Haaland’s Hair - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "Let’s Talk About Erling Haaland’s Hair&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Sat, 10 Oct 2026 12:25:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9EQVFNc0ZqRFoxb216bXB3NlhKWnoxYnZrakpOY2FqcUphQzdsTUZTTGZzQU9wX2VjbFM4d2RFZVRrd09TdEhqSDJ3bS1ZcTJReWthOVdEbUdYeExvOVh2MFhBc3ZZbFJBdHViZHpWYXBpY3hQb0Ewa0hHQQ?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-136"
   },
   {
     "title": "Venezuela Wants to Return to the Days When Its Oil Fields Were Booming—With U.S. Help - WSJ",
@@ -2488,7 +2728,7 @@
     "keyFacts": [
       "Venezuela Wants to Return to the Days When Its Oil Fields Were Booming—With U.S. Help&nbsp;&nbsp;WSJ",
       "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Fri, 09 Oct 2026 23:01:47 GMT"
+      "Source Stamp: Fri, 09 Oct 2026 23:31:46 GMT"
     ],
     "sources": [
       {
@@ -2497,287 +2737,207 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-125"
-  },
-  {
-    "title": "Hegseth’s Plans to Livestream an Execution Are Getting Pushback. Here’s What to Know. - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "Hegseth’s Plans to Livestream an Execution Are Getting Pushback. Here’s What to Know.&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Fri, 09 Oct 2026 22:38:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTE04SHVfN0RraFp5N0NnRERDcS1Qd2ZrYzdyNUlKUk13TzRkYmJCX3JXTms5UmZrQzdLN3FFazBiS2FGVXEzWGNKT1E5OVdYQjU4Z2FCbWpWUzlZZGZPMlhnd0lkb1h5U1lpVm0xRWtDSW1UUXdSYWVoZl9JNG5lNEVBQWZMcXZjRWVabTdOaHNYeC15V2QzNHpzVkZwamZOamVIMHNINldPRjRWM3BqQ3lIZGtNSlZXbmw5QV9rQ1VUMjc3T2VodXRaaE9UY1JHdUs4?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-126"
-  },
-  {
-    "title": "Exclusive | Kalshi Examines Bets on Trump’s Pick for New White House Press Secretary - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "Exclusive | Kalshi Examines Bets on Trump’s Pick for New White House Press Secretary&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Fri, 09 Oct 2026 21:47:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXMtVlkxUEU1UUNqVWtDdWluMFNzZEc1WE51dzU3SnhrU2xEc093d2puLTM5bjNjMHhfQ2tKMXljM0lVd2tMYnVJTWsxNTlXU05weXNkSm9OdTUtbmxoWGdGZ0lqQ2dGdnppMFM1SDJTNG81T3AzZlFhMFEyQzBBZzVUXzgybVZjck5LNlFSR3hWNDVscjdINVdqSzRndm1Xb1RfWnlxb3RFNVZ6d2pid2VWOXVQNVpB?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-127"
-  },
-  {
-    "title": "Texting for Dollars: Kimberly Guilfoyle Offers Access to Trump - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "Texting for Dollars: Kimberly Guilfoyle Offers Access to Trump&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sat, 10 Oct 2026 11:50:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdFpuMEEzOWloaUFobVdQMGVGT1RDRG5JbFhCQlgyLVlFcGpRYzhQblhlb1RsVGpyQWpPYTBOR0FjRXJCMkZ6MF94QkZpWlVUb2ZXY1lkakdtQnN0VEIzNTBqQjkzaHNKOUZYdE1WV093RVlVSzZlWVZYMlhvUm0wN3FnV2tWN29Pa2JycUVKSkFpVXRuZDJXckxOaFczdXVrN2VveGoyNlJDQlE?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-128"
-  },
-  {
-    "title": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sat, 10 Oct 2026 03:34:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdC1Yb1VaRzVmWnNoRmpLRFF4cWtUZXNyMjYtVzItMEJIYWhGWUpsUXRtWEJmaDVpZ1lGSXE3WGFYWU94cUFwcTRZZnQzVFBsaktQVjQ3WmJMMFVyQnlTS3NtUEMzVkY1WmNoU1dmdW1LWVB5YXJ1amROdEVIWVRhSFNLdldjVkMwcVRjaHJoOGVwVFBDbmxCdHlqTGIwc2px?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-129"
-  },
-  {
-    "title": "Verstappen beats Ferraris to Singapore pole",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Red Bull's Max Verstappen beats the Ferraris of Charles Leclerc and Lewis Hamilton to pole position in qualifying at the Singapore Grand Prix.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 10 Oct 2026 14:50:46 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/formula1/articles/cvj6j5kyx2p1o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-130"
-  },
-  {
-    "title": "Middlesbrough-born Renshaw's epic 190 lifts Australia",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "After nine years and 280 days, Matt Renshaw scores epic century to put Australia on top against South Africa and push his own case for a regular place.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 10 Oct 2026 14:06:35 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/cricket/articles/ckp8gqplvj85o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-131"
-  },
-  {
-    "title": "Who changed the game? - player ratings for Arsenal v Leeds",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "How Arsenal and Leeds players rated following their Premier League match.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 10 Oct 2026 13:30:28 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cmx2dpwv02e1o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-132"
-  },
-  {
-    "title": "'We lost the life of a brother' - rider protest delays Giro di Lombardia",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Riders at the Giro di Lombardia stage a protest over safety concerns which delays the start of the race for five minutes.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 10 Oct 2026 11:57:40 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/cycling/articles/cqx2vm911870o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-133"
-  },
-  {
-    "title": "Verstappen wins sprint after Russell crashes out",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Red Bull's Max Verstappen wins an incident-packed sprint race at the Singapore Grand Prix after George Russell crashes out of the lead.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 10 Oct 2026 13:43:47 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/formula1/articles/cwn73gmz78reo?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-134"
-  },
-  {
-    "title": "Time to rise? Ranking European football's sleeping giants",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "From Sampdoria to Saint-Etienne and Real Zaragoza, who are the sleeping giants of European football?",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 10 Oct 2026 05:14:17 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cq5yjyyzd35do?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-135"
-  },
-  {
-    "title": "All Blacks power past Australia to retain Bledisloe Cup",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "New Zealand retain the Bledisloe Cup for a 23rd straight year as they power past Australia to extend their remarkable unbeaten run at Eden Park.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 10 Oct 2026 09:21:28 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c9zrdl4028mko?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-136"
-  },
-  {
-    "title": "Palmer signs new Chelsea contract until 2034",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Cole Palmer signs a new Chelsea contract on improved terms until 2034, one of the longest active deals in the Premier League.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 10 Oct 2026 09:51:09 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cwe9lngxzjpno?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-137"
   },
   {
-    "title": "Greek takeaways: What did we learn from Lionesses' win?",
+    "title": "Henderson scores twice as five-star Chelsea thrash Bournemouth",
     "category": "Sports",
     "country": "United Kingdom",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "England come away from Greece with a valuable first-leg lead in their Women's World Cup qualifying play-off - but who impressed in the 3-1 victory?",
+      "Jordan Henderson has a home debut to remember as he scores twice for Chelsea as his side thrash Bournemouth 5-1 at Stamford Bridge, leaving the away side still searching for their first Premier League win this season.",
       "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Fri, 09 Oct 2026 21:15:24 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 19:00:12 GMT"
     ],
     "sources": [
       {
         "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cwp8g1ry6rjlo?at_medium=RSS&at_campaign=rss",
+        "url": "https://www.bbc.co.uk/sport/football/videos/cjy5zxv9qq1po?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-138"
   },
   {
-    "title": "Crocker sets sights on route back to the top",
+    "title": "Brilliant Guimaraes goal helps Arsenal fight back to beat Leeds",
     "category": "Sports",
     "country": "United Kingdom",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Lewis Crocker is looking forward and not back at his world title defeat by Liam Paro as he prepares for his return against Owen Cooper in December at Belfast's 02.",
+      "A brilliant goal from Bruno Guimaraes helps Arsenal come from behind to beat Leeds United 2-1 at the Emirates, as the champions get back to winning ways in the Premier League.",
       "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 10 Oct 2026 09:10:35 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 19:00:08 GMT"
     ],
     "sources": [
       {
         "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/boxing/articles/cw073kk3800lo?at_medium=RSS&at_campaign=rss",
+        "url": "https://www.bbc.co.uk/sport/football/videos/c6y4z9lnkz30o?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-139"
+  },
+  {
+    "title": "Struijk sees red but Brighton march on with win against Sunderland",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Brighton maintained their excellent start to the new Premier League season, as they beat Sunderland 2-0 at the Stadium of Light, despite having to play much of the second half with ten men, after Pascal Struijk was shown a controversial red card.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 10 Oct 2026 19:00:17 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/football/videos/c6n8m3k7egd9o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-140"
+  },
+  {
+    "title": "Ipswich produce late fightback to stun winless Fulham",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Two goals in three minutes sees Ipswich produce a late fightback to snatch a 2-1 victory against Fulham at Portman Road, with the away side still searching for their first Premier League win of the season.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 10 Oct 2026 19:00:14 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/football/videos/cw7v42y027gqo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-141"
+  },
+  {
+    "title": "Brentford extend unbeaten start as Ajer secures draw at Aston Villa",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Brentford extend their unbeaten start to the new Premier League season as Kristoffer Ajer scores late to earn his side a 2-2 draw at Aston Villa, who's wait for a first home Premier League win of the season goes on.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 10 Oct 2026 19:00:33 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/football/videos/cjwyz50g569zo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-142"
+  },
+  {
+    "title": "The rock behind Chelsea's entertainers: Midfield duo key for Blues",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The performances of Jordan Henderson and Moises Caicedo underpinned Chelsea's 5-1 victory at home to Bournemouth on Saturday afternoon.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 10 Oct 2026 18:09:37 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/articles/cw3dj5yx4ej2o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-143"
+  },
+  {
+    "title": "Verstappen building major momentum as 'no-one very happy' at McLaren",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Max Verstappen's revival might not be a serious issue for Kimi Antonelli but it is for McLaren, who had a bad Saturday in Singapore, writes Andrew Benson.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 10 Oct 2026 17:46:36 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/formula1/articles/cmn4ezn5ep3jo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-144"
+  },
+  {
+    "title": "Hincapie injury adds to Arsenal issues after Guimaraes rescue act",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Heroics and battling performances have already become a theme of Arsenal's season with Bruno Guimaraes coming to the rescue again.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 10 Oct 2026 15:44:14 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c63r5w20ez3do?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-145"
+  },
+  {
+    "title": "Timely recognition or long overdue? How Gross is proving all-time bargain",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Named the Premier League's player of the month for September, BBC Sport looks at Brighton star Pascal Gross' impact both this season and over the past nine years during his two spells at the club.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 10 Oct 2026 17:07:02 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cq1j427zze5xo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-146"
+  },
+  {
+    "title": "Northampton outgun Bath in 119-point thriller",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Northampton win a high-octane 18-try thriller at home to Bath, the second highest-scoring game in English top-flight history.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 10 Oct 2026 16:07:54 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm237zey5rgo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-147"
   },
   {
     "title": "Ex-OpenAI safety lead David Robinson warns of 'broken' tech culture",
@@ -2797,7 +2957,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-140"
+    "id": "story-148"
+  },
+  {
+    "title": "Fired OpenAI employees question the company's commitment to safety",
+    "category": "Tech",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The three fired workers say OpenAI punished them for being outspoken about safety. The company disputes the claims and says they were fired over mishandling sensitive information.",
+      "Reporting Desk: NPR Tech",
+      "Source Stamp: Fri, 09 Oct 2026 17:28:09 -0400"
+    ],
+    "sources": [
+      {
+        "name": "NPR Tech",
+        "url": "https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-149"
   },
   {
     "title": "OpenAI caught Russians and Iranians using ChatGPT for influence campaigns",
@@ -2817,7 +2997,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-141"
+    "id": "story-150"
   },
   {
     "title": "Backlash as American tech giants look to build data centers in Australia",
@@ -2837,7 +3017,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-142"
+    "id": "story-151"
   },
   {
     "title": "Margaret Hamilton, whose software sent humans to the moon, dies at 90",
@@ -2857,7 +3037,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-143"
+    "id": "story-152"
   },
   {
     "title": "As crypto and prediction markets expand, their regulator shrinks",
@@ -2877,7 +3057,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-144"
+    "id": "story-153"
   },
   {
     "title": "How 'Musk' director Alex Gibney became a critic",
@@ -2897,7 +3077,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-145"
+    "id": "story-154"
   },
   {
     "title": "Elon Musk and Palmer Luckey's new Pentagon roles raise ethics worries",
@@ -2917,7 +3097,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-146"
+    "id": "story-155"
   },
   {
     "title": "Trump names national intelligence chief Jay Clayton as new AI czar",
@@ -2937,7 +3117,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-147"
+    "id": "story-156"
   },
   {
     "title": "The origin of the chew: When did we learn to eat like this?",
@@ -2957,7 +3137,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-148"
+    "id": "story-157"
   },
   {
     "title": "Isaias pummels the Gulf Coast, and plows through Alabama",
@@ -2977,7 +3157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-149"
+    "id": "story-158"
   },
   {
     "title": "Study finds 194-year-old tortoise is 'aging more slowly than you would expect'",
@@ -2997,7 +3177,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-150"
+    "id": "story-159"
   },
   {
     "title": "4 people on NASA's Crew-12 mission return to Earth after 8 months in space",
@@ -3017,7 +3197,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-151"
+    "id": "story-160"
   },
   {
     "title": "Medical debt is crushing hospital patients in LA. Health officials may have a fix",
@@ -3037,7 +3217,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-152"
+    "id": "story-161"
   },
   {
     "title": "This surprising mammal fossil is giving scientists something to chew on",
@@ -3057,7 +3237,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-153"
+    "id": "story-162"
   },
   {
     "title": "Gut microbes followed migrating humans across continents, new study suggests",
@@ -3077,7 +3257,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-154"
+    "id": "story-163"
   },
   {
     "title": "Scientists win chemistry Nobel for discoveries about mirrored molecules that led to many drugs",
@@ -3097,7 +3277,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-155"
+    "id": "story-164"
   },
   {
     "title": "AI Is Getting Really Good at Messing With Cybercriminals",
@@ -3117,7 +3297,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-156"
+    "id": "story-165"
   },
   {
     "title": "Best Lego Gifts for Brick Builders (2026): Smart Bricks, Video Games, and More",
@@ -3137,7 +3317,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-157"
+    "id": "story-166"
   },
   {
     "title": "The Best Smart Scales for Tracking Weight and Body Composition (2026)",
@@ -3157,7 +3337,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-158"
+    "id": "story-167"
   },
   {
     "title": "Humans Watched This Supernova Explode Nearly a Millennium Ago. Now You Can See It in High Definition",
@@ -3177,7 +3357,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-159"
+    "id": "story-168"
   },
   {
     "title": "How This Tiny Startup Built the World’s Safest Bike Helmet",
@@ -3197,7 +3377,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-160"
+    "id": "story-169"
   },
   {
     "title": "Disney Plus Discount Codes: 52% Off October 2026",
@@ -3217,7 +3397,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-161"
+    "id": "story-170"
   },
   {
     "title": "LG Promo Codes and Coupons for October 2026",
@@ -3237,7 +3417,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-162"
+    "id": "story-171"
   },
   {
     "title": "30% Off Canon Promo Codes | October 2026",
@@ -3257,7 +3437,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-163"
+    "id": "story-172"
   },
   {
     "title": "Home Depot Promo Codes: 30% Off in October 2026",
@@ -3277,7 +3457,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-164"
+    "id": "story-173"
   },
   {
     "title": "Altra Running Promo Codes: 10% Off October 2026",
@@ -3297,7 +3477,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-165"
+    "id": "story-174"
   },
   {
     "title": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
@@ -3317,7 +3497,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-166"
+    "id": "story-175"
   },
   {
     "title": "APOD: 2026 October 10 – Lunar Farside",
@@ -3337,7 +3517,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-167"
+    "id": "story-176"
   },
   {
     "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
@@ -3357,7 +3537,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-168"
+    "id": "story-177"
   },
   {
     "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
@@ -3377,7 +3557,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-169"
+    "id": "story-178"
   },
   {
     "title": "Cosmic House of Mirrors",
@@ -3397,7 +3577,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-170"
+    "id": "story-179"
   },
   {
     "title": "APOD: 2026 October 9 – Stickney Crater",
@@ -3417,7 +3597,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-171"
+    "id": "story-180"
   },
   {
     "title": "Floodwaters Overwhelm Thailand",
@@ -3437,7 +3617,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-172"
+    "id": "story-181"
   },
   {
     "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
@@ -3457,7 +3637,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-173"
+    "id": "story-182"
   },
   {
     "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
@@ -3477,7 +3657,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-174"
+    "id": "story-183"
   },
   {
     "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
@@ -3497,7 +3677,67 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-175"
+    "id": "story-184"
+  },
+  {
+    "title": "Petra Power looks to modernize energy for data centers and defense vehicles",
+    "category": "Tech",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The startup says its fuel cells are super efficient and cut fuel costs during a time when the tech industry can’t get enough electricity.",
+      "Reporting Desk: TechCrunch",
+      "Source Stamp: Sat, 10 Oct 2026 17:00:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-185"
+  },
+  {
+    "title": "Cloudflare acquires Deno to improve its Workers programming model",
+    "category": "Tech",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Cloudflare will use this acquisition to improve its Workers programming model and platform.",
+      "Reporting Desk: TechCrunch",
+      "Source Stamp: Sat, 10 Oct 2026 16:25:42 +0000"
+    ],
+    "sources": [
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-186"
+  },
+  {
+    "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+    "category": "Tech",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to ...",
+      "Reporting Desk: TechCrunch",
+      "Source Stamp: Sat, 10 Oct 2026 15:00:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-187"
   },
   {
     "title": "Here are the top AI agents that can live in your text messages",
@@ -3517,7 +3757,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-176"
+    "id": "story-188"
   },
   {
     "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
@@ -3537,7 +3777,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-177"
+    "id": "story-189"
   },
   {
     "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
@@ -3557,7 +3797,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-178"
+    "id": "story-190"
   },
   {
     "title": "Long live the mechanical keyboard",
@@ -3577,7 +3817,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-179"
+    "id": "story-191"
   },
   {
     "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
@@ -3597,7 +3837,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-180"
+    "id": "story-192"
   },
   {
     "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
@@ -3617,7 +3857,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-181"
+    "id": "story-193"
   },
   {
     "title": "Batteries are now cheaper than natural gas turbines used at many data centers",
@@ -3637,67 +3877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-182"
-  },
-  {
-    "title": "TechCrunch Disrupt 2026: Gamma’s Grant Lee, Engine’s Elia Wallen, and GV’s Crystal Huang on landing your first 1,000 customers",
-    "category": "Tech",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Leaders from Gamma, Engine, and Google Ventures join TechCrunch Disrupt 2026 to talk how to get your first customers. Register now to save up to $100. Grab a second pass at 50% off.",
-      "Reporting Desk: TechCrunch",
-      "Source Stamp: Fri, 09 Oct 2026 18:57:06 +0000"
-    ],
-    "sources": [
-      {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-gammas-grant-lee-engines-elia-wallen-and-gvs-crystal-huang-on-landing-your-first-1000-customers/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-183"
-  },
-  {
-    "title": "LumenUs helps automate tedious paperwork in times of grief",
-    "category": "Tech",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "\"The day your loved one passes away, you also get this honorary badge of a project manager for a project you had no idea about,\" said founder Sara Tashakorinia.",
-      "Reporting Desk: TechCrunch",
-      "Source Stamp: Fri, 09 Oct 2026 17:00:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/10/09/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-184"
-  },
-  {
-    "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-    "category": "Tech",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Amazon says it will&#160;stop using NDAs&#160;when negotiating data center deals with local governments, following&#160;a&#160;similar move from Microsoft&#160;earlier this year. Secrecy has fueled community backlash against AI infrastructure, with o...",
-      "Reporting Desk: TechCrunch",
-      "Source Stamp: Fri, 09 Oct 2026 16:56:42 +0000"
-    ],
-    "sources": [
-      {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-185"
+    "id": "story-194"
   },
   {
     "title": "One with the world? A new look at brains transformed by psychedelics.",
@@ -3717,7 +3897,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-186"
+    "id": "story-195"
   },
   {
     "title": "Neanderthal wooden tools from Spain found preserved in stone",
@@ -3737,7 +3917,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-187"
+    "id": "story-196"
   },
   {
     "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
@@ -3757,7 +3937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-188"
+    "id": "story-197"
   },
   {
     "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
@@ -3766,7 +3946,7 @@
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computación.",
+      "Stylish upcycling, with a retro flair, at Spain's Museo de Historia de la Computación.",
       "Reporting Desk: Ars Technica",
       "Source Stamp: Fri, 09 Oct 2026 21:51:12 +0000"
     ],
@@ -3777,7 +3957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-189"
+    "id": "story-198"
   },
   {
     "title": "NASA issues long-awaited call to industry for private space stations",
@@ -3797,7 +3977,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-190"
+    "id": "story-199"
   },
   {
     "title": "What's been driving Hawaii's lava fountains?",
@@ -3817,7 +3997,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-191"
+    "id": "story-200"
   },
   {
     "title": "AI coding agents generate more code, but not more software",
@@ -3837,7 +4017,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-192"
+    "id": "story-201"
   },
   {
     "title": "Outrage grows as CDC reportedly poised to fund \"unethical\" vaccine trial",
@@ -3857,7 +4037,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-193"
+    "id": "story-202"
   },
   {
     "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
@@ -3877,7 +4057,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-194"
+    "id": "story-203"
   },
   {
     "title": "AI disqualification yields new Nikon Small World in Motion winner",
@@ -3897,7 +4077,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-195"
+    "id": "story-204"
   },
   {
     "title": "Watch Five Adorable Newborn Cheetah Cubs Grow on a Livestream From the Smithsonian's Conservation Biology Institute",
@@ -3917,7 +4097,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-196"
+    "id": "story-205"
   },
   {
     "title": "A Digital Swamp Coming to New York City’s MoMA Is 'Made to Envelop You' in Nature With the Help of Cutting-Edge Technology",
@@ -3937,7 +4117,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-197"
+    "id": "story-206"
   },
   {
     "title": "Raised in Apartheid South Africa, 2026 Nobel Peace Prize Winner Navi Pillay Is One of the World’s Leading Human Rights Jurists",
@@ -3957,7 +4137,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-198"
+    "id": "story-207"
   },
   {
     "title": "Could This Dutch Invention Help Tackle Plastic Pollution in America's Waterways?",
@@ -3977,7 +4157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-199"
+    "id": "story-208"
   },
   {
     "title": "Scientists Took a Cheek Swab From the World's Oldest Tortoise. His DNA Could Reveal Hints to Longevity",
@@ -3997,7 +4177,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-200"
+    "id": "story-209"
   },
   {
     "title": "This One-of-a-Kind Bronze Ring Offers a Tantalizing Glimpse at the Lighthouse of Alexandria, a Lost Wonder of the Ancient World",
@@ -4017,7 +4197,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-201"
+    "id": "story-210"
   },
   {
     "title": "Celebrate Indigenous Peoples’ Day With These 15 Dramatic Images of the Rich, Enduring Traditions of Native Americans",
@@ -4037,7 +4217,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-202"
+    "id": "story-211"
   },
   {
     "title": "A Century Ago, an Extinct Crocodilian's Skull Was Found in the Rocks That Built the Sphinx. Turns Out, It Belonged to a New Species",
@@ -4057,7 +4237,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-203"
+    "id": "story-212"
   },
   {
     "title": "September's Ozone Hole Was the Biggest It Has Been in 25 Years",
@@ -4077,7 +4257,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-204"
+    "id": "story-213"
   },
   {
     "title": "A Community-Led Archaeology Dig on a Tiny Scottish Isle Has Unearthed a Medieval Monastery of 'International Importance'",
@@ -4097,7 +4277,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-205"
+    "id": "story-214"
+  },
+  {
+    "title": "'Wait Wait' for October 10, 2026: With Not My Job guest Margo Price",
+    "category": "Arts",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "This week, Wait Wait is live in Chicago with guest host Negin Farsad, special guest Margo Price and panelists Joyelle Nicole Johnson, Katie Nolan, and Mo Rocca",
+      "Reporting Desk: NPR Arts & Culture",
+      "Source Stamp: Sat, 10 Oct 2026 12:30:00 -0400"
+    ],
+    "sources": [
+      {
+        "name": "NPR Arts & Culture",
+        "url": "https://www.npr.org/2026/10/10/g-s1-147573/wait-wait-for-october-10-2026-with-not-my-job-guest-margo-price",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-215"
   },
   {
     "title": "Latest in the 'Divergent' universe finds a different  Tris",
@@ -4117,7 +4317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-206"
+    "id": "story-216"
   },
   {
     "title": "Five children are taken from their parents in 'Fjord,' which won top prize at Cannes",
@@ -4137,7 +4337,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-207"
+    "id": "story-217"
   },
   {
     "title": "'Misty Green' squanders its potential",
@@ -4157,7 +4357,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-208"
+    "id": "story-218"
   },
   {
     "title": "Why we remember: One student's journey into memory",
@@ -4177,7 +4377,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-209"
+    "id": "story-219"
   },
   {
     "title": "A student hated reading for years. Her podcast explores finding the right diagnosis",
@@ -4197,7 +4397,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-210"
+    "id": "story-220"
   },
   {
     "title": "Aaron Sorkin warns of Facebook's recklessness in 'The Social Reckoning'",
@@ -4217,67 +4417,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-211"
+    "id": "story-221"
   },
   {
-    "title": "Pádraig Ó Tuama on the fear and relief of admitting the truth",
-    "category": "Arts",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Each week, a guest draws a card from NPR's Wild Card deck and answers a big question about their life. Pádraig Ó Tuama's poetry examines faith and sexuality. His new collection is \"Love Between Men.\"",
-      "Reporting Desk: NPR Arts & Culture",
-      "Source Stamp: Thu, 08 Oct 2026 18:02:18 -0400"
-    ],
-    "sources": [
-      {
-        "name": "NPR Arts & Culture",
-        "url": "https://www.npr.org/2026/10/08/nx-s1-5992814/padraig-o-tuama-on-the-fear-and-relief-of-admitting-the-truth",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-212"
-  },
-  {
-    "title": "Opera singers often quit not because they're done, but because life gets in the way",
-    "category": "Arts",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Opera singers often leave their careers when their voices are at their best, because the workload isn't manageable anymore.",
-      "Reporting Desk: NPR Arts & Culture",
-      "Source Stamp: Thu, 08 Oct 2026 18:00:04 -0400"
-    ],
-    "sources": [
-      {
-        "name": "NPR Arts & Culture",
-        "url": "https://www.npr.org/2026/10/08/nx-s1-5992654/opera-singers-often-quit-not-because-theyre-done-but-because-life-gets-in-the-way",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-213"
-  },
-  {
-    "title": "'Cockroach' group leaders among hundreds detained in Delhi protest",
+    "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
     "category": "World",
     "country": "United Kingdom",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "The group - who are not registered as a political party in India - want electoral reforms ahead of crucial state elections.",
+      "Ukraine's leader had said the deal with Russia to release diesel into the US would help Moscow fund the war.",
       "Reporting Desk: BBC News World",
-      "Source Stamp: Sat, 10 Oct 2026 12:29:31 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 18:36:23 GMT"
     ],
     "sources": [
       {
         "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
+        "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
-    "id": "story-214"
+    "id": "story-222"
   },
   {
     "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
@@ -4297,47 +4457,127 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-215"
+    "id": "story-223"
   },
   {
-    "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+    "title": "Several injured in attack on airport in Saudi capital Riyadh",
     "category": "World",
     "country": "United Kingdom",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
+      "The US embassy says it is \"aware of attacks on King Khalid International Airport\", which come days after Yemen's Houthis said they had struck it.",
       "Reporting Desk: BBC News World",
-      "Source Stamp: Sat, 10 Oct 2026 14:24:14 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 18:37:10 GMT"
     ],
     "sources": [
       {
         "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+        "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
-    "id": "story-216"
+    "id": "story-224"
   },
   {
-    "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+    "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
     "category": "World",
     "country": "United Kingdom",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
+      "Pike's lawyers say she is \"grateful\" to the medical team who cared for her after she survived two lethal injections last month.",
       "Reporting Desk: BBC News World",
-      "Source Stamp: Fri, 09 Oct 2026 22:30:22 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 17:44:26 GMT"
     ],
     "sources": [
       {
         "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+        "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
-    "id": "story-217"
+    "id": "story-225"
+  },
+  {
+    "title": "'Cockroach' group leaders among hundreds detained in Delhi protest",
+    "category": "World",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The group - who are not registered as a political party in India - want electoral reforms ahead of crucial state elections.",
+      "Reporting Desk: BBC News World",
+      "Source Stamp: Sat, 10 Oct 2026 12:29:31 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC News World",
+        "url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-226"
+  },
+  {
+    "title": "Woman injures three people in third Poland school knife attack in a week",
+    "category": "World",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Polish police had already deployed to schools after a female caretaker was killed and several others injured in two earlier attacks in two days.",
+      "Reporting Desk: BBC News World",
+      "Source Stamp: Sat, 10 Oct 2026 14:58:55 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC News World",
+        "url": "https://www.bbc.co.uk/news/articles/cv8ezd246z1wo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-227"
+  },
+  {
+    "title": "Expedition hopes to find aviator Amelia Earhart's plane on remote island",
+    "category": "World",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The team en route to the suspected crash site aim finally to solve the mystery of her 1937 disappearance.",
+      "Reporting Desk: BBC News World",
+      "Source Stamp: Sat, 10 Oct 2026 18:22:29 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC News World",
+        "url": "https://www.bbc.co.uk/news/articles/c3y0e871rk4vo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-228"
+  },
+  {
+    "title": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
+    "category": "World",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Navi Pillay says the Trump administrations' sweeping penalties on the international tribunal were \"unheard of\".",
+      "Reporting Desk: BBC News World",
+      "Source Stamp: Sat, 10 Oct 2026 15:23:47 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC News World",
+        "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-229"
   },
   {
     "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
@@ -4357,7 +4597,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-218"
+    "id": "story-230"
   },
   {
     "title": "Headmaster detained after BBC investigation into alleged sexual abuse of students",
@@ -4377,287 +4617,207 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-219"
-  },
-  {
-    "title": "Drone strike by Sudan paramilitary kills 41 near Ethiopian border, rights group says",
-    "category": "World",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Eight children are said to be among those killed by the strike, which hit a gathering of displaced people.",
-      "Reporting Desk: BBC News World",
-      "Source Stamp: Sat, 10 Oct 2026 14:49:32 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-220"
-  },
-  {
-    "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
-    "category": "World",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The United Arab Emirates' attorney-general also alleges the co-pilot was trying to crash the plane into Tel Aviv's airport.",
-      "Reporting Desk: BBC News World",
-      "Source Stamp: Sat, 10 Oct 2026 04:34:55 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-221"
-  },
-  {
-    "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
-    "category": "World",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The US president told a rally he had \"never heard of\" the winner, former International Criminal Court judge Navi Pillay.",
-      "Reporting Desk: BBC News World",
-      "Source Stamp: Sat, 10 Oct 2026 04:07:11 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/ckgj921e14jdo?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-222"
-  },
-  {
-    "title": "US country music star Ella Langley cancels show due to 'security threat'",
-    "category": "World",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Police say they checked the concert venue in Tulsa, Oklahoma but \"could not find any threat\".",
-      "Reporting Desk: BBC News World",
-      "Source Stamp: Sat, 10 Oct 2026 02:02:54 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/cm79pdlywqd4o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-223"
-  },
-  {
-    "title": "Arsenal beat Leeds 2-1 in comeback win to move level with Man City at top",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Arsenal come from behind to beat Leeds United moving them joint top of the Premier League with Manchester City.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 10 Oct 2026 14:42:39 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/sports/2026/10/10/arsenal-beat-leeds-2-1-in-comeback-win-to-move-level-with-man-city-at-top?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-224"
-  },
-  {
-    "title": "Jerusalem Daily: Israeli settlers attack olive farmers",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Israeli settlers steal olives and attack Palestinian farmers during this year’s harvest.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 10 Oct 2026 14:39:53 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/jerusalem-daily-israeli-settlers-attack-olive-farmers?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-225"
-  },
-  {
-    "title": "Mexican judge sentences three men for murders of Australian, US surfers",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The trial in Baja California had revealed chilling details of the triple homicide of the surfers.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 10 Oct 2026 14:37:26 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/10/10/mexican-judge-sentences-three-men-for-murders-of-australian-us-surfers?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-226"
-  },
-  {
-    "title": "Why is the US sanctioning the International Criminal Court?",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The sanctions targeting the ICC, which prosecutes humanitarian crimes, are the latest move by the US against the court.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 10 Oct 2026 14:19:43 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/10/10/why-is-the-us-sanctioning-the-international-criminal-court?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-227"
-  },
-  {
-    "title": "Abbas postpones Palestinian legislative elections to September 2027",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "November 2026 vote delayed; joint presidential and legislative elections set for next year, president says in decree.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 10 Oct 2026 14:18:09 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/10/10/abbas-postpones-palestinian-legislative-elections-to-september-2027?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-228"
-  },
-  {
-    "title": "Has Yemen returned to ‘full-scale war’?",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Fighting is intensifying between Yemeni government forces and Houthi rebel group.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 10 Oct 2026 14:10:24 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/10/10/has-yemen-returned-to-full-scale-war?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-229"
-  },
-  {
-    "title": "When streets become a workplace: Gaza workers convert tents into offices",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "A real estate crisis in Gaza has forced professionals to use tents as surgeries and offices.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 10 Oct 2026 13:50:05 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/features/2026/10/10/when-streets-become-a-workplace-gaza-workers-convert-tents-into-offices?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-230"
-  },
-  {
-    "title": "High silver prices threaten Lucknow’s famed bridal nagra craft",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "War-driven prices for silver are threatening nagra makers in northern India.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 10 Oct 2026 13:25:35 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/features/longform/2026/10/10/high-silver-prices-threaten-lucknows-famed-bridal-nagra-craft?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-231"
   },
   {
-    "title": "New Delhi police crack down on protesters ahead of anti-gov’t march",
+    "title": "Photos: Thousands march across Europe to demand end to Israel’s war on Gaza",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "India’s police have detained dozens of protesters, including ‘Cockroach’ party leaders ahead of an anti-gov&#039;t march.",
+      "Demonstrations in London, Berlin, and Rome denounce ongoing Israeli attacks on Gaza &#039;ceasefire&#039; anniversary.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 10 Oct 2026 13:23:42 +0000"
+      "Source Stamp: Sat, 10 Oct 2026 18:26:13 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/new-delhi-police-crack-down-on-protesters-ahead-of-anti-govt-march?traffic_source=rss",
+        "url": "https://www.aljazeera.com/gallery/2026/10/10/photos-thousands-march-across-europe-to-demand-end-to-israels-war-on-gaza?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-232"
   },
   {
-    "title": "‘Anachronism’: Rubio’s civilisational rhetoric prompts pushback from Iran",
+    "title": "Attack on airport in Saudi capital, Riyadh, leaves several injured",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Rubio says threats to Western civilisation today &#039;every bit as real as they were on the dramatic stage of antiquity&#039;.",
+      "Operations suspended at King Khalid International Airport after another attack this week, Civil Aviation Authority says.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 10 Oct 2026 13:09:09 +0000"
+      "Source Stamp: Sat, 10 Oct 2026 18:08:46 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news-analysis/2026/10/10/anachronism-rubios-civilisational-rhetoric-prompts-pushback-from-iran?traffic_source=rss",
+        "url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-233"
+  },
+  {
+    "title": "Nine killed in shooting in US state of Pennsylvania, including two children",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The shooting in Erie, Pennsylvania happened on Friday, according to state officials. The attacker is among the dead.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Sat, 10 Oct 2026 17:48:45 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/news/2026/10/10/nine-killed-in-shooting-in-us-state-of-pennsylvania-including-two-children?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-234"
+  },
+  {
+    "title": "Pope says death penalty ‘inadmissible’ as US plans to livestream execution",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Pope Leo XIV describes capital punishment as an &#039;attack on the inviolability and dignity of the person&#039; in post on X.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Sat, 10 Oct 2026 17:38:18 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/news/2026/10/10/pope-says-death-penalty-inadmissible-as-us-plans-to-livestream-execution?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-235"
+  },
+  {
+    "title": "Video shows rare albino Asian black bear",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A rare albino Asian black bear was captured on camera in China’s Shennongjia National Park",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Sat, 10 Oct 2026 17:37:37 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/video-shows-rare-albino-asian-black-bear?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-236"
+  },
+  {
+    "title": "Christa Pike discharged from hospital and returned to Tennessee prison",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Pike survived two doses of lethal-injection drugs on September 30, renewing scrutiny of capital punishment.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Sat, 10 Oct 2026 17:08:37 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/news/2026/10/10/christa-pike-discharged-from-hospital-and-returned-to-tennessee-prison?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-237"
+  },
+  {
+    "title": "Celebrations in Ethiopian city after reported Eritrean ‘incursion’",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "People in northern Ethiopia are celebrating after a reported withdrawal of Eritrean forces accused of an incursion.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Sat, 10 Oct 2026 16:54:56 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/celebrations-in-ethiopian-city-after-reported-eritrean?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-238"
+  },
+  {
+    "title": "Eritrea urges UN to intervene in standoff with Ethiopia",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The neighbouring countries blame one another for starting war amid heightened tensions and fears of a wider conflict.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Sat, 10 Oct 2026 16:41:25 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/news/2026/10/10/eritrea-urges-un-to-intervene-in-standoff-with?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-239"
+  },
+  {
+    "title": "Hurricane Isaias leaves two dead and 800,000 without power in US Southeast",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Storm damage stretches across Florida and Alabama as officials warn of continued flooding and possible tornadoes.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Sat, 10 Oct 2026 15:45:36 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/news/2026/10/10/hurricane-isaias-leaves-two-dead-and-800000-without-power-in-us-southeast?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-240"
+  },
+  {
+    "title": "Trump Accounts: Free money, but who gets a say?",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Trump Accounts promise children a financial head start. Al Jazeera’s Emma Withrow spoke with one parent.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Sat, 10 Oct 2026 15:21:39 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/trump-accounts-free-money-but-who-gets-a-say?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-241"
   },
   {
     "title": "U.S. and Russia tout diesel deal to ease sanctions and reopen fuel flows",
@@ -4677,7 +4837,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-234"
+    "id": "story-242"
   },
   {
     "title": "South African human rights lawyer Navi Pillay wins Nobel Peace Prize",
@@ -4697,7 +4857,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-235"
+    "id": "story-243"
+  },
+  {
+    "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
+    "category": "World",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow, to combat prices before midterms. He said he struck the deal with Russian President Vladimir Putin in a phone call.",
+      "Reporting Desk: NPR World News",
+      "Source Stamp: Fri, 09 Oct 2026 17:24:13 -0400"
+    ],
+    "sources": [
+      {
+        "name": "NPR World News",
+        "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-244"
   },
   {
     "title": "Did Russia play by the rules in reporting lab worker's death?",
@@ -4717,7 +4897,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-236"
+    "id": "story-245"
   },
   {
     "title": "Trump says U.S. won't attack Iran before midterms. And, ICE agent shoots man in NYC",
@@ -4737,7 +4917,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-237"
+    "id": "story-246"
   },
   {
     "title": "South African human rights lawyer Navi Pillay wins the Nobel Peace Prize",
@@ -4757,7 +4937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-238"
+    "id": "story-247"
   },
   {
     "title": "The long-deployed USS Lincoln returns home to San Diego Bay",
@@ -4777,7 +4957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-239"
+    "id": "story-248"
   },
   {
     "title": "New U.S. indictment charges former Venezuelan President Nicolás Maduro with torture",
@@ -4797,7 +4977,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-240"
+    "id": "story-249"
   },
   {
     "title": "US midterms: Women candidates could make history",
@@ -4817,7 +4997,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-241"
+    "id": "story-250"
   },
   {
     "title": "Is China seeking to restrict Taiwan's cultural presence?",
@@ -4837,7 +5017,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-242"
+    "id": "story-251"
   },
   {
     "title": "How the Houthi-Saudi conflict is affecting countries on Africa's Red Sea coast — and beyond",
@@ -4857,7 +5037,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-243"
+    "id": "story-252"
   },
   {
     "title": "Schools crisis in France: Investment fails to inspire confidence",
@@ -4877,7 +5057,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-244"
+    "id": "story-253"
   },
   {
     "title": "Eritrean troops in Ethiopia raise fears of a regional war",
@@ -4897,7 +5077,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-245"
+    "id": "story-254"
   },
   {
     "title": "Macron and Steinmeier struggle to revive Franco-German ties",
@@ -4917,7 +5097,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-246"
+    "id": "story-255"
   },
   {
     "title": "US imposes sanctions aiming to 'dismantle' International Criminal Court",
@@ -4937,7 +5117,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-247"
+    "id": "story-256"
   },
   {
     "title": "Poland: Lifeline for Ukrainian refugees confronts donor fatigue and online abuse as anti-Ukrainian sentiment grows",
@@ -4957,7 +5137,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-248"
+    "id": "story-257"
   },
   {
     "title": "India's 'cockroaches' vs Election Commission: What you need to know ahead of CJP's October 10 protests",
@@ -4977,7 +5157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-249"
+    "id": "story-258"
   },
   {
     "title": "Bosnia and Herzegovina will soon have a new Grand Mufti",
@@ -4997,70 +5177,70 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-250"
+    "id": "story-259"
   },
   {
-    "title": "Lens see off Lyon as Ligue 1 season resumes after international break",
+    "title": "SPOTLIGHT",
     "category": "World",
     "country": "France",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Lens put an end to a four-match winless run by beating Lyon 2-1 on Friday night, in what was the first Ligue 1 fixture after a three-week international break. Paris Saint-Germain head coach Luis Enrique has brushed off concerns about Ousmane Dembélé'...",
+      "Adam Barron is an independent Middle East political analyst and consultant, specialising primarily in Yemen, where he has reported from the capital, Sanaa, for The Economist. He writes for Foreign Policy and The Atlantic.",
       "Reporting Desk: France 24",
-      "Source Stamp: Sat, 10 Oct 2026 14:10:33 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 18:22:23 GMT"
     ],
     "sources": [
       {
         "name": "France 24",
-        "url": "https://www.france24.com/en/tv-shows/sports/20261010-lens-see-off-lyon-as-ligue-1-season-resumes-after-international-break",
+        "url": "https://www.france24.com/en/tv-shows/spotlight/20261010-spotlight",
         "bias": "CENTER"
       }
     ],
-    "id": "story-251"
+    "id": "story-260"
   },
   {
-    "title": "Portugal hits Ronaldo with provisional suspension for walking out on national team",
+    "title": "Riyadh airport suspends operations after attack leaves multiple people wounded",
     "category": "World",
     "country": "France",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Portuguese Football Federation announced on Saturday that it has provisionally suspended star attacker Cristiano Ronaldo and opened disciplinary proceedings against the 41-year-old over his decision to walk out on the national team last month.",
+      "Saudi authorities on Saturday said that they had suspended operations at Riyadh's King Khalid International Airport after a new attack there left multiple people wounded. An attack on the airport by the Houthis on Thursday killed three people and dam...",
       "Reporting Desk: France 24",
-      "Source Stamp: Sat, 10 Oct 2026 14:02:06 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 18:03:32 GMT"
     ],
     "sources": [
       {
         "name": "France 24",
-        "url": "https://www.france24.com/en/sport/20261010-portugal-hits-ronaldo-with-provisional-suspension-for-walking-out-on-national-team",
+        "url": "https://www.france24.com/en/middle-east/20261010-riyadh-airport-suspends-operations-after-attack-leaves-multiple-people-wounded",
         "bias": "CENTER"
       }
     ],
-    "id": "story-252"
+    "id": "story-261"
   },
   {
-    "title": "Yemen says advancing against Houthis around key Bab al-Mandab strait",
+    "title": "Convicted murderer Christa Pike leaves hospital, returns to prison after botched execution",
     "category": "World",
     "country": "France",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Yemen said Saturday that forces were advancing against the Houthis around the Bab al-Mandab strait. This comes a week after the country's Saudi-backed government announced that it was initiating a counter-offensive to take back territory seized by th...",
+      "Christa Pike's lawyers on Saturday said that the 50-year-old convicted murderer has been discharged from the hospital and returned to prison. Pike was transported to the hospital in critical condition on September 30 after she survived Tennessee's bo...",
       "Reporting Desk: France 24",
-      "Source Stamp: Sat, 10 Oct 2026 13:45:14 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 17:41:10 GMT"
     ],
     "sources": [
       {
         "name": "France 24",
-        "url": "https://www.france24.com/en/middle-east/20261010-yemen-says-forces-made-advances-against-houthis-around-key-waterway",
+        "url": "https://www.france24.com/en/americas/20261010-convicted-murderer-christa-pike-leaves-hospital-returns-to-prison-after-botched-execution",
         "bias": "CENTER"
       }
     ],
-    "id": "story-253"
+    "id": "story-262"
   },
   {
-    "title": "🔴 Palestinian president Abbas postpones legislative elections, sets presidential poll for September 2027",
+    "title": "🔴 Live: Trump lashes out at Zelensky, says Ukraine needs new president who will agree to end war",
     "category": "World",
     "country": "France",
     "leaning": "CENTER",
@@ -5068,136 +5248,136 @@
     "keyFacts": [
       "Direct headline coverage from bureau wire.",
       "Reporting Desk: France 24",
-      "Source Stamp: Sat, 10 Oct 2026 11:58:24 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 17:39:46 GMT"
     ],
     "sources": [
       {
         "name": "France 24",
-        "url": "https://www.france24.com/en/middle-east/20261010-palestinian-president-abbas-postpones-legislative-elections-to-september-2027",
+        "url": "https://www.france24.com/en/europe/20261010-live-russian-strikes-on-ukraine-zaporizhzhia-kill-least-seven-including-children",
         "bias": "CENTER"
       }
     ],
-    "id": "story-254"
+    "id": "story-263"
   },
   {
-    "title": "Palestinian president Abbas postpones legislative, presidential elections to September 2027",
+    "title": "India protests: New 'cockroach' movement leader named",
     "category": "World",
     "country": "France",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "⁠⁠Palestinian president ​Mahmoud ​Abbas announced on Saturday that legislative ⁠elections would be postponed from November ​28 to September ​11, 2027, the ​official Palestinian news agency ⁠WAFA reported. In his presidential decree, Abbas set the nex...",
+      "Indian police detained the head of the satirical \"cockroach\" online movement on Saturday, the group said, ahead of a major protest against the Election Commission that prompted strict security measures.\n \n\"They seem to have seen that coming,\" notes F...",
       "Reporting Desk: France 24",
-      "Source Stamp: Sat, 10 Oct 2026 11:56:40 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 16:14:56 GMT"
     ],
     "sources": [
       {
         "name": "France 24",
-        "url": "https://www.france24.com/en/middle-east/20261010-palestinian-president-abbas-postpones-legislative-elections-to-september-2027",
+        "url": "https://www.france24.com/en/video/20261010-india-protests-new-cockroach-movement-leader-named",
         "bias": "CENTER"
       }
     ],
-    "id": "story-255"
+    "id": "story-264"
   },
   {
-    "title": "October 7 scars push Israel's first-time voters to right",
+    "title": "South Africa: Anti-migrant unrest flares in Durban",
     "category": "World",
     "country": "France",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Like hundreds of thousands of Israelis, Amihai will be of voting age for the first time since Hamas carried out its attack on October 7, 2023. When he casts his ballot this month, he has one priority above all -- security.",
+      "Police in Durban were battling a fresh wave of anti-migrant unrest. Shops were looted, homes were torched and foreign nationals were targeted as crowds took to the streets for a second day. The violence has revived fears of rising xenophobic tensions...",
       "Reporting Desk: France 24",
-      "Source Stamp: Sat, 10 Oct 2026 11:01:20 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 16:12:21 GMT"
     ],
     "sources": [
       {
         "name": "France 24",
-        "url": "https://www.france24.com/en/video/20261010-october-7-scars-push-israel-s-first-time-voters-to-right",
+        "url": "https://www.france24.com/en/video/20261010-south-africa-anti-migrant-unrest-flares-in-durban",
         "bias": "CENTER"
       }
     ],
-    "id": "story-256"
+    "id": "story-265"
   },
   {
-    "title": "Hunger and malnutrition stalk Gazans, a year on from ceasefire",
+    "title": "Kenya: Ebola tests negative as contact tracing continues",
     "category": "World",
     "country": "France",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Every day, Gazan mother Niyaha al-Masri spends six exhausting hours or more queueing at a community kitchen in the hope of getting some food for her family. It has been a year since a ceasefire between Hamas and Israel was supposed to allow food to f...",
+      "Tests have come back negative for a person suspected of having Ebola who was reportedly in quarantine at a hospital, following rumours circulating over the past 24 hours. Meanwhile, in Nairobi, authorities are racing to trace contacts of Kenya's firs...",
       "Reporting Desk: France 24",
-      "Source Stamp: Sat, 10 Oct 2026 11:00:08 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 16:10:53 GMT"
     ],
     "sources": [
       {
         "name": "France 24",
-        "url": "https://www.france24.com/en/video/20261010-hunger-and-malnutrition-stalk-gazans-a-year-on-from-ceasefire",
+        "url": "https://www.france24.com/en/video/20261010-kenya-ebola-tests-negative-as-contact-tracing-continues",
         "bias": "CENTER"
       }
     ],
-    "id": "story-257"
+    "id": "story-266"
   },
   {
-    "title": "Severe injuries at French student protests draw scrutiny to police tactics",
+    "title": "Abbas postpones Palestinian elections, sets presidential poll for September 2027",
     "category": "World",
     "country": "France",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Twenty-four investigations have been opened by French police watchdog IGPN into incidents linked to the ongoing high school protest movement, the interior ministry said. The police response has reignited calls to scrap rubber bullets and launcher-fir...",
+      "Palestinian President Mahmoud Abbas on Saturday postponed legislative elections due next month until September 11, ​2027, and called ‌a presidential poll for the same date, blaming Israel and the security situation in the Palestinian territories for ...",
       "Reporting Desk: France 24",
-      "Source Stamp: Sat, 10 Oct 2026 10:20:54 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 16:09:13 GMT"
     ],
     "sources": [
       {
         "name": "France 24",
-        "url": "https://www.france24.com/en/france/20261010-injuries-french-student-protests-draw-scrutiny-to-police-tactics",
+        "url": "https://www.france24.com/en/video/20261010-abbas-postpones-palestinian-elections-sets-presidential-poll-for-september-2027",
         "bias": "CENTER"
       }
     ],
-    "id": "story-258"
+    "id": "story-267"
   },
   {
-    "title": "Navanethem 'Navi' Pillay wins the Nobel Peace Prize",
+    "title": "Midterms: \"It does look like the Republicans will lose control of the House of Representatives\"",
     "category": "World",
     "country": "France",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Former UN human rights chief Navanethem \"Navi\" Pillay, a judge at the International Court of Justice, won the Nobel Peace Prize on Friday in Oslo, Norway.",
+      "Most of the political world is focused on next month's midterm elections in the US. \"It does look like the Republicans will lose control of the House of Representatives,\" says our guest, Bruce Stokes, a visiting senior fellow at the German Marshall F...",
       "Reporting Desk: France 24",
-      "Source Stamp: Sat, 10 Oct 2026 09:25:54 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 16:04:13 GMT"
     ],
     "sources": [
       {
         "name": "France 24",
-        "url": "https://www.france24.com/en/video/20261010-navanethem-navi-pillay-wins-the-nobel-peace-prize",
+        "url": "https://www.france24.com/en/video/20261010-midterms-it-does-look-like-the-republicans-will-lose-control-of-the-house-of-representatives",
         "bias": "CENTER"
       }
     ],
-    "id": "story-259"
+    "id": "story-268"
   },
   {
-    "title": "India's 'cockroach' movement: \"This is unprecedented\"",
+    "title": "French cycling prodigy Seixas claims first Monument victory at Giro di Lombardia",
     "category": "World",
     "country": "France",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Indian police detained Abhijeet Dipke, head of the satirical Cockroach Janta Party (CJP) movement, on Saturday ahead of a major protest against the Election Commission, the party said.\n\n\"This is unprecedented,\" our guest Subir Sinha, director of the ...",
+      "French prodigy Paul Seixas claimed his first Monument win at the Giro di Lombardia on Saturday. The victory makes the 20-year-old the fourth-youngest winner of a Monument race.",
       "Reporting Desk: France 24",
-      "Source Stamp: Sat, 10 Oct 2026 09:20:21 GMT"
+      "Source Stamp: Sat, 10 Oct 2026 15:58:38 GMT"
     ],
     "sources": [
       {
         "name": "France 24",
-        "url": "https://www.france24.com/en/video/20261010-india-s-cockroach-movement-this-is-unprecedented",
+        "url": "https://www.france24.com/en/sport/20261010-french-cycling-prodigy-seixas-claims-first-monument-victory-at-giro-di-lombardia",
         "bias": "CENTER"
       }
     ],
-    "id": "story-260"
+    "id": "story-269"
   },
   {
     "title": "Controversial vaccine trial touted by RFK Jr gets go-ahead in Guinea-Bissau",
@@ -5217,7 +5397,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-261"
+    "id": "story-270"
   },
   {
     "title": "ICJ judge Navi Pillay wins Nobel peace prize for promoting international law",
@@ -5237,7 +5417,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-262"
+    "id": "story-271"
   },
   {
     "title": "Isaias strengthens to become first Atlantic hurricane of 2026 season",
@@ -5257,7 +5437,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-263"
+    "id": "story-272"
   },
   {
     "title": "Egyptian journalists plan weekend protest over detention of six colleagues",
@@ -5277,7 +5457,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-264"
+    "id": "story-273"
   },
   {
     "title": "Scientists discover 180,000 giant tortoises on one Seychelles island",
@@ -5297,7 +5477,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-265"
+    "id": "story-274"
   },
   {
     "title": "Candidate named Hitler Mussolini elected mayor in Peru",
@@ -5317,7 +5497,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-266"
+    "id": "story-275"
   },
   {
     "title": "‘Like a drill going into my eye’: why the mystery over Havana syndrome refuses to die",
@@ -5337,7 +5517,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-267"
+    "id": "story-276"
   },
   {
     "title": "Three men found guilty of murders of Australian surfer brothers and US friend in Mexico",
@@ -5357,7 +5537,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-268"
+    "id": "story-277"
   },
   {
     "title": "Powerful 7.7-magnitude earthquake strikes Panama and triggers panic in capital",
@@ -5377,7 +5557,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-269"
+    "id": "story-278"
   },
   {
     "title": "How a plant selfie in Colombian jungle led to ‘jaw dropping’ giant waterlily find",
@@ -5397,7 +5577,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-270"
+    "id": "story-279"
   },
   {
     "title": "World News in Brief: ‘Horrific’ attack in Sudan, Israeli incursions in Syria intensify, most women and girls homeless in Gaza",
@@ -5417,7 +5597,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-271"
+    "id": "story-280"
   },
   {
     "title": "Global trade reaches record $35 trillion despite conflicts",
@@ -5437,7 +5617,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-272"
+    "id": "story-281"
   },
   {
     "title": "Livestreaming US execution would breach prohibition of torture, UN rights office warns",
@@ -5457,7 +5637,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-273"
+    "id": "story-282"
   },
   {
     "title": "Security Council LIVE: Cycle of escalating attacks on civilians in Ukraine ‘must end now’",
@@ -5477,7 +5657,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-274"
+    "id": "story-283"
   },
   {
     "title": "‘Serious blow’: Guterres condemns new US sanctions on International Criminal Court",
@@ -5497,7 +5677,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-275"
+    "id": "story-284"
   },
   {
     "title": "Amid heartache of Nepal flooding disaster, fear remains",
@@ -5517,7 +5697,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-276"
+    "id": "story-285"
   },
   {
     "title": "Security Council LIVE: Yemen has fallen back into full-scale war, warns UN envoy",
@@ -5537,7 +5717,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-277"
+    "id": "story-286"
   },
   {
     "title": "Former UN human rights chief Navi Pillay awarded Nobel Peace Prize",
@@ -5557,7 +5737,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-278"
+    "id": "story-287"
   },
   {
     "title": "World News in Brief: Russian attacks continue in Ukraine, Gazans shelter in flood-prone areas, keeping sight of eye health",
@@ -5577,7 +5757,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-279"
+    "id": "story-288"
   },
   {
     "title": "Darfur: Healthcare needs outstrip resources as Security Council extends Sudan sanctions",
@@ -5597,6 +5777,6 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-280"
+    "id": "story-289"
   }
 ]
