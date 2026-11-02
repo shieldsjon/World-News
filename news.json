@@ -20,6 +20,26 @@
     "id": "story-1"
   },
   {
+    "title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Qatar has been leading intense mediation efforts over the past 72 hours to prevent a new round of possible U.S. attacks on Iran after Tuesday's midterm elections. The uncertainty has the entire Gulf region on edge.",
+      "Reporting Desk: NPR US News",
+      "Source Stamp: Sun, 01 Nov 2026 17:19:13 -0500"
+    ],
+    "sources": [
+      {
+        "name": "NPR US News",
+        "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-2"
+  },
+  {
     "title": "Haley Stevens endorses GOP candidate in Michigan Senate race, spurning Abdul El-Sayed",
     "category": "U.S.",
     "country": "United States",
@@ -37,7 +57,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-2"
+    "id": "story-3"
   },
   {
     "title": "Connecticut Senator Chris Murphy is hospitalized with a stroke",
@@ -57,7 +77,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-3"
+    "id": "story-4"
   },
   {
     "title": "How to think about the midterms — and the political moment the country is in",
@@ -77,7 +97,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-4"
+    "id": "story-5"
   },
   {
     "title": "Judge tosses Trump's attempt to block Alaska Senate results if GOP incumbent loses",
@@ -97,7 +117,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-5"
+    "id": "story-6"
   },
   {
     "title": "The midterms will test the nation's political direction and confidence",
@@ -117,7 +137,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-6"
+    "id": "story-7"
   },
   {
     "title": "New York City Marathon: Sweden's Almgren and Kenya's Chepkirui win as 60,000 take part",
@@ -137,7 +157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-7"
+    "id": "story-8"
   },
   {
     "title": "Living with high prices in Virginia's 1st Congressional District",
@@ -157,7 +177,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-8"
+    "id": "story-9"
   },
   {
     "title": "It's ACA open enrollment time. Here are the changes for health insurance shoppers",
@@ -177,26 +197,6 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-9"
-  },
-  {
-    "title": "How Gen Z Republicans running for Congress are thinking about the future of the party",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "On the eve of what may prove to be a tough election for the GOP, young conservatives vying to be part of the first class of Gen Z Republicans in Congress want a role shaping the party's next chapter.",
-      "Reporting Desk: NPR US News",
-      "Source Stamp: Sun, 01 Nov 2026 06:00:00 -0500"
-    ],
-    "sources": [
-      {
-        "name": "NPR US News",
-        "url": "https://www.npr.org/2026/11/01/nx-s1-5946869/midterm-elections-gen-z-republicans",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-10"
   },
   {
@@ -208,7 +208,7 @@
     "keyFacts": [
       "The jet had taken off from Austin, Texas, and was headed to the Bahamas, according to the FAA.",
       "Reporting Desk: ABC News US",
-      "Source Stamp: Sun, 01 Nov 2026 18:28:59 -0500"
+      "Source Stamp: Sun, 01 Nov 2026 20:53:26 -0500"
     ],
     "sources": [
       {
@@ -240,15 +240,15 @@
     "id": "story-12"
   },
   {
-    "title": "Midterm elections live updates: Judge dismisses DOJ Alaska election results suit",
+    "title": "Midterm elections live updates: Trump attacks El-Sayed during stump speech in Iowa",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "President Donald Trump is scheduled to visit Iowa and Kansas on Sunday.",
+      "President Donald Trump visited Iowa and Kansas on Sunday.",
       "Reporting Desk: ABC News US",
-      "Source Stamp: Sun, 01 Nov 2026 18:44:48 -0500"
+      "Source Stamp: Sun, 01 Nov 2026 22:45:44 -0500"
     ],
     "sources": [
       {
@@ -348,7 +348,7 @@
     "keyFacts": [
       "ABC News’ Linsey Davis speaks to 83-year-old Dave Obelkevich ahead of his record 50th straight NYC marathon race and why it’s a tradition for him and his family.",
       "Reporting Desk: ABC News US",
-      "Source Stamp: Fri, 30 Oct 2026 23:59:37 -0400"
+      "Source Stamp: Sun, 01 Nov 2026 19:39:33 -0500"
     ],
     "sources": [
       {
@@ -400,7 +400,7 @@
     "id": "story-20"
   },
   {
-    "title": "Trump says Iran war will be put away very soon: \"One way or the other\"",
+    "title": "Trump says Iran war will be put away very soon, \"one way or the other\"",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
@@ -408,7 +408,7 @@
     "keyFacts": [
       "Earlier, President Trump predicted the war with Iran is \"going to end soon,\" without offering any details, as Qatari mediators return to Tehran to push for a deal.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sun, 01 Nov 2026 18:45:01 -0500"
+      "Source Stamp: Sun, 01 Nov 2026 23:15:54 -0500"
     ],
     "sources": [
       {
@@ -420,26 +420,6 @@
     "id": "story-21"
   },
   {
-    "title": "Live Updates: Michigan Democratic rift spills into public view and more",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The November 2026 midterm elections are just two days away. Candidates in key races — and President Trump — are making their closing arguments to voters.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sun, 01 Nov 2026 18:34:21 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/live-updates/2026-midterm-elections-campaigns-weekend-before/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-22"
-  },
-  {
     "title": "Jet from Texas crashes near homes in Palm Beach, Florida, killing 9 on board",
     "category": "U.S.",
     "country": "United States",
@@ -448,7 +428,7 @@
     "keyFacts": [
       "Details about what may have caused the crash had not yet been shared.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sun, 01 Nov 2026 18:18:29 -0500"
+      "Source Stamp: Sun, 01 Nov 2026 22:20:37 -0500"
     ],
     "sources": [
       {
@@ -457,7 +437,147 @@
         "bias": "CENTER"
       }
     ],
+    "id": "story-22"
+  },
+  {
+    "title": "Live Updates: Michigan Democratic rift spills into public view and more",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Ahead of the 2026 midterm elections on Tuesday, candidates in key races — and President Trump — are making their closing arguments to voters.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sun, 01 Nov 2026 22:06:00 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/live-updates/2026-midterm-elections-campaigns-weekend-before/",
+        "bias": "CENTER"
+      }
+    ],
     "id": "story-23"
+  },
+  {
+    "title": "Golden State wins first WNBA title in franchise history",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The title was won in the first Game 7 in WNBA Finals history.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sun, 01 Nov 2026 21:30:26 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/news/golden-state-wins-first-wnba-title-franchise-history/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-24"
+  },
+  {
+    "title": "Sen. Chris Murphy hospitalized following stroke",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Democratic Sen. Chris Murphy of Connecticut was hospitalized on Saturday after experiencing a stroke, his office said.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sun, 01 Nov 2026 21:19:45 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/news/chris-murphy-stroke-hospitalized/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-25"
+  },
+  {
+    "title": "British man returns home after 28 years of walking across the globe",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Karl Bushby was 29 years old when he embarked on his \"Goliath Expedition\" across South and North America, Asia and Europe. After more than 10,000 days on the move, he's finally returning home to northern England. Ramy Inocencio reports.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sun, 01 Nov 2026 21:18:36 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/video/brit-returns-home-from-a-28-year-expedition/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-26"
+  },
+  {
+    "title": "Dangerous flooding hits Four Corners, prompting evacuations across U.S. Southwest",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Meteorologists say a super El Niño and a subtropical jet stream are to blame for the heavier rain, more torrential storms and bigger floods. Akiko Fujita is in Huntington Beach, California, with more details, and Andrew Kozak is in the studio with th...",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sun, 01 Nov 2026 21:09:35 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/video/dangerous-flooding-hits-the-west/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-27"
+  },
+  {
+    "title": "Connecticut Sen. Chris Murphy reportedly \"awake\" and recovering from stroke",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Connecticut Sen. Chris Murphy's office said the 53-year-old Democrat began feeling numbness in his arms while attending his son's hockey game, and he was taken to the hospital. It was discovered there that he had experienced a stroke.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sun, 01 Nov 2026 21:03:26 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/video/sen-chris-murphy-recovering-from-stroke/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-28"
+  },
+  {
+    "title": "Trump makes final campaign push in Iowa and Kansas as Republicans try to hang on to majority",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "For the first time in a generation, Iowans in this reliably red state appear ready to consider all their options as polls indicate a toss-up in the midterm election. Lana Zak is in Dubuque, where President Trump is making one final push to get his pa...",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sun, 01 Nov 2026 20:59:17 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/video/trump-final-campaign-push-in-iowa-kansas/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-29"
   },
   {
     "title": "Stevens endorses Rogers amid rift with El-Sayed",
@@ -468,7 +588,7 @@
     "keyFacts": [
       "Haley Stevens, who had the support of the Senate Democrats' campaign arm in the primary, had previously said she was supporting the Democratic ticket.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Sun, 01 Nov 2026 17:34:22 -0500"
+      "Source Stamp: Sun, 01 Nov 2026 20:58:35 -0500"
     ],
     "sources": [
       {
@@ -477,227 +597,67 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-24"
-  },
-  {
-    "title": "Sanders says GOP rhetoric about El-Sayed \"should appall\" Americans",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Sen. Bernie Sanders, who's supported El-Sayed's campaign, specifically referred to comments made by Republican surrogates, including President Trump and GOP Sen. Ted Cruz of Texas",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sun, 01 Nov 2026 17:19:17 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/bernie-sanders-abdul-el-sayed-campaign-republican-rhetoric/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-25"
-  },
-  {
-    "title": "This week on \"Sunday Morning\" (Nov. 1)",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "A look at the features for this week's broadcast of the Emmy-winning program, hosted by Jane Pauley.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sun, 01 Nov 2026 16:02:46 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/this-week-on-sunday-morning-nov-1-2026/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-26"
-  },
-  {
-    "title": "Judge tosses lawsuit seeking to delay certification of Alaska Senate race",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The Justice Department argued that Daniel J. Sullivan's name on the ballot potentially diverted voters, and the Democrat running in the race would benefit as a result.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sun, 01 Nov 2026 15:59:29 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/judge-doj-lawsuit-alaska-senate-race-dan-sullivan/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-27"
-  },
-  {
-    "title": "CBS News adds South Carolina as battleground state; still Leans Republican",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Anthony Salvanto, CBS News elections and surveys, told \"Face the Nation with Margaret Brennan\" that South Carolina has been added as a battleground state, although the state is still considering leaning Republican.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sun, 01 Nov 2026 14:56:02 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/cbs-news-adds-south-carolina-as-battleground-state-still-leans-republican/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-28"
-  },
-  {
-    "title": "Transcript: David Becker on \"Face the Nation with Margaret Brennan,\" Nov. 1, 2026",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": true,
-    "keyFacts": [
-      "The following is the transcript of the interview with David Becker, CBS News election law contributor and the executive director of the Center for Election Innovation and Research, that aired on \"Face the Nation with Margaret Brennan\" on Nov. 1, 2026...",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sun, 01 Nov 2026 14:52:21 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/david-becker-election-law-face-the-nation-transcript-11-01-2026/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-29"
-  },
-  {
-    "title": "Transcript: Pennsylvania Gov. Josh Shapiro on \"Face the Nation with Margaret Brennan,\" Nov. 1, 2026",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The following is the full transcript of the interview with Pennsylvania Gov. Josh Shapiro, a Democrat, a portion of which aired on \"Face the Nation with Margaret Brennan\" on Nov. 1, 2026.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sun, 01 Nov 2026 14:52:04 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/josh-shapiro-pennsylvania-governor-11-01-2026/",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-30"
   },
   {
-    "title": "Rep. Haley Stevens discusses switching her endorsement to Republican Mike Rogers",
+    "title": "New twist in critical Michigan Senate race",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Rep. Haley Stevens, D-Mich., joins Republican Senate candidate Mike Rogers and discusses switching her endorsement from Democratic candidate Abdul El-Sayed to Rogers.",
+      "Rep. Haley Stevens has pulled her endorsement of her party’s nominee Abdul El-Sayed, and has announced she is now backing his Republican opponent Mike Rogers in the Michigan Senate race. NBC News’ Liz Kreutz reports.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sun, 01 Nov 2026 20:44:09 GMT"
+      "Source Stamp: Sun, 01 Nov 2026 23:50:46 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/video/rep-haley-stevens-discusses-switching-her-endorsement-to-republican-mike-rogers-272662085891",
+        "url": "https://www.nbcnews.com/nightly-news/video/new-twist-in-critical-michigan-senate-race-272667717513",
         "bias": "CENTER"
       }
     ],
     "id": "story-31"
   },
   {
-    "title": "Federal judge dismisses Trump attempt to interfere in Alaska Senate race",
+    "title": "Judge dismisses Trump lawsuit in Alaska Senate race",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "The president had requested that Alaska segregate ballots cast for a candidate with the same name as the incumbent. The judge said that would “violate Alaskans’ right to a secret ballot.”",
+      "A federal judge on Sunday rejected the Trump administration’s lawsuit that demanded officials not certify election results in the Senate race there, if the incumbent senator loses. NBC News’ Steve Patterson reports.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sun, 01 Nov 2026 19:03:25 GMT"
+      "Source Stamp: Sun, 01 Nov 2026 23:52:39 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/politics/2026-election/federal-judge-dismisses-trump-attempt-ballots-alaska-senate-race-rcna606838",
+        "url": "https://www.nbcnews.com/nightly-news/video/judge-dismisses-trump-lawsuit-in-alaska-senate-race-272667717592",
         "bias": "CENTER"
       }
     ],
     "id": "story-32"
   },
   {
-    "title": "Democrats in key battlegrounds throw Joe Biden under the bus on the border",
+    "title": "Poll: Voters demand change and a check on Trump, fueling a steep Democratic midterm advantage",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Democratic candidates in 2026 battleground races are criticizing Joe Biden’s handling of border security, seeking to neutralize a political vulnerability.",
+      "Trump’s disapproval rating hits a record high of 60% in a new national NBC News poll, and Democrats have a 7-point lead ahead of Tuesday’s elections.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sat, 31 Oct 2026 09:00:40 GMT"
+      "Source Stamp: Sun, 01 Nov 2026 14:00:40 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/politics/2026-election/2026-democratic-candidates-throw-joe-biden-bus-border-security-rcna603228",
+        "url": "https://www.nbcnews.com/politics/2026-election/poll-voters-demand-change-check-trump-fueling-steep-democratic-midterm-rcna606183",
         "bias": "CENTER"
       }
     ],
     "id": "story-33"
-  },
-  {
-    "title": "Kornacki: Why Trump is ‘in worse shape’ heading into his 2nd midterms",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "NBC News chief data analyst Steve Kornacki joins Meet the Press to break down the final NBC News poll before the midterms and which party has the momentum heading into Election Day.",
-      "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sun, 01 Nov 2026 14:12:27 GMT"
-    ],
-    "sources": [
-      {
-        "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/meet-the-press/video/kornacki-why-trump-is-in-worse-shape-heading-into-his-2nd-midterms-272655941672",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-34"
-  },
-  {
-    "title": "Sen. Tim Scott dodges on whether he would accept the results of the Alaska Senate race",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Sen. Tim Scott, R-S.C., declined to say whether he would accept the results of the Alaska Senate race if Democrat Mary Peltola wins the battleground seat",
-      "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sun, 01 Nov 2026 15:19:27 GMT"
-    ],
-    "sources": [
-      {
-        "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/politics/2026-election/tim-scott-dodges-accept-election-results-alaska-senate-race-sullivan-rcna606813",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-35"
   },
   {
     "title": "Go Behind the Scenes of NBC News’ Decision Desk",
@@ -717,87 +677,247 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-36"
+    "id": "story-34"
   },
   {
-    "title": "Here’s the biggest news you missed this weekend",
+    "title": "Elementary school in middle of 11 data centers",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Rep. Haley Stevens, D-Mich., endorsed Republican Senate candidate Mike Rogers on Sunday, a major shake-up in the final stages of a top battleground race that could determine which party controls the Senate.",
+      "NBC News’ Stephanie Gosk investigates how 11 data centers ended up being within half a mile of an elementary school in northern Virginia and what the backup generators with those centers could be doing to the air quality.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sun, 01 Nov 2026 23:00:40 GMT"
+      "Source Stamp: Wed, 28 Oct 2026 23:13:45 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/news/us-news/weekend-rundown-november-1-rcna606569",
+        "url": "https://www.nbcnews.com/nightly-news/video/elementary-school-in-middle-of-11-data-centers-272436293709",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-35"
+  },
+  {
+    "title": "Fiery plane crash in Florida",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A private jet crashed into a South Florida neighborhood killing all nine people on board according to transportation secretary Sean Duffy. The plane was flying from Austin, Texas to the Bahamas when it crashed. NBC News’ Jesse Kirsch has the latest.",
+      "Reporting Desk: NBC News Top Stories",
+      "Source Stamp: Mon, 02 Nov 2026 00:08:33 GMT"
+    ],
+    "sources": [
+      {
+        "name": "NBC News Top Stories",
+        "url": "https://www.nbcnews.com/nightly-news/video/fiery-plane-crash-in-florida-272666181933",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-36"
+  },
+  {
+    "title": "It looked like more Mahomes magic. Then the Broncos won a nail-biter — again.",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "In a season full of one-score games, the Denver Broncos outlasted Kansas City on the final play. Denver has the league’s best record in close games.",
+      "Reporting Desk: NBC News Top Stories",
+      "Source Stamp: Mon, 02 Nov 2026 02:44:46 GMT"
+    ],
+    "sources": [
+      {
+        "name": "NBC News Top Stories",
+        "url": "https://www.nbcnews.com/sports/nfl/denver-broncos-kansas-city-chiefs-result-nfl-patrick-mahomes-rcna606935",
         "bias": "CENTER"
       }
     ],
     "id": "story-37"
   },
   {
-    "title": "Jet crashes in Florida, killing all nine people on board",
+    "title": "Martha Stewart responds to backlash over ‘hungry’ homeless Halloween costume",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "All nine people on board a Learjet 60 jet died in a “cataclysmic” crash in Florida on Sunday afternoon, officials said.",
+      "Stewart, who dressed as a homeless person for Halloween while promoting her candles in the same Instagram post, said she had “intended to bring more awareness to the very serious subject of homelessness.”",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sun, 01 Nov 2026 20:43:44 GMT"
+      "Source Stamp: Sun, 01 Nov 2026 19:00:40 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/news/us-news/jet-crashes-florida-nine-people-board-rcna606874",
+        "url": "https://www.nbcnews.com/news/us-news/martha-stewart-backlash-homeless-halloween-costume-rcna606837",
         "bias": "CENTER"
       }
     ],
     "id": "story-38"
   },
   {
-    "title": "Sen. Chris Murphy hospitalized after stroke",
+    "title": "‘Looks like Mars’: Toxic smog from Indonesia wildfires sparks health crisis, protests",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "A spokesperson for the Connecticut Democrat said he experienced numbness in his arm.",
+      "Wildfires in Indonesia are blanketing the country and other southeast Asian nations in toxic smog, prompting widespread protests.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sun, 01 Nov 2026 18:01:47 GMT"
+      "Source Stamp: Sat, 31 Oct 2026 10:30:42 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/politics/congress/chris-murphy-hospitalized-stroke-recovery-rcna606834",
+        "url": "https://www.nbcnews.com/world/indonesia/indonesia-wildfires-toxic-smog-choke-southeast-asia-rcna605175",
         "bias": "CENTER"
       }
     ],
     "id": "story-39"
   },
   {
-    "title": "Kimi Antonelli becomes youngest Formula 1 champion ever at 20 years old",
+    "title": "Affording America: For a traveling carnival, rising costs mean a bumpy ride",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Kimi Antonelli clinched the Formula 1 world championship Sunday, becoming the youngest driver in the sport’s history to win the title at just 20.",
+      "Blake Huston is a third generation carnival operator who has been around the business all his life. But rising gas, labor and insurance costs are all taking a toll on his bottom line and threatening the industry he calls a way of life.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sun, 01 Nov 2026 22:25:42 GMT"
+      "Source Stamp: Fri, 30 Oct 2026 19:11:41 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/sports/formula-1/kimi-antonelli-becomes-youngest-formula-1-champion-ever-20-years-old-rcna606726",
+        "url": "https://www.nbcnews.com/video/affording-america-for-a-traveling-carnival-rising-costs-mean-a-bumpy-ride-272559685569",
         "bias": "CENTER"
       }
     ],
     "id": "story-40"
+  },
+  {
+    "title": "Dingell says Stevens defending Rogers endorsement on CNN was ‘one of the most painful interviews I’ve ever watched’",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Rep. Debbie Dingell (D-Mich.) on Sunday called Rep. Haley Stevens&#8217;s (D-Mich.) interview with CNN&#8217;s Anderson Cooper, where she defended her endorsement of former Rep. Mike Rogers (R-Mich.) in Michigan&#8217;s Senate race, &#8220;one of the...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Mon, 02 Nov 2026 04:07:31 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/6187789-debbie-dingell-says-stevens-defending-rogers-endorsement-on-cnn-painful-interview/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-41"
+  },
+  {
+    "title": "Stevens defends endorsing Rogers during tense CNN interview",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Rep. Haley Stevens (D-Mich.) on Sunday defended her endorsement of Michigan Senate candidate Mike Rogers (R) over Democrat Abdul El-Sayed in a tense interview with CNN&#8217;s Anderson Cooper. Stevens, who lost to El-Sayed in a bitter primary, had as...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Mon, 02 Nov 2026 03:53:24 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6187753-haley-stevens-defends-endorsing-mike-rogers/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-42"
+  },
+  {
+    "title": "Democrats edge out Republicans in 7 heated Senate races: NYT polls",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Democrats are edging out their Republican counterparts in seven competitive Senate races ahead of Tuesday’s election, though the majority of them show statistical ties between the two parties, according to new polling.  Polling released by The New Yo...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Mon, 02 Nov 2026 03:03:49 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/6187749-democrats-edge-out-gop-senate-poll/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-43"
+  },
+  {
+    "title": "Newsom on possible Democrat ‘tsunami’ on Election Day: ‘That’s a word I haven’t used lightly’",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "California Gov. Gavin Newsom (D) on Sunday said there&#8217;s a chance that there could be a massive Democratic victory, or a &#8220;blue tsunami,&#8221; on Election Day, and that there is momentum behind the party to reclaim one or both chambers of ...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Mon, 02 Nov 2026 02:09:34 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6187619-gavin-newsom-predicts-democrat-tsunami-election-day/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-44"
+  },
+  {
+    "title": "Democrats blast Stevens over Michigan ‘betrayal’",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Rep. Haley Stevens’s (D-Mich.) last-minute decision to endorse former Rep. Mike Rogers (R) over Democrat Abdul El-Sayed in the Michigan Senate race has outraged Democrats while giving Republicans welcome headlines and a glimmer of hope that they can ...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Mon, 02 Nov 2026 01:54:30 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6187640-democrats-blast-stevens-rogers-endorsement-michigan/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-45"
+  },
+  {
+    "title": "Newsom on Stevens: Obviously it’s ‘sub-optimal’",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "California Gov. Gavin Newsom (D) on Sunday said Rep. Haley Stevens&#8217;s (D-Mich.) endorsement of Michigan Senate candidate Mike Rogers (R) over Democrat Abdul El-Sayed was &#8220;sub-optimal.&#8221; Newsom spoke on &#8220;Decision Desk ’26 Midterm...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Mon, 02 Nov 2026 01:24:49 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6187568-gavin-newsom-haley-stevens-sub-optimal/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-46"
   },
   {
     "title": "Khanna says he’d stop funding further US military actions in Iran",
@@ -817,7 +937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-41"
+    "id": "story-47"
   },
   {
     "title": "Trump says he would ‘love to have’ Haley Stevens join Republican Party",
@@ -837,7 +957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-42"
+    "id": "story-48"
   },
   {
     "title": "Preschool case puts LGBTQ and religious rights at odds in Supreme Court",
@@ -857,7 +977,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-43"
+    "id": "story-49"
   },
   {
     "title": "Bacon thinks there will be ‘debate’ about MAGA future if GOP does poorly in midterms",
@@ -874,126 +994,6 @@
       {
         "name": "The Hill",
         "url": "https://thehill.com/homenews/house/6187358-don-bacon-gop-maga-debate/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-44"
-  },
-  {
-    "title": "Sanders says what Democrats did in Alaska ‘seems to be pretty dumb’",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Sen. Bernie Sanders (I-Vt.) said what Democrats did in Alaska “seems to be pretty dumb” following reports the party participated in recruiting another candidate who shared the same name as incumbent Sen. Dan Sullivan (R-Alaska) to dilute the GOP’s vo...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sun, 01 Nov 2026 21:49:03 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/senate/6187375-sanders-alaska-ballot-stacking/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-45"
-  },
-  {
-    "title": "Social Security email praising Trump may violate Hatch Act",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Emails sent by the Social Security Administration (SSA) and the Internal Revenue Service (IRS) that praised President Trump may violate the Hatch Act, experts say. “Under President Donald J. Trump, the Social Security Administration (SSA) is transfor...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sun, 01 Nov 2026 20:44:19 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/administration/6187284-ssa-irs-hatch-act-trump/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-46"
-  },
-  {
-    "title": "RNC chair says Republicans have voter turnout problem",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Republican National Committee (RNC) chair Joe Gruters acknowledged that Republicans are facing issues with voter turnout amid heightened pressure for the GOP to maintain control of Congress. “Is there a turnout problem for Republicans?” NewsNation’s ...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sun, 01 Nov 2026 20:01:02 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/6187168-rnc-acknowledges-voter-turnout-issues/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-47"
-  },
-  {
-    "title": "RNC says ‘Michigan should take notice’ of Stevens endorsing Rogers",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The Republican National Committee (RNC) on Sunday said Michigan &#8220;should take notice&#8221; of Rep. Haley Stevens&#8217;s (D-Mich.) endorsement of her former opponent in the Michigan Senate race Republican Mike Rogers. &#8220;When Congresswoman ...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sun, 01 Nov 2026 20:00:39 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/6187095-rnc-rogers-receives-stevens-support/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-48"
-  },
-  {
-    "title": "Trump commends Stevens’ ‘bravery’ for endorsing Rogers",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "President Trump on Sunday commended Rep. Haley Stevens (D-Mich.) for her endorsement of GOP Senate candidate former Rep. Mike Rogers (Mich.). “Wow, this is BIG! Congresswoman Haley Stevens, a Highly Respected Democrat, who narrowly lost in the Primar...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sun, 01 Nov 2026 19:52:39 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/6187175-trump-praises-stevens-gop-endorsement/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-49"
-  },
-  {
-    "title": "Schumer calls Stevens’s Rogers endorsement ‘a despicable betrayal’",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Senate Minority Leader Chuck Schumer (D-N.Y.) ripped Rep. Haley Stevens (D-Mich.) over her eleventh hour endorsement of Republican Mike Rogers in the competitive Michigan Senate contest. &#8220;This is a despicable betrayal from Rep. Stevens,&#8221; ...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sun, 01 Nov 2026 19:48:32 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/6187117-schumer-rips-stevens-rogers-endorsement/",
         "bias": "CENTER"
       }
     ],
@@ -1200,127 +1200,7 @@
     "id": "story-60"
   },
   {
-    "title": "All 9 people aboard jet that crashed in Florida have died, U.S. transportation secretary says",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Business aircraft nosedives into Palm Beach County neighbourhood and erupts into fireball",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sun, 01 Nov 2026 23:33:22 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-all-9-people-aboard-jet-that-crashed-in-florida-have-died-us/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-61"
-  },
-  {
-    "title": "Indian students cite visa issues, job prospects and safety concerns for avoiding Canada",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Warming relations between Ottawa and New Delhi have done little to put Indian families at ease",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sun, 01 Nov 2026 22:31:18 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-indian-students-cite-visa-issues-job-prospects-and-safety-concerns-for/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-62"
-  },
-  {
-    "title": "Democrat Haley Stevens endorses GOP candidate for Michigan Senate after spat with El-Sayed",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Abdul El-Sayed’s former opponent in U.S. Senate primary stuns party officials by endorsing Republican Mike Rogers",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sun, 01 Nov 2026 18:40:15 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/us-politics/article-haley-stevens-el-sayed-midterm-senate/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-63"
-  },
-  {
-    "title": "Trump administration’s bid to block election certification in Alaska thrown out by judge",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "U.S. President wants to block certification of U.S. Senate race if Republican incumbent Dan Sullivan loses",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sun, 01 Nov 2026 18:11:02 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-alaska-sullivan-peltola-midterm-senate/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-64"
-  },
-  {
-    "title": "Growing wave of youth-led protests sweeps Europe",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Scattered violence as hundreds of thousands join mostly peaceful marches against high living costs across the continent",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sun, 01 Nov 2026 13:47:13 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-scattered-riots-hit-germany-and-france-braces-for-more-protest-action/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-65"
-  },
-  {
-    "title": "Russian strikes on Ukraine leave thousands without power",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Russia reported major damage to an industrial site following Ukrainian drone attacks on Nizhny Novgorod region",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sun, 01 Nov 2026 21:18:29 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-war-zelensky-putin/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-66"
-  },
-  {
-    "title": "Binance sees spike in withdrawals after $6.3-billion heist",
+    "title": "Binance says withdrawals stabilizing after $6.3-billion heist",
     "category": "World",
     "country": "Canada",
     "leaning": "CENTER",
@@ -1337,7 +1217,47 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-67"
+    "id": "story-61"
+  },
+  {
+    "title": "Ohio race exemplifies the Democrats’ ambivalence when it comes to tariffs",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Senate candidate Sherrod Brown has historically been an opponent of free trade, even though he now claims Trump’s tariffs are ‘idiotic’",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Mon, 02 Nov 2026 02:43:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-ohio-race-exemplifies-the-democrats-ambivalence-when-it-comes-to/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-62"
+  },
+  {
+    "title": "SpaceX’s big plans for ‘Starbase Louisiana’ sow intrigue and alarm in rural Cajun country",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Proposed launch site has locals worried about the environment, their homes, and a lack of transparency around the project",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sat, 31 Oct 2026 10:30:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-spacex-starbase-louisiana-intrigue-alarm-rural-cajun-country/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-63"
   },
   {
     "title": "How the midterms could affect Trump’s second term, according to our experts",
@@ -1357,47 +1277,147 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-68"
+    "id": "story-64"
   },
   {
-    "title": "Heat director Michael Mann injured at L.A. gun range",
+    "title": "Democrat Haley Stevens endorses GOP candidate for Michigan Senate after spat with El-Sayed",
     "category": "World",
     "country": "Canada",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Mann reportedly sustained a superficial injury after a weapon accidentally discharged while holstered",
+      "Abdul El-Sayed’s former opponent in U.S. Senate primary stuns party officials by endorsing Republican Mike Rogers",
       "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sun, 01 Nov 2026 18:03:57 +0000"
+      "Source Stamp: Sun, 01 Nov 2026 18:40:15 +0000"
     ],
     "sources": [
       {
         "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/culture/film-and-tv/article-michael-mann-heat-gun-range/",
+        "url": "https://www.theglobeandmail.com/world/us-politics/article-haley-stevens-el-sayed-midterm-senate/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-65"
+  },
+  {
+    "title": "All 9 people aboard jet that crashed in Florida have died, U.S. transportation secretary says",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Business aircraft nosedives into Palm Beach County neighbourhood and erupts into fireball",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sun, 01 Nov 2026 23:33:22 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-all-9-people-aboard-jet-that-crashed-in-florida-have-died-us/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-66"
+  },
+  {
+    "title": "Indian students cite visa issues, job prospects and safety concerns for avoiding Canada",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Warming relations between Ottawa and New Delhi have done little to put Indian families at ease",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sun, 01 Nov 2026 22:31:18 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-indian-students-cite-visa-issues-job-prospects-and-safety-concerns-for/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-67"
+  },
+  {
+    "title": "Trump administration’s bid to block election certification in Alaska thrown out by judge",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "U.S. President wants to block certification of U.S. Senate race if Republican incumbent Dan Sullivan loses",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sun, 01 Nov 2026 18:11:02 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-alaska-sullivan-peltola-midterm-senate/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-68"
+  },
+  {
+    "title": "Growing wave of youth-led protests sweeps Europe",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Scattered violence as hundreds of thousands join mostly peaceful marches against high living costs across the continent",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sun, 01 Nov 2026 13:47:13 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-scattered-riots-hit-germany-and-france-braces-for-more-protest-action/",
         "bias": "CENTER"
       }
     ],
     "id": "story-69"
   },
   {
-    "title": "Twenty years on, supporters of jailed Canadian Huseyin Celil haven’t given up hope of freeing him from China",
+    "title": "Russian strikes on Ukraine leave thousands without power",
     "category": "World",
     "country": "Canada",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Advocates for his release say Ottawa’s engagement in the case has waxed and waned over the years",
+      "Russia reported major damage to an industrial site following Ukrainian drone attacks on Nizhny Novgorod region",
       "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sun, 01 Nov 2026 17:52:43 +0000"
+      "Source Stamp: Sun, 01 Nov 2026 21:18:29 +0000"
     ],
     "sources": [
       {
         "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-huseyin-celil-china-prisoner-xi/",
+        "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-war-zelensky-putin/",
         "bias": "CENTER"
       }
     ],
     "id": "story-70"
+  },
+  {
+    "title": "Minister backs 2027 fixed election date as Elections Alberta suggests change",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A contentious report is set to be released this week on new electoral boundaries that the NDP previously said gerrymanders ridings in two cities.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Mon, 02 Nov 2026 00:03:06 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/news/12129488/alberta-election-no-delays-electoral-boundary-report/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-71"
   },
   {
     "title": "Veteran whose daughter died in military training exercise named Silver Cross Mother",
@@ -1417,7 +1437,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-71"
+    "id": "story-72"
   },
   {
     "title": "Jet carrying 9 crashes in Florida neighbourhood, U.S. officials confirm",
@@ -1437,7 +1457,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-72"
+    "id": "story-73"
   },
   {
     "title": "True or false? How fake online reviews are concerning businesses",
@@ -1457,7 +1477,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-73"
+    "id": "story-74"
   },
   {
     "title": "McDavid earns first star in NHL’s monthly awards",
@@ -1477,7 +1497,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-74"
+    "id": "story-75"
   },
   {
     "title": "Ahead of budget, Poilievre urges Carney to end diesel taxes and cut spending",
@@ -1497,7 +1517,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-75"
+    "id": "story-76"
   },
   {
     "title": "Carney says Canada, U.S. working in coming weeks towards trade deal",
@@ -1517,7 +1537,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-76"
+    "id": "story-77"
   },
   {
     "title": "Election workers prepare for contested results ahead of U.S. midterms",
@@ -1537,7 +1557,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-77"
+    "id": "story-78"
   },
   {
     "title": "OPP release details of victims, injured in fatal collision near Guelph",
@@ -1557,7 +1577,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-78"
+    "id": "story-79"
   },
   {
     "title": "Carney calls 6 byelections for December in Ontario, Quebec and Saskatchewan",
@@ -1577,227 +1597,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-79"
-  },
-  {
-    "title": "Wolf Alice keeps fans guessing by following their musical muse",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Wolf Alice is one of the most successful and critically-acclaimed English bands of the past few years. Is it because they're often changing musical direction?",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Sun, 01 Nov 2026 15:00:06 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/news/12124418/wolf-alice-keeps-fans-guessing-by-following-their-musical-muse/",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-80"
-  },
-  {
-    "title": "Walmart antacids recalled due to possible metal shavings",
-    "category": "U.S.",
-    "country": "Canada",
-    "leaning": "LEFT",
-    "feelGood": false,
-    "keyFacts": [
-      "Certain antacids sold at Walmart may contain fragments of stainless steel, advises Health Canada.",
-      "Reporting Desk: Toronto Star",
-      "Source Stamp: Sun, 01 Nov 2026 18:05:00 -0500"
-    ],
-    "sources": [
-      {
-        "name": "Toronto Star",
-        "url": "https://www.thestar.com/news/canada/walmart-antacids-recalled-due-to-possible-metal-shavings/article_fd425f06-97ef-4ea2-87a7-0084d59a0264.html",
-        "bias": "LEFT"
-      }
-    ],
-    "id": "story-81"
-  },
-  {
-    "title": "Justice Department urges sanctions for database analysis critical of its noncitizen voting claims",
-    "category": "U.S.",
-    "country": "Canada",
-    "leaning": "LEFT",
-    "feelGood": false,
-    "keyFacts": [
-      "WASHINGTON (AP) — The Justice Department on Sunday defended the accuracy of a list of what it says are more than 20,000 suspected noncitizens registered to vote in California and suggested that a federal judge consider whether an immigrant rights…",
-      "Reporting Desk: Toronto Star",
-      "Source Stamp: Sun, 01 Nov 2026 18:02:22 -0500"
-    ],
-    "sources": [
-      {
-        "name": "Toronto Star",
-        "url": "https://www.thestar.com/news/world/united-states/justice-department-urges-sanctions-for-database-analysis-critical-of-its-noncitizen-voting-claims/article_e66a089a-58c7-5176-8b17-5da79318c109.html",
-        "bias": "LEFT"
-      }
-    ],
-    "id": "story-82"
-  },
-  {
-    "title": "Paul St-Pierre Plamondon to meet with Mark Carney after Canada-EU summit tension",
-    "category": "U.S.",
-    "country": "Canada",
-    "leaning": "LEFT",
-    "feelGood": false,
-    "keyFacts": [
-      "MONTREAL - Quebec Premier Paul St-Pierre Plamondon has agreed to meet with Prime Minister Mark Carney before the Francophonie Summit in November.",
-      "Reporting Desk: Toronto Star",
-      "Source Stamp: Sun, 01 Nov 2026 17:43:00 -0500"
-    ],
-    "sources": [
-      {
-        "name": "Toronto Star",
-        "url": "https://www.thestar.com/news/canada/quebec/paul-st-pierre-plamondon-to-meet-with-mark-carney-after-canada-eu-summit-tension/article_62fb8ac5-9eae-5897-9c30-5a1dd7c4b9aa.html",
-        "bias": "LEFT"
-      }
-    ],
-    "id": "story-83"
-  },
-  {
-    "title": "Trump signals he'll give closing election pitch at the Reflecting Pool, a revamp plagued by problems",
-    "category": "U.S.",
-    "country": "Canada",
-    "leaning": "LEFT",
-    "feelGood": false,
-    "keyFacts": [
-      "WASHINGTON (AP) — President Donald Trump signaled Sunday that he'll make his closing pitch of the midterm elections at the Lincoln Memorial Reflecting Pool, pushing his slow, expensive and problem-plagued efforts to repair it back into the spotlight ...",
-      "Reporting Desk: Toronto Star",
-      "Source Stamp: Sun, 01 Nov 2026 16:08:01 -0500"
-    ],
-    "sources": [
-      {
-        "name": "Toronto Star",
-        "url": "https://www.thestar.com/news/world/united-states/trump-signals-he-ll-give-closing-election-pitch-at-the-reflecting-pool-a-revamp-plagued-by-problems/article_c90d64c4-516d-531a-b547-dfc884dfba57.html",
-        "bias": "LEFT"
-      }
-    ],
-    "id": "story-84"
-  },
-  {
-    "title": "All 9 people aboard a jet that crashed in Florida have died, transportation secretary says",
-    "category": "U.S.",
-    "country": "Canada",
-    "leaning": "LEFT",
-    "feelGood": false,
-    "keyFacts": [
-      "WEST PALM BEACH, Fla. (AP) — A business jet carrying nine people nose-dived into a South Florida neighborhood Sunday and erupted into a giant fireball that appeared to just miss homes before crashing near a busy roadway. Everyone on board…",
-      "Reporting Desk: Toronto Star",
-      "Source Stamp: Sun, 01 Nov 2026 15:37:00 -0500"
-    ],
-    "sources": [
-      {
-        "name": "Toronto Star",
-        "url": "https://www.thestar.com/news/world/united-states/business-jet-carrying-9-people-crashed-in-a-florida-neighborhood-erupting-in-a-massive-fireball/article_f8d8fc34-cd26-55e6-829a-a615a388c290.html",
-        "bias": "LEFT"
-      }
-    ],
-    "id": "story-85"
-  },
-  {
-    "title": "Veteran who lost daughter in military training exercise named Silver Cross Mother",
-    "category": "U.S.",
-    "country": "Canada",
-    "leaning": "LEFT",
-    "feelGood": false,
-    "keyFacts": [
-      "A veteran whose daughter died during a military training exercise in 2002 has been named the 2026 National Silver Cross Mother.",
-      "Reporting Desk: Toronto Star",
-      "Source Stamp: Sun, 01 Nov 2026 15:22:10 -0500"
-    ],
-    "sources": [
-      {
-        "name": "Toronto Star",
-        "url": "https://www.thestar.com/news/canada/veteran-who-lost-daughter-in-military-training-exercise-named-silver-cross-mother/article_29a25004-4ea5-5f0d-8462-2ef7a742d413.html",
-        "bias": "LEFT"
-      }
-    ],
-    "id": "story-86"
-  },
-  {
-    "title": "The Latest: Trump says at Iowa rally he'd love for Haley Stevens to switch parties",
-    "category": "U.S.",
-    "country": "Canada",
-    "leaning": "LEFT",
-    "feelGood": false,
-    "keyFacts": [
-      "President Donald Trump is closing out the final days of a turbulent midterm campaign with rallies in Iowa and Kansas, two states he has handily won in the past, underscoring the defensive posture his Republican Party is taking as the…",
-      "Reporting Desk: Toronto Star",
-      "Source Stamp: Sun, 01 Nov 2026 15:00:00 -0500"
-    ],
-    "sources": [
-      {
-        "name": "Toronto Star",
-        "url": "https://www.thestar.com/news/world/united-states/the-latest-democrat-who-lost-michigan-senate-primary-backs-republican-in-general-election-contest/article_1a2a68a5-335c-51e4-a06f-5abd714aba98.html",
-        "bias": "LEFT"
-      }
-    ],
-    "id": "story-87"
-  },
-  {
-    "title": "Year in review: A look at events in October 2026",
-    "category": "U.S.",
-    "country": "Canada",
-    "leaning": "LEFT",
-    "feelGood": false,
-    "keyFacts": [
-      "A look at news events in October 2026:",
-      "Reporting Desk: Toronto Star",
-      "Source Stamp: Sun, 01 Nov 2026 14:23:59 -0500"
-    ],
-    "sources": [
-      {
-        "name": "Toronto Star",
-        "url": "https://www.thestar.com/news/canada/year-in-review-a-look-at-events-in-october-2026/article_dab50dd0-2e01-534c-ad1f-bfe74964f103.html",
-        "bias": "LEFT"
-      }
-    ],
-    "id": "story-88"
-  },
-  {
-    "title": "Flash floods trigger evacuations in Arizona and Colorado amid heavy rains in southwest",
-    "category": "U.S.",
-    "country": "Canada",
-    "leaning": "LEFT",
-    "feelGood": false,
-    "keyFacts": [
-      "More heavy rainfall produced flash flooding and mandatory evacuations in a wide swath of the Southwest on Sunday, including a Colorado mountain town bracing for a river to reach historic levels, as weary residents in the normally arid region deal…",
-      "Reporting Desk: Toronto Star",
-      "Source Stamp: Sun, 01 Nov 2026 14:00:27 -0500"
-    ],
-    "sources": [
-      {
-        "name": "Toronto Star",
-        "url": "https://www.thestar.com/news/world/united-states/flash-floods-trigger-evacuations-in-arizona-and-colorado-amid-heavy-rains-in-southwest/article_4dae3336-b614-57ff-94a1-b68aa8b3d37c.html",
-        "bias": "LEFT"
-      }
-    ],
-    "id": "story-89"
-  },
-  {
-    "title": "United Arab Emirates says military solutions offer no quick off-ramps to crisis with Iran",
-    "category": "U.S.",
-    "country": "Canada",
-    "leaning": "LEFT",
-    "feelGood": false,
-    "keyFacts": [
-      "MANAMA, Bahrain (AP) — The United Arab Emirates’ presidential adviser said Sunday that his country hopes a diplomatic breakthrough in Qatar-led mediations is possible to avert a new round of confrontation between the U.S. and Iran.",
-      "Reporting Desk: Toronto Star",
-      "Source Stamp: Sun, 01 Nov 2026 13:43:49 -0500"
-    ],
-    "sources": [
-      {
-        "name": "Toronto Star",
-        "url": "https://www.thestar.com/news/world/middle-east/united-arab-emirates-says-military-solutions-offer-no-quick-off-ramps-to-crisis-with-iran/article_cb635f9f-61f1-5a2b-b8e5-a5cf6f00a0f0.html",
-        "bias": "LEFT"
-      }
-    ],
-    "id": "story-90"
   },
   {
     "title": "Mixed economic forecast weighs heavy ahead of midterms",
@@ -1817,7 +1617,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-91"
+    "id": "story-81"
   },
   {
     "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
@@ -1837,7 +1637,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-92"
+    "id": "story-82"
   },
   {
     "title": "The two most interesting risks to Anthropic",
@@ -1857,7 +1657,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-93"
+    "id": "story-83"
   },
   {
     "title": "The numbers say the U.S. economy is strong. These Americans aren't feeling it",
@@ -1877,7 +1677,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-94"
+    "id": "story-84"
   },
   {
     "title": "With days to go before the midterms, data shows the U.S. economy is doing well",
@@ -1897,7 +1697,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-95"
+    "id": "story-85"
   },
   {
     "title": "Two reports give insight on the economy ahead of Election Day",
@@ -1917,7 +1717,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-96"
+    "id": "story-86"
   },
   {
     "title": "Fed holds interest rates steady even as inflation remains stubborn",
@@ -1937,7 +1737,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-97"
+    "id": "story-87"
   },
   {
     "title": "Fed expected to hold interest rates steady but a hike is anticipated by year's end",
@@ -1957,7 +1757,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-98"
+    "id": "story-88"
   },
   {
     "title": "How Aldi is pushing down grocery prices",
@@ -1977,7 +1777,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-99"
+    "id": "story-89"
   },
   {
     "title": "Trump's tariffs are costing this Michigan couple. They still hope they'll pay off",
@@ -1997,7 +1797,67 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-100"
+    "id": "story-90"
+  },
+  {
+    "title": "Want to help your adult kids and grandkids? Give them money while you’re still alive.",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "How to manage “giving while living” without endangering your own retirement.",
+      "Reporting Desk: MarketWatch",
+      "Source Stamp: Mon, 02 Nov 2026 03:23:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-91"
+  },
+  {
+    "title": "This is the biggest threat to the AI-powered bull market",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
+      "Reporting Desk: MarketWatch",
+      "Source Stamp: Mon, 02 Nov 2026 00:22:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-92"
+  },
+  {
+    "title": "Apple’s new earnings era begins at a critical time for Big Tech",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A rare Monday earnings report for Apple will give investors a glimpse into how new CEO John Ternus is managing inflated memory prices and a tougher backdrop for consumer spending.",
+      "Reporting Desk: MarketWatch",
+      "Source Stamp: Mon, 02 Nov 2026 00:21:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-93"
   },
   {
     "title": "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
@@ -2017,7 +1877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-101"
+    "id": "story-94"
   },
   {
     "title": "‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?",
@@ -2037,7 +1897,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-102"
+    "id": "story-95"
   },
   {
     "title": "My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Do I intervene?",
@@ -2057,7 +1917,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-103"
+    "id": "story-96"
   },
   {
     "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
@@ -2077,7 +1937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-104"
+    "id": "story-97"
   },
   {
     "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
@@ -2097,47 +1957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-105"
-  },
-  {
-    "title": "Apple’s new earnings era begins at a critical time for Big Tech",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "A rare Monday earnings report for Apple will give investors a glimpse into how new CEO John Ternus is managing inflated memory prices and a tougher backdrop for consumer spending.",
-      "Reporting Desk: MarketWatch",
-      "Source Stamp: Sun, 01 Nov 2026 15:00:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-106"
-  },
-  {
-    "title": "This is the biggest threat to the AI-powered bull market",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
-      "Reporting Desk: MarketWatch",
-      "Source Stamp: Sun, 01 Nov 2026 14:00:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-107"
+    "id": "story-98"
   },
   {
     "title": "America is doing better than you think. Your algorithm is just hiding it.",
@@ -2157,7 +1977,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-108"
+    "id": "story-99"
   },
   {
     "title": "Who really wins under Trump’s economy? Coastal liberal elites who hate him.",
@@ -2177,38 +1997,198 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-109"
+    "id": "story-100"
   },
   {
-    "title": "My abusive ex-husband promised $20,000 for our kids’ education. Now he refuses to pay. Is he legally obligated?",
+    "title": "China’s 5,000-Ton Digging Machines Are a Trade War Risk to India - Bloomberg",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "“Before our divorce, my former mother-in-law entrusted him with $20,000 for each of our daughters to invest on their behalf.”",
-      "Reporting Desk: MarketWatch",
-      "Source Stamp: Sat, 31 Oct 2026 20:15:00 GMT"
+      "China’s 5,000-Ton Digging Machines Are a Trade War Risk to India&nbsp;&nbsp;Bloomberg",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Mon, 02 Nov 2026 02:00:00 GMT"
     ],
     "sources": [
       {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOTd2YzlxNEVRbFZDZU95azllUlVZQ1pSZmpEODdKSl9DS2I3bWhsbWtjcjE5WjRlVG03VnBDY3lyN3hESVluM2RRaXdaX216Q2dzcEVpR0o3UWVZVlFIUFQxRE5qRTdaeHZ3Z0xydEkwX0FBdXRCZFJMaXVwdEdUaERNOXQ5VWNReXJSbGdHQkh6WEU3ZWNCOHl6bHJaV2kzN0c1SEs2Y1IwdEFyaFd6cWpEeVlYdw?oc=5",
         "bias": "CENTER"
       }
     ],
-    "id": "story-110"
+    "id": "story-101"
   },
   {
-    "title": "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap - Bloomberg.com",
+    "title": "PBOC Conducts Overnight Reverse Repo as Policy Anchor Shifts - Bloomberg",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap&nbsp;&nbsp;Bloomberg.com",
+      "PBOC Conducts Overnight Reverse Repo as Policy Anchor Shifts&nbsp;&nbsp;Bloomberg",
       "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sun, 01 Nov 2026 21:28:04 GMT"
+      "Source Stamp: Mon, 02 Nov 2026 01:39:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcmREelF1UkVmdlptVXBLbGdvLVF3XzBDalRFekxfX2RPS0E0U2FWRl9XV3hzMy1xZnV2RmJDLWRjbUJVOEZTbmxrVENVdDd4dlJzdk1hRndKSWFyLVBXWVpyeW9URVpLNUEtaHg4cTBhbS11MmQ1WXhkTkJha1J4SEdEWlVIb0xaZ1FTNm93bHFyLUY2WTBOY2ROaHZXWXpfdEZVakpSZ01CbVoxWVBSWg?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-102"
+  },
+  {
+    "title": "China Factory Activity Expands But Ends Streak of Faster Growth - Bloomberg",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "China Factory Activity Expands But Ends Streak of Faster Growth&nbsp;&nbsp;Bloomberg",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Mon, 02 Nov 2026 02:28:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYVgyV0NaWmJKNS0yUDZVcFJyaDJhcThxWk9KM2puRDlIYzF3TFlTMzQ1el9lRDlqMGpRcVE0WUhSRHZsalRpZHZmM1ZNeHRORXFHRlR5M0phWUxQX3dmdU5yUW0td1BDZkgzeWxtd0dGZjJ3R1M5VUgzZ2lGV2VsdVBlRm9iUlhWNFFWekZYT3dUVlV0dnZ1YTQyaGxpOXhvREhReEJsaS1wTW5PY0lhemY0cFU?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-103"
+  },
+  {
+    "title": "Oaktree’s Howard Marks Says AI Stumbles Have Boosted Skepticism - Bloomberg",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Oaktree’s Howard Marks Says AI Stumbles Have Boosted Skepticism&nbsp;&nbsp;Bloomberg",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Mon, 02 Nov 2026 03:04:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeEJKOC1RLXduX2tqZlppb0RRd3pIR3lwd3Z3aXh3THQ4U0NFWW1wZTNBYVRrOGVpU2ZpbTEwTWZKWmhsMFFUam5aaDNSRFVoU0RyTVZGdU5JdDlsTDdvUW5lQkk0OXZsa184Q3hwZTNqWWFxZzE4QmNkYVhuR3M3QUI4ZVZ2cnhpWFplY0dvQzFjQkdxSXhlcWM5djRGSjY4NGdrOThtbHM4elNrRkZtMm85aE8?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-104"
+  },
+  {
+    "title": "Japanese Stocks Fall on Tech Selloff, Kioxia’s Profit Outlook - Bloomberg",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Japanese Stocks Fall on Tech Selloff, Kioxia’s Profit Outlook&nbsp;&nbsp;Bloomberg",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Mon, 02 Nov 2026 04:26:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGUyS2diYVFSbnZmdklpSmxqNFhqREJobEZCUjhZV3BhQzhCOUdScEp4N09WOGJyQk9XU05qVDlVMkotSEpobUhKWGEwejVrUm05WlN2NmdzYTNJbFltNmtPTU8yemVvMFVOZlQ4WGhqZEZzMVRzZEhFUHJxVTZOZEtFQ0NWYVZlUmJoVnl1VGVhUWotWWRMcmJPN211TkNEb1dyWTBuZXQ4ZGtWSVEzag?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-105"
+  },
+  {
+    "title": "China Should Take ‘Much Bolder Actions,’ Says Primavera’s Hu - Bloomberg",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "China Should Take ‘Much Bolder Actions,’ Says Primavera’s Hu&nbsp;&nbsp;Bloomberg",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Mon, 02 Nov 2026 02:48:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNFRWellHclIzY21oeUhtVThILXFFc0d5V3BGRDNLSVY1dGxhLUJkOWs1ZEJaclVVUmFXN2NOZ09BeFpHNU9ldktDTHJydnF0MDcwZU9tbUVSNkRyWDg5NUlJdHk4aGdqZGpjbFdqZXNCVlBJYkE0R0pjWGoxNkFGOUkxbkZZcW1JU2w5VnIyWHN3VlJWdWFrLWxTSnU4dEZIc0txTE9IZEFnN1NL?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-106"
+  },
+  {
+    "title": "Japan’s Katayama Says Ready to Take Steps for Stable FX Market - Bloomberg",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Japan’s Katayama Says Ready to Take Steps for Stable FX Market&nbsp;&nbsp;Bloomberg",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Mon, 02 Nov 2026 01:22:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd1lPdWZRSl9ObzYzaE53dVQxLTdSekwzc2JqNEhPRVNLX2o3bzJoRFN3MlV6cEQ3RUI1UlVINlRqVnFWRS1GY0hhbXZ3c2lzVmRFMG1lZ1R3SkhnUXhwTFhpYXA0d3BUVDMydnpwZVh1TUdKTWplY2RGR0dKdmo0bGlfM3BKb1V2Y08yanlNQWplVXI3OUItZm9mbTByamE4b0RnZWxHNUhpdXZLZjZZSmFWVQ?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-107"
+  },
+  {
+    "title": "Billionaire Friedland to Build Major US-Backed Rare Earths Mine - Bloomberg",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Billionaire Friedland to Build Major US-Backed Rare Earths Mine&nbsp;&nbsp;Bloomberg",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Sun, 01 Nov 2026 23:02:49 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWhiSzA0bTYzV3Q0N29JVDZrMHdQVTVYYzJSbjFiazZfbllGRjZKc3FCUmtOcVFQTGIyX25RZGVzRVVZdWg5OXVqOUVza1hzMmszRzVYYmxqejdlc3p5aVpXbzJQY2FrU2dubUUxRnhYN0MyNG95MFdnbjk2VUx1Q2FwUnJjYTJXSzhkZzlob3VZYTZFR1VEZFJXbEFlcDFjVXVhal9VVEdNYktpdmhwNFo5U0s?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-108"
+  },
+  {
+    "title": "Foreigners Make Record Withdrawal From Taiwan Stocks on AI Rout - Bloomberg",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Foreigners Make Record Withdrawal From Taiwan Stocks on AI Rout&nbsp;&nbsp;Bloomberg",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Mon, 02 Nov 2026 02:51:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUlpsQUoyUHlYVUZseUxkekd1OEJTY2lYT2hwa2FVWW81RzNIRFk4RkF2WkhyeWNTN2FfTFFKWkwzV05pMV9BbEdjNmo4NWhOd2NqUXhZNFJmald3SkxaUjNScUMzRUMtWGJ5bE4xOFoyT2Q3WnNZTU9WcWdxd01STE5tV19mTmdjR1RRbWNPdjdYaGRSMXlBbjlueVAzZFVYbzNzZ3k4WndmXzg0OG8wTTJZMm4?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-109"
+  },
+  {
+    "title": "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap - Bloomberg",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Asian Stocks to Fall as Tech Rout Fuels AI Fears: Markets Wrap&nbsp;&nbsp;Bloomberg",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Mon, 02 Nov 2026 03:25:00 GMT"
     ],
     "sources": [
       {
@@ -2217,187 +2197,67 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-111"
+    "id": "story-110"
   },
   {
-    "title": "Wall Street Braces for Biggest Treasury Sales Overhaul in Years - Bloomberg",
+    "title": "Exclusive | U.S. Pushes to Restore Russian Gas Sales to Europe Via Ukraine - WSJ",
     "category": "Economy",
     "country": "United States",
-    "leaning": "CENTER",
+    "leaning": "RIGHT",
     "feelGood": false,
     "keyFacts": [
-      "Wall Street Braces for Biggest Treasury Sales Overhaul in Years&nbsp;&nbsp;Bloomberg",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sun, 01 Nov 2026 20:00:01 GMT"
+      "Exclusive | U.S. Pushes to Restore Russian Gas Sales to Europe Via Ukraine&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Mon, 02 Nov 2026 02:00:00 GMT"
     ],
     "sources": [
       {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ3N2ZVdrWVZaekU3UUdvbWgzZE4wTUF5X2tsajg4V042UDRJeEpwa2RqY1RxLWlNNk5sWTl4QUFlQk1mQjhsTzh3STlDR0lVN3ByaVQyUFRFUnlpZG95dGpuZjVtN3lMX3lfQkZRWnUyM3FqSnAyeE9sQ25fSHI1Mmo2M1dPT3d4RkwxM1hjSkRYbFBrdlFtUXpnUlNCc05aRkJvOWNFSFZBQjRqaXFHUVVGZzQ?oc=5",
-        "bias": "CENTER"
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcGJ5czJUY0hNMkJORml6Z2ptY3h0SWp1MXNFVDhlNjNJY0RqQVRweDl0eGtJQ0RWZndidWFsM3VhLV82bTQ2TEYxUlRtVV9qdk1wSDd6RWM0QklacEhOWnFjeEQ0S0tZNXRDVlZiTk82cmdxZU1BY2J2dGE4aTlzcDJveW1tUUJtb0hudHI2cmJ0d2JvZDh4XzZ0Z0wtY2FwMG5YVGJn?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-111"
+  },
+  {
+    "title": "The U.S. Once Dominated the World’s Oceans. China’s Xi is Changing That. - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "The U.S. Once Dominated the World’s Oceans. China’s Xi is Changing That.&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Mon, 02 Nov 2026 02:00:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5Qk5URzVhNnd3ZzUtNzgwdVZDalJFVmhObFlmVU5rZ284cXA4WXJpdU95YlBZZlU2RGhwRnJUX1FrWTNTWjBlYzVnelRPNGJnTGhSLWJZSDNiRVV1cFZ5SHk0OGtRM01Ld2ZEZl9QRGtKN0IwSjVz?oc=5",
+        "bias": "RIGHT"
       }
     ],
     "id": "story-112"
   },
   {
-    "title": "Feud Erupts in Michigan as El-Sayed Rival Backs GOP’s Rogers - Bloomberg.com",
+    "title": "Gold Rises, But Expectations of Tighter U.S. Monetary Policy Weigh - WSJ",
     "category": "Economy",
     "country": "United States",
-    "leaning": "CENTER",
+    "leaning": "RIGHT",
     "feelGood": false,
     "keyFacts": [
-      "Feud Erupts in Michigan as El-Sayed Rival Backs GOP’s Rogers&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sun, 01 Nov 2026 21:53:25 GMT"
+      "Gold Rises, But Expectations of Tighter U.S. Monetary Policy Weigh&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Mon, 02 Nov 2026 00:51:00 GMT"
     ],
     "sources": [
       {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPalJMSzI1ejh6bDhrc2tyMTBkelBhQXJ4UDNiX19XTnNNY2p3UWItand2RzBlR1l0Q1NaazEtWGhKQm1lMDJJWWJubGhFWW0tc3hiazk5MmZtQnR3WDItVkxjaHhQUzlwbnhQa1hxcjFmMlFMakVZR2xTLXZXd2NGd3dmUlN4a2lGOVhaZUZzRUVQR2tnMC0xLVROVW5NcXctWkoxem9xSlVOOEZmZ3lETzhUZHM?oc=5",
-        "bias": "CENTER"
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOG92ektRZjRLMl82N25ZZmkxMnpJMXdpV0hUQy1xVzloWW9hR3pPSzZNVFEyRnZ3YWVSLURHMUp5bVZsbk9sakxJMk1POWg3ZjlKaHE5eENHdVhkYWVzV2s2LUxhemppdTd4RVV2OFdqT1lGb1YwWnhiU010bXNiMjNLRnkydno1UzRpdHJKOVJhMGF0Rm9LNE9YZHZyQUU5S01RRHIyTE01OWJURU1rUE02a0JaOUdMbXRLeUZ3?oc=5",
+        "bias": "RIGHT"
       }
     ],
     "id": "story-113"
-  },
-  {
-    "title": "Senate Democrat Chris Murphy Hospitalized Due to a Stroke - Bloomberg",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Senate Democrat Chris Murphy Hospitalized Due to a Stroke&nbsp;&nbsp;Bloomberg",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sun, 01 Nov 2026 18:18:26 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV0VHRDhfZjEtSDlkWE1SUXhCRWVsYTRlb2pKYUFjNEFhQnVaYWNNQUd2dmFhalAyZk83MWhuZl9OZVFrbERpal9XTnA2LTFiSE9IcHdTX3F6QW54bGpOME4zVmpHY3Z1RkxzS0hjZnhEYU1YY3UtQXN4SWRINjV5cno4bndmWUpCNnlqSGlDanllZ1czTHd0LWFmeG4ydWhNWnFLd1JjRHhCVmNz?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-114"
-  },
-  {
-    "title": "Trump Says He May Become ‘Mr. Veto’ If Democrats Take Majority - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Trump Says He May Become ‘Mr. Veto’ If Democrats Take Majority&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sun, 01 Nov 2026 16:25:47 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMnNzWDRiUjMxUzRmbHU2UmlvM3FnTnM2TG9nQ3BmbXhlY2hXbGZVNi1OaDhRSVdKWGJNa2xpc3NYa202UnM0cXhWLXlRZ25nY0ptUThFTG9WVzhVZ0FnaGw5QzlmTDRwWFhURzBhcWxBUEtKQzVqTGt6RXdRZjZZbURYTVkxbHV4RFotZk5CZ05qLW1XSXpXckxmeVBXWlM3QkJxZVU3VzlzNUlQN0Rn?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-115"
-  },
-  {
-    "title": "Wall Street Braces for More Wild Days in Stocks After Tech Rout - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Wall Street Braces for More Wild Days in Stocks After Tech Rout&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sun, 01 Nov 2026 15:00:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbTZ6ZGV5UkI2dXIxcEtVdDVFTk5kSldVUkgySkxpV0xQdHFaY3RWdUYwV1BtMnJKNGdPZ1Q5ZW85X1dhRUJELVRvY2c3UnFUTUdyMDhJUzQ1QXFNWndoYUdVeDNrWlFfUkpTZzcxTnplOWtmYlRkRzhJeXdac2R2WXJtOTd4YkltMmlYZXNEYTVyOTJyZFEwS3pDU1d6dEExTHk3eXRRX3pHVVVQMnBrX3I5S3o?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-116"
-  },
-  {
-    "title": "Canada and US to Outline Trade Plan in Coming Weeks, Carney Says - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Canada and US to Outline Trade Plan in Coming Weeks, Carney Says&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sun, 01 Nov 2026 22:26:53 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd0FUU1FQR1dZRDZVcXBERWhJVEFWd0NSZ3hOTDFmZTlTQWRnTWt5eVZPdUR2Q0sxSHp0ZFhOMllONHE0aU04aWxDbndOaU45ZWhnUFFfZ0FVMElMVngyU0F5NzV0ZjJ2dWxHYV9UMGhZeGU1V1liZ0t5M1Rsa3RvVWNOXzlId04tcEplUW96M2JTUUZpSmVnNVRhU2dfaHpIaS1sM2UwbWlzam5Pb21HV04zb3o?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-117"
-  },
-  {
-    "title": "Apple Missed a Chance to Be Revolutionary With Touch-Screen Mac - Bloomberg",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Apple Missed a Chance to Be Revolutionary With Touch-Screen Mac&nbsp;&nbsp;Bloomberg",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sun, 01 Nov 2026 22:32:16 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVXczVk9tbnhYRzdPcUhxV0FBODgyVzlPVHF5X3pyUjFNUkMyV3c4YUUydHBHY0xjYWhRZ1dheUNhSGFTd3VsQlFlc2UxLXljeXh4TFkwRXl6V2RQT2Zabm5jdFZaV3IzRW5KRGhoSGdnWk1KVXhBaUlPa290Y0hOVm9EcDZMQ09lQ3FnN21ybFMyTHZsVGx4SkJVWVNmQ1NPajBjeW5lY3VlWDlvYUFyLWRHVnk5ZjZOWmNZOFVpMlZvaG94aXJfZmdR?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-118"
-  },
-  {
-    "title": "Gulf States Fear Fiercer Iran Retaliation If US Strikes Again - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Gulf States Fear Fiercer Iran Retaliation If US Strikes Again&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sun, 01 Nov 2026 16:36:17 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLUJ2eUx2ekxlenJCallsY0ZFQi1OeW51dERMMWxCODlpREdmTWk5MzllOTVUSE5KYzI2bW9Jd3FhMG9wMnVWTmZycmZGdEd5TEtWamdmMF9wbEZHWDljdTJkX3I5dk5xQU91bVBNZHhRSE4tQ0pYdXJ6MmZQazlIQ0dBejlXbnMyd0tKbWNabmlTZk9hRVhpWEkwTUxLWkJoSnRvWDEwQkxteE81bVF2QXJn?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-119"
-  },
-  {
-    "title": "Russia Says Teen Held After US Warning on Moscow Terror Threat - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Russia Says Teen Held After US Warning on Moscow Terror Threat&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sun, 01 Nov 2026 14:36:23 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMEhSQTY5Z1BwcWRjSjF2dWJqS2VYd2ljSklfV3RWaGNrcDRqbk82c0ZUSzNodENRSjFxeVByNmh6OVdYbW5KR3BIaDdoTmlKQXdyeWhqQUJYXzB2aktEY0JWVC1TZ1FHbHdPSEx1c0JVRnREelVLWVNJcVNXUV9sSW11aHgza3BaV1Vlb0lLMHoyM2VlUWc2QjVCangtSUdyNmJuSndjQ1dvS1EyU3JjV0c4bw?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-120"
   },
   {
     "title": "Essay | I Have Autism. Why the Elizabeth Holmes Documentary Was Uncomfortable to Watch. - WSJ",
@@ -2408,7 +2268,7 @@
     "keyFacts": [
       "Essay | I Have Autism. Why the Elizabeth Holmes Documentary Was Uncomfortable to Watch.&nbsp;&nbsp;WSJ",
       "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sun, 01 Nov 2026 19:00:32 GMT"
+      "Source Stamp: Sun, 01 Nov 2026 19:00:00 GMT"
     ],
     "sources": [
       {
@@ -2417,7 +2277,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-121"
+    "id": "story-114"
   },
   {
     "title": "Sen. Chris Murphy Hospitalized After Stroke - WSJ",
@@ -2437,7 +2297,27 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-122"
+    "id": "story-115"
+  },
+  {
+    "title": "Could Orbital Data Centers Ruin the Night Sky? - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "Could Orbital Data Centers Ruin the Night Sky?&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Mon, 02 Nov 2026 03:00:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTVJDcWZoVl9nSzFEVGVZX0tnb056SmE1cGtldWQ5eVZMWEQtNW5ZcHdDcmdQbEZkWXkyWjRpaXY5cU1XUTQyWjZfdFlFc0xocWxRUkRON1Z6c2xKTUlyMmFvSWhQaGs4XzBVZzFrY2JmMl9MdXhMLUVsZWRNU1JoWnRMaDhYRDJ3Sm9BRUdZU2JqZjBJU1NUMDhsRnhKYVU?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-116"
   },
   {
     "title": "A Marathon First-Timer From Sweden Just Won New York - WSJ",
@@ -2457,7 +2337,27 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-123"
+    "id": "story-117"
+  },
+  {
+    "title": "Panic and Anger Spread as Europe’s Great Pension Covenant Unravels - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "Panic and Anger Spread as Europe’s Great Pension Covenant Unravels&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Sun, 01 Nov 2026 16:17:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaXhZblUwalc0d2h1RGhRQzV6elhCSk5Ldy04MzRnZE9wWEk3U3ZrQ0l5aTJPTTJmWGVzMHdSa19ZNDFoNURISjF3YTNob2gtVnVabndTWW5GUnBQNmxFRTNhR2Q0dG9CdUdlTEJpMnJXNncwV2I0RWVvUUZhYUJXMUQ5SVFfTXhTSHQ3ZE1keEVDQ3hUVU1SX084a2haRlNCUnMwZ2VKcGdwbG8?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-118"
   },
   {
     "title": "The Shopping Bots Are Coming for Amazon - WSJ",
@@ -2477,147 +2377,67 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-124"
+    "id": "story-119"
   },
   {
-    "title": "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks - WSJ",
+    "title": "Opinion | Haley Stevens Breaks With Abdul El-Sayed Over Campaign ‘Hate’ - WSJ",
     "category": "Economy",
     "country": "United States",
     "leaning": "RIGHT",
     "feelGood": false,
     "keyFacts": [
-      "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks&nbsp;&nbsp;WSJ",
+      "Opinion | Haley Stevens Breaks With Abdul El-Sayed Over Campaign ‘Hate’&nbsp;&nbsp;WSJ",
       "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sun, 01 Nov 2026 10:30:00 GMT"
+      "Source Stamp: Sun, 01 Nov 2026 22:01:00 GMT"
     ],
     "sources": [
       {
         "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMFhvME5UY0lraHNqbUFNN015bXJpV05xSk1jUHVUbDVlbk5jaEJQU0FLYzZnNV8zd201X1JJQmhsLVJpWGMwbWlyRUh3SFJLR1B5R3NCVUxJaVdJUE1LTDlOLTJxRjZiTXhycTRCUndwbU9BeHA3LWkzWFFFbUtjZEI0NVJQaElNYTZTN1ZQbVQ4c1hp?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVjcwdFUtVy1qR0tidkJfLVZhbmcyaG1FWFBDUklTOWg1NTdIbUlnSV9rWGpWcmRMQlpBNjJjblB3VHNJYXlNcmpsb3pSOEk0T1FtNFdxOWloNmFtX2RiVzQ0bzlDNTRfRVVFdDE3UWI0U2UtTzNrTm9haTdPVVQtMXNRNmN5c25IcWRvQWJlWTVaNUhLLVlvYVc5OU0?oc=5",
         "bias": "RIGHT"
       }
     ],
-    "id": "story-125"
+    "id": "story-120"
   },
   {
-    "title": "An Iconic Porsche Was Lost to Time. Now Two Owners Think It’s Theirs. - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "An Iconic Porsche Was Lost to Time. Now Two Owners Think It’s Theirs.&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sun, 01 Nov 2026 15:29:33 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5saVctVUk1YkRWalBldlo1WndhTWZsbEQwX2w5eW1PNm9EUi1ubUZCQXNaMFJBRVRUQ0lXMnN4b05FZUItNUdtYlhrcU1fUVdpTnBJSlR6bTJaOFVFcHgxb1NJUmFqdVVYeXgtU0d3RVUxRjA?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-126"
-  },
-  {
-    "title": "Opinion | Brazil’s Order Against Bolsonaro Was Appropriate - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "Opinion | Brazil’s Order Against Bolsonaro Was Appropriate&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sun, 01 Nov 2026 19:28:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObXFBcFg1N003VG9wVERZNEtKajZDYU1SLUpIMURLSVpBWW80LVZYU0g0Z042elEtNnBQeEdGcTFYWGk3R3ZZekxaWTlwOEZQQTItVlBwVkVXV1p3MDc2eW1WNm5EVXE0MUhQNWJ1Z251aWx4b2lieEVVR0s3THIyMUgwZlVyWmxreW9EdQ?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-127"
-  },
-  {
-    "title": "‘Abandoning a Cat’ Review: The Poetics of Family Trauma - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "‘Abandoning a Cat’ Review: The Poetics of Family Trauma&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sun, 01 Nov 2026 16:09:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPck8yUl9ramx1Q1hEd0o3dnZaQVBPbmh6WlI1T1BWS1NKVTFsZUFmZ2hUemlhYzVJN2NzQVlreWxLaGpoNzBHd3JHc044enlSWmRQTU95Njg5SGo1NFlvYzBoM1ltWXFOSnExdHhjb3NNX1oteEY1OFlSYzRlTFM1SEhtWU1nYTkxZHh0bTlxZ3cyN0Fsb0taWlNuV0M0aWFzLVE?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-128"
-  },
-  {
-    "title": "OPEC, Allies Keep Output Steady While Gulf Shipping Remains Under Threat - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "OPEC, Allies Keep Output Steady While Gulf Shipping Remains Under Threat&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sun, 01 Nov 2026 12:44:55 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbnNqUHNCa3N5QzZ4RUZEVVd5RUsxNDM1QU5wZ3dYQ3FYdzdEWnpnczk0NG1JTndRV19CQnpWd0J4eUE4SndBWFpfUkZNeS1QQUtIaWVQRFBYVk1fMXlHNVJjWW1zb3JsV2pvVnc5UU5zby1DNzF1d3dyNFdYWTlTUlJFRk11YW5RU19idkdxZXNSZkJ4azFtQVBjZkVpT2p6cVFlbkpsX2o2NWYtVUJfd1VtblJhQ21COUJYTA?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-129"
-  },
-  {
-    "title": "Inside the Final Days of Darline Graham’s Reluctant Senate Run - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "Inside the Final Days of Darline Graham’s Reluctant Senate Run&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sun, 01 Nov 2026 02:00:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnb1V5RDNKWWlEQnNHY2RMUUhmek0wcXROc1ctcTFUdURNaDRrSUI3R1VWdDNKb05BX0JBMnpXNzRZT1ZFdkkzdGVsVEQyakwzWHhWcm9qOUVTQktLZGFqNGNHMXhvWnhmTC1nVnBrSVEtd3hXekZYZGZqWlZxZDg?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-130"
-  },
-  {
-    "title": "Antonelli becomes world champion as Verstappen wins in Mexico",
+    "title": "How Antonelli 'blew everyone away' to make Formula 1 history",
     "category": "Sports",
     "country": "United Kingdom",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Kimi Antonelli becomes the youngest world champion in Formula 1 history as Max Verstappen wins the Mexico City Grand Prix.",
+      "Kimi Antonelli seems destined for Formula 1 greatness after winning his first world title, writes Andrew Benson.",
       "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sun, 01 Nov 2026 23:20:54 GMT"
+      "Source Stamp: Mon, 02 Nov 2026 01:47:30 GMT"
     ],
     "sources": [
       {
         "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/formula1/articles/cv62y1e6wly6o?at_medium=RSS&at_campaign=rss",
+        "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
-    "id": "story-131"
+    "id": "story-121"
+  },
+  {
+    "title": "'We've got big problems' - Hamilton says Ferrari need 'serious talks'",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Lewis Hamilton says Ferrari need \"some serious talks behind closed doors\" after fighting between their two drivers in Mexico.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Mon, 02 Nov 2026 00:28:28 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/formula1/articles/cmwy7dl879gzo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-122"
   },
   {
     "title": "Antonelli - the boy 'born in a garage' who became world champion",
@@ -2637,27 +2457,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-132"
-  },
-  {
-    "title": "'We've got big problems' - Hamilton says Ferrari need 'serious talks'",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Lewis Hamilton says Ferrari need \"some serious talks behind closed doors\" after fighting between their two drivers in Mexico.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sun, 01 Nov 2026 23:56:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/formula1/articles/cmwy7dl879gzo?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-133"
+    "id": "story-123"
   },
   {
     "title": "I'll tell my players to dive in future - Iraola",
@@ -2677,7 +2477,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-134"
+    "id": "story-124"
   },
   {
     "title": "From Fleetwood embarrassment to 'magical' Anfield win 14 years in making",
@@ -2697,27 +2497,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-135"
+    "id": "story-125"
   },
   {
-    "title": "Arsenal move clear at the top with a rare win at Liverpool",
+    "title": "Were Arsenal 'lucky' not to concede penalty at Liverpool?",
     "category": "Sports",
     "country": "United Kingdom",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Arsenal win at Anfield for the first time since 2012 to earn a three-point lead at the top of the Premier League table following an end-to-end match that leaves Liverpool frustrated to have taken nothing.",
+      "BBC Sport's Kelly Cates, Danny Murphy and Micah Richards discuss Liverpool's denied penalty claim for a pull on Alexander Isak's shirt by Arsenal defender Jurrien Timber and whether the Reds can feel hard done by.",
       "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sun, 01 Nov 2026 20:00:18 GMT"
+      "Source Stamp: Mon, 02 Nov 2026 00:00:03 GMT"
     ],
     "sources": [
       {
         "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss",
+        "url": "https://www.bbc.co.uk/sport/football/videos/cw7vpy99y606o?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
-    "id": "story-136"
+    "id": "story-126"
   },
   {
     "title": "How Dart revived career with help of Wimbledon champion",
@@ -2737,7 +2537,47 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-137"
+    "id": "story-127"
+  },
+  {
+    "title": "Antonelli becomes world champion as Verstappen wins in Mexico",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Kimi Antonelli becomes the youngest world champion in Formula 1 history as Max Verstappen wins the Mexico City Grand Prix.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sun, 01 Nov 2026 23:20:54 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/formula1/articles/cv62y1e6wly6o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-128"
+  },
+  {
+    "title": "Antonelli clinched the title - but who shone most in Mexico? Driver ratings",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "BBC Radio 5 Live F1 commentator Harry Benjamin rates how the drivers performed during the Mexico City Grand Prix.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Mon, 02 Nov 2026 03:09:17 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/formula1/articles/c95ynznzkm10o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-129"
   },
   {
     "title": "Antonelli heads list of F1's youngest champions",
@@ -2757,47 +2597,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-138"
-  },
-  {
-    "title": "How much do you know about F1 champion Antonelli?",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Kimi Antonelli has been crowned Formula 1 world champion - how well do you know the Mercedes driver?",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sun, 01 Nov 2026 22:25:21 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/formula1/articles/c98rzkv5y115o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-139"
-  },
-  {
-    "title": "Boy, 14, hands himself in to police over Bradley Lowery video",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "A 14-year-old has handed himself into West Midlands Police after Coventry City said they were investigating a video appearing to show a fan taunting Sunderland supporters with a picture of Bradley Lowery.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sun, 01 Nov 2026 20:15:52 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c6z7x52w0r0zo?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-140"
+    "id": "story-130"
   },
   {
     "title": "Wild West crypto: Staggering Binance heist exposes sector fragility",
@@ -2817,7 +2617,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-141"
+    "id": "story-131"
   },
   {
     "title": "Your writing was flagged as AI. What does that actually mean?",
@@ -2837,7 +2637,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-142"
+    "id": "story-132"
   },
   {
     "title": "Nearly 2 out of 3 teens and tweens use AI chatbots, new research shows",
@@ -2857,7 +2657,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-143"
+    "id": "story-133"
   },
   {
     "title": "Websites pretending to be local news are boosting Democratic candidates",
@@ -2877,7 +2677,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-144"
+    "id": "story-134"
   },
   {
     "title": "Who benefits when massive AI data centers come to town?",
@@ -2897,7 +2697,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-145"
+    "id": "story-135"
   },
   {
     "title": "How a lifelong Republican came to lead the data center battle in Ohio",
@@ -2917,7 +2717,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-146"
+    "id": "story-136"
   },
   {
     "title": "Anthropic is preparing to go public. A look at the company's plan",
@@ -2937,7 +2737,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-147"
+    "id": "story-137"
   },
   {
     "title": "Polymarket has investigated 'dozens' of election-related cases",
@@ -2957,7 +2757,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-148"
+    "id": "story-138"
   },
   {
     "title": "AI giant Anthropic files for an IPO that could break records",
@@ -2977,7 +2777,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-149"
+    "id": "story-139"
   },
   {
     "title": "An inside look at the massive data center tearing a Wisconsin community apart",
@@ -2997,7 +2797,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-150"
+    "id": "story-140"
   },
   {
     "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
@@ -3017,7 +2817,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-151"
+    "id": "story-141"
   },
   {
     "title": "This week in science: mysterious X-rays, movement and learning, and memory formation",
@@ -3037,7 +2837,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-152"
+    "id": "story-142"
   },
   {
     "title": "Even birds get jet lagged, study shows",
@@ -3057,7 +2857,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-153"
+    "id": "story-143"
   },
   {
     "title": "When an invasive fish is also tasty, Maryland schoolkids can help 'eat the problem'",
@@ -3077,7 +2877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-154"
+    "id": "story-144"
   },
   {
     "title": "How AI is transforming hurricane forecasts",
@@ -3097,7 +2897,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-155"
+    "id": "story-145"
   },
   {
     "title": "Time expert Philippe Richard on why scientists are changing how we keep time",
@@ -3117,7 +2917,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-156"
+    "id": "story-146"
   },
   {
     "title": "The latest in space science: We look back at the Big Bang",
@@ -3137,7 +2937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-157"
+    "id": "story-147"
   },
   {
     "title": "Should 'bird brain' be a compliment? Here's how crows think fast",
@@ -3157,7 +2957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-158"
+    "id": "story-148"
   },
   {
     "title": "New human data hints at psychedelics' potential to combat inflammation",
@@ -3177,7 +2977,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-159"
+    "id": "story-149"
   },
   {
     "title": "How much does pregnancy cost? Be prepared with these tips",
@@ -3197,7 +2997,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-160"
+    "id": "story-150"
   },
   {
     "title": "The 30 Best Gifts for Star Wars Fans (2026)",
@@ -3217,7 +3017,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-161"
+    "id": "story-151"
   },
   {
     "title": "There’s a Free Video Editor Inside Google Drive That Anyone Can Use",
@@ -3237,7 +3037,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-162"
+    "id": "story-152"
   },
   {
     "title": "The Hollywood Color Nerd Who Shot ‘Knives Out’ Explains His Viral iPhone Camera App",
@@ -3257,7 +3057,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-163"
+    "id": "story-153"
   },
   {
     "title": "Lenovo LOQ 15: The Only Gaming Laptop Worth Buying Below $1,500",
@@ -3277,7 +3077,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-164"
+    "id": "story-154"
   },
   {
     "title": "8 Best Space Heaters (2026): Tested, Measured, and Mistreated",
@@ -3297,7 +3097,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-165"
+    "id": "story-155"
   },
   {
     "title": "What Democrats Can Learn From New York’s Data Center Moratorium",
@@ -3317,7 +3117,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-166"
+    "id": "story-156"
   },
   {
     "title": "7 Best Travel Mugs (2026): Insulated, Leakproof, and Self-Heating",
@@ -3337,7 +3137,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-167"
+    "id": "story-157"
   },
   {
     "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
@@ -3357,7 +3157,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-168"
+    "id": "story-158"
   },
   {
     "title": "Best Chromebooks and Googlebooks (2026): Laptops With a Google Touch",
@@ -3377,7 +3177,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-169"
+    "id": "story-159"
   },
   {
     "title": "A Newly Discovered Trail of Cosmic Debris Illustrates How the End of the Solar System Could Look",
@@ -3397,7 +3197,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-170"
+    "id": "story-160"
   },
   {
     "title": "APOD: 2026 November 1 – Colors of the Moon",
@@ -3417,7 +3217,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-171"
+    "id": "story-161"
   },
   {
     "title": "APOD: 2026 October 31 – Night on a Spooky Planet",
@@ -3437,7 +3237,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-172"
+    "id": "story-162"
   },
   {
     "title": "NASA Releases MAX POWER Key Events for Media, Participants",
@@ -3457,7 +3257,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-173"
+    "id": "story-163"
   },
   {
     "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
@@ -3477,7 +3277,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-174"
+    "id": "story-164"
   },
   {
     "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
@@ -3497,7 +3297,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-175"
+    "id": "story-165"
   },
   {
     "title": "November’s Night Sky Notes: Light-Day Away",
@@ -3517,7 +3317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-176"
+    "id": "story-166"
   },
   {
     "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
@@ -3537,7 +3337,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-177"
+    "id": "story-167"
   },
   {
     "title": "Vega Island Frozen in Fright",
@@ -3557,7 +3357,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-178"
+    "id": "story-168"
   },
   {
     "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
@@ -3577,7 +3377,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-179"
+    "id": "story-169"
   },
   {
     "title": "Slice of Martian Meteorite Teghaza 001",
@@ -3597,7 +3397,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-180"
+    "id": "story-170"
+  },
+  {
+    "title": "Borrowed reading: stories from our extended colleagues",
+    "category": "Tech",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Five stories worth your time from our extended colleagues at CIO, Computerworld, Macworld, and PCWorld.",
+      "Reporting Desk: TechCrunch",
+      "Source Stamp: Mon, 02 Nov 2026 04:23:48 +0000"
+    ],
+    "sources": [
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-171"
   },
   {
     "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
@@ -3617,7 +3437,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-181"
+    "id": "story-172"
   },
   {
     "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
@@ -3637,7 +3457,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-182"
+    "id": "story-173"
   },
   {
     "title": "TechCrunch Mobility: A new, bigger AV boom is here",
@@ -3657,7 +3477,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-183"
+    "id": "story-174"
   },
   {
     "title": "Binance resumes withdrawals following $6.3 billion breach",
@@ -3677,7 +3497,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-184"
+    "id": "story-175"
   },
   {
     "title": "Pixel 11 Pro Fold: Sturdy rectangle in a wide wide world",
@@ -3697,7 +3517,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-185"
+    "id": "story-176"
   },
   {
     "title": "Here’s what ‘renoa’ — the first new fiber in 25 years — feels like",
@@ -3717,7 +3537,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-186"
+    "id": "story-177"
   },
   {
     "title": "Data centers are now a midterm issue, even in Brooklyn",
@@ -3737,7 +3557,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-187"
+    "id": "story-178"
   },
   {
     "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
@@ -3757,7 +3577,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-188"
+    "id": "story-179"
   },
   {
     "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
@@ -3777,27 +3597,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-189"
-  },
-  {
-    "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-    "category": "Tech",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
-      "Reporting Desk: TechCrunch",
-      "Source Stamp: Sat, 31 Oct 2026 21:17:03 +0000"
-    ],
-    "sources": [
-      {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-190"
+    "id": "story-180"
   },
   {
     "title": "Seabirds racing home over the ocean can get jet-lagged",
@@ -3817,7 +3617,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-191"
+    "id": "story-181"
   },
   {
     "title": "The FDA wants to pull its approval of a drug. It’s not so easy.",
@@ -3837,7 +3637,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-192"
+    "id": "story-182"
   },
   {
     "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
@@ -3857,7 +3657,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-193"
+    "id": "story-183"
   },
   {
     "title": "Flesh-eating screwworms spread to third state and are attacking pets",
@@ -3877,7 +3677,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-194"
+    "id": "story-184"
   },
   {
     "title": "Oh captain, our captain: Ars staff remembers Patrick Stewart",
@@ -3897,7 +3697,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-195"
+    "id": "story-185"
   },
   {
     "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
@@ -3917,7 +3717,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-196"
+    "id": "story-186"
   },
   {
     "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
@@ -3937,7 +3737,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-197"
+    "id": "story-187"
   },
   {
     "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
@@ -3957,7 +3757,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-198"
+    "id": "story-188"
   },
   {
     "title": "Over 25% of people lie to get antibiotics—and their lies aren't even good",
@@ -3977,7 +3777,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-199"
+    "id": "story-189"
   },
   {
     "title": "Basically no one is using AI agents for their DoorDash orders",
@@ -3997,7 +3797,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-200"
+    "id": "story-190"
+  },
+  {
+    "title": "Tired of the Winter Blues? The Unique Festival of Lights Zagreb Marks the Much-Anticipated Arrival of Spring",
+    "category": "Arts",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "From March 17 to 21, 2027, Croatia’s capital transforms into a dazzling open-air gallery, illuminated by light installations and artworks from local and international artists",
+      "Reporting Desk: Smithsonian Magazine",
+      "Source Stamp: Mon, 02 Nov 2026 05:00:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/sponsored/tired-of-the-winter-blues-the-unique-festival-of-lights-zagreb-marks-the-much-anticipated-arrival-of-spring-180989751/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-191"
   },
   {
     "title": "Crafted From Bone, This 2,800-Year-Old Flute Unearthed in Troy May Have Been Played Around the Time That Homer Composed 'The Iliad' and 'The Odyssey'",
@@ -4017,7 +3837,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-201"
+    "id": "story-192"
   },
   {
     "title": "A Dog Left a Paw Print on This Mud Brick 4,000 Years Ago. Archaeologists Discovered It in the Rubble of a Bronze Age House",
@@ -4037,7 +3857,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-202"
+    "id": "story-193"
   },
   {
     "title": "Madagascar's Giant Bats Seem to Be Shrinking. After Measuring 121 Specimens, Scientists Suggest Hunting by Humans Is to Blame",
@@ -4057,7 +3877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-203"
+    "id": "story-194"
   },
   {
     "title": "This Rosy Stone Spotted in the Sahara Turned Out to Be a 4.1-Billion-Year-Old Meteorite From Mars, One of the Oldest Ever Found",
@@ -4077,7 +3897,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-204"
+    "id": "story-195"
   },
   {
     "title": "Manga Are Black, White and Read All Over. Treasures of the Globally Popular Japanese Comic Book Medium Are on View in New York",
@@ -4097,7 +3917,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-205"
+    "id": "story-196"
   },
   {
     "title": "What Can Space Offer Humanity? In Pursuit of the Answer, Astronauts Have Been Making a Home in Microgravity for Decades",
@@ -4117,7 +3937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-206"
+    "id": "story-197"
   },
   {
     "title": "Where Is England's Oldest Pub? An Archaeologist Drilled Into 600-Year-Old Timbers to Answer the Contentious Question",
@@ -4137,7 +3957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-207"
+    "id": "story-198"
   },
   {
     "title": "Three in Four Former NFL Players Who Died From 2008 Through 2023 May Have Had CTE, a Brain Disease Caused by Repeated Head Injuries",
@@ -4157,7 +3977,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-208"
+    "id": "story-199"
   },
   {
     "title": "For Over Four Years, the Hirshhorn Worked to Revitalize Its Sculpture Garden. Today, It's Home to a 'King and Queen,' a 'Wish Tree' and a 55,000-Pound Vertical Swimming Pool Artwork",
@@ -4177,27 +3997,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-209"
-  },
-  {
-    "title": "Crows Can Make Decisions Based on Visual Information at Lightning Speed—Roughly Twice as Fast as Humans Can, Study Suggests",
-    "category": "Arts",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Even though the brain structures of birds and mammals are different, a new study suggests that crows and primates have similar decision-making nerve cell circuitry",
-      "Reporting Desk: Smithsonian Magazine",
-      "Source Stamp: Fri, 30 Oct 2026 14:00:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Smithsonian Magazine",
-        "url": "https://www.smithsonianmag.com/smart-news/crows-can-make-decisions-based-on-visual-information-at-lightning-speed-roughly-twice-as-fast-as-humans-can-study-suggests-180989779/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-210"
+    "id": "story-200"
   },
   {
     "title": "At a Moscow movie screening, Anthony Bourdain's Russian fixer remembers the late chef",
@@ -4217,7 +4017,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-211"
+    "id": "story-201"
   },
   {
     "title": "Sunday Puzzle: All over the place",
@@ -4237,7 +4037,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-212"
+    "id": "story-202"
   },
   {
     "title": "'Wait Wait' for October 31, 2026: With Not My Job guest John Turturro",
@@ -4257,7 +4057,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-213"
+    "id": "story-203"
   },
   {
     "title": "Drone photo award winners: Far-out landscapes. Ship recycling. Rugs, rugs rugs!",
@@ -4277,7 +4077,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-214"
+    "id": "story-204"
   },
   {
     "title": "'Fear' finale: What have we learned?",
@@ -4297,7 +4097,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-215"
+    "id": "story-205"
   },
   {
     "title": "Jack Nicholson was scary. But Shelley Duvall delivered the real horror in 'The Shining'",
@@ -4317,7 +4117,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-216"
+    "id": "story-206"
   },
   {
     "title": "In the '70s and '80s, 'SCTV' spoke directly to me",
@@ -4337,7 +4137,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-217"
+    "id": "story-207"
   },
   {
     "title": "After last year's storm, this remote Alaska town is still picking up the pieces",
@@ -4357,7 +4157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-218"
+    "id": "story-208"
   },
   {
     "title": "100 years later, Harry Houdini's death still haunts Detroit",
@@ -4377,7 +4177,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-219"
+    "id": "story-209"
   },
   {
     "title": "Here's what it's like to live in Salem, Mass., during the Halloween tourism season",
@@ -4397,7 +4197,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-220"
+    "id": "story-210"
   },
   {
     "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
@@ -4406,9 +4206,9 @@
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Authorities say there is no threat and have advised the public to stay calm and follow official channels for information.",
+      "Hours later Russian authorities said its app was also hacked, with fake warnings sent inside the country.",
       "Reporting Desk: BBC News World",
-      "Source Stamp: Sun, 01 Nov 2026 22:38:24 GMT"
+      "Source Stamp: Mon, 02 Nov 2026 01:18:27 GMT"
     ],
     "sources": [
       {
@@ -4417,7 +4217,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-221"
+    "id": "story-211"
   },
   {
     "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
@@ -4437,7 +4237,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-222"
+    "id": "story-212"
   },
   {
     "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
@@ -4446,9 +4246,9 @@
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Haley Stevens, who lost out on the Democratic Senate nomination to Abdul El-Sayed, endorses his opponent days before the vote.",
+      "The move by Haley Stevens, who lost out on the Democratic Senate nomination to Abdul El-Sayed, was called a \"despicable betrayal\" by one top Democrat.",
       "Reporting Desk: BBC News World",
-      "Source Stamp: Sun, 01 Nov 2026 21:16:45 GMT"
+      "Source Stamp: Mon, 02 Nov 2026 01:45:42 GMT"
     ],
     "sources": [
       {
@@ -4457,7 +4257,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-223"
+    "id": "story-213"
   },
   {
     "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
@@ -4477,7 +4277,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-224"
+    "id": "story-214"
+  },
+  {
+    "title": "France launches attempted murder investigation after petrol bomb thrown at police",
+    "category": "World",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "There were hundreds of arrests as protesters took to the streets in cities across France for the third weekend in a row.",
+      "Reporting Desk: BBC News World",
+      "Source Stamp: Mon, 02 Nov 2026 00:15:30 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC News World",
+        "url": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-215"
   },
   {
     "title": "University of Cambridge scientist among those who died in Spanish train crash",
@@ -4497,27 +4317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-225"
-  },
-  {
-    "title": "Shops looted as German cost-of-living protests turn violent",
-    "category": "World",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
-      "Reporting Desk: BBC News World",
-      "Source Stamp: Sun, 01 Nov 2026 11:57:48 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-226"
+    "id": "story-216"
   },
   {
     "title": "Armed police start patrols in Sydney after Bondi Beach attack",
@@ -4537,7 +4337,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-227"
+    "id": "story-217"
+  },
+  {
+    "title": "Shops looted as German cost-of-living protests turn violent",
+    "category": "World",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
+      "Reporting Desk: BBC News World",
+      "Source Stamp: Sun, 01 Nov 2026 11:57:48 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC News World",
+        "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-218"
   },
   {
     "title": "India's opposition holds mega rally seeking election chief's resignation",
@@ -4557,7 +4377,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-228"
+    "id": "story-219"
   },
   {
     "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
@@ -4577,227 +4397,207 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-229"
+    "id": "story-220"
   },
   {
-    "title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
+    "title": "Write-In Ralph: South Carolina Republicans challenge Trump’s Senate pick",
     "category": "World",
-    "country": "United Kingdom",
+    "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Trump had sued the media outlet after it published a letter to Epstein purportedly written and signed by the president as part of a birthday book.",
-      "Reporting Desk: BBC News World",
-      "Source Stamp: Sun, 01 Nov 2026 00:41:24 GMT"
+      "As Trump supports Senator Darline Graham, one conservative group is rallying around someone else.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Mon, 02 Nov 2026 04:31:02 +0000"
     ],
     "sources": [
       {
-        "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss",
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/news/2026/11/2/write-in-ralph-south-carolina-republicans-challenge-trumps-senate-pick?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-221"
+  },
+  {
+    "title": "Bulgaria has its first elected female president",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Iliana Iotova has won Bulgaria’s presidential runoff, becoming the country’s first elected female president.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Mon, 02 Nov 2026 04:25:56 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/bulgaria-has-its-first-elected-female-president?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-222"
+  },
+  {
+    "title": "Trump leans into Islamophobia and conspiracy in last-ditch campaign rallies",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Trump attacks Muslim politicians Abdul El-Sayed and Ilhan Omar in his two last rallies on the campaign trail.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Mon, 02 Nov 2026 04:08:54 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/news/2026/11/2/trump-leans-into-islamophobia-and-conspiracy-in-last-ditch-campaign-rallies?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-223"
+  },
+  {
+    "title": "US midterms: What to know about independent voters and candidates",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Despite a record number of independents, third-party candidates and voters struggle to penetrate the two-party system.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Mon, 02 Nov 2026 03:53:42 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/news/2026/11/2/us-midterms-what-to-know-about-independent-voters-and-candidates?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-224"
+  },
+  {
+    "title": "Kimi Antonelli becomes Formula One’s youngest world champion in Mexico City",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Italian wonderkid wins drivers&#039; championship at 20 years and 68 days, finishing third at the Mexico City Grand Prix.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Mon, 02 Nov 2026 03:51:57 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/sports/2026/11/2/kimi-antonelli-becomes-formula-ones-youngest-world-champion-in-mexico-city?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-225"
+  },
+  {
+    "title": "Muhammad Ali’s daughter and grandson endorse El-Sayed",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Daughter of the late champion boxer Muhammad Ali, and her son, have endorsed Abdul El-Sayed’s runs for the US Senate",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Mon, 02 Nov 2026 03:17:41 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/muhammad-alis-daughter-and-grandson-endorse-el-sayed?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-226"
+  },
+  {
+    "title": "El-Sayed dismisses Stevens’ backing of Republican Senate candidate",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "El-Sayed dismisses Stevens’ backing of Republican Senate candidate",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Mon, 02 Nov 2026 02:41:40 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/el-sayed-dismisses-haley-stevens-for-backing-of-republican-rival?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-227"
+  },
+  {
+    "title": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Ukrainian users receive fake warnings of nuclear threats, while Moscow reports &#039;false information&#039; on its app.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Mon, 02 Nov 2026 01:40:50 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-228"
+  },
+  {
+    "title": "Tens of thousands build 108 Buddhist stupas for Bhutan ‘mindfulness’ city",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Bhutan is building a &#039;mindfulness&#039; city to drive economic growth and persuade more young people to stay.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Mon, 02 Nov 2026 01:31:21 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/news/2026/11/2/tens-of-thousands-build-108-buddhist-stupas-for-bhutan-mindfulness-city?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-229"
+  },
+  {
+    "title": "Trump invites Michigan Democrat Stevens to join the Republican Party",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "US President Donald Trump praised Michigan Democrat Haley Stevens for endorsing Republican Mike Rogers.",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Mon, 02 Nov 2026 01:25:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/trump-invites-michigan-democrat-stevens-to-join-the-republican-party?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-230"
-  },
-  {
-    "title": "Why governors’ races are important in the 2026 US midterms",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Historic turnover in this election will allow dozens of states to vote on significant changes in leadership.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sun, 01 Nov 2026 23:24:56 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/1/why-governors-races-are-important-in-the-2026-us-midterms?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-231"
-  },
-  {
-    "title": "UN warns of security risks in Western Sahara as peacekeeping mission ends",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The mission, known as MINURSO, has been in place in the disputed region since a ceasefire in 1991.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sun, 01 Nov 2026 23:19:51 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-232"
-  },
-  {
-    "title": "High-ranking US Democratic senator suffers stroke",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Senator Chris Murphy, a fierce Trump critic who is not up for re-election in the midterms, is &#039;alert&#039; after a stroke.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sun, 01 Nov 2026 22:32:54 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/1/high-ranking-us-democratic-senator-suffers-stroke?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-233"
-  },
-  {
-    "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Moscow and Kyiv continue strikes elsewhere, but no reported violations in Kherson region during the six-day ceasefire.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sun, 01 Nov 2026 22:15:14 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-234"
-  },
-  {
-    "title": "Democrat Haley Stevens heckled as she backs El-Sayed rival",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "US Democrat Haley Stevens from Michigan was heckled as a ‘traitor’, after endorsing Republican Mike Rogers.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sun, 01 Nov 2026 21:29:43 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/democrat-haley-stevens-heckled-as-she-backs-el-sayed-rival?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-235"
-  },
-  {
-    "title": "Thousands displaced from Hebron as Israel carries on siege",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Almost 5,000 people have been displaced as a result of Israel’s military siege on the city of Hebron in the West Bank.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sun, 01 Nov 2026 21:28:47 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/thousands-displaced-from-hebron-as-israel-carries-on-siege?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-236"
-  },
-  {
-    "title": "Carney signals progress on Canada-US trade deal talks as midterms loom",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Canadian PM Mark Carney announces progress in Canada-US trade deal talks ahead of Tuesday&#039;s US midterm elections.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sun, 01 Nov 2026 21:01:33 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/1/carney-signals-progress-on-canada-us-trade-deal-talks-as-midterms-loom?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-237"
-  },
-  {
-    "title": "Why did Democrat Haley Stevens just endorse a Republican for US Senate?",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Stevens’s endorsement of Mike Rogers comes after a bitter dispute with Democratic nominee Abdul El-Sayed.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sun, 01 Nov 2026 21:00:52 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/1/why-did-democrat-haley-stevens-just-endorse-a-republican-for-us-senate?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-238"
-  },
-  {
-    "title": "Al Jazeera Director General hails 30 years of groundbreaking news",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Al Jazeera has marked 30 years since its first broadcast in 1996, with a ceremony in Doha attended by Qatar’s Emir.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sun, 01 Nov 2026 20:48:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/al-jazeera-director-general-hails-30-years-of-groundbreaking-news?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-239"
-  },
-  {
-    "title": "Bulgaria’s acting President Iotova leads in run-off exit polls",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Iliana Iotova would become the nation’s first elected female president if results confirm her win on Monday.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sun, 01 Nov 2026 20:43:33 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/1/bulgarian-president-yotova-leads-runoff-exit-polls-show?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-240"
   },
   {
     "title": "This legendary board game could take decades to complete",
@@ -4817,27 +4617,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-241"
-  },
-  {
-    "title": "Gulf leaders meet in Qatar in effort to stave off new escalation in U.S and Iran war",
-    "category": "World",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Qatar has been leading intense mediation efforts over the past 72 hours to prevent a new round of possible U.S. attacks on Iran after Tuesday's midterm elections. The uncertainty has the entire Gulf region on edge.",
-      "Reporting Desk: NPR World News",
-      "Source Stamp: Sun, 01 Nov 2026 17:19:13 -0500"
-    ],
-    "sources": [
-      {
-        "name": "NPR World News",
-        "url": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-242"
+    "id": "story-231"
   },
   {
     "title": "They signed up for a lifetime at sea on an endless cruise. High gas prices intervened",
@@ -4857,7 +4637,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-243"
+    "id": "story-232"
   },
   {
     "title": "Secretary Rubio has a tough time getting officials at G20 on the same page",
@@ -4877,7 +4657,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-244"
+    "id": "story-233"
   },
   {
     "title": "A new political era in the Southern Philippines",
@@ -4897,7 +4677,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-245"
+    "id": "story-234"
   },
   {
     "title": "France seethes again as youth-led protests sweep Europe",
@@ -4917,7 +4697,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-246"
+    "id": "story-235"
   },
   {
     "title": "Key takeaways from this week's political meeting in Beijing",
@@ -4937,7 +4717,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-247"
+    "id": "story-236"
   },
   {
     "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
@@ -4957,7 +4737,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-248"
+    "id": "story-237"
   },
   {
     "title": "Alaska's Senate race faces claims of spoiler candidate. And, Hegseth ousts Army general",
@@ -4977,7 +4757,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-249"
+    "id": "story-238"
   },
   {
     "title": "Russia's giant new radar in Kaliningrad raises alarm in NATO",
@@ -4997,7 +4777,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-250"
+    "id": "story-239"
   },
   {
     "title": "Ethnic Germans in Kazakhstan face legacy of the Soviet Union",
@@ -5017,7 +4797,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-251"
+    "id": "story-240"
   },
   {
     "title": "Biological weapons: The weaponization of disease",
@@ -5037,7 +4817,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-252"
+    "id": "story-241"
   },
   {
     "title": "Donald Trump loses allies after elections in Serbia and Brazil",
@@ -5057,7 +4837,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-253"
+    "id": "story-242"
   },
   {
     "title": "FBI says North Korea behind $6 billion Binance crypto theft",
@@ -5077,7 +4857,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-254"
+    "id": "story-243"
   },
   {
     "title": "Serbia after Vucic: The winners are losing patience",
@@ -5097,7 +4877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-255"
+    "id": "story-244"
   },
   {
     "title": "Bollywood and the underworld — together in the spotlight?",
@@ -5117,7 +4897,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-256"
+    "id": "story-245"
   },
   {
     "title": "Canadian PM Mark Carney discusses talks with the EU, overdependence on the US and how to deal with Donald Trump in a DW interview.",
@@ -5137,7 +4917,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-257"
+    "id": "story-246"
   },
   {
     "title": "Smuggling, power, profit: Irregular migration out of eastern Libya",
@@ -5157,7 +4937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-258"
+    "id": "story-247"
   },
   {
     "title": "What the rift within the Tsikhanouski family means for the Belarusian opposition in exile",
@@ -5177,7 +4957,67 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-259"
+    "id": "story-248"
+  },
+  {
+    "title": "Russia and Ukraine accuse each other of hacking emergency alert apps",
+    "category": "World",
+    "country": "France",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Russia and Ukraine accused each other of hacking their emergency alert applications as a local ceasefire in the war's eastern Kherson region expired on Sunday. The cyberattacks came as both sides warned of renewed fighting and Kyiv signalled it could...",
+      "Reporting Desk: France 24",
+      "Source Stamp: Mon, 02 Nov 2026 01:20:44 GMT"
+    ],
+    "sources": [
+      {
+        "name": "France 24",
+        "url": "https://www.france24.com/en/europe/20261102-ukraine-suspects-nationwide-air-raid-alert-app-has-been-hacked",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-249"
+  },
+  {
+    "title": "Halloween weekend shootings across US leave at least six dead, dozens wounded",
+    "category": "World",
+    "country": "France",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A spate of shootings in nightlife districts and near university campuses across the United States over Halloween weekend left at least six people dead and dozens wounded, with Dallas recording the highest toll. Police were investigating multiple inci...",
+      "Reporting Desk: France 24",
+      "Source Stamp: Mon, 02 Nov 2026 00:49:01 GMT"
+    ],
+    "sources": [
+      {
+        "name": "France 24",
+        "url": "https://www.france24.com/en/americas/20261102-halloween-weekend-shootings-across-us-leave-at-least-six-dead-dozens-wounded",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-250"
+  },
+  {
+    "title": "Iran warns renewed war with US could outlast previous conflict",
+    "category": "World",
+    "country": "France",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Iran warned on Sunday that a renewed war with the United States could last longer than the previous conflict, as President Donald Trump suggested Washington still had targets to strike. Tehran threatened retaliation without geographical limits while ...",
+      "Reporting Desk: France 24",
+      "Source Stamp: Mon, 02 Nov 2026 00:23:23 GMT"
+    ],
+    "sources": [
+      {
+        "name": "France 24",
+        "url": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-251"
   },
   {
     "title": "Nine killed as business jet crashes into South Florida neighbourhood",
@@ -5197,7 +5037,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-260"
+    "id": "story-252"
   },
   {
     "title": "French presidential candidate Édouard Philippe rejects centre-right primary",
@@ -5217,7 +5057,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-261"
+    "id": "story-253"
   },
   {
     "title": "UN’s peacekeeping mission in disputed Western Sahara ends after 35 years",
@@ -5237,7 +5077,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-262"
+    "id": "story-254"
   },
   {
     "title": "Michigan ‘Betrayal’ & Mid Term Manouvres",
@@ -5257,7 +5097,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-263"
+    "id": "story-255"
   },
   {
     "title": "France: Route du Rhum yacht race sets off",
@@ -5277,7 +5117,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-264"
+    "id": "story-256"
   },
   {
     "title": "Thousands join Indian opposition protest",
@@ -5297,7 +5137,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-265"
+    "id": "story-257"
   },
   {
     "title": "Oleshky: Evacuations during first humanitarian truce of war end",
@@ -5317,67 +5157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-266"
-  },
-  {
-    "title": "France reports largely peaceful protests",
-    "category": "World",
-    "country": "France",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "France sees third consecutive weekend of protests over living costs and education, with more than 320,000 people taking to the streets. Most demonstrations remained peaceful, although police used tear gas to disperse clashes. Authorities reported mor...",
-      "Reporting Desk: France 24",
-      "Source Stamp: Sun, 01 Nov 2026 15:50:06 GMT"
-    ],
-    "sources": [
-      {
-        "name": "France 24",
-        "url": "https://www.france24.com/en/france-reports-largely-peaceful-protests",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-267"
-  },
-  {
-    "title": "Data centres on the ballot: could the AI infrastructure shape US midterms?",
-    "category": "World",
-    "country": "France",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Voters from Ohio to Illinois decide dozens of local measures on Tuesday, as opposition to the giant buildings powering AI cuts across party lines.",
-      "Reporting Desk: France 24",
-      "Source Stamp: Sun, 01 Nov 2026 15:11:28 GMT"
-    ],
-    "sources": [
-      {
-        "name": "France 24",
-        "url": "https://www.france24.com/en/data-centres-on-the-ballot-could-the-ai-infrastructure-shape-us-midterms",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-268"
-  },
-  {
-    "title": "Oleshky residents return to Ukraine",
-    "category": "World",
-    "country": "France",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Residents evacuated from Russian-occupied Oleshky have reached Ukrainian-held territory following a rare local truce. They described years of isolation, food shortages and regular shelling, with some saying they were forced to eat grass and dogs to s...",
-      "Reporting Desk: France 24",
-      "Source Stamp: Sun, 01 Nov 2026 14:56:05 GMT"
-    ],
-    "sources": [
-      {
-        "name": "France 24",
-        "url": "https://www.france24.com/en/oleshky-residents-return-to-ukraine",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-269"
+    "id": "story-258"
   },
   {
     "title": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
@@ -5397,7 +5177,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-270"
+    "id": "story-259"
   },
   {
     "title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
@@ -5417,7 +5197,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-271"
+    "id": "story-260"
   },
   {
     "title": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
@@ -5437,7 +5217,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-272"
+    "id": "story-261"
   },
   {
     "title": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
@@ -5457,7 +5237,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-273"
+    "id": "story-262"
   },
   {
     "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
@@ -5477,7 +5257,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-274"
+    "id": "story-263"
   },
   {
     "title": "UK was ‘vehement’ slavery reparations should not be on Commonwealth summit agenda",
@@ -5497,7 +5277,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-275"
+    "id": "story-264"
   },
   {
     "title": "Canada and EU announce new alliance open to like-minded countries",
@@ -5517,7 +5297,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-276"
+    "id": "story-265"
   },
   {
     "title": "‘Amateur morons’: Flávio Bolsonaro’s short-lived ‘president-elect’ claim met with mockery",
@@ -5537,7 +5317,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-277"
+    "id": "story-266"
   },
   {
     "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
@@ -5557,7 +5337,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-278"
+    "id": "story-267"
   },
   {
     "title": "Cuts like a knife: Canadian rocker Bryan Adams trolls Trump with new song",
@@ -5577,7 +5357,27 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-279"
+    "id": "story-268"
+  },
+  {
+    "title": "Breaking the silence in Mexico’s barracks",
+    "category": "Climate",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "In Mexico’s armed forces, an order from a superior is meant to be obeyed without question. For many women in uniform, investigative journalist Zorayda Gallegos found, that can include an order to step into an officer’s bedroom.",
+      "Reporting Desk: UN News",
+      "Source Stamp: Sun, 01 Nov 2026 12:00:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "UN News",
+        "url": "https://news.un.org/feed/view/en/story/2026/11/1168715",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-269"
   },
   {
     "title": "COP17: Nations chart ‘Yerevan Pathway’ to speed up action for nature",
@@ -5597,7 +5397,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-280"
+    "id": "story-270"
   },
   {
     "title": "Western Sahara: UN ‘stands ready’ to keep supporting peace efforts as MINURSO mission ends",
@@ -5617,7 +5417,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-281"
+    "id": "story-271"
   },
   {
     "title": "‘They deserve to know the truth’: UN rights chief demands probe into staffer’s death in Houthi custody",
@@ -5637,7 +5437,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-282"
+    "id": "story-272"
   },
   {
     "title": "Samarkand: A ‘living museum’ on the Silk Road grapples with a tourism boom",
@@ -5657,7 +5457,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-283"
+    "id": "story-273"
   },
   {
     "title": "DPR Korea: Isolation deepens even as the country changes, says UN rights official",
@@ -5677,7 +5477,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-284"
+    "id": "story-274"
   },
   {
     "title": "Somalia looks to the future as the UN's political mission closes",
@@ -5697,7 +5497,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-285"
+    "id": "story-275"
   },
   {
     "title": "World News in Brief: 300,000 displaced in Lebanon, Türk ‘deeply concerned’ over Novaya Gazeta closure, $50 million refugee appeal, World Cities Day",
@@ -5717,7 +5517,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-286"
+    "id": "story-276"
   },
   {
     "title": "Ukraine: Oleshky ceasefire offers ‘hope’ for civilians as attacks on aid vehicles continue",
@@ -5737,7 +5537,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-287"
+    "id": "story-277"
   },
   {
     "title": "DR Congo: Hunger deepens for millions amid conflict, Ebola and climate shocks",
@@ -5757,26 +5557,6 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-288"
-  },
-  {
-    "title": "UN rights office warns of deepening displacement ‘nightmare’ in Gaza",
-    "category": "Climate",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Israeli forces continue to push Palestinians into ever-smaller areas of the Gaza Strip while destroying civilian infrastructure and attacking displacement sites, the UN human rights office, OHCHR, warned on Friday amid concerns of ethnic cleansing.&n...",
-      "Reporting Desk: UN News",
-      "Source Stamp: Fri, 30 Oct 2026 12:00:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "UN News",
-        "url": "https://news.un.org/feed/view/en/story/2026/10/1168707",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-289"
+    "id": "story-278"
   }
 ]
