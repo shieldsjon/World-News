@@ -1,5 +1,85 @@
 [
   {
+    "title": "Florida city cancels St. Patrick's Day parade, citing new anti-DEI law",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A new Florida law that prohibits taxpayer dollars from going toward diversity initiatives has prompted Delray Beach to cancel its St. Patrick's Day parade after a nearly 60-year run.",
+      "Reporting Desk: NPR US News",
+      "Source Stamp: Sat, 14 Nov 2026 19:03:52 -0500"
+    ],
+    "sources": [
+      {
+        "name": "NPR US News",
+        "url": "https://www.npr.org/2026/11/14/nx-s1-6041093/st-patricks-day-parade-canceled-florida-dei",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-1"
+  },
+  {
+    "title": "Maintenance gone awry caused nation-wide ground stop, says Transportation Secretary",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Transportation Secretary Sean Duffy points blame toward contractor in explaining Friday's nation-wide aviation ground stop.",
+      "Reporting Desk: NPR US News",
+      "Source Stamp: Sat, 14 Nov 2026 17:48:38 -0500"
+    ],
+    "sources": [
+      {
+        "name": "NPR US News",
+        "url": "https://www.npr.org/2026/11/14/nx-s1-6040942/maintenance-gone-awry-caused-nation-wide-ground-stop-says-transportation-secretary",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-2"
+  },
+  {
+    "title": "US has lost measles elimination status, global health authorities say",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The U.S. has lost its status as a country where measles is eliminated, according to researchers with direct knowledge of the deliberations at the Pan American Health Organization.",
+      "Reporting Desk: NPR US News",
+      "Source Stamp: Sat, 14 Nov 2026 17:15:02 -0500"
+    ],
+    "sources": [
+      {
+        "name": "NPR US News",
+        "url": "https://www.npr.org/2026/11/14/nx-s1-6041119/us-measles-elimination-status-vaccines-cdc-paho",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-3"
+  },
+  {
+    "title": "SpaceX successfully catches Starship and makes history",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The company's spacecraft returned to its Texas launchpad in dramatic fashion — by carefully lowering itself until two metal arms attached to the launch tower could secure it.",
+      "Reporting Desk: NPR US News",
+      "Source Stamp: Sat, 14 Nov 2026 16:42:41 -0500"
+    ],
+    "sources": [
+      {
+        "name": "NPR US News",
+        "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-4"
+  },
+  {
     "title": "Bomb found near ethanol plant in central Illinois forces evacuations",
     "category": "U.S.",
     "country": "United States",
@@ -17,7 +97,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-1"
+    "id": "story-5"
   },
   {
     "title": "'We can't let them down' -- After midterm wins, Democrats turn to charting path ahead",
@@ -37,7 +117,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-2"
+    "id": "story-6"
   },
   {
     "title": "FAA blames Friday's ground stop on 'equipment issue' during telecoms network upgrade",
@@ -57,7 +137,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-3"
+    "id": "story-7"
   },
   {
     "title": "Fuel crisis and protests pressure Chile's far-right president",
@@ -77,7 +157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-4"
+    "id": "story-8"
   },
   {
     "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
@@ -97,7 +177,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-5"
+    "id": "story-9"
   },
   {
     "title": "Perspective: A new kind of White House press secretary",
@@ -117,103 +197,23 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-6"
-  },
-  {
-    "title": "Hegseth's failed impeachment was a warning to Democrats. Where will they go from here?",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Democrats have been given a huge opportunity with majorities in both the House and Senate — but the balance of priorities, timing, messaging and discipline are all going to be major tests.",
-      "Reporting Desk: NPR US News",
-      "Source Stamp: Sat, 14 Nov 2026 05:00:00 -0500"
-    ],
-    "sources": [
-      {
-        "name": "NPR US News",
-        "url": "https://www.npr.org/2026/11/14/nx-s1-6040299/hegseth-impeachment-democrats-house-test",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-7"
-  },
-  {
-    "title": "A new policy could help solve the U.S. organ shortage. Critics say it's unethical",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "New guidelines are supposed to protect organ donors in a retrieval procedure that keeps blood flowing through livers, kidneys, lungs and hearts. But bioethicists have troubling questions.",
-      "Reporting Desk: NPR US News",
-      "Source Stamp: Sat, 14 Nov 2026 05:00:00 -0500"
-    ],
-    "sources": [
-      {
-        "name": "NPR US News",
-        "url": "https://www.npr.org/2026/11/14/nx-s1-6032604/organ-transplant-donor-dead-ethics",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-8"
-  },
-  {
-    "title": "As Democrats win big, thirst traps of male candidates take social media by storm",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "It's everywhere on social media: Democrats celebrating the attractive men voters elected in the midterms. But it's bigger than a meme and says a lot about politics of masculinity in the age of Trump.",
-      "Reporting Desk: NPR US News",
-      "Source Stamp: Sat, 14 Nov 2026 05:00:00 -0500"
-    ],
-    "sources": [
-      {
-        "name": "NPR US News",
-        "url": "https://www.npr.org/2026/11/14/nx-s1-6040507/democrats-male-candidates-masculinity-trump",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-9"
-  },
-  {
-    "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Kreiss-Tomkins, a former state legislator, ran a campaign emphasizing bipartisanship in the the state that usually votes Republican. At 37, he'll be the youngest governor in the state's history.",
-      "Reporting Desk: NPR US News",
-      "Source Stamp: Sat, 14 Nov 2026 00:12:43 -0500"
-    ],
-    "sources": [
-      {
-        "name": "NPR US News",
-        "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-10"
   },
   {
-    "title": "FAA ground stop live updates: 'Zero evidence of anything nefarious,' FAA head says",
+    "title": "How travelers can navigate trips as ground stop effects linger, expert says",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "The DHS secretary said there were no indications of a cyberattack.",
+      "FAA administrator Bryan Bedford said the system is expected to be fully recovered by Sunday.",
       "Reporting Desk: ABC News US",
-      "Source Stamp: Sat, 14 Nov 2026 15:51:34 -0500"
+      "Source Stamp: Sat, 14 Nov 2026 19:42:58 -0500"
     ],
     "sources": [
       {
         "name": "ABC News US",
-        "url": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+        "url": "https://abcnews.com/US/travelers-navigate-trips-ground-stop-effects-linger-expert/story?id=138141476",
         "bias": "CENTER"
       }
     ],
@@ -240,20 +240,20 @@
     "id": "story-12"
   },
   {
-    "title": "Authorities investigate 'credible' bomb threat at Illinois plant",
+    "title": "SpaceX’s Starship returns from orbit, caught by launch pad arms in dramatic first",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "No additional devices were found and the evacuation order has been lifted after investigators searched the facility for hours, Peoria police said Saturday.",
+      "It was the grand finale that Elon Musk and his team hoped for.",
       "Reporting Desk: ABC News US",
-      "Source Stamp: Sat, 14 Nov 2026 15:50:59 -0500"
+      "Source Stamp: Sat, 14 Nov 2026 17:11:54 -0500"
     ],
     "sources": [
       {
         "name": "ABC News US",
-        "url": "https://abcnews.com/US/peoria-police-urge-evacuations-after-reported-bomb-threat/story?id=138137440",
+        "url": "https://abcnews.com/Technology/wireStory/spacexs-starship-returns-orbit-captured-launch-pad-arms-138148467",
         "bias": "CENTER"
       }
     ],
@@ -400,6 +400,166 @@
     "id": "story-20"
   },
   {
+    "title": "Netanyahu says it's time to remove Iran threat \"once and for all\"",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Fires had broken out on a total of three oil tankers that struck mines in the Strait of Hormuz overnight and into the morning, Iran's military said Saturday.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sat, 14 Nov 2026 19:56:21 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-21"
+  },
+  {
+    "title": "3 killed when SUV crashes into North Hollywood food stand",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "At least three people were killed and two others were severely injured when an SUV crashed into a food stand near a Metro bus stop in North Hollywood.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sat, 14 Nov 2026 18:53:25 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/news/north-hollywood-food-stand-crash-metro-bus-stop-lankershim-chandler-boulevard/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-22"
+  },
+  {
+    "title": "Travelers stranded, flights canceled after ground stop. Here's what we know",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Officials attributed the ground stop to aging system infrastructure and legacy technology.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sat, 14 Nov 2026 18:49:31 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-23"
+  },
+  {
+    "title": "This week on \"Sunday Morning\" (Nov. 15)",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A look at the features for this week's broadcast of the Emmy-winning program, hosted by Jane Pauley.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sat, 14 Nov 2026 18:46:37 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/news/this-week-on-sunday-morning-nov-15-2026/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-24"
+  },
+  {
+    "title": "5th Canadian soldier dies weeks after fire on military base",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Pvt. William Douglas Dal Bianco died Friday at a hospital in Ontario, where he had been receiving treatment since the Oct. 17 fire at Canadian Forces Base Wainwright in Alberta, the military said.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sat, 14 Nov 2026 18:44:46 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/news/5th-canadian-soldier-dies-wainwright-base-fire/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-25"
+  },
+  {
+    "title": "SpaceX pulls off first Starship recovery from orbit in spectacular fashion",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "It was the first recovery of a Starship from orbit, a major milestone for a rocket SpaceX founder Elon Musk says will dramatically lower launch costs.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sat, 14 Nov 2026 18:06:59 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/news/spacex-catch-starship-rocket/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-26"
+  },
+  {
+    "title": "Passengers rescued after tanker hit river cruise in New Orleans",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A tanker struck a river cruise ship on the Mississippi River near the Port of New Orleans Friday, partially submerging the passenger boat.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sat, 14 Nov 2026 18:05:04 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/news/tanker-cruise-collision-mississippi-river-new-orleans/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-27"
+  },
+  {
+    "title": "U.S. facilitating direct engagement between Europe and Russia",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "President Trump's senior envoy and son-in-law, Jared Kushner, said they are also preparing for the next round of trilateral talks.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Sat, 14 Nov 2026 17:07:08 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/news/us-europe-russia-engagement-ukraine-war/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-28"
+  },
+  {
     "title": "\"Face the Nation with Margaret Brennan\" guests for Nov. 15, 2026",
     "category": "U.S.",
     "country": "United States",
@@ -417,7 +577,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-21"
+    "id": "story-29"
   },
   {
     "title": "Dramatic video shows river boats colliding",
@@ -434,166 +594,6 @@
       {
         "name": "CBS News Main",
         "url": "https://www.cbsnews.com/video/dramatic-video-shows-river-boats-colliding/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-22"
-  },
-  {
-    "title": "Evacuation lifted after bomb threat near industrial plant in Illinois",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Police said the device had been rendered safe and residents were allowed to return to their homes.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 14 Nov 2026 14:57:11 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/peoria-illinois-bomb-threat-evacuation/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-23"
-  },
-  {
-    "title": "Aviation industry expert on next steps after \"everything went haywire\" with huge ground stop",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Travel industry analyst Harvey Harteveldt shares his perspective following a nationwide FAA ground stop.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 14 Nov 2026 14:52:49 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/everything-went-haywire-aviation-industry-expert-says/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-24"
-  },
-  {
-    "title": "How to get a refund after the massive FAA ground stop",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Frustrated travelers are still dealing with delays and cancellations after a nationwide ground stop. Points Path CEO Julian Kheel shares his advice for passengers looking to protect their money when travel plans go awry.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 14 Nov 2026 14:42:53 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/how-to-get-a-refund-amid-air-travel-chaos/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-25"
-  },
-  {
-    "title": "Travelers stranded, flights canceled after ground stop. Here's what we know",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Officials attributed the ground stop to aging system infrastructure and legacy technology.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 14 Nov 2026 14:42:40 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-26"
-  },
-  {
-    "title": "Pilot, former air traffic controller react to national ground stop",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Travelers are still facing delays and cancellations after a national FAA ground stop was lifted. Commercial airline pilot Captain Laura Einsetler and former air traffic controller Todd Yeary share their reactions.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 14 Nov 2026 14:40:00 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/pilot-former-air-traffic-controller/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-27"
-  },
-  {
-    "title": "Netanyahu says it's time to remove Iran threat \"once and for all\"",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Fires had broken out on a total of three oil tankers that struck mines in the Strait of Hormuz overnight and into the morning, Iran's military said Saturday.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 14 Nov 2026 14:22:38 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-28"
-  },
-  {
-    "title": "Duffy blames national ground stop, travel chaos on aging infrastructure",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Hundreds of flights are canceled or delayed after a national ground stop ended. CBS News' Kris Van Cleave, Anna Schecter, Lana Zak, Shawna Mizelle and Taurean Small report.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 14 Nov 2026 13:52:41 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/travel-chaos-lingers-after-national-ground-stop/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-29"
-  },
-  {
-    "title": "This week on \"Sunday Morning\" (Nov. 15)",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "A look at the features for this week's broadcast of the Emmy-winning program, hosted by Jane Pauley.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Sat, 14 Nov 2026 13:39:50 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/this-week-on-sunday-morning-nov-15-2026/",
         "bias": "CENTER"
       }
     ],
@@ -646,7 +646,7 @@
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Former Democratic Rep. Mary Peltola is likely to win the Alaska Senate race, according to an NBC News Decision Desk analysis, as vote-counting continues in the state.",
+      "Former Democratic Rep. Mary Peltola is likely to win Alaska’s Senate race, according to an NBC News Decision Desk analysis, as vote-counting continues in the state.",
       "Reporting Desk: NBC News Top Stories",
       "Source Stamp: Sat, 14 Nov 2026 20:52:49 GMT"
     ],
@@ -660,27 +660,7 @@
     "id": "story-33"
   },
   {
-    "title": "SpaceX’s Starship Flight 15 plans to return to Earth after space launch",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Watch live coverage as SpaceX’s Starship Flight 15 plans to return to Earth after a successful launch and could make history with the world’s first full recovery of an orbital rocket and spacecraft.",
-      "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Fri, 13 Nov 2026 17:58:11 GMT"
-    ],
-    "sources": [
-      {
-        "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/video/watch-live-spacex-launches-starship-on-flight-15-mission-273420869630",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-34"
-  },
-  {
-    "title": "A seismic shakeup at Nvidia, and a Senate flip for the ages: The news quiz",
+    "title": "A seismic shake-up at Nvidia, and a Senate flip for the ages: The news quiz",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
@@ -688,7 +668,7 @@
     "keyFacts": [
       "The FDA issues a warning about GLP-1s, a soccer behemoth dumps its head coach, and this year’s Booker prize winner makes history.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Sat, 14 Nov 2026 10:15:00 GMT"
+      "Source Stamp: Sat, 14 Nov 2026 10:15:41 GMT"
     ],
     "sources": [
       {
@@ -697,7 +677,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-35"
+    "id": "story-34"
   },
   {
     "title": "He was drafted as an NFL team’s future. It arrives now.",
@@ -717,7 +697,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-36"
+    "id": "story-35"
   },
   {
     "title": "2026 Rockefeller Center Christmas Tree Arrives in New York City",
@@ -737,7 +717,147 @@
         "bias": "CENTER"
       }
     ],
+    "id": "story-36"
+  },
+  {
+    "title": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "As Alaska continues to count and report votes weeks after Election Day, it is increasingly unlikely that Republican Sen.",
+      "Reporting Desk: NBC News Top Stories",
+      "Source Stamp: Sat, 14 Nov 2026 21:22:15 GMT"
+    ],
+    "sources": [
+      {
+        "name": "NBC News Top Stories",
+        "url": "https://www.nbcnews.com/politics/2026-election/mary-peltola-track-win-alaska-even-ranked-choice-ballots-come-play-rcna609299",
+        "bias": "CENTER"
+      }
+    ],
     "id": "story-37"
+  },
+  {
+    "title": "Costco-brand whipped cream recalled over potential presence of cleaning chemical",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Costco members who love a whipped topping may consider going à la mode with their favorite dessert instead after the retailer’s Kirkland-brand whipped cream was recalled.",
+      "Reporting Desk: NBC News Top Stories",
+      "Source Stamp: Sat, 14 Nov 2026 21:21:47 GMT"
+    ],
+    "sources": [
+      {
+        "name": "NBC News Top Stories",
+        "url": "https://www.nbcnews.com/news/us-news/costco-brand-whipped-cream-recalled-rcna609344",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-38"
+  },
+  {
+    "title": "Carney says he’s ‘making progress’ with Trump on possible US-Canada trade deal",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Canadian Prime Minister Mark Carney said Saturday trade negotiations between his government and the U.S. were progressing amid a monthslong tariff battle between the two countries.  The leader told reporters in Manila he had a conversation with Presi...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sun, 15 Nov 2026 00:26:46 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/policy/international/6221010-carney-trump-canada-us-trade-progress/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-39"
+  },
+  {
+    "title": "Sunday shows preview: Democrats gear Trump administration probes amid leadership disputes",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Democrats are charting their political future and issuing warnings to exercise their oversight powers against the Trump administration after gaining control of Congress with sweeping midterm election wins. This week, more races were called in Democra...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 14 Nov 2026 23:55:20 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/sunday-talk-shows/6220953-sunday-shows-trump-cabinet-democrats-congress/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-40"
+  },
+  {
+    "title": "Federalist Society’s celebrations mix with shock over Democratic sweep",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Two years ago, a champagne cork went flying&#160;on the Federalist Society convention stage as panelists toasted recent Supreme Court wins. A celebratory mood was still on display at this year’s annual gathering of the conservative legal movement, bu...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 14 Nov 2026 23:25:26 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/policy/6220956-federalist-society-convention-midterm-shock/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-41"
+  },
+  {
+    "title": "Burchett rips Johnson, Thune over FAA funding: ‘Step up to the daggum plate’",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "GOP Rep. Tim Burchett (Tenn.) called on his party&#8217;s congressional leadership — House Speaker Mike Johnson (La.) and Senate Majority Leader John Thune (S.D.) to &#8220;step up to the daggum plate&#8221; Saturday morning, urging the pair to pass ...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 14 Nov 2026 23:08:06 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/house/6220943-burchett-urges-gop-aviation-funding/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-42"
+  },
+  {
+    "title": "Microsoft services fully restored after global disruptions",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": true,
+    "keyFacts": [
+      "Microsoft confirmed its services are fully restored as of Saturday after the tech company faced a massive global outage impacting its platforms earlier in the week. “We have completed our efforts to address the underlying issue of the incident and re...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 14 Nov 2026 21:39:16 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/policy/technology/6220925-microsoft-services-fully-restored-after-global-disruptions/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-43"
   },
   {
     "title": "Italy fines Meta $887M for accessing users’ photos without specific consent",
@@ -757,7 +877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-38"
+    "id": "story-44"
   },
   {
     "title": "Blumenthal says Lutnick ‘must go’ following Nvidia scandal",
@@ -777,7 +897,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-39"
+    "id": "story-45"
   },
   {
     "title": "Trump says he’s working with bipartisan senators on film industry legislation",
@@ -797,7 +917,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-40"
+    "id": "story-46"
   },
   {
     "title": "The MAGA-lomaniacs who could drag America into the abyss",
@@ -817,10 +937,10 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-41"
+    "id": "story-47"
   },
   {
-    "title": "Johnson says ‘we don’t really need any investigation’ on FAA ground stop",
+    "title": "Mike Johnson: ‘We don’t really need any investigation’ into FAA ground stop",
     "category": "Governance",
     "country": "United States",
     "leaning": "CENTER",
@@ -837,107 +957,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-42"
+    "id": "story-48"
   },
   {
-    "title": "Fetterman: Naming Van Hollen majority leader ‘would be troubling’",
-    "category": "Governance",
+    "title": "Airport nightmares continue as FAA struggles to pinpoint blame for historic meltdown",
+    "category": "U.S.",
     "country": "United States",
-    "leaning": "CENTER",
+    "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "Sen. John Fetterman (D-Pa.) hinted that he could leave the Democratic Party if Sen. Chris Van Hollen (D-Md.) is elected as the Senate Majority Leader. “Yeah, absolutely, it would be troubling if my caucus elects someone like Van Hollen that has reall...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 14 Nov 2026 18:19:50 +0000"
+      "Travelers face ongoing flight delays and cancellations as the FAA and Transportation Department investigate whether human error or equipment caused Friday's meltdown.",
+      "Reporting Desk: Los Angeles Times",
+      "Source Stamp: Sat, 14 Nov 2026 16:56:30 GMT"
     ],
     "sources": [
       {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/6220813-fetterman-van-hollen-democrats/",
-        "bias": "CENTER"
+        "name": "Los Angeles Times",
+        "url": "https://www.latimes.com/politics/story/2026-11-14/airport-nightmares-continue-as-faa-struggles-to-pinpoint-blame-for-historic-meltdown",
+        "bias": "LEFT"
       }
     ],
-    "id": "story-43"
-  },
-  {
-    "title": "Russia must be held accountable for its crimes",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Investigations by the International Criminal Court, United Nations and independent human rights organizations have created substantial proof.",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 14 Nov 2026 18:00:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/opinion/international/6218654-russia-war-crimes-ukraine/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-44"
-  },
-  {
-    "title": "5 things to know on the FAA groundings",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The Federal Aviation Administration (FAA) has air traffic control systems back online after a major telecommunications outage grounded all U.S. flights Friday evening. The delay stranded passengers across the country and forced airlines to delay or c...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 14 Nov 2026 17:52:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/policy/transportation/6220783-faa-ground-stop-what-to-know/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-45"
-  },
-  {
-    "title": "New York sued over ‘warning label’ law for social media applications",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "An internet trade group, representing 30 members including Google, YouTube, Facebook and Instagram, has sued the state of New York challenging its law that requires social media platforms ​to provide state-approved warning labels ‌for users. NetChoic...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 14 Nov 2026 17:01:32 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/policy/technology/6220727-netchoice-sues-new-york-social-media/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-46"
-  },
-  {
-    "title": "Stop the political warfare against Elon Musk — our very survival may depend on him",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "For the sake of us all, we need to put hate aside and allow Elon Musk to figure out a way to place our species among the stars, before war, a virus, an asteroid or other cataclysmic event ends all life on Earth.",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Sat, 14 Nov 2026 17:00:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/opinion/campaign/6218513-musk-space-civilization-survival/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-47"
+    "id": "story-49"
   },
   {
     "title": "How Iran used data from social media, fitness apps and satellites to target U.S. bases",
@@ -957,7 +997,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-48"
+    "id": "story-50"
   },
   {
     "title": "California Democrats plan to investigate Trump but leave a third impeachment off the table for now",
@@ -977,7 +1017,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-49"
+    "id": "story-51"
   },
   {
     "title": "Three men, three agendas: Trump, Putin and Xi will meet in China",
@@ -997,7 +1037,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-50"
+    "id": "story-52"
   },
   {
     "title": "Longtime Northern California congressman ousted by political newcomer",
@@ -1017,7 +1057,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-51"
+    "id": "story-53"
   },
   {
     "title": "Thousands of flights affected by FAA ground stop. Here are your rights as a passenger",
@@ -1037,7 +1077,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-52"
+    "id": "story-54"
   },
   {
     "title": "Supreme Court agrees to rule on Trump's asylum ban at the southern border",
@@ -1057,7 +1097,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-53"
+    "id": "story-55"
   },
   {
     "title": "Pope Leo XIV's return to Peru thrills those who recall 'Padre Robert'",
@@ -1077,27 +1117,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-54"
-  },
-  {
-    "title": "Midterms revive debate over online hate speech",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "LEFT",
-    "feelGood": false,
-    "keyFacts": [
-      "Unhinged speech surfaces on Facebook after midterm elections",
-      "Reporting Desk: Los Angeles Times",
-      "Source Stamp: Fri, 13 Nov 2026 11:00:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Los Angeles Times",
-        "url": "https://www.latimes.com/business/story/2026-11-13/unhinged-speech-surfaces-on-facebook-after-midterm-elections",
-        "bias": "LEFT"
-      }
-    ],
-    "id": "story-55"
+    "id": "story-56"
   },
   {
     "title": "Arellano: Mexican ambassador says 'it's business as usual' after the midterms and Miller's promotion",
@@ -1117,107 +1137,27 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-56"
+    "id": "story-57"
   },
   {
-    "title": "Surf legend's girlfriend said he was killed in a robbery. Authorities now suspect her in his murder",
+    "title": "Midterms revive debate over online hate speech",
     "category": "U.S.",
     "country": "United States",
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "Kurt Van Dyke, a legendary Santa Cruz surfer, was found dead with stab wounds and signs of asphyxiation in February.",
+      "Unhinged speech surfaces on Facebook after midterm elections",
       "Reporting Desk: Los Angeles Times",
-      "Source Stamp: Fri, 13 Nov 2026 06:32:16 GMT"
+      "Source Stamp: Fri, 13 Nov 2026 11:00:00 GMT"
     ],
     "sources": [
       {
         "name": "Los Angeles Times",
-        "url": "https://www.latimes.com/california/story/2026-11-12/slain-surf-legends-girlfriend-arrested-in-his-murder",
+        "url": "https://www.latimes.com/business/story/2026-11-13/unhinged-speech-surfaces-on-facebook-after-midterm-elections",
         "bias": "LEFT"
       }
     ],
-    "id": "story-57"
-  },
-  {
-    "title": "Key moments from ground stop of planes in the U.S. by the FAA on Friday",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Some flights diverted to Canada; no evidence cyberattack to blame for air traffic control issues, American officials say",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 13 Nov 2026 22:24:38 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-faa-ground-stop-us-flights-live-updates/",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-58"
-  },
-  {
-    "title": "U.S. air travel should recover from nationwide ground stop by end of Sunday, officials say",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Canadians were among travellers stranded in airports after thousands of flights cancelled, delayed",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sat, 14 Nov 2026 15:37:24 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-faa-nationwide-ground-stop-flight-cancellations/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-59"
-  },
-  {
-    "title": "Pope Leo is on a lonely crusade to inspire AI to work for the good of humanity",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "He’s using messages, speeches and papal visits to share his apprehension",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sat, 14 Nov 2026 11:15:00 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-pope-leo-lonely-crusade-to-inspire-ai-to-work-for-good-of-humanity/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-60"
-  },
-  {
-    "title": "What to know about flights now that the U.S. ground stop is over",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "It will take a while to get air traffic back to normal, officials warn",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Sat, 14 Nov 2026 14:00:40 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-what-to-know-flights-us-nationwide-ground-stop/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-61"
   },
   {
     "title": "Tracking the 5,000-kilometre journey between democracy and authoritarianism",
@@ -1237,7 +1177,87 @@
         "bias": "CENTER"
       }
     ],
+    "id": "story-59"
+  },
+  {
+    "title": "Key moments from ground stop of planes in the U.S. by the FAA on Friday",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Some flights diverted to Canada; no evidence cyberattack to blame for air traffic control issues, American officials say",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Fri, 13 Nov 2026 22:24:38 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-faa-ground-stop-us-flights-live-updates/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-60"
+  },
+  {
+    "title": "U.S. air travel should recover from nationwide ground stop by end of Sunday, officials say",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Canadians were among travellers stranded in airports after thousands of flights cancelled, delayed",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sat, 14 Nov 2026 15:37:24 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-faa-nationwide-ground-stop-flight-cancellations/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-61"
+  },
+  {
+    "title": "Pope Leo is on a lonely crusade to inspire AI to work for the good of humanity",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "He’s using messages, speeches and papal visits to share his apprehension",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sat, 14 Nov 2026 11:15:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-pope-leo-lonely-crusade-to-inspire-ai-to-work-for-good-of-humanity/",
+        "bias": "CENTER"
+      }
+    ],
     "id": "story-62"
+  },
+  {
+    "title": "What to know about flights now that the U.S. ground stop is over",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "It will take a while to get air traffic back to normal, officials warn",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sat, 14 Nov 2026 14:00:40 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-what-to-know-flights-us-nationwide-ground-stop/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-63"
   },
   {
     "title": "Kreiss-Tomkins elected as Alaska governor in state’s first Democrat win since 1998",
@@ -1257,7 +1277,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-63"
+    "id": "story-64"
   },
   {
     "title": "U.S. asked Ukraine if it would cede Donbas for NATO membership, Zelensky says",
@@ -1277,7 +1297,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-64"
+    "id": "story-65"
   },
   {
     "title": "Ask journalist Mark MacKinnon about his 5,000-kilometre journey across the New Iron Curtain",
@@ -1297,7 +1317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-65"
+    "id": "story-66"
   },
   {
     "title": "Microsoft services fully restored after massive outage disrupts workers across globe",
@@ -1317,7 +1337,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-66"
+    "id": "story-67"
   },
   {
     "title": "U.S. lifts nationwide ground stop after FAA order triggers widespread flight disruptions",
@@ -1337,7 +1357,87 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-67"
+    "id": "story-68"
+  },
+  {
+    "title": "Carney seeks Grey Cup repeat with Elks this time",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Malik Carney will see familiar faces on the other side of the football Sunday.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Sat, 14 Nov 2026 22:54:51 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/news/12151370/carney-seeks-grey-cup-repeat-with-elks-this-time/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-69"
+  },
+  {
+    "title": "Elks, Alouettes stage final Grey Cup walkthroughs",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Cody Fajardo isn't going to mess with a winning formula, not even during Grey Cup week.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Sat, 14 Nov 2026 22:26:59 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/news/12151350/elks-alouettes-stage-final-grey-cup-walkthroughs/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-70"
+  },
+  {
+    "title": "4 charged following May homicide in Maple Ridge",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The Integrated Homicide Investigation Team (IHIT) said Saturday that 25-year-old Charles Thomas Shields has been charged with one count of first-degree murder.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Sat, 14 Nov 2026 22:16:11 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/news/12151333/4-charged-maple-ridge-homicide/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-71"
+  },
+  {
+    "title": "Fifth Canadian soldier has died after fire in Wainwright, CAF says",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A fifth Canadian soldier has died from injuries sustained during a training exercise last month at Canadian Forces Base Wainwright in Alberta.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Sat, 14 Nov 2026 21:11:09 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/news/12151278/5-dead-cfb-wainwright/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-72"
   },
   {
     "title": "New Orleans port sues to get control of tanker that crashed into cruise ship",
@@ -1357,16 +1457,16 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-68"
+    "id": "story-73"
   },
   {
-    "title": "‘Major’ fire tears through small town northwest of Edmonton",
+    "title": "Major fire tears through Mayerthorpe, at least 3 businesses lost",
     "category": "World",
     "country": "Canada",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "At least three businesses were lost following a “major” fire that burned through the town centre in Mayerthorpe, Atla., the local mayor said.",
+      "At least three businesses were lost following a major overnight fire that burned through the town centre in Mayerthorpe, the mayor said.",
       "Reporting Desk: Global News Canada",
       "Source Stamp: Sat, 14 Nov 2026 20:18:32 +0000"
     ],
@@ -1377,7 +1477,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-69"
+    "id": "story-74"
   },
   {
     "title": "Alouettes looking for better result in Grey Cup",
@@ -1397,7 +1497,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-70"
+    "id": "story-75"
   },
   {
     "title": "Avalanche stars MacKinnon, Makar to miss weeks",
@@ -1417,7 +1517,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-71"
+    "id": "story-76"
   },
   {
     "title": "Air travel schedule should recover by Sunday, FAA says",
@@ -1437,7 +1537,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-72"
+    "id": "story-77"
   },
   {
     "title": "Canada-U.S. trade deal must include viable auto sector, Carney says",
@@ -1457,87 +1557,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-73"
-  },
-  {
-    "title": "The Curator: I tried the Ninja Crispi microwave and air fryer—is it worth replacing two appliances?",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "I wanted to know whether this was actually useful—or just another appliance looking for counter space.",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Sat, 14 Nov 2026 16:00:10 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/the-curator/12151021/i-tried-the-ninja-crispi-microwave-and-air-fryer-is-it-worth-replacing-two-appliances/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-74"
-  },
-  {
-    "title": "Lawyers unsure if extra funding can reduce massive caseload at Federal Court",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The Federal Court asked for additional resources to handle a caseload that's ballooned to nearly 31,000 proceedings commenced as of Sept. 30 — up from about 7,600 in all of 2020.",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Sat, 14 Nov 2026 15:20:40 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/news/12151047/federal-court-funding/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-75"
-  },
-  {
-    "title": "CFB Wainwright incident casts spotlight on reserve pay disparities: former bureaucrat",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Four soldiers died and 39 others — including several reservists — were injured when a fire suddenly overtook a training area at CFB Wainwright last month.",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Sat, 14 Nov 2026 15:09:50 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/news/12151043/cfb-wainwright-reserve-pay-disparities/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-76"
-  },
-  {
-    "title": "Microsoft says services fully restored after global disruption",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": true,
-    "keyFacts": [
-      "Microsoft products are fully operational after a massive outage that left some users unable to access emails for more than 24 hours, the company said Saturday morning.",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Sat, 14 Nov 2026 14:45:09 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/news/12151032/microsoft-outage-over/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-77"
+    "id": "story-78"
   },
   {
     "title": "Does Europe regret its bet on U.S. defense?",
@@ -1557,7 +1577,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-78"
+    "id": "story-79"
   },
   {
     "title": "'Punch in the gut': Homes sales fall to their lowest in 16 years",
@@ -1577,7 +1597,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-79"
+    "id": "story-80"
   },
   {
     "title": "Why is gasoline suddenly under $4 a gallon?",
@@ -1597,7 +1617,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-80"
+    "id": "story-81"
   },
   {
     "title": "Gas prices dip below $4 but inflation remains stubbornly high",
@@ -1617,7 +1637,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-81"
+    "id": "story-82"
   },
   {
     "title": "Why did California's billionaire tax fail to surf the blue wave?",
@@ -1637,7 +1657,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-82"
+    "id": "story-83"
   },
   {
     "title": "INFLATION REPORT",
@@ -1657,7 +1677,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-83"
+    "id": "story-84"
   },
   {
     "title": "Economist discusses taxing the ultra wealthy and their impact on the economy",
@@ -1677,7 +1697,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-84"
+    "id": "story-85"
   },
   {
     "title": "Can Congress fix affordability? MIT's Daron Acemoglu weighs in",
@@ -1697,7 +1717,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-85"
+    "id": "story-86"
   },
   {
     "title": "Hiring jumps: The economy added 165,000 jobs last month",
@@ -1717,7 +1737,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-86"
+    "id": "story-87"
   },
   {
     "title": "Why gold prices are surprisingly low",
@@ -1737,7 +1757,67 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-87"
+    "id": "story-88"
+  },
+  {
+    "title": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The historic first gets SpaceX closer to “rapid reusability” of rockets.",
+      "Reporting Desk: MarketWatch",
+      "Source Stamp: Sun, 15 Nov 2026 00:33:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-89"
+  },
+  {
+    "title": "I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Is that a good investment?",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "“I have a net worth of $2.3 million and my only debt is a 15-year mortgage.”",
+      "Reporting Desk: MarketWatch",
+      "Source Stamp: Sat, 14 Nov 2026 21:31:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-90"
+  },
+  {
+    "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "“He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
+      "Reporting Desk: MarketWatch",
+      "Source Stamp: Sat, 14 Nov 2026 21:00:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-91"
   },
   {
     "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
@@ -1757,7 +1837,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-88"
+    "id": "story-92"
   },
   {
     "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
@@ -1777,7 +1857,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-89"
+    "id": "story-93"
   },
   {
     "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
@@ -1797,7 +1877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-90"
+    "id": "story-94"
   },
   {
     "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
@@ -1817,7 +1897,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-91"
+    "id": "story-95"
   },
   {
     "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
@@ -1837,7 +1917,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-92"
+    "id": "story-96"
   },
   {
     "title": "The trillion-dollar mistake corporate America is making about retirement",
@@ -1857,7 +1937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-93"
+    "id": "story-97"
   },
   {
     "title": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’",
@@ -1877,67 +1957,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-94"
+    "id": "story-98"
   },
   {
-    "title": "The lonely labor of caregiving: ‘You shouldn’t have to be rich to take care of the people you love’",
+    "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "“Take Me Home” offers a view of how one family faces caregiving issues and finds solutions.",
-      "Reporting Desk: MarketWatch",
-      "Source Stamp: Sat, 14 Nov 2026 17:50:00 GMT"
+      "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly&nbsp;&nbsp;Bloomberg.com",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Sat, 14 Nov 2026 20:00:00 GMT"
     ],
     "sources": [
       {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/if-you-could-change-one-thing-about-caregiving-what-would-it-be-8b20be29?mod=mw_rss_topstories",
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTzVYbEh2b3Y2SkVCTlRkZXpFWGhVTVNRdUFhWk9XMW1QbEl6X0NyMkdIVFJFQjNlUXd5QjNqeE14eUh0MW41bzYwUmpDemZSZ1BnOHJHRk8taUFtaE5hR0ROc2otbjBaTDJwUE5EbXNrQjlxcjZfSWdrZnNPOV96TWJMQlRNNXdUZUVvcFBVbzl1MlNtUHBCLS1kRWZKSERYOENCbGFCUFhnUUtNMUNF?oc=5",
         "bias": "CENTER"
       }
     ],
-    "id": "story-95"
-  },
-  {
-    "title": "Medicare at age 50? What ‘Medicare for more’ could mean for American workers.",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "It’s not “Medicare for All,” but a new bill would lower the Medicare age to 50, expanding coverage for 60 million adults",
-      "Reporting Desk: MarketWatch",
-      "Source Stamp: Sat, 14 Nov 2026 17:50:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/its-not-medicare-for-all-but-medicare-for-more-what-this-could-mean-for-workers-over-50-4a5c51a3?mod=mw_rss_topstories",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-96"
-  },
-  {
-    "title": "Why this ‘big idea’ to fix Social Security relies on a massive stock-market gamble",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "From a long-term perspective, the past 50 years of strong market gains are the exception rather than the rule",
-      "Reporting Desk: MarketWatch",
-      "Source Stamp: Sat, 14 Nov 2026 17:50:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/why-this-big-idea-to-fix-social-security-relies-on-a-massive-stock-market-gamble-5423f50f?mod=mw_rss_topstories",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-97"
+    "id": "story-99"
   },
   {
     "title": "Pentagon Eyes Smaller Troop Cuts Across Europe in Reversal - Bloomberg.com",
@@ -1957,7 +1997,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-98"
+    "id": "story-100"
   },
   {
     "title": "Duffy Probing Possible L3Harris ‘Incompetence’ in FAA Meltdown - Bloomberg.com",
@@ -1968,7 +2008,7 @@
     "keyFacts": [
       "Duffy Probing Possible L3Harris ‘Incompetence’ in FAA Meltdown&nbsp;&nbsp;Bloomberg.com",
       "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sat, 14 Nov 2026 17:24:22 GMT"
+      "Source Stamp: Sat, 14 Nov 2026 19:35:01 GMT"
     ],
     "sources": [
       {
@@ -1977,7 +2017,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-99"
+    "id": "story-101"
+  },
+  {
+    "title": "Fetterman Says Van Hollen as Senate Leader Would Be ‘Troubling’ - Bloomberg.com",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Fetterman Says Van Hollen as Senate Leader Would Be ‘Troubling’&nbsp;&nbsp;Bloomberg.com",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Sat, 14 Nov 2026 17:46:23 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ1VpUkNJTDJUbUFmVWFybWpBQUt3dmh4WmJNbS1tZ3BhbkthQ0xEVDZKOE5EQ3Fsb2x0MEwxM1RRM2FYVDFyOWpJM1RoOGl2VDBWOHpjQmNZNkZQdTVKVmpKYVdIN3YyT0pYWlp1ekkyOWF6bmc5eWJJbXhFLU9IVk84S1NKT045YmZuelk4azdZcTA3NTBNUjkxNktUZ1M4VUVzdnpqVzRKX0VhWm5USW9B?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-102"
   },
   {
     "title": "Fed’s Collins Says ‘Steady, Gradual’ Rate Hikes Appropriate - Bloomberg.com",
@@ -1997,7 +2057,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-100"
+    "id": "story-103"
   },
   {
     "title": "SpaceX’s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger - Bloomberg.com",
@@ -2017,7 +2077,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-101"
+    "id": "story-104"
   },
   {
     "title": "Italy Fines Meta €805 Million Over Access to Users’ Photos - Bloomberg.com",
@@ -2037,7 +2097,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-102"
+    "id": "story-105"
   },
   {
     "title": "AI Tools Huang Championed Now Star in Memes of His Downfall - Bloomberg.com",
@@ -2057,7 +2117,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-103"
+    "id": "story-106"
+  },
+  {
+    "title": "SpaceX Catches Starship in Novel Landing at Texas Site - Bloomberg.com",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "SpaceX Catches Starship in Novel Landing at Texas Site&nbsp;&nbsp;Bloomberg.com",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Sat, 14 Nov 2026 21:56:42 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOTdNZU40cFBlcGlnc0ZwckIzbVRuOGw1bjJya0dERkotVVRBVjN2ZmMtanZFeVJyek5SQ2VUdGQ5ZENXU2d2dW02eE8wOFFYQmZYdnR4UnRYYndTbEtzUm16cGdtejdyQjZWeTVSQ1dJYnZNSVFiNjlFemowWE9qVmc5QlUyMkQxMm01RXRtRTVpTENkSFh4Ukl6R1ZPc2lzTVhOaEJTZ1NOek45Vm1aWQ?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-107"
   },
   {
     "title": "The DOJ’s Failure in Chicago Will Have Nationwide Consequences - Bloomberg.com",
@@ -2077,67 +2157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-104"
-  },
-  {
-    "title": "Zelenskyy Says US Floats NATO Membership in Deal for Donbas - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Zelenskyy Says US Floats NATO Membership in Deal for Donbas&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sat, 14 Nov 2026 11:21:47 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZnU2bWVzWEppMldUY3MzMlhnMVhZb24tZzYzc2sxQ0VRUDV2dVlfM2taWnJXOXF6bHpOTXVXUGQ1QXI1TjRFWDhTeUFkTEJWMU5EbHFzeE5fX19OWmZKakRsdDhfdjZraFdxWjlHSUdaSzRPNVFjV1dkYTYteXRTd0hpM0tYeGl3cVgyWm16allXZjR0bG41YkE4M1dGckoyUUxLWTAzY3diRzQxSHF5OVctVEtpdw?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-105"
-  },
-  {
-    "title": "SpaceX to Attempt First Full Recovery of New Starship Rocket - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "SpaceX to Attempt First Full Recovery of New Starship Rocket&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sat, 14 Nov 2026 12:00:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOTdNZU40cFBlcGlnc0ZwckIzbVRuOGw1bjJya0dERkotVVRBVjN2ZmMtanZFeVJyek5SQ2VUdGQ5ZENXU2d2dW02eE8wOFFYQmZYdnR4UnRYYndTbEtzUm16cGdtejdyQjZWeTVSQ1dJYnZNSVFiNjlFemowWE9qVmc5QlUyMkQxMm01RXRtRTVpTENkSFh4Ukl6R1ZPc2lzTVhOaEJTZ1NOek45Vm1aWQ?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-106"
-  },
-  {
-    "title": "China’s Brewing Soft Power in the US Smells Like Coffee - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "China’s Brewing Soft Power in the US Smells Like Coffee&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Sat, 14 Nov 2026 12:00:06 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNand4NUNmUHpHM1NwV3V4Z0YzcUM1VVNEQ1dtYlVlVm5haGlidGtBcHJVU2ZvX2RrY3lVQjFEdEFtbzJtbXduaUduRTIxcnYtVGhJRHZ4bDk0cTk2WU1fWDhpczJja3BUc0NhdGtwVXE2S3ZSYXN0NGY3MVFWc21OWTd4aC11N01lYXZlOFgwOHVnc1RYbDk0WXZVNVk4MkZ4NUFCd0Ftd1ZZWTg?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-107"
+    "id": "story-108"
   },
   {
     "title": "Outage That Swamped Air Travel Blamed on ‘Routine’ Work to Replace Copper Wire - WSJ",
@@ -2148,7 +2168,7 @@
     "keyFacts": [
       "Outage That Swamped Air Travel Blamed on ‘Routine’ Work to Replace Copper Wire&nbsp;&nbsp;WSJ",
       "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sat, 14 Nov 2026 19:24:00 GMT"
+      "Source Stamp: Sun, 15 Nov 2026 00:18:00 GMT"
     ],
     "sources": [
       {
@@ -2157,7 +2177,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-108"
+    "id": "story-109"
   },
   {
     "title": "Print Edition | Wall Street Journal - WSJ",
@@ -2168,7 +2188,7 @@
     "keyFacts": [
       "Print Edition | Wall Street Journal&nbsp;&nbsp;WSJ",
       "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sat, 14 Nov 2026 18:41:36 GMT"
+      "Source Stamp: Sun, 15 Nov 2026 00:43:57 GMT"
     ],
     "sources": [
       {
@@ -2177,7 +2197,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-109"
+    "id": "story-110"
   },
   {
     "title": "News Quiz for Nov. 14, 2026 - WSJ",
@@ -2197,7 +2217,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-110"
+    "id": "story-111"
   },
   {
     "title": "In Jensen Huang’s Ouster, Tech Billionaires See a Mistake—and a Lesson - WSJ",
@@ -2217,7 +2237,27 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-111"
+    "id": "story-112"
+  },
+  {
+    "title": "Our Reporter Tried About 50 Apple Varieties to Find the Crispest One - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "Our Reporter Tried About 50 Apple Varieties to Find the Crispest One&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Sat, 14 Nov 2026 13:25:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMnRzajc2TVhDWXo1ODQ4dVRxdlo2enlWVm1pd3ZzN2o1Z29XeXRVVC1VcVJGVGoxRVZXN0Z4UHhGR3dVNGNaTkpiSmstN08wQ3U2TEI0cmxEV3BLaDdua1FiME1vZjZKNkZoZW0xOUJudjctT0k3b1VBQk9wLTZ1YWNyR09Mbm5SRkpELTNhOHV2YXFucUZacXA3NXE5d2hQM1FTQ05R?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-113"
   },
   {
     "title": "Exclusive | Kevin Durant Lists U-Shaped Arizona House for $13.9 Million - WSJ",
@@ -2228,7 +2268,7 @@
     "keyFacts": [
       "Exclusive | Kevin Durant Lists U-Shaped Arizona House for $13.9 Million&nbsp;&nbsp;WSJ",
       "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sat, 14 Nov 2026 13:00:00 GMT"
+      "Source Stamp: Sat, 14 Nov 2026 19:30:42 GMT"
     ],
     "sources": [
       {
@@ -2237,7 +2277,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-112"
+    "id": "story-114"
   },
   {
     "title": "What Jensen Huang’s Downfall Means for Big Tech - WSJ",
@@ -2257,7 +2297,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-113"
+    "id": "story-115"
   },
   {
     "title": "Facing Backlash on Land, Data Centers Look to the Sea - WSJ",
@@ -2268,7 +2308,7 @@
     "keyFacts": [
       "Facing Backlash on Land, Data Centers Look to the Sea&nbsp;&nbsp;WSJ",
       "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sat, 14 Nov 2026 18:00:00 GMT"
+      "Source Stamp: Sat, 14 Nov 2026 18:01:25 GMT"
     ],
     "sources": [
       {
@@ -2277,7 +2317,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-114"
+    "id": "story-116"
   },
   {
     "title": "Why Tesla Is Pulling the Plug on Cybertruck - WSJ",
@@ -2297,47 +2337,47 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-115"
-  },
-  {
-    "title": "Exclusive | Powerful Trump Allies Aided a Chinese Vape Operation - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "Exclusive | Powerful Trump Allies Aided a Chinese Vape Operation&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sat, 14 Nov 2026 02:00:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa0xSTUNxS1dwNy00ZHBHSmVqSUlEdmhUWENKUGZZYzRSOEdRZE1SVGVvQ2ZRUG1WSkZrQTBQVnJaOHgtN3JoMGhiYjJMRVhxNjdLcW05U3VmU1k1ZXA3bWduWmZmdWJPUTA2MW4xbjQ3XzNMSWQ4dXVuVE1nRnBCT2RwTQ?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-116"
-  },
-  {
-    "title": "California Voters Pass Ban on Wealth Taxes - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "California Voters Pass Ban on Wealth Taxes&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Sat, 14 Nov 2026 02:03:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcE1wZDZOZzRmY1R0N2diaU4xbWlOZ2ZDTVVuaTlqbzJQNkRzd2FXQ1NVT1U0NGJudnVPRVRmMG50RVJ6M0N0dHE0ZkxIN3p0cVZhRTJMaHRfYkJyMzllclBxcVVKdzRpVjRwRGlPTjdibjlRNnhBZVVGeVI5VVl5WFlKZ3JFLUU?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
     "id": "story-117"
+  },
+  {
+    "title": "The Massive Chinese Spy Operation Targeting Western Tech and AI | The 10-Point for Nov. 14 - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "The Massive Chinese Spy Operation Targeting Western Tech and AI | The 10-Point for Nov. 14&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Sat, 14 Nov 2026 12:06:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaXd4UlN6UWw5UmxJZGc3QnA5Sm5hVi1hRUl1blh3bnRfSnc3Zk4yeG53UjdFbjFvaklZbWRrN0ludmgxbm02cDFBZURTaXdDQTNxZ0gyZUk0OG5XeGVUUy1CZW94T19IUmVLWmFacU02eDVLbnYxcGU0TDI5SDVxMTQ3T0RaanNTdFFaUWpWZEZIbnVDU0hyUFpUVHAzajF4bTlJaWlCUQ?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-118"
+  },
+  {
+    "title": "Spain test will reveal if Tuchel and England have learned World Cup lessons",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "England's game with world champions Spain will reveal if head coach Thomas Tuchel has learned from summer disappointment, says chief football writer Phil McNulty.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 14 Nov 2026 20:22:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cq2d9l3e313zo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-119"
   },
   {
     "title": "'One of the greatest wins' - Wales stun All Blacks to go from no-hopers to heroes",
@@ -2357,27 +2397,87 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-118"
+    "id": "story-120"
   },
   {
-    "title": "Joseph scores record-equalling five tries as England rout Japan",
+    "title": "Comeback kid Joseph thrills as England eye All Blacks",
     "category": "Sports",
     "country": "United Kingdom",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Will Joseph marked his comeback after four years out the Test game with a record-equalling five tries as England tore through Japan.",
+      "Will Joseph's comeback after four years off the Test scene was worth waiting for. And there was plenty elsewhere to buoy England in a rout of Japan.",
       "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 14 Nov 2026 18:31:30 GMT"
+      "Source Stamp: Sat, 14 Nov 2026 21:06:00 GMT"
     ],
     "sources": [
       {
         "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg208nlw04o?at_medium=RSS&at_campaign=rss",
+        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq0l3pn5z20xo?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
-    "id": "story-119"
+    "id": "story-121"
+  },
+  {
+    "title": "Fiji 'did Ireland a favour' before South Africa game",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Former South Africa head coach Jake White says his Fiji side \"did Ireland a favour\" in Saturday's Nations Championship match before they face the Springboks in Dublin next week.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sun, 15 Nov 2026 00:29:26 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c9e85d7mm0myo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-122"
+  },
+  {
+    "title": "Svitolina races in WTA Finals showpiece against Andreeva",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Elina Svitolina drops just three games as she thrashes Linda Noskova to set up a WTA Finals showpiece against Mirra Andreeva.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 14 Nov 2026 23:31:10 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/tennis/articles/ck5y1xdrne28o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-123"
+  },
+  {
+    "title": "Littler beats Greaves to start Grand Slam defence",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Luke Littler begins his Grand Slam of Darts title defence with a comfortable 5-2 win over Beau Greaves in Wolverhampton.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 14 Nov 2026 23:10:08 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/darts/articles/c61mdlgd94zno?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-124"
   },
   {
     "title": "Bompastor's risks pay off as Chelsea go top of WSL",
@@ -2397,7 +2497,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-120"
+    "id": "story-125"
+  },
+  {
+    "title": "The 'manager's dream' who has put NI one game from history",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "After scoring his first international goal in the 1-0 win over Ukraine, Northern Ireland boss Michael O'Neill says Terry Devlin is \"a bit of a dream\" to manage.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 14 Nov 2026 23:21:45 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c84gn2dl4zleo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-126"
   },
   {
     "title": "'No racism in Spain' – De la Fuente message for Tuchel",
@@ -2406,7 +2526,7 @@
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Spain manager Luis de la Fuente says \"there is no racism in Spain\" after Thomas Tuchel issued a warning to his England players before Sunday's Nations League meeting in Madrid.",
+      "Spain manager Luis de la Fuente says \"there is no racism in Spain\" and England boss Thomas Tuchel reiterates that he does not believe it will be an issue at Sunday's Nations League meeting in Madrid.",
       "Reporting Desk: BBC Sports Desk",
       "Source Stamp: Sat, 14 Nov 2026 20:43:57 GMT"
     ],
@@ -2417,127 +2537,67 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-121"
-  },
-  {
-    "title": "Tenerife boss says Owono's 12-match ban 'feels light'",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Tenerife boss Alvaro Cervera reacts to goalkeeper Jesus Owono's 12-match ban as the club prepare for their first game since the death of Jesus de Miguel.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 14 Nov 2026 16:26:49 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cmjeq0x815zko?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-122"
-  },
-  {
-    "title": "Rice close to signing new Arsenal contract",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Arsenal and England midfielder Declan Rice says he is close to signing a new contract with his club.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 14 Nov 2026 20:40:35 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cq0mdzrjn0j2o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-123"
-  },
-  {
-    "title": "McIlroy fades as Hatton leads in Dubai",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Rory McIlroy's hopes of an eighth Race to Dubai title are dented as Tyrrell Hatton takes the outright lead into the fourth round of the DP World Tour Championship.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 14 Nov 2026 14:09:23 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/golf/articles/cqkgm00ykp7ko?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-124"
-  },
-  {
-    "title": "Highlights: Wales beat New Zealand for first time in 73 years",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Watch the best of the action as Wales beat New Zealand for the first time in 73 years",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 14 Nov 2026 16:35:13 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/rugby-union/videos/ckdd10y25mm1o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-125"
-  },
-  {
-    "title": "Joseph enjoys dream return as England thrash Japan at Twickenham",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "After four years away from international rugby, Will Joseph marks his return in style by scoring a record-equalling five tries as England humiliate Japan at Twickenham, scoring 13 tries in a 78-15 victory in the Nations Championship.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 14 Nov 2026 19:32:45 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cmn0d1w0ry0no?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-126"
-  },
-  {
-    "title": "Haaland helps Norway to win over Wales in Nations League",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Watch the best of the action as Norway beat Wales in the Nations League in Oslo.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Sat, 14 Nov 2026 19:23:13 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/videos/cr20vgxv43p8o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-127"
+  },
+  {
+    "title": "Sabalenka apologises & says viral comment 'not directed at Svitolina'",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Aryna Sabalenka apologises and denies claims she insulted opponent Elina Svitolina after a viral clip showed her swearing during her WTA Finals defeat by the Ukrainian.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 14 Nov 2026 22:42:30 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/tennis/articles/ck62p9ge4d76o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-128"
+  },
+  {
+    "title": "Hello? James Gleick's new book compares the history of the telephone to the modern era",
+    "category": "Tech",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Have you ever wondered where phone etiquette or the idea for the first social network came from? Author James Gleick talks about his new book, The Telephone.",
+      "Reporting Desk: NPR Tech",
+      "Source Stamp: Sat, 14 Nov 2026 17:48:35 -0500"
+    ],
+    "sources": [
+      {
+        "name": "NPR Tech",
+        "url": "https://www.npr.org/2026/11/14/nx-s1-6037416/hello-james-gleicks-new-book-compares-the-history-of-the-telephone-to-the-modern-era",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-129"
+  },
+  {
+    "title": "SpaceX makes history with Starship catch",
+    "category": "Tech",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "SpaceX catches its Starship rocket as it comes back from space for the very first time.",
+      "Reporting Desk: NPR Tech",
+      "Source Stamp: Sat, 14 Nov 2026 17:31:41 -0500"
+    ],
+    "sources": [
+      {
+        "name": "NPR Tech",
+        "url": "https://www.npr.org/2026/11/14/nx-s1-6041089/spacex-makes-history-with-starship-catch",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-130"
   },
   {
     "title": "Asia Society's Lizzi C. Lee on big tech restrictions after Nvidia espionage claims",
@@ -2557,7 +2617,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-128"
+    "id": "story-131"
   },
   {
     "title": "Microsoft outage disrupts work and gives some a chance to unplug",
@@ -2577,7 +2637,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-129"
+    "id": "story-132"
   },
   {
     "title": "Colette Kress becomes Nvidia's interim CEO after Jensen Huang resigns",
@@ -2597,7 +2657,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-130"
+    "id": "story-133"
   },
   {
     "title": "Nvidia's interim CEO inherits risky AI bets and a legal mess",
@@ -2617,7 +2677,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-131"
+    "id": "story-134"
   },
   {
     "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
@@ -2637,7 +2697,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-132"
+    "id": "story-135"
   },
   {
     "title": "Microsoft investigating widespread outage that took email and other apps offline",
@@ -2657,7 +2717,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-133"
+    "id": "story-136"
   },
   {
     "title": "A negative Outlook: Microsoft scrambles to fix email outage",
@@ -2677,7 +2737,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-134"
+    "id": "story-137"
   },
   {
     "title": "What we know so far about Nvidia interim CEO Colette Kress",
@@ -2697,47 +2757,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-135"
+    "id": "story-138"
   },
   {
-    "title": "Nvidia CEO Jensen Huang steps down amid alleged spy scandal",
+    "title": "A new policy could help solve the U.S. organ shortage. Critics say it's unethical",
     "category": "Tech",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Huang co-founded the chipmaker Nvidia, which has become one of the driving forces behind the AI boom. But reports that he may have had an affair with an alleged Chinese spy quickly sank his career.",
-      "Reporting Desk: NPR Tech",
-      "Source Stamp: Thu, 12 Nov 2026 09:17:20 -0500"
+      "New guidelines are supposed to protect organ donors in a retrieval procedure that keeps blood flowing through livers, kidneys, lungs and hearts. But bioethicists have troubling questions.",
+      "Reporting Desk: NPR Science",
+      "Source Stamp: Sat, 14 Nov 2026 05:00:00 -0500"
     ],
     "sources": [
       {
-        "name": "NPR Tech",
-        "url": "https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-stepped-down",
+        "name": "NPR Science",
+        "url": "https://www.npr.org/2026/11/14/nx-s1-6032604/organ-transplant-donor-dead-ethics",
         "bias": "CENTER"
       }
     ],
-    "id": "story-136"
-  },
-  {
-    "title": "Swatters are using AI voices to deceive 911 dispatchers, and it's only getting worse",
-    "category": "Tech",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Swatters are increasingly using AI technology that creates synthetic voices or sound effects to generate remarkably believable fake emergency calls to law enforcement.",
-      "Reporting Desk: NPR Tech",
-      "Source Stamp: Wed, 11 Nov 2026 05:00:00 -0500"
-    ],
-    "sources": [
-      {
-        "name": "NPR Tech",
-        "url": "https://www.npr.org/2026/11/11/nx-s1-6034449/ai-911-calls-swatting",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-137"
+    "id": "story-139"
   },
   {
     "title": "SpaceX's giant rocket may leave NASA in the dust",
@@ -2757,7 +2797,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-138"
+    "id": "story-140"
   },
   {
     "title": "This week in science: PTSD prediction, phishing while tired, an exoplanet",
@@ -2777,7 +2817,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-139"
+    "id": "story-141"
   },
   {
     "title": "Scientists think they've found ancient remnants of dinosaur blood",
@@ -2797,7 +2837,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-140"
+    "id": "story-142"
   },
   {
     "title": "Mice can learn to fight by watching tiny rodent cage matches, study finds",
@@ -2817,7 +2857,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-141"
+    "id": "story-143"
   },
   {
     "title": "He was diagnosed with cancer. Then he was told he lost his Medicaid",
@@ -2837,7 +2877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-142"
+    "id": "story-144"
   },
   {
     "title": "NASA is looking for astronauts to live and work on the Moon",
@@ -2857,7 +2897,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-143"
+    "id": "story-145"
   },
   {
     "title": "Climate change is altering the colors we see in the world: an illustrated journey",
@@ -2877,7 +2917,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-144"
+    "id": "story-146"
   },
   {
     "title": "How octopuses squeeze through teeny tiny holes",
@@ -2897,27 +2937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-145"
-  },
-  {
-    "title": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
-    "category": "Tech",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Oyster reefs once abounded in the Chesapeake, but overharvesting slashed their populations, leading to poorer water quality and less habitat for other species. Now, researchers and local residents are finding creative ways to bring their numbers back...",
-      "Reporting Desk: NPR Science",
-      "Source Stamp: Sat, 31 Oct 2026 05:00:00 -0400"
-    ],
-    "sources": [
-      {
-        "name": "NPR Science",
-        "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-146"
+    "id": "story-147"
   },
   {
     "title": "Beware the New AI-Fueled Ransomware Boom",
@@ -2937,7 +2957,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-147"
+    "id": "story-148"
   },
   {
     "title": "I Put the Best Digital Notebooks to the Test. Here Are My Favorites (2026)",
@@ -2957,7 +2977,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-148"
+    "id": "story-149"
   },
   {
     "title": "How to Run SteamOS on Your Mac",
@@ -2977,7 +2997,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-149"
+    "id": "story-150"
   },
   {
     "title": "10 Best Early Black Friday Headphone Deals (2026): Up to 50% Off",
@@ -2997,7 +3017,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-150"
+    "id": "story-151"
   },
   {
     "title": "It’s Time to Run an Audit of All the Cloud Storage Links You’ve Shared",
@@ -3017,7 +3037,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-151"
+    "id": "story-152"
   },
   {
     "title": "The 21 Best REI Holiday Sale Outdoor Deals (2026)",
@@ -3026,7 +3046,7 @@
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "Stock up on outdoor gear and gifts for friends at REI's annual holiday sale.",
+      "Stock up on outdoor gear and gifts for friends at REI’s annual holiday sale.",
       "Reporting Desk: Wired Tech",
       "Source Stamp: Sat, 14 Nov 2026 11:00:00 +0000"
     ],
@@ -3037,7 +3057,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-152"
+    "id": "story-153"
   },
   {
     "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
@@ -3057,7 +3077,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-153"
+    "id": "story-154"
   },
   {
     "title": "My 9 Favorite Pickleball Paddles From 3 Years of Testing (2026)",
@@ -3077,7 +3097,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-154"
+    "id": "story-155"
   },
   {
     "title": "Floods Force Gaza to Choose Between Clean Water and Pumping Out Sewage",
@@ -3097,7 +3117,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-155"
+    "id": "story-156"
   },
   {
     "title": "We Asked Vogue, GQ, and a Pro Stylist to Kill Jensen Huang’s Leather Jacket",
@@ -3117,7 +3137,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-156"
+    "id": "story-157"
   },
   {
     "title": "Outbursts from a Massive Star",
@@ -3137,7 +3157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-157"
+    "id": "story-158"
   },
   {
     "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
@@ -3157,7 +3177,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-158"
+    "id": "story-159"
   },
   {
     "title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
@@ -3177,7 +3197,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-159"
+    "id": "story-160"
   },
   {
     "title": "A Global Rebound for Mangroves",
@@ -3197,7 +3217,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-160"
+    "id": "story-161"
   },
   {
     "title": "I Am Artemis Katie Spicer",
@@ -3217,7 +3237,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-161"
+    "id": "story-162"
   },
   {
     "title": "Heart in the Sky at NASA Kennedy",
@@ -3237,7 +3257,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-162"
+    "id": "story-163"
   },
   {
     "title": "NASA Ames Stars of the Month: November 2026",
@@ -3257,7 +3277,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-163"
+    "id": "story-164"
   },
   {
     "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
@@ -3277,7 +3297,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-164"
+    "id": "story-165"
   },
   {
     "title": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
@@ -3297,7 +3317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-165"
+    "id": "story-166"
   },
   {
     "title": "APOD: 2026 November 12 – Moon, Venus and Spica Meet",
@@ -3317,7 +3337,47 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-166"
+    "id": "story-167"
+  },
+  {
+    "title": "Where was Nvidia’s security team?",
+    "category": "Tech",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kin...",
+      "Reporting Desk: TechCrunch",
+      "Source Stamp: Sun, 15 Nov 2026 00:08:07 +0000"
+    ],
+    "sources": [
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-168"
+  },
+  {
+    "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+    "category": "Tech",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "Reporting Desk: TechCrunch",
+      "Source Stamp: Sat, 14 Nov 2026 21:41:22 +0000"
+    ],
+    "sources": [
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-169"
   },
   {
     "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
@@ -3337,7 +3397,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-167"
+    "id": "story-170"
   },
   {
     "title": "Got an iPhone Duo? These 9 settings make it easier to use",
@@ -3357,7 +3417,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-168"
+    "id": "story-171"
   },
   {
     "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
@@ -3377,7 +3437,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-169"
+    "id": "story-172"
   },
   {
     "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
@@ -3397,7 +3457,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-170"
+    "id": "story-173"
   },
   {
     "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
@@ -3417,7 +3477,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-171"
+    "id": "story-174"
   },
   {
     "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
@@ -3437,7 +3497,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-172"
+    "id": "story-175"
   },
   {
     "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
@@ -3457,7 +3517,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-173"
+    "id": "story-176"
   },
   {
     "title": "US government grounds all flights across the United States ‘due to extraordinary circumstances’",
@@ -3477,47 +3537,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-174"
+    "id": "story-177"
   },
   {
-    "title": "This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board",
+    "title": "With Starship catch, SpaceX still shows it can dazzle the world",
     "category": "Tech",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Drogue is harvesting heat from the ocean to power data centers on floating vessels. The first prototype should be bobbing around the ocean, crunching bits, in less than two years.",
-      "Reporting Desk: TechCrunch",
-      "Source Stamp: Fri, 13 Nov 2026 20:07:24 +0000"
+      "It felt like stepping into the future.",
+      "Reporting Desk: Ars Technica",
+      "Source Stamp: Sun, 15 Nov 2026 00:40:59 +0000"
     ],
     "sources": [
       {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
+        "name": "Ars Technica",
+        "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
         "bias": "CENTER"
       }
     ],
-    "id": "story-175"
-  },
-  {
-    "title": "AI agent startup LangChain hits $3B valuation",
-    "category": "Tech",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-      "Reporting Desk: TechCrunch",
-      "Source Stamp: Fri, 13 Nov 2026 19:37:57 +0000"
-    ],
-    "sources": [
-      {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-176"
+    "id": "story-178"
   },
   {
     "title": "James Webb telescope finds ice older than the star it orbits",
@@ -3537,7 +3577,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-177"
+    "id": "story-179"
   },
   {
     "title": "Winemakers are learning that conservation can be good for business",
@@ -3557,7 +3597,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-178"
+    "id": "story-180"
   },
   {
     "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
@@ -3577,7 +3617,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-179"
+    "id": "story-181"
   },
   {
     "title": "FAA has lifted its third-ever nationwide ground stop",
@@ -3597,7 +3637,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-180"
+    "id": "story-182"
   },
   {
     "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
@@ -3617,7 +3657,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-181"
+    "id": "story-183"
   },
   {
     "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
@@ -3637,7 +3677,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-182"
+    "id": "story-184"
   },
   {
     "title": "In elephants, the resilience of communities has its limits",
@@ -3657,7 +3697,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-183"
+    "id": "story-185"
   },
   {
     "title": "Kalshi ditches Trump Jr. as advisor; CEO admitted \"optics\" weren't good",
@@ -3677,7 +3717,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-184"
+    "id": "story-186"
   },
   {
     "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
@@ -3697,27 +3737,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-185"
-  },
-  {
-    "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
-    "category": "Tech",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
-      "Reporting Desk: Ars Technica",
-      "Source Stamp: Fri, 13 Nov 2026 16:26:32 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Ars Technica",
-        "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-186"
+    "id": "story-187"
   },
   {
     "title": "Two Centuries After This Bronze Leg Emerged From a Scottish Bog, Archaeologists Believe It May Have Belonged to a Towering Statue of a Roman Emperor on Horseback",
@@ -3737,7 +3757,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-187"
+    "id": "story-188"
   },
   {
     "title": "Thawing Permafrost May Have Created a New Type of Landslide, Which Could Become More Common as the World Warms",
@@ -3757,7 +3777,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-188"
+    "id": "story-189"
   },
   {
     "title": "Archaeologists in England Discovered 8,000 Roman-Era Frog Bones in a Single Ditch. They Just Solved the Mystery of How the Amphibians Ended Up There",
@@ -3777,7 +3797,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-189"
+    "id": "story-190"
   },
   {
     "title": "This Four-Person NASA Crew Spent Over a Year on 'Mars.' Here's What They Did for 378 Days in a Simulated Martian Habitat",
@@ -3797,7 +3817,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-190"
+    "id": "story-191"
   },
   {
     "title": "GLP-1s Are Showing Promise Beyond Weight Loss. Could They Be 'Wonder Drugs' for Ailments Like Addiction, Dementia and Cancer?",
@@ -3817,7 +3837,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-191"
+    "id": "story-192"
   },
   {
     "title": "German Renaissance Master Albrecht Altdorfer Pioneered Landscape Painting. A Work Previously Unknown to Scholars Just Emerged After 70 Years in a Private Collection",
@@ -3837,7 +3857,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-192"
+    "id": "story-193"
   },
   {
     "title": "More Than 3,000 Tarantulas Were Found Hidden in Socks During a Major Wildlife Trafficking Bust at an Airport in Lima, Peru",
@@ -3857,7 +3877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-193"
+    "id": "story-194"
   },
   {
     "title": "The National Portrait Gallery Wasn't Allowed to Acquire Photographs When It Opened in 1968. Fifty Years Later, the Smithsonian Museum's Collection Has Grown to 11,000 Photos and Counting",
@@ -3877,7 +3897,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-194"
+    "id": "story-195"
   },
   {
     "title": "Florida Is Facing Its Worst Dengue Outbreak in Decades, With at Least 524 Locally Acquired Cases. Here's What to Know",
@@ -3897,7 +3917,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-195"
+    "id": "story-196"
   },
   {
     "title": "Designed to Be Unsinkable, the World's Fastest Ocean Liner Finally Hits the Ocean Floor. The 53,330-Ton S.S. 'United States' Is Now the World's Largest Artificial Reef",
@@ -3917,7 +3937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-196"
+    "id": "story-197"
   },
   {
     "title": "'Wait Wait' for November 14, 2026: Live in Normal, Illinois with Brendan Hunt!",
@@ -3937,7 +3957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-197"
+    "id": "story-198"
   },
   {
     "title": "M. John Harrison makes history as first sci-fi author to win the Booker Prize",
@@ -3957,7 +3977,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-198"
+    "id": "story-199"
   },
   {
     "title": "Hayley Atwell on her role in a new production of 'Much Ado About Nothing' on Broadway",
@@ -3977,7 +3997,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-199"
+    "id": "story-200"
   },
   {
     "title": "In 'Possible Love,' a power struggle goes beyond class — it's also about story",
@@ -3997,7 +4017,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-200"
+    "id": "story-201"
   },
   {
     "title": "In different ways, these 2 new films take on the craft and the business of filmmaking",
@@ -4017,7 +4037,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-201"
+    "id": "story-202"
   },
   {
     "title": "Pedro Almodóvar explores how good friends can get so angry in 'Bitter Christmas'",
@@ -4037,7 +4057,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-202"
+    "id": "story-203"
   },
   {
     "title": "Hop in: We're taking a pop culture road trip on Route 66",
@@ -4057,7 +4077,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-203"
+    "id": "story-204"
   },
   {
     "title": "Rosalía and Milo J take top awards as Daddy Yankee is paid tribute at Latin Grammys",
@@ -4077,7 +4097,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-204"
+    "id": "story-205"
   },
   {
     "title": "Rachel Maddow says the Justice Department is collapsing. Can it be saved?",
@@ -4097,7 +4117,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-205"
+    "id": "story-206"
   },
   {
     "title": "People getting hot and bothered over newly-elected Democratic men",
@@ -4117,7 +4137,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-206"
+    "id": "story-207"
   },
   {
     "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
@@ -4137,7 +4157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-207"
+    "id": "story-208"
   },
   {
     "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
@@ -4146,9 +4166,9 @@
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "The US has not confirmed the Ukrainian president's comments which follow meetings US envoys had with him and Russia's Vladimir Putin.",
+      "The US has not confirmed the Ukrainian president's comments - a US official told the BBC \"many ideas continue to be discussed\".",
       "Reporting Desk: BBC News World",
-      "Source Stamp: Sat, 14 Nov 2026 20:41:45 GMT"
+      "Source Stamp: Sat, 14 Nov 2026 22:37:25 GMT"
     ],
     "sources": [
       {
@@ -4157,7 +4177,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-208"
+    "id": "story-209"
   },
   {
     "title": "Italy fines Meta €805m over accessing users' photos",
@@ -4177,7 +4197,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-209"
+    "id": "story-210"
+  },
+  {
+    "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+    "category": "World",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\".",
+      "Reporting Desk: BBC News World",
+      "Source Stamp: Sat, 14 Nov 2026 22:09:40 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC News World",
+        "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-211"
   },
   {
     "title": "Philippines wins first Eurovision Song Contest Asia",
@@ -4197,27 +4237,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-210"
-  },
-  {
-    "title": "Second catch attempt for SpaceX Starship rocket",
-    "category": "World",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean.",
-      "Reporting Desk: BBC News World",
-      "Source Stamp: Sat, 14 Nov 2026 14:18:41 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-211"
+    "id": "story-212"
   },
   {
     "title": "Sotheby's auction of $180m Van Gogh challenged over claims it was 'sold under duress'",
@@ -4237,7 +4257,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-212"
+    "id": "story-213"
   },
   {
     "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
@@ -4257,7 +4277,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-213"
+    "id": "story-214"
   },
   {
     "title": "Arrested generals and a threatened VP: President's son fuels Ugandan succession fever",
@@ -4277,7 +4297,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-214"
+    "id": "story-215"
   },
   {
     "title": "Nigeria cautions against travel via Ethiopia's main airport due to altitude",
@@ -4297,7 +4317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-215"
+    "id": "story-216"
   },
   {
     "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
@@ -4317,207 +4337,207 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-216"
-  },
-  {
-    "title": "India’s Assam state demolishes homes of 132 Muslim families",
-    "category": "World",
-    "country": "International",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Authorities in India’s Assam have demolished the homes of 132 Muslim families.",
-      "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 14 Nov 2026 20:14:10 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/14-11-sv-assam-muslim-families-evicted-demolition-drive?traffic_source=rss",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-217"
   },
   {
-    "title": "Can being ‘non-Western’ cost you your home in Denmark?",
+    "title": "Hundreds of men march in Switzerland to protest violence against women",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Denmark’s Supreme Court is set to rule on whether families can be forced from their homes under a law.",
+      "Organisers say men must speak out, as Swiss study finds half of men aged 18 to 24 hold restrictive view of masculinity.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 14 Nov 2026 19:52:49 +0000"
+      "Source Stamp: Sun, 15 Nov 2026 00:27:14 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/adlern-can_non-westren_cost_home_denmark-141126?traffic_source=rss",
+        "url": "https://www.aljazeera.com/news/2026/11/15/hundreds-of-men-march-in-switzerland-to-protest-violence-against-women?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-218"
   },
   {
-    "title": "Deadly car bomb blast kills two near Syria’s capital",
+    "title": "SpaceX’s Starship captured by launchpad arms in dramatic first",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "At least two people, a man and a girl, have been killed in a car bomb blast in Jaramana, near Syria&#039;s capital Damascus.",
+      "SpaceX officials say catch by mechanical arms shows Starship&#039;s full reusability, crucial for rapid, low-cost recycling.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 14 Nov 2026 19:46:36 +0000"
+      "Source Stamp: Sun, 15 Nov 2026 00:14:22 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+        "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-219"
   },
   {
-    "title": "More than 100,000 rally across France in new Yellow Vest protests",
+    "title": "Iran war live: Israel vows Gaza ‘offensive policy’ despite caretaker status",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Protesters chanted against declining affordability, the Macron government, police violence and poor school conditions.",
+      "Israel has pledged to continue its &#039;offensive policy&#039; on Gaza, as fighting in Yemen grips the region.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 14 Nov 2026 19:46:24 +0000"
+      "Source Stamp: Sun, 15 Nov 2026 00:00:08 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests?traffic_source=rss",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-220"
   },
   {
-    "title": "Tens of thousands march in latest Portugal housing protests",
+    "title": "Portugal immortalises Ronaldo with a new number 7",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "These were the biggest protests against rising housing costs in Portugal since the social movement began weeks ago.",
+      "Portugal’s national team has lined up in Cristiano Ronaldo&#039;s number 7 in its first match since he retired from the side.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 14 Nov 2026 19:27:55 +0000"
+      "Source Stamp: Sat, 14 Nov 2026 23:55:18 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/portugal-immortalises-ronaldo-with-a-new-number-7?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-221"
   },
   {
-    "title": "Pope Leo urges end to violence in Peru during visit to remote Andes town",
+    "title": "Iraq PM targets powerful militia stronghold in $30m oil smuggling probe",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "In Santa Cruz de Succhabamba, the pope told people not to respond to injustice with brutality.",
+      "Iraq’s PM has dismissed nine senior security officials over an alleged oil smuggling network worth up to $30m monthly.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 14 Nov 2026 19:20:11 +0000"
+      "Source Stamp: Sat, 14 Nov 2026 23:34:37 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/14/pope-leo-urges-end-to-violence-in-peru-during-visit-to-remote-andes-town?traffic_source=rss",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_iraq-pm-targets-militia-stronghold-in-oil-smuggling-141126?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-222"
   },
   {
-    "title": "US blames outdated technology for nationwide flight disruption",
+    "title": "Netanyahu says only a unity government can guarantee Israel’s security",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "US blames outdated technology for nationwide flight disruption",
+      "Eisenkot, in charge of forming a government, dismisses the appeal as ‘tricks’ as talks and a Knesset speaker vote loom.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 14 Nov 2026 18:32:40 +0000"
+      "Source Stamp: Sat, 14 Nov 2026 23:01:30 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-blames-outdated-technology-for-nationwide-flight-disruption?traffic_source=rss",
+        "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-223"
   },
   {
-    "title": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
+    "title": "Explosion near Syria’s capital kills father and child",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Sean Duffy, the country&#039;s transportation secretary, said his agency is &#039;going to hold people accountable&#039;.",
+      "Syria’s Internal Security Forces have launched an investigation into a suspected bomb attack in a suburb of Damascus.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 14 Nov 2026 18:02:53 +0000"
+      "Source Stamp: Sat, 14 Nov 2026 22:43:12 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss",
+        "url": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-224"
   },
   {
-    "title": "Rising costs and arrests fuel protests in Central African Republic",
+    "title": "Palestinian stories set for major presence at 2027 Oscars",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Hundreds take to the streets of Bangui to protest rising fuel prices and arrests in the Central African Republic.",
+      "Al Jazeera spoke to the director and cast of Who Is Still Alive, Switzerland’s Oscar entry for Best International Film.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 14 Nov 2026 17:50:28 +0000"
+      "Source Stamp: Sat, 14 Nov 2026 22:28:47 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/rising-costs-and-arrests-fuel-protests-in-central-african-republic?traffic_source=rss",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/palestinian-stories-set-for-major-presence-at-2027-oscars?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-225"
   },
   {
-    "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+    "title": "Ronaldo-less Portugal thrashed 4-1 by Denmark in the Nations League",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Zelenskyy rejected the possibility of Ukraine committing to neutrality and said he refused to cede territory to Russia.",
+      "Rasmus Hojlund stars with brace as Denmark close in on a spot in the Nations League quarterfinals.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Sat, 14 Nov 2026 16:53:39 +0000"
+      "Source Stamp: Sat, 14 Nov 2026 22:00:45 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
+        "url": "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-226"
+  },
+  {
+    "title": "US flights resume after ageing technology blamed for outage",
+    "category": "World",
+    "country": "International",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "US flights resume after ageing technology blamed for outage",
+      "Reporting Desk: Al Jazeera English",
+      "Source Stamp: Sat, 14 Nov 2026 21:36:19 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Al Jazeera English",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-flights-resume-after-ageing-technology-blamed-for-outage?traffic_source=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-227"
   },
   {
     "title": "What's Trump's strategy now with Iran? To keep things as they are",
@@ -4537,7 +4557,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-227"
+    "id": "story-228"
   },
   {
     "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
@@ -4557,7 +4577,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-228"
+    "id": "story-229"
   },
   {
     "title": "U.S. envoys meet with Putin in Moscow on Ukraine talks, then see Zelenskyy in Dublin",
@@ -4577,7 +4597,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-229"
+    "id": "story-230"
   },
   {
     "title": "Indonesia's VP resigns as his eligibility and academic credentials are questioned",
@@ -4597,7 +4617,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-230"
+    "id": "story-231"
   },
   {
     "title": "Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
@@ -4617,7 +4637,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-231"
+    "id": "story-232"
   },
   {
     "title": "Former Ukrainian foreign minister discusses how to bridge gaps between Ukraine, Russia",
@@ -4637,7 +4657,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-232"
+    "id": "story-233"
   },
   {
     "title": "Former U.S. Ambassador William Taylor discusses the latest Russia-Ukraine talks",
@@ -4657,7 +4677,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-233"
+    "id": "story-234"
   },
   {
     "title": "U.S. officials set to meet with Putin, Zelenskyy following Abu Dhabi peace talks",
@@ -4677,127 +4697,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-234"
-  },
-  {
-    "title": "Fact check: 'Iranian' content farms reach millions",
-    "category": "Governance",
-    "country": "Germany",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Several social media accounts claiming to represent the Iranian military show signs of being part of so-called content farms. DW Fact Check looks at how they operate and how users can spot them.",
-      "Reporting Desk: Deutsche Welle",
-      "Source Stamp: Recent Wire"
-    ],
-    "sources": [
-      {
-        "name": "Deutsche Welle",
-        "url": "https://www.dw.com/en/fact-check-iranian-content-farms-reach-millions/a-79934190?maca=en-rss-en-world-4025-rdf",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-235"
-  },
-  {
-    "title": "COP31: Protesters, UN urge swift climate deal",
-    "category": "Governance",
-    "country": "Germany",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The UN climate chief has warned that \"tactical delays\" at the COP31 climate talks in Turkey could prevent a deal to slow global warming.",
-      "Reporting Desk: Deutsche Welle",
-      "Source Stamp: Recent Wire"
-    ],
-    "sources": [
-      {
-        "name": "Deutsche Welle",
-        "url": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-world-4025-rdf",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-236"
-  },
-  {
-    "title": "Ukraine: Zelenskyy says security deal could go to referendum",
-    "category": "Governance",
-    "country": "Germany",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The US has broached the idea of Kyiv giving up the Donbas region in exchange for NATO membership, the Ukrainian president said.",
-      "Reporting Desk: Deutsche Welle",
-      "Source Stamp: Recent Wire"
-    ],
-    "sources": [
-      {
-        "name": "Deutsche Welle",
-        "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-world-4025-rdf",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-237"
-  },
-  {
-    "title": "New facilities in Laos and Cambodia: Is China expanding its military presence in Southeast Asia?",
-    "category": "Governance",
-    "country": "Germany",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "China has been growing its economic relationships in Southeast Asia. Now new military facilities in Laos and Cambodia are causing smaller countries to worry China's military networks are also expanding.",
-      "Reporting Desk: Deutsche Welle",
-      "Source Stamp: Recent Wire"
-    ],
-    "sources": [
-      {
-        "name": "Deutsche Welle",
-        "url": "https://www.dw.com/en/new-facilities-in-laos-and-cambodia-is-china-expanding-its-military-presence-in-southeast-asia/a-79944798?maca=en-rss-en-world-4025-rdf",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-238"
-  },
-  {
-    "title": "Microsoft says all services working again",
-    "category": "Governance",
-    "country": "Germany",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "US tech giant Microsoft says it has fixed problems that led to a global outage of its services. The glitch severely disrupted online communications in businesses and governments for more than 24 hours.",
-      "Reporting Desk: Deutsche Welle",
-      "Source Stamp: Recent Wire"
-    ],
-    "sources": [
-      {
-        "name": "Deutsche Welle",
-        "url": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887?maca=en-rss-en-world-4025-rdf",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-239"
-  },
-  {
-    "title": "Sudan: Misery worsens amid plummeting aid for displaced people",
-    "category": "Governance",
-    "country": "Germany",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Sudan's humanitarian crisis is exacerbated by cuts in international aid. Almost 34 million people are in need as war and drone strikes are making it difficult to deliver aid to the population.",
-      "Reporting Desk: Deutsche Welle",
-      "Source Stamp: Recent Wire"
-    ],
-    "sources": [
-      {
-        "name": "Deutsche Welle",
-        "url": "https://www.dw.com/en/sudan-misery-worsens-amid-plummeting-aid-for-displaced-people/a-79938864?maca=en-rss-en-world-4025-rdf",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-240"
   },
   {
     "title": "Nigeria's upcoming election marred by rising AI disinformation",
@@ -4817,7 +4717,127 @@
         "bias": "CENTER"
       }
     ],
+    "id": "story-236"
+  },
+  {
+    "title": "Fact check: 'Iranian' content farms reach millions",
+    "category": "Governance",
+    "country": "Germany",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Several social media accounts claiming to represent the Iranian military show signs of being part of so-called content farms. DW Fact Check looks at how they operate and how users can spot them.",
+      "Reporting Desk: Deutsche Welle",
+      "Source Stamp: Recent Wire"
+    ],
+    "sources": [
+      {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/fact-check-iranian-content-farms-reach-millions/a-79934190?maca=en-rss-en-world-4025-rdf",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-237"
+  },
+  {
+    "title": "COP31: Protesters, UN urge swift climate deal",
+    "category": "Governance",
+    "country": "Germany",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The UN climate chief has warned that \"tactical delays\" at the COP31 climate talks in Turkey could prevent a deal to slow global warming.",
+      "Reporting Desk: Deutsche Welle",
+      "Source Stamp: Recent Wire"
+    ],
+    "sources": [
+      {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/cop31-protesters-un-urge-swift-climate-deal/a-79948501?maca=en-rss-en-world-4025-rdf",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-238"
+  },
+  {
+    "title": "Ukraine: Zelenskyy says security deal could go to referendum",
+    "category": "Governance",
+    "country": "Germany",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The US has broached the idea of Kyiv giving up the Donbas region in exchange for NATO membership, the Ukrainian president said.",
+      "Reporting Desk: Deutsche Welle",
+      "Source Stamp: Recent Wire"
+    ],
+    "sources": [
+      {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-world-4025-rdf",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-239"
+  },
+  {
+    "title": "New facilities in Laos and Cambodia: Is China expanding its military presence in Southeast Asia?",
+    "category": "Governance",
+    "country": "Germany",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "China has been growing its economic relationships in Southeast Asia. Now new military facilities in Laos and Cambodia are causing smaller countries to worry China's military networks are also expanding.",
+      "Reporting Desk: Deutsche Welle",
+      "Source Stamp: Recent Wire"
+    ],
+    "sources": [
+      {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/new-facilities-in-laos-and-cambodia-is-china-expanding-its-military-presence-in-southeast-asia/a-79944798?maca=en-rss-en-world-4025-rdf",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-240"
+  },
+  {
+    "title": "Microsoft says all services working again",
+    "category": "Governance",
+    "country": "Germany",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "US tech giant Microsoft says it has fixed problems that led to a global outage of its services. The glitch severely disrupted online communications in businesses and governments for more than 24 hours.",
+      "Reporting Desk: Deutsche Welle",
+      "Source Stamp: Recent Wire"
+    ],
+    "sources": [
+      {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887?maca=en-rss-en-world-4025-rdf",
+        "bias": "CENTER"
+      }
+    ],
     "id": "story-241"
+  },
+  {
+    "title": "Sudan: Misery worsens amid plummeting aid for displaced people",
+    "category": "Governance",
+    "country": "Germany",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Sudan's humanitarian crisis is exacerbated by cuts in international aid. Almost 34 million people are in need as war and drone strikes are making it difficult to deliver aid to the population.",
+      "Reporting Desk: Deutsche Welle",
+      "Source Stamp: Recent Wire"
+    ],
+    "sources": [
+      {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/sudan-misery-worsens-amid-plummeting-aid-for-displaced-people/a-79938864?maca=en-rss-en-world-4025-rdf",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-242"
   },
   {
     "title": "Turkey uses espionage accusations to pressure government critics",
@@ -4837,7 +4857,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-242"
+    "id": "story-243"
   },
   {
     "title": "Gen Z protests: Do Baby Boomers really have it better than young people?",
@@ -4857,7 +4877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-243"
+    "id": "story-244"
   },
   {
     "title": "SpaceX launches Starship rocket, fails to recover booster",
@@ -4877,16 +4897,16 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-244"
+    "id": "story-245"
   },
   {
-    "title": "SpaceX's Starship set for return to Earth after failed booster catch",
+    "title": "SpaceX's Starship completes first-ever mid-air catch after return from orbit",
     "category": "World",
     "country": "France",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "SpaceX's Starship spacecraft was on track to return to its Texas launch site for a planned mid-air catch, after an aborted recovery attempt.",
+      "SpaceX's Starship spacecraft made a successful return to Earth on Saturday, completing its first mid-air catch by giant robot arms in Texas, after an aborted recovery attempt.",
       "Reporting Desk: France 24",
       "Source Stamp: Sat, 14 Nov 2026 20:51:24 GMT"
     ],
@@ -4897,7 +4917,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-245"
+    "id": "story-246"
+  },
+  {
+    "title": "Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'",
+    "category": "World",
+    "country": "France",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Israeli caretaker Prime Minister Benjamin Netanyahu on Saturday renewed his call for a national unity government with Gadi Eisenkot, who dismissed the appeal as a political ploy. This comes as the incoming premier is in the midst of negotiations to f...",
+      "Reporting Desk: France 24",
+      "Source Stamp: Sat, 14 Nov 2026 20:35:22 GMT"
+    ],
+    "sources": [
+      {
+        "name": "France 24",
+        "url": "https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-247"
   },
   {
     "title": "Macron says limiting Ukraine aid would pave way to 'another war'",
@@ -4917,7 +4957,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-246"
+    "id": "story-248"
+  },
+  {
+    "title": "'No justice, no peace': Fifth round of protests sweep across France",
+    "category": "World",
+    "country": "France",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Between 106,000 and 200,000 people took to the streets across France on Saturday for the fifth round of protests, according to figures from the interior ministry and student unions respectively, as turnout fell and some incidents were reported.",
+      "Reporting Desk: France 24",
+      "Source Stamp: Sat, 14 Nov 2026 18:23:25 GMT"
+    ],
+    "sources": [
+      {
+        "name": "France 24",
+        "url": "https://www.france24.com/en/france/20261114-no-justice-no-peace-fifth-round-of-protests-sweep-across-france",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-249"
   },
   {
     "title": "Elon Musk's SpaceX aborts booster recovery due to technical issues",
@@ -4937,7 +4997,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-247"
+    "id": "story-250"
   },
   {
     "title": "Youth Olympic Games organisers hail Senegal's capability to host major events",
@@ -4957,7 +5017,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-248"
+    "id": "story-251"
   },
   {
     "title": "France and Cambodia share their love for pétanque in Phnom Penh",
@@ -4977,7 +5037,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-249"
+    "id": "story-252"
   },
   {
     "title": "Washington divided over how to deal with fallout from the Nvidia case",
@@ -4997,7 +5057,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-250"
+    "id": "story-253"
   },
   {
     "title": "US: What exactly caused the longest nationwide ground stop in 25 years?",
@@ -5017,7 +5077,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-251"
+    "id": "story-254"
   },
   {
     "title": "US Transport Secretary asks Congress for $30 bn to upgrade aviation infrastructure",
@@ -5037,47 +5097,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-252"
-  },
-  {
-    "title": "Wales claim historic victory against All Blacks for first time since 1953",
-    "category": "World",
-    "country": "France",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Wales claimed a historic 35-28 victory over New Zealand in Cardiff on Saturday, securing their first win over the All Blacks since 1953.",
-      "Reporting Desk: France 24",
-      "Source Stamp: Sat, 14 Nov 2026 16:27:21 GMT"
-    ],
-    "sources": [
-      {
-        "name": "France 24",
-        "url": "https://www.france24.com/en/sport/20261114-wales-claim-historic-victory-against-all-blacks-for-first-time-since-1953",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-253"
-  },
-  {
-    "title": "'Poisoned chalice': French presidential hopeful Riner rebuffs Macron's backing",
-    "category": "World",
-    "country": "France",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "French judo champion Teddy Riner on Saturday publicly distanced himself from President Emmanuel Macron, calling his endorsement a \"poisoned chalice\". The presidential hopeful seeks to position himself as an alternative to France's political extremes.",
-      "Reporting Desk: France 24",
-      "Source Stamp: Sat, 14 Nov 2026 14:57:22 GMT"
-    ],
-    "sources": [
-      {
-        "name": "France 24",
-        "url": "https://www.france24.com/en/france/20261114-judo-star-and-presidential-hopeful-riner-calls-macron",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-254"
+    "id": "story-255"
   },
   {
     "title": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
@@ -5097,7 +5117,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-255"
+    "id": "story-256"
   },
   {
     "title": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
@@ -5117,7 +5137,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-256"
+    "id": "story-257"
   },
   {
     "title": "Collision of two trains in Egypt kills at least seven",
@@ -5137,7 +5157,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-257"
+    "id": "story-258"
   },
   {
     "title": "How African philosophies inspired a new approach to staging film festivals in Manchester",
@@ -5157,7 +5177,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-258"
+    "id": "story-259"
   },
   {
     "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
@@ -5177,7 +5197,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-259"
+    "id": "story-260"
   },
   {
     "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
@@ -5197,7 +5217,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-260"
+    "id": "story-261"
   },
   {
     "title": "Storm Charles causes floods and flight cancellations across southern Europe",
@@ -5217,7 +5237,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-261"
+    "id": "story-262"
   },
   {
     "title": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
@@ -5237,7 +5257,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-262"
+    "id": "story-263"
   },
   {
     "title": "Ex-member of radical Marxist group scales balcony, escapes house arrest in Argentina",
@@ -5257,7 +5277,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-263"
+    "id": "story-264"
   },
   {
     "title": "Argentinian lawyer mocks UK’s sovereignty claim in Falklands oil case",
@@ -5277,7 +5297,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-264"
+    "id": "story-265"
   },
   {
     "title": "When the rains fail: Preparing for drought in Central America",
@@ -5297,7 +5317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-265"
+    "id": "story-266"
   },
   {
     "title": "‘Here, you can eat until you’re full’: Oleshky evacuees savour first proper meals in years",
@@ -5317,7 +5337,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-266"
+    "id": "story-267"
   },
   {
     "title": "Security Council LIVE: Fragile Gulf calm tested as threats to Hormuz shipping mount",
@@ -5337,7 +5357,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-267"
+    "id": "story-268"
   },
   {
     "title": "COP31: Climate finance falls short as calls grow for polluters to pay",
@@ -5357,7 +5377,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-268"
+    "id": "story-269"
   },
   {
     "title": "‘Lives are at stake’: Humanitarians call for swift entry of winter supplies in Gaza",
@@ -5377,7 +5397,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-269"
+    "id": "story-270"
   },
   {
     "title": "COP31: New initiative targets AI and reliable climate change information",
@@ -5397,7 +5417,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-270"
+    "id": "story-271"
   },
   {
     "title": "DR Congo Ebola outbreak: Unrest fuelled by armed groups holds back response",
@@ -5417,7 +5437,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-271"
+    "id": "story-272"
   },
   {
     "title": "Six killed in Israeli airstrike on Gaza’s Nasser Hospital",
@@ -5437,7 +5457,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-272"
+    "id": "story-273"
   },
   {
     "title": "Aid is the ‘only hope’ for millions in Sudan, WFP chief warns, as funding cuts deepen hunger crisis",
@@ -5457,7 +5477,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-273"
+    "id": "story-274"
   },
   {
     "title": "New platform aims to get money moving before disaster strikes",
@@ -5477,6 +5497,6 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-274"
+    "id": "story-275"
   }
 ]
