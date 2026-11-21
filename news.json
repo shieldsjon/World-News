@@ -80,6 +80,26 @@
     "id": "story-4"
   },
   {
+    "title": "MLK's handwritten draft of iconic speech on display for the first time",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The only known handwritten draft of The Reverend Martin Luther King Jr.'s 'I Have a Dream' speech is on display in his hometown. The iconic phrase, however, never made it on the page.",
+      "Reporting Desk: NPR US News",
+      "Source Stamp: Fri, 20 Nov 2026 16:38:05 -0500"
+    ],
+    "sources": [
+      {
+        "name": "NPR US News",
+        "url": "https://www.npr.org/2026/11/20/nx-s1-6039337/mlk-i-have-a-dream-speech-draft-public-display",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-5"
+  },
+  {
     "title": "A second judge blocks Trump's arch, saying it's unlikely to succeed in court",
     "category": "U.S.",
     "country": "United States",
@@ -97,7 +117,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-5"
+    "id": "story-6"
   },
   {
     "title": "Trump initially accepted the midterm results, but most GOP voters doubt they were fair",
@@ -117,7 +137,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-6"
+    "id": "story-7"
   },
   {
     "title": "How Orchestra Noir turned classical music into a cultural movement",
@@ -137,7 +157,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-7"
+    "id": "story-8"
   },
   {
     "title": "Trump touts meeting with Xi and Putin but offers little results",
@@ -157,7 +177,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-8"
+    "id": "story-9"
   },
   {
     "title": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
@@ -177,26 +197,6 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-9"
-  },
-  {
-    "title": "Dems aim to block Iran war funding. And, Army delays lead azide detonation in Iowa",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Congress needs to pass a funding measure to avoid a shutdown next month, providing Dems an opportunity to leverage power. And, the Army says waiting to detonate lead azide could become dangerous.",
-      "Reporting Desk: NPR US News",
-      "Source Stamp: Fri, 20 Nov 2026 07:04:57 -0500"
-    ],
-    "sources": [
-      {
-        "name": "NPR US News",
-        "url": "https://www.npr.org/2026/11/20/g-s1-154582/up-first-newsletter-democrats-iran-war-trump-xi-jinping-iowa-army",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-10"
   },
   {
@@ -208,7 +208,7 @@
     "keyFacts": [
       "The defendant was found guilty of two arson counts during a retrial.",
       "Reporting Desk: ABC News US",
-      "Source Stamp: Fri, 20 Nov 2026 19:08:02 -0500"
+      "Source Stamp: Fri, 20 Nov 2026 19:59:34 -0500"
     ],
     "sources": [
       {
@@ -260,24 +260,44 @@
     "id": "story-13"
   },
   {
-    "title": "19-year-old Marine reported missing in California desert",
+    "title": "Famed Marine Corps veteran under federal investigation over undisclosed allegations",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Investigators and family are looking for a 19-year-old Marine who has been missing for two weeks and was last seen at a casino in the California desert.",
+      "The Naval Criminal Investigative Service says it is investigating a famed Marine Corps veteran over undisclosed allegations",
       "Reporting Desk: ABC News US",
-      "Source Stamp: Fri, 20 Nov 2026 13:48:37 -0500"
+      "Source Stamp: Fri, 20 Nov 2026 22:55:47 -0500"
     ],
     "sources": [
       {
         "name": "ABC News US",
-        "url": "https://abcnews.com/US/19-year-marine-reported-missing-california-desert/story?id=138320350",
+        "url": "https://abcnews.com/US/wireStory/famed-marine-corps-veteran-federal-investigation-undisclosed-allegations-138336684",
         "bias": "CENTER"
       }
     ],
     "id": "story-14"
+  },
+  {
+    "title": "WATCH:  Tips for hosting Friendsgiving this year",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Digital creator Kerra Masella shares her tips for planning and hosting a Friendsgiving celebration, from getting organized ahead of time to making friends feel welcome around the table.",
+      "Reporting Desk: ABC News US",
+      "Source Stamp: Fri, 20 Nov 2026 19:26:17 -0500"
+    ],
+    "sources": [
+      {
+        "name": "ABC News US",
+        "url": "https://abcnews.com/video/138331305/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-15"
   },
   {
     "title": "WATCH:  Is travel insurance worth it after the FAA ground stop?",
@@ -297,7 +317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-15"
+    "id": "story-16"
   },
   {
     "title": "WATCH:  New health warning on doomscrolling: What to know and tips to break the habit",
@@ -317,7 +337,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-16"
+    "id": "story-17"
   },
   {
     "title": "WATCH:  Reporter goes undercover as porch pirate",
@@ -337,7 +357,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-17"
+    "id": "story-18"
   },
   {
     "title": "WATCH:  Riverboat captain celebrates more than 50 years on the Mississippi River",
@@ -357,7 +377,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-18"
+    "id": "story-19"
   },
   {
     "title": "WATCH:  Grand Theft Auto VI is back and shattering records",
@@ -377,27 +397,47 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-19"
+    "id": "story-20"
   },
   {
-    "title": "WATCH:  New video angle shows moment of Brooklyn apartment building's deadly collapse",
+    "title": "South Florida begins recovery after widespread flooding",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Dash cam video from a bus passing by shows the terrifying moment a three-story Brooklyn apartment building buckled and crumbled to the ground, killing eight people and injuring multiple others.",
-      "Reporting Desk: ABC News US",
-      "Source Stamp: Fri, 20 Nov 2026 06:44:00 -0500"
+      "Historic flooding across South Florida has left neighborhoods underwater, roads impassable and Broward schools closed as residents begin cleanup efforts and officials assess the damage.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Fri, 20 Nov 2026 21:42:51 -0500"
     ],
     "sources": [
       {
-        "name": "ABC News US",
-        "url": "https://abcnews.com/video/138305617/",
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/live-updates/south-florida-flooding-live-updates-heavy-rain-broward-miami-dade/",
         "bias": "CENTER"
       }
     ],
-    "id": "story-20"
+    "id": "story-21"
+  },
+  {
+    "title": "Stocks enter correction territory, driven by deepening tech rout",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The tech-heavy Nasdaq tumbled more than 1,200 points, putting it on track for its second-worst day of the year.",
+      "Reporting Desk: CBS News Main",
+      "Source Stamp: Fri, 20 Nov 2026 21:25:00 -0500"
+    ],
+    "sources": [
+      {
+        "name": "CBS News Main",
+        "url": "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-22"
   },
   {
     "title": "Jonathan Rinderknecht found guilty in Palisades Fire case",
@@ -408,7 +448,7 @@
     "keyFacts": [
       "A Los Angeles County jury has found Jonathan Rinderknecht guilty of starting a blaze that erupted into the deadly and destructive Palisades Fire in 2025.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Fri, 20 Nov 2026 19:03:43 -0500"
+      "Source Stamp: Fri, 20 Nov 2026 21:02:18 -0500"
     ],
     "sources": [
       {
@@ -417,307 +457,247 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-21"
-  },
-  {
-    "title": "Trump insists he's \"not rushing to make any decisions on Iran\"",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Despite rising tension, President Trump told an Israeli outlet he may not make a decision on his next move in the Iran war until 2027.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Fri, 20 Nov 2026 19:00:42 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-22"
-  },
-  {
-    "title": "Mayor Mamdani announces plan to shut down Rikers Island",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "New York City Mayor Zohran Mamdani unveiled his strategy to shut down Rikers Island and replace it with four smaller jails across the city.",
-      "Reporting Desk: CBS News Main",
-      "Source Stamp: Fri, 20 Nov 2026 18:59:30 -0500"
-    ],
-    "sources": [
-      {
-        "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/zohran-mamdani-rikers-island-closing-plan-nyc/",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-23"
   },
   {
-    "title": "Nationwide ground stop caused drop in Americans' confidence in air travel reliability, survey finds",
+    "title": "Detonation of unstable explosives in Iowa paused indefinitely by court",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "A new survey from the U.S. Travel Association shows about a third of all leisure and business flyers say last week's nationwide ground stop made them less likely to fly over the next 12 months. Geoff Freeman, U.S. Travel Association president and CEO...",
+      "The U.S. Army's plan to detonate five tons of unstable explosives containing lead azide at a munitions plant in Iowa has been put on indefinite hold by a federal court Friday.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Fri, 20 Nov 2026 18:49:38 -0500"
+      "Source Stamp: Fri, 20 Nov 2026 20:29:59 -0500"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/nationwide-ground-stop-caused-drop-in-americans-confidence-in-air-travel-reliability-survey-finds/",
+        "url": "https://www.cbsnews.com/news/iowa-detonation-lead-azide-paused-indefinitely-court-order/",
         "bias": "CENTER"
       }
     ],
     "id": "story-24"
   },
   {
-    "title": "This week on \"Sunday Morning\" (Nov. 22): The Food Issue",
+    "title": "Teen becomes viral chef after stepping up when his mom had cancer",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Jane Pauley hosts our annual \"Eat, Drink & Be Merry\" holiday broadcast exploring all things epicurean! Check out our menu...",
+      "In August, Jennifer Charney, a stay-at-home mother of eight, lost her 10-year battle with breast cancer. Her youngest son, Joey, stepped up to become the family's chef.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Fri, 20 Nov 2026 18:46:20 -0500"
+      "Source Stamp: Fri, 20 Nov 2026 20:26:26 -0500"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/this-week-on-sunday-morning-nov-22-2026-the-food-issue/",
+        "url": "https://www.cbsnews.com/news/joey-charney-georgia-teen-chef-cancer/",
         "bias": "CENTER"
       }
     ],
     "id": "story-25"
   },
   {
-    "title": "Markets plummet amid tech sell-off, Trump threatens tax on data centers built abroad",
+    "title": "Teenager cooking meals for family after mother's death now has 2 million social media followers",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Stocks closed out a brutal week Friday with the three major indexes falling between 1% and 5% and the Nasdaq turning negative for the year as investors pulled their money out of AI stocks. Meanwhile, at the White House, President Trump threatened a m...",
+      "18-year-old Joey Charney's mother died of breast cancer in August, so he started cooking meals for his family and documenting his dishes on social media. Now he has over 2 million followers. Steve Hartman goes on the road.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Fri, 20 Nov 2026 18:41:29 -0500"
+      "Source Stamp: Fri, 20 Nov 2026 20:17:31 -0500"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/tech-sell-off-sends-sp-500-and-dow-into-correction-territory/",
+        "url": "https://www.cbsnews.com/video/teenager-cooking-meals-for-family-after-mothers-death-now-has-2-million-social-media-followers/",
         "bias": "CENTER"
       }
     ],
     "id": "story-26"
   },
   {
-    "title": "Tech outages prompt some Americans to prepare for collapse, Washington Post report says",
+    "title": "Federal court indefinitely pauses military's plans for detonation of unstable explosives in Iowa",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "The recent wave of tech outages has prompted some Americans to stock up on generators, cash and more. Brianna Sacks, a disaster correspondent at The Washington Post, joins \"The Takeout\" to discuss her reporting on the topic.",
+      "The Army's plan to detonate five tons of unstable bomb-making material containing lead azide at a munitions plant in Iowa was put on indefinite hold by a federal court Friday amid environmental and health concerns. Lana Zak reports.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Fri, 20 Nov 2026 18:31:04 -0500"
+      "Source Stamp: Fri, 20 Nov 2026 20:14:30 -0500"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/tech-outages-prompt-some-americans-to-prepare-for-collapse-wapo-report-says/",
+        "url": "https://www.cbsnews.com/video/federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa/",
         "bias": "CENTER"
       }
     ],
     "id": "story-27"
   },
   {
-    "title": "Poland accuses Russia of \"intentional provocation\" after missiles land in its territory",
+    "title": "At least 7 children dead, 50,000 people treated in hospitals amid early flu season surge",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Russian missiles landed in Polish territory amid heavy strikes against Ukraine in what Polish Prime Minister Donald Tusk called \"an intentional ⁠provocation.\" CBS News' Charlie D'Agata has more.",
+      "The CDC is warning of a likely increase in flu cases and hospitalizations across the country. Skyler Henry has more.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Fri, 20 Nov 2026 18:29:20 -0500"
+      "Source Stamp: Fri, 20 Nov 2026 20:12:37 -0500"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/video/poland-accuses-russia-of-intentional-provocation-after-missiles-land-on-its-territory/",
+        "url": "https://www.cbsnews.com/video/at-least-7-children-dead-50000-people-treated-in-hospitals-amid-early-flu-season-surge/",
         "bias": "CENTER"
       }
     ],
     "id": "story-28"
   },
   {
-    "title": "\"Face the Nation with Margaret Brennan\" guests for Nov. 22, 2026",
+    "title": "Liv Hewson previews final season of \"Yellowjackets\"",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "This week's guests include Treasury Secretary Scott Bessent and incoming House Speaker Hakeem Jeffries.",
+      "Liv Hewson, one of the stars of \"Yellowjackets,\" joins CBS News to discuss the show's final season.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Fri, 20 Nov 2026 18:23:08 -0500"
+      "Source Stamp: Fri, 20 Nov 2026 20:10:46 -0500"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/face-the-nation-guests-11-22-2026/",
+        "url": "https://www.cbsnews.com/video/liv-hewson-previews-final-season-of-yellowjackets/",
         "bias": "CENTER"
       }
     ],
     "id": "story-29"
   },
   {
-    "title": "Trump signs Common Cents Act",
+    "title": "4 injured after merchandise announcement causes stampede at New York City concert",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "The Common Cents Act established guidelines for businesses and consumers when conducting cash transactions.",
+      "A concert by rap artist OsamaSon at a New York City venue ended in a stampede that injured four people after an invitation to head to the merchandise booth for an exclusive gift. Tom Hanson has more.",
       "Reporting Desk: CBS News Main",
-      "Source Stamp: Fri, 20 Nov 2026 18:04:00 -0500"
+      "Source Stamp: Fri, 20 Nov 2026 20:10:14 -0500"
     ],
     "sources": [
       {
         "name": "CBS News Main",
-        "url": "https://www.cbsnews.com/news/trump-signs-common-cents-act-into-law/",
+        "url": "https://www.cbsnews.com/video/4-injured-after-merchandise-announcement-causes-stampede-at-new-york-city-concert/",
         "bias": "CENTER"
       }
     ],
     "id": "story-30"
   },
   {
-    "title": "Wall Street meltdown: Tech stocks drop sharply as AI hype cools",
+    "title": "Stock markets plunge as Nasdaq erases 2026 gains",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "A bruising stock market sell-off continued despite a record-setting IPO by Anthropic, dashing hopes it would revive sentiment on the AI trade.",
+      "The surging stock market of 2026 wiped out gains for the year in the tech-heavy Nasdaq Composite while the S&amp;P 500 and the Dow entered correction territory, meaning they have declined 10% from recent peaks. NBC News' Brian Cheung reports.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Fri, 20 Nov 2026 14:20:57 GMT"
+      "Source Stamp: Fri, 20 Nov 2026 23:49:12 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+        "url": "https://www.nbcnews.com/nightly-news/video/stock-markets-plunge-as-nasdaq-erases-2026-gains-273933381824",
         "bias": "CENTER"
       }
     ],
     "id": "story-31"
   },
   {
-    "title": "Trump says he won't allow U.S. companies to build data centers outside the country",
+    "title": "Trump threatens ‘tremendous’ penalties on companies that build data centers overseas",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "President Trump told White House reporters that he and Chinese President Xi discussed \"joint guardrails\" on artificial intelligence. He also announced that, unlike chips, American companies will be prohibited from building data centers outside the U....",
+      "President Trump plans to restrict U.S. companies from building data centers overseas — another example of his embrace of AI infrastructure most people oppose.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Fri, 20 Nov 2026 17:49:12 GMT"
+      "Source Stamp: Fri, 20 Nov 2026 18:37:30 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/now/video/trump-says-he-won-t-allow-u-s-companies-to-build-data-centers-outside-the-country-273905221775",
+        "url": "https://www.nbcnews.com/business/corporations/trump-data-centers-overseas-penalties-rcna610445",
         "bias": "CENTER"
       }
     ],
     "id": "story-32"
   },
   {
-    "title": "Man found guilty of starting deadly Palisades Fire in Los Angeles",
+    "title": "California man found guilty of starting deadly Palisades Fire",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "LOS ANGELES — Almost five months after a first trial ended in a mistrial, a jury found a man guilty of starting the devastating 2025 Palisades Fire in Los Angeles that displaced thousands of people and became the most destructive wildfire in Los Ange...",
+      "A California jury found a man guilty of starting the devastating 2025 Palisades Fire in Los Angeles that displaced thousands of people and became the most destructive wildfire in Los Angeles city history. NBC News' Steve Patterson has the details.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Fri, 20 Nov 2026 22:51:54 GMT"
+      "Source Stamp: Sat, 21 Nov 2026 01:50:11 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/news/us-news/pacific-palisades-fire-retrial-jonathan-rinderknecht-rcna610336",
+        "url": "https://www.nbcnews.com/video/california-man-found-guilty-of-starting-deadly-palisades-fire-273941061702",
         "bias": "CENTER"
       }
     ],
     "id": "story-33"
   },
   {
-    "title": "Trump calling Putin ‘my friend’ at APEC summit sparks backlash",
+    "title": "FBI investigating potential breach of its crime database",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "When President Donald Trump called Vladimir Putin his “friend” this week, European leaders and foreign policy experts were dismayed and alarmed.",
+      "The FBI is investigating an apparent breach of its National Crime Information Center, two people briefed on the matter told NBC News Friday.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Fri, 20 Nov 2026 17:01:20 GMT"
+      "Source Stamp: Sat, 21 Nov 2026 04:19:51 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/world/europe/trump-friend-greeting-putin-causes-alarm-europe-ukraine-rcna610373",
+        "url": "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536",
         "bias": "CENTER"
       }
     ],
     "id": "story-34"
   },
   {
-    "title": "New cervical cancer guidance to favor HPV screening over traditional Pap tests",
+    "title": "Trump touts historic summit with Xi, Putin",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "New cervical cancer guidance to recommend for the first time that women ages 30 to 65 be screened for HPV rather than with the traditional Pap test.",
+      "President Trump touted his unprecedented trilateral summit with China’s President Xi and Russian President Putin in a marathon press conference. NBC News’ Monica Alba reports.",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Fri, 20 Nov 2026 22:33:19 GMT"
+      "Source Stamp: Fri, 20 Nov 2026 23:45:38 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/health/womens-health/cervical-cancer-screening-federal-guidance-hpv-tests-pap-smear-rcna610282",
+        "url": "https://www.nbcnews.com/nightly-news/video/trump-touts-historic-summit-with-xi-putin-273933381719",
         "bias": "CENTER"
       }
     ],
     "id": "story-35"
-  },
-  {
-    "title": "For the Washington Spirit, will the third time be the charm in the NWSL championship?",
-    "category": "U.S.",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The Washington Spirit hope the third time will be the charm as they face the Kansas City Current at home in the National Women’s Soccer League championship Saturday.",
-      "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Fri, 20 Nov 2026 11:01:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/sports/soccer/nwsl-championship-final-washington-spirit-kansas-city-current-rcna609698",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-36"
   },
   {
     "title": "2026 Rockefeller Center Christmas Tree Arrives in New York City",
@@ -734,6 +714,26 @@
       {
         "name": "NBC News Top Stories",
         "url": "https://www.today.com/video/2026-rockefeller-center-christmas-tree-arrives-in-new-york-city-273069125683",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-36"
+  },
+  {
+    "title": "Trump formally ends minting of the penny after nearly 250 years of production",
+    "category": "U.S.",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The U.S. Mint, which began producing the currency in 1793, has said it costs nearly 4 cents to make each penny.",
+      "Reporting Desk: NBC News Top Stories",
+      "Source Stamp: Sat, 21 Nov 2026 03:32:50 GMT"
+    ],
+    "sources": [
+      {
+        "name": "NBC News Top Stories",
+        "url": "https://www.nbcnews.com/politics/white-house/trump-formally-ends-minting-penny-nearly-250-years-production-rcna600580",
         "bias": "CENTER"
       }
     ],
@@ -760,24 +760,164 @@
     "id": "story-38"
   },
   {
-    "title": "Police are investigating the death of a fan after an altercation at Cowboys game",
+    "title": "Man found guilty of starting deadly Palisades Fire in Los Angeles",
     "category": "U.S.",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Police in Texas said they are investigating the death of a fan who died days after an altercation at a Cowboys game.",
+      "LOS ANGELES — Almost five months after a first trial ended in a mistrial, a jury found a man guilty of starting what would become the devastating 2025 Palisades Fire in Los Angeles that displaced thousands of people and became the most destructive wi...",
       "Reporting Desk: NBC News Top Stories",
-      "Source Stamp: Fri, 20 Nov 2026 22:34:13 GMT"
+      "Source Stamp: Fri, 20 Nov 2026 22:51:54 GMT"
     ],
     "sources": [
       {
         "name": "NBC News Top Stories",
-        "url": "https://www.nbcnews.com/news/us-news/police-are-investigating-death-fan-altercation-cowboys-game-rcna610508",
+        "url": "https://www.nbcnews.com/news/us-news/pacific-palisades-fire-retrial-jonathan-rinderknecht-rcna610336",
         "bias": "CENTER"
       }
     ],
     "id": "story-39"
+  },
+  {
+    "title": "Virginia reports first measles-related death of 2026",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A young child in Virginia died after testing positive for measles, the state&#8217;s health department said Friday, marking the first death tied to the illness in the state this year. The department said the child was aged 0-4 but declined to share f...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 21 Nov 2026 04:20:20 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/policy/healthcare/6234958-virginia-child-measles-death-elimination-status/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-40"
+  },
+  {
+    "title": "Democratic Sen.-elect Colom responds to Trump’s praise",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Sen.-elect Scott Colom (D-Miss.) reacted in an interview Friday to President Trump’s recent praise of his midterm campaign strategy, saying his tactic of reaching out to Republicans during the election cycle shows how he plans to represent Mississipp...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 21 Nov 2026 03:09:44 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6234930-scott-colom-trump-praise-response/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-41"
+  },
+  {
+    "title": "Former Jackson, Mississippi, mayor sentenced to federal prison for bribery",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The former mayor of Jackson, Miss., was sentenced to more than three years in federal prison after pleading guilty to bribery charges from his time in office. Former Mayor Chokwe Antar Lumumba (D) was indicted on charges related to a bribery scheme h...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 21 Nov 2026 02:10:18 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/state-watch/6234903-jackson-mayor-lumumba-sentenced/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-42"
+  },
+  {
+    "title": "California man found guilty of sparking blaze that became deadly Palisades Fire",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The Palisades Fire killed 12 people as it incinerated entire neighborhoods in Los Angeles and Malibu.",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 21 Nov 2026 01:30:51 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/homenews/state-watch/6234829-uber-driver-palisades-fire-conviction/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-43"
+  },
+  {
+    "title": "Permitting reform bill clears major hurdle toward becoming law",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Presented by EQT {beacon} Energy &#038; Environment Energy &#038; Environment &#8202; The Big Story&#160; Senate approves major permitting reform bill The Senate passed&#160;a major bill Thursday seeking to speed up the build-out of the nation’s ener...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 21 Nov 2026 01:16:29 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/newsletters/energy-environment/6234873-senate-baaja-permitting-reform-energy-infrastructure/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-44"
+  },
+  {
+    "title": "Sotomayor suggests Supreme Court colleagues may applaud midterm results as safeguard",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Supreme Court Justice Sonia Sotomayor on Friday suggested her colleagues may view Democrats&#8217; sweeping victories in the midterm elections as a sign that their recent immunity decision has not eliminated checks on the president. Speaking in Phila...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 21 Nov 2026 00:27:39 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/regulation/court-battles/6234774-justice-sotomayor-midterm-safeguards/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-45"
+  },
+  {
+    "title": "Court formally approves $7.25B class settlement for cancer claims from Roundup weed killer",
+    "category": "Governance",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A judge Friday formally approved a proposed $7.25 billion agreement to settle current and future cancer claims related to exposure of Monsanto’s Roundup weed killer. The decision, by Missouri Judge Timothy Boyer, wraps up years of litigation in which...",
+      "Reporting Desk: The Hill",
+      "Source Stamp: Sat, 21 Nov 2026 00:12:25 +0000"
+    ],
+    "sources": [
+      {
+        "name": "The Hill",
+        "url": "https://thehill.com/policy/energy-environment/6234796-judge-approves-roundup-settlement/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-46"
   },
   {
     "title": "Casten, Lieu propose whistleblower program for prediction market insider trading",
@@ -797,7 +937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-40"
+    "id": "story-47"
   },
   {
     "title": "Exclusive: Shaheen, Coons call for ‘swift’ response to Russian incursions into allied airspace",
@@ -817,7 +957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-41"
+    "id": "story-48"
   },
   {
     "title": "Senate GOP pushes through Trump judges in preholiday sprint",
@@ -834,146 +974,6 @@
       {
         "name": "The Hill",
         "url": "https://thehill.com/homenews/senate/6234572-senate-confirms-trump-judges/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-42"
-  },
-  {
-    "title": "5 takeaways from Trump’s Friday news conference",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "President Trump sought to regain momentum Friday with a White House news conference that lasted almost 90 minutes. Trump’s ostensible purpose was to talk up the achievements from his recent trip to Asia, which included the announcement of trade deals...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Fri, 20 Nov 2026 22:14:58 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/administration/6234568-trump-friday-news-conference-vance-rubio/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-43"
-  },
-  {
-    "title": "Trump shakes up cybersecurity leadership",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Presented by Google Public Sector. {beacon} Technology Technology &#8202; The Big Story&#160; Trump shakes up cybersecurity leadership The White House capped off a dramatic week of tech outages with a high-profile departure in its cybersecurity leade...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Fri, 20 Nov 2026 22:14:40 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/newsletters/technology/6234571-trump-cairncross-white-house-leadership-shakeup/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-44"
-  },
-  {
-    "title": "Hinojosa outlines plans to end family detention at controversial ICE facility",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Texas Gov.-elect Gina Hinojosa (D) shared her plan this week to end family detention at a controversial immigration detention center in the state in a conversation with YouTube children’s creator Ms. Rachel.&#160; “The reason we believe the children ...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Fri, 20 Nov 2026 21:53:24 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/6234489-hinojosa-plans-end-family-detention/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-45"
-  },
-  {
-    "title": "Trump asks Stephen Miller: ‘Do you want to run for president?’",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "President Trump floated his newly appointed chief of staff, longtime adviser Stephen Miller, as a potential presidential candidate — asking the top White House official if he was interested in the presidency during a press conference Friday afternoon...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Fri, 20 Nov 2026 21:27:23 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/administration/6234343-trump-asks-stephen-miller-run-presidency/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-46"
-  },
-  {
-    "title": "Washington state finds Nippon Dynawave knew conditions were unsafe ahead of tank implosion",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Washington state fined Nippon Dynawave $10 million Friday, saying the company willfully disregarded health and safety violations ahead of a chemical tank burst that killed 11 workers and injured a dozen others. The Washington State Department of Labo...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Fri, 20 Nov 2026 21:04:29 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/state-watch/6234317-washington-fines-nippon-dynawave/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-47"
-  },
-  {
-    "title": "Vance’s office reached out to El-Sayed’s team to set up meeting",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Vice President Vance contacted Sen.-elect Abdul El-Sayed’s (D-Mich.) office to arrange a meeting after hearing the incoming lawmaker was interested in a conversation following this year’s bitter midterm election cycle, according to the vice president...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Fri, 20 Nov 2026 20:54:35 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/homenews/administration/6234274-sen-elect-el-sayed-vance-meeting/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-48"
-  },
-  {
-    "title": "Why stock market is tanking despite massive Anthropic IPO",
-    "category": "Governance",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Stocks have taken heavy losses this week, despite Anthropic going public after a record-setting initial public offering (IPO). The Nasdaq composite, which hit an all-time high in early October, is now in the red since the start of the year. As of mid...",
-      "Reporting Desk: The Hill",
-      "Source Stamp: Fri, 20 Nov 2026 20:51:02 +0000"
-    ],
-    "sources": [
-      {
-        "name": "The Hill",
-        "url": "https://thehill.com/business/6234002-stocks-plummet-anthropic-record-ipo/",
         "bias": "CENTER"
       }
     ],
@@ -1180,6 +1180,26 @@
     "id": "story-59"
   },
   {
+    "title": "No change to Canada-U.S. defence co-operation, military sources say amid report of new restrictions by Washington",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The Washington Post reported U.S. Defence Secretary Pete Hegseth imposed restrictions in a classified memo",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sat, 21 Nov 2026 04:06:58 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/us-politics/article-no-change-to-canada-us-defence-co-operation-military-sources-say-amid/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-60"
+  },
+  {
     "title": "U.S. and Canada are working on a trade deal, Keystone XL could be a factor, Trump says",
     "category": "World",
     "country": "Canada",
@@ -1197,107 +1217,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-60"
-  },
-  {
-    "title": "Burnham broaches Britain rejoining EU at summit, 10 years after Brexit",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Officials announce series of deals covering youth mobility, carbon emissions, defence co-operation, illegal migration and trade",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 20 Nov 2026 17:29:01 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-uk-eu-summit-brexit-trade-travel/",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-61"
-  },
-  {
-    "title": "NATO condemns Russian violation of Polish airspace as Ukraine allies hold drills",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Two Russian missiles and a suspected drone crashed near where European troops were taking part in preparations for a potential postwar mission in Ukraine",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 20 Nov 2026 11:35:57 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-russia-retaliates-ukraine-crimea-bridge-attacks/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-62"
-  },
-  {
-    "title": "Trump threatens tax on U.S. tech companies that build AI data centres abroad",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "U.S. President did not provide details on how he would enforce such a policy",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 20 Nov 2026 19:38:55 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-threatens-tax-us-tech-companies-build-ai-data-centres-abroad/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-63"
-  },
-  {
-    "title": "Grand Theft Auto VI sets record with $3.79-billion in first-day retail sales",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Long-awaited release also drew record preorders, Rockstar Games says",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 20 Nov 2026 20:25:27 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/business/article-grand-theft-auto-vi-record-379-billion-first-day-retail-sales/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-64"
-  },
-  {
-    "title": "A decade after shooting Harambe, the Cincinnati Zoo is reeling from Fiona’s untimely death",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Fiona’s death at age 9 led to an outpouring of grief as well as comparisons to the end of Harambe’s life, as both were untimely and involved zoo visitors",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 20 Nov 2026 15:01:05 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-fiona-hippo-cincinnati-zoo-harambe-gorilla/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-65"
   },
   {
     "title": "Indian man sentenced to more than 19 years in U.S. for plot to kill Sikh separatist",
@@ -1317,7 +1237,127 @@
         "bias": "CENTER"
       }
     ],
+    "id": "story-62"
+  },
+  {
+    "title": "U.S. jury finds man guilty of starting deadly Palisades Fire",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The January 2025 fire killed 12 people as it incinerated entire neighbourhoods in Los Angeles and Malibu",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Sat, 21 Nov 2026 00:57:31 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-us-jury-finds-man-guilty-of-starting-deadly-palisades-fire/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-63"
+  },
+  {
+    "title": "Burnham broaches Britain rejoining EU at summit, 10 years after Brexit",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Officials announce series of deals covering youth mobility, carbon emissions, defence co-operation, illegal migration and trade",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Fri, 20 Nov 2026 17:29:01 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-uk-eu-summit-brexit-trade-travel/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-64"
+  },
+  {
+    "title": "NATO condemns Russian violation of Polish airspace as Ukraine allies hold drills",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Two Russian missiles and a suspected drone crashed near where European troops were taking part in preparations for a potential postwar mission in Ukraine",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Fri, 20 Nov 2026 11:35:57 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-russia-retaliates-ukraine-crimea-bridge-attacks/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-65"
+  },
+  {
+    "title": "Trump threatens tax on U.S. tech companies that build AI data centres abroad",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "U.S. President did not provide details on how he would enforce such a policy",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Fri, 20 Nov 2026 19:38:55 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-threatens-tax-us-tech-companies-build-ai-data-centres-abroad/",
+        "bias": "CENTER"
+      }
+    ],
     "id": "story-66"
+  },
+  {
+    "title": "Grand Theft Auto VI sets record with $3.79-billion in first-day retail sales",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Long-awaited release also drew record preorders, Rockstar Games says",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Fri, 20 Nov 2026 20:25:27 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/business/article-grand-theft-auto-vi-record-379-billion-first-day-retail-sales/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-67"
+  },
+  {
+    "title": "A decade after shooting Harambe, the Cincinnati Zoo is reeling from Fiona’s untimely death",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Fiona’s death at age 9 led to an outpouring of grief as well as comparisons to the end of Harambe’s life, as both were untimely and involved zoo visitors",
+      "Reporting Desk: Globe and Mail",
+      "Source Stamp: Fri, 20 Nov 2026 15:01:05 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Globe and Mail",
+        "url": "https://www.theglobeandmail.com/world/article-fiona-hippo-cincinnati-zoo-harambe-gorilla/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-68"
   },
   {
     "title": "U.K. and EU strike deals on trade, youth travel as they seek to rebuild post-Brexit ties",
@@ -1337,47 +1377,67 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-67"
-  },
-  {
-    "title": "Thousands of European troops hold drill in Poland to prepare for potential postwar Ukraine mission",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The multinational force is a non-NATO military initiative of the so-called Coalition of the Willing, a wider political group of 37 nations supporting Ukraine",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 20 Nov 2026 12:31:12 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/article-european-troops-military-drill-poland-postwar-ukraine-mission/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-68"
-  },
-  {
-    "title": "Loud bang and black smoke: Poland hit by objects violating airspace",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Russia violated Poland's airspace overnight with three objects that were likely two missiles and a drone, the Polish defense minister said on Friday, denouncing what he called a 'provocation' from Moscow. Surveillance footage, verified by Reuters, ca...",
-      "Reporting Desk: Globe and Mail",
-      "Source Stamp: Fri, 20 Nov 2026 15:19:46 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Globe and Mail",
-        "url": "https://www.theglobeandmail.com/world/video-loud-bang-and-black-smoke-poland-hit-by-objects-violating-airspace/",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-69"
+  },
+  {
+    "title": "Kelowna city hall faces more transparency questions after wage hike kept quiet",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "While the former council was kept apprised of the negotiations, residents were not given a public announcement before the vote.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Sat, 21 Nov 2026 02:29:43 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/news/12160417/kelowna-city-hall-faces-transparency-questions-wage-hike-quiet/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-70"
+  },
+  {
+    "title": "Calgary man pleads guilty to threatening to kill Prime Minister Mark Carney and family",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Jamie Dacosta yawned and laughed as his videos threatening to slit the prime minister's throat and harm his family were played in the Calgary courtroom.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Sat, 21 Nov 2026 01:30:52 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/news/12160581/calgary-jamie-dacosta-guilty-mark-carney-death-threat/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-71"
+  },
+  {
+    "title": "Tenants ordered to vacate ‘state-of-chaos’ apartment building in central Edmonton",
+    "category": "World",
+    "country": "Canada",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Stadium Plaza tenants were released from their leases at the 'state-of-chaos apartment building' that's become overrun by squatters and has no heat due to copper pipe theft.",
+      "Reporting Desk: Global News Canada",
+      "Source Stamp: Sat, 21 Nov 2026 00:52:22 +0000"
+    ],
+    "sources": [
+      {
+        "name": "Global News Canada",
+        "url": "https://globalnews.ca/news/12160420/edmonton-stadium-plaza-eviction/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-72"
   },
   {
     "title": "Boy, 14, pleads guilty in stabbing death of retired nurse",
@@ -1397,7 +1457,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-70"
+    "id": "story-73"
   },
   {
     "title": "25 new prosecutors half to what is needed to make ‘meaningful change’ on Manitoba Crown workloads",
@@ -1417,7 +1477,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-71"
+    "id": "story-74"
   },
   {
     "title": "Staples customers’ personal information compromised in website hack",
@@ -1437,7 +1497,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-72"
+    "id": "story-75"
   },
   {
     "title": "Stellantis meeting ‘challenging’ but ‘productive’, Premier Ford says",
@@ -1457,7 +1517,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-73"
+    "id": "story-76"
   },
   {
     "title": "‘I thought I died’: Survivor of deadly Tsawwassen Mills crash on long road to recovery",
@@ -1477,7 +1537,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-74"
+    "id": "story-77"
   },
   {
     "title": "70 units ready in Saint John tiny home community as N.B. combats homelessness",
@@ -1497,7 +1557,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-75"
+    "id": "story-78"
   },
   {
     "title": "N.S. school support workers’ union seeks renewed talks after members reject offer",
@@ -1514,66 +1574,6 @@
       {
         "name": "Global News Canada",
         "url": "https://globalnews.ca/news/12159918/nova-scotia-school-support-workers-cupe-renewed-talks/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-76"
-  },
-  {
-    "title": "Calgary mayor believes revisions coming to bike lane bill, province mum on who pays",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Calgary's mayor said Premier Danielle Smith's office promised him municipalities won't have to pay for bike lane removal and the bill put forward is a 'premature draft version.'",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Fri, 20 Nov 2026 20:59:40 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/news/12160167/alberta-bike-lane-bill-calgary-mayor/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-77"
-  },
-  {
-    "title": "Airbnb’s new house rules limiting checkout chores come into effect",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The short-term rental company said its efforts to streamline house rules will help guests understand what they can and cannot be expected to do during their stay.",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Fri, 20 Nov 2026 20:51:23 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/news/12160145/airbnb-new-house-rules/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-78"
-  },
-  {
-    "title": "Alberta tweaks carbon capture incentive program to allow grants during construction",
-    "category": "World",
-    "country": "Canada",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "The change to cover 12 per cent of eligible capital costs is meant to better align provincial policy with the federal Carbon Capture, Utilization and Storage Tax Credit.",
-      "Reporting Desk: Global News Canada",
-      "Source Stamp: Fri, 20 Nov 2026 20:37:33 +0000"
-    ],
-    "sources": [
-      {
-        "name": "Global News Canada",
-        "url": "https://globalnews.ca/news/12159744/alberta-carbon-capture-incentive-program-incentive/",
         "bias": "CENTER"
       }
     ],
@@ -1780,6 +1780,26 @@
     "id": "story-89"
   },
   {
+    "title": "Tech outages are rattling Americans so much that they’re stockpiling cash and supplies",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "A lack of clarity from world leaders is prompting some people to prepare for the worst.",
+      "Reporting Desk: MarketWatch",
+      "Source Stamp: Sat, 21 Nov 2026 03:20:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/why-are-these-tech-outages-rattling-americans-so-much-that-theyre-stockpiling-cash-and-supplies-07516bdd?mod=mw_rss_topstories",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-90"
+  },
+  {
     "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
     "category": "Economy",
     "country": "United States",
@@ -1797,7 +1817,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-90"
+    "id": "story-91"
   },
   {
     "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
@@ -1817,7 +1837,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-91"
+    "id": "story-92"
   },
   {
     "title": "These stocks were crushed the most this week as the tech wreck accelerated",
@@ -1837,7 +1857,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-92"
+    "id": "story-93"
   },
   {
     "title": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
@@ -1857,7 +1877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-93"
+    "id": "story-94"
   },
   {
     "title": "Everyone’s making money off ‘GTA 6’ this week — except investors in Take-Two’s stock",
@@ -1877,7 +1897,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-94"
+    "id": "story-95"
   },
   {
     "title": "The hidden catch in Anthropic’s IPO: Billions of locked-up shares are waiting in the wings",
@@ -1897,7 +1917,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-95"
+    "id": "story-96"
   },
   {
     "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
@@ -1917,7 +1937,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-96"
+    "id": "story-97"
   },
   {
     "title": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year’s peak",
@@ -1937,7 +1957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-97"
+    "id": "story-98"
   },
   {
     "title": "Anthropic’s stock sees dramatic slide but manages to stay above its IPO price",
@@ -1957,27 +1977,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-98"
+    "id": "story-99"
   },
   {
-    "title": "Here’s what’s been proven to help GLP-1 users from losing too much muscle from the drug",
+    "title": "Anthropic Researcher Claims to Solve Riemann Problem With Claude - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "People taking Zepbound who engage in consistent resistance training can still get stronger even if they lose some of their muscle, according to a new study.",
-      "Reporting Desk: MarketWatch",
-      "Source Stamp: Fri, 20 Nov 2026 21:01:00 GMT"
+      "Anthropic Researcher Claims to Solve Riemann Problem With Claude&nbsp;&nbsp;Bloomberg.com",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Sat, 21 Nov 2026 00:17:00 GMT"
     ],
     "sources": [
       {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/heres-whats-been-proven-to-help-glp-1-users-who-have-lost-muscle-from-the-drug-2c71cdbf?mod=mw_rss_topstories",
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc0FIUXQ1QWg1QldNT3l3YlRZdUc1a1Z2bFl5elNOdjQ2d3YyM1hyd1NDZWxRdWpRd0tyZFd5UWdQbDQxMTBpbzNqdl9NWEZobUdyU2NsbkZ2RTY5MDc2SFJERmVoaUdfWE4zQkVucmdEZVRuQkpEU0E4WnpBQVhXOE1qQUc1cjFsczFEWi1MWVdOeE9LZVYxT0NFRnZHN19RcnJQUUxpcUs0QnhsazUyNnNiZk42UQ?oc=5",
         "bias": "CENTER"
       }
     ],
-    "id": "story-99"
+    "id": "story-100"
   },
   {
     "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler - Bloomberg.com",
@@ -1997,27 +2017,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-100"
+    "id": "story-101"
   },
   {
-    "title": "Wall Street Nears Breaking Point as Fear Grips Global Markets - Bloomberg.com",
+    "title": "El Salvador Troops Killed in Haiti Blast After Rescue Deployment - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Wall Street Nears Breaking Point as Fear Grips Global Markets&nbsp;&nbsp;Bloomberg.com",
+      "El Salvador Troops Killed in Haiti Blast After Rescue Deployment&nbsp;&nbsp;Bloomberg.com",
       "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Fri, 20 Nov 2026 21:52:00 GMT"
+      "Source Stamp: Sat, 21 Nov 2026 03:38:00 GMT"
     ],
     "sources": [
       {
         "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYzFZMUV0TnJwY0RVNXBBYzRZQVJZQ0lUYnhrMWhsTnZwU0xpVUlLejFRbTRvZUxOM3JLbmZGRTBNS0kyZ2NJMEtuUHZVRDE0YlFhM0NHaHF1eHZ0cnJsTlE0VHNBWVdodC01ZEtLZ0dUR3kycTBxSC1QdVNzUVRTaG9KcUtSQXZsWTZjdm5XdzR5UHJPZkgtV2xSeHJZMW15dnpDNG4xci16UmhXOXR4dTFR?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMzdwd1ZOU3gxVktPUXNlNnNKY3BKRjdJTlUzc1E1dld4NmdOSVZjWFlMUkU2TnYyNDNkY29Rbmk3OHZkVVZrNzkyX1k0a2JXLTdNbHN3cUJ3c3B6dWlEaEJfWHhlUnFaX2hDUHlGRXMtU1M4R29qVkN2cWItWUFhMEtrbFJWMTYydWg0bl8wY2Fmb0xNRGdsZGZNYmhjUTdaQUtUcER6azZNSG5qNmlWaEtLNG9PUQ?oc=5",
         "bias": "CENTER"
       }
     ],
-    "id": "story-101"
+    "id": "story-102"
   },
   {
     "title": "Cognition in Talks for $75 Billion Value With New Funding - Bloomberg.com",
@@ -2037,67 +2057,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-102"
-  },
-  {
-    "title": "Wall Street Regulator Probing Nvidia’s Accounting, Report Says - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Wall Street Regulator Probing Nvidia’s Accounting, Report Says&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Fri, 20 Nov 2026 21:16:03 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQanJ2Vy1aLVpxUExDcF84eWx2YUlCNWZnY2JZbFp5YVlLMktzM3d5THFxTnpEajNHakd6bnNtNGRrTDJnNkprX1dWYVFwRTFudF9zcHh3QWpJZ1pxNlB6eHVVbTJLanNOYndlSURJSDBEYkFnckRCOWxSV1BoQnNOX3doTmlWNWVCeGM3SlNCelZSYVVKX2IxNnRjUW84eU5JMkFMT09uTFZsVmVrY3AzS2RSdw?oc=5",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-103"
   },
   {
-    "title": "‘Grand Theft Auto VI’ Sells $3.79 Billion, Making It Biggest Entertainment Launch Ever - Bloomberg.com",
+    "title": "Wall Street Nears Breaking Point as Fear Grips Global Markets - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "‘Grand Theft Auto VI’ Sells $3.79 Billion, Making It Biggest Entertainment Launch Ever&nbsp;&nbsp;Bloomberg.com",
+      "Wall Street Nears Breaking Point as Fear Grips Global Markets&nbsp;&nbsp;Bloomberg.com",
       "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Fri, 20 Nov 2026 21:11:55 GMT"
+      "Source Stamp: Fri, 20 Nov 2026 21:52:00 GMT"
     ],
     "sources": [
       {
         "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaXlBc2U0Q3k4dUxvNElJOEk5X0w4dEU0T0cyNzF4R3g0SVBoZGRQX0xLYTc5Sk5Lc2FjaDZSWFRFWXJ2UlZwNGZLRkJSQVhyeWljRGgyelNsSUMyR0pmaWl6X050WHNoSngwZ2p0UUJURlJFOW93aUZOVDJfUWZWUlc3ZXNJNm1fOVdGVG42SzhFWHRWYnVuVS1yemNZUDlLNEdoNkJ0LUgwQ1BwSUIxTWtMSzJ0WnlQZGk5UkR4cFA0VFh6RzVyNjBfaWxJZm8?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYzFZMUV0TnJwY0RVNXBBYzRZQVJZQ0lUYnhrMWhsTnZwU0xpVUlLejFRbTRvZUxOM3JLbmZGRTBNS0kyZ2NJMEtuUHZVRDE0YlFhM0NHaHF1eHZ0cnJsTlE0VHNBWVdodC01ZEtLZ0dUR3kycTBxSC1QdVNzUVRTaG9KcUtSQXZsWTZjdm5XdzR5UHJPZkgtV2xSeHJZMW15dnpDNG4xci16UmhXOXR4dTFR?oc=5",
         "bias": "CENTER"
       }
     ],
     "id": "story-104"
-  },
-  {
-    "title": "Trump Says Huang Should Return to Nvidia After ‘Big Apology’ - Bloomberg.com",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Trump Says Huang Should Return to Nvidia After ‘Big Apology’&nbsp;&nbsp;Bloomberg.com",
-      "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Fri, 20 Nov 2026 19:27:57 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbFdfWGphRTBrWWxRT1M4bm1uMmZ2cHh4UmFJNEJFXzVxRXh3aThLVWtsMjBNRVVxV2J1RXAyTTh6NkpmMExOZkR5ekNmcHh0bFBzcGFvT21DQWVsVEdXRUcwT1NCTWI0dWtVbjcwaDJuT0F1bnUtY0wzWHVRUXNCR2U2dWFrTmxOaGFzaVZXQ004OFVYUjd6cmJQUmRfdVNubXc5V0tfd1FpMURubnU4bzZTNA?oc=5",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-105"
   },
   {
     "title": "Anthropic CEO Vacations at Italian Resort After Public Listing - Bloomberg.com",
@@ -2117,23 +2097,43 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-106"
+    "id": "story-105"
   },
   {
-    "title": "Bitcoin Falls to More than Two-Year Low as Global Markets Sink - Bloomberg.com",
+    "title": "Wall Street Regulator Probing Nvidia’s Accounting, Report Says - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Bitcoin Falls to More than Two-Year Low as Global Markets Sink&nbsp;&nbsp;Bloomberg.com",
+      "Wall Street Regulator Probing Nvidia’s Accounting, Report Says&nbsp;&nbsp;Bloomberg.com",
       "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Fri, 20 Nov 2026 21:14:27 GMT"
+      "Source Stamp: Fri, 20 Nov 2026 21:16:03 GMT"
     ],
     "sources": [
       {
         "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ3l4RFFsS191QTB1b2VicGdIRlZESmozTURmT2NKbUFiMU5qVUZIcDdFM0ctV3p6Vmgwc2JoYi16WFh2dGxkTERLTHE5aW9jcmRHaF9uVGd4QXJFcHUyVzRndVRQTmZwcFZZbV9pWlFlNGZVNVNhWWp5MmQ3ckh0ZF8wTGRxeHZ0dUs0ZDN4SktpRVBCc1JqWEZsQVVJOXgzbFdBOUx1V011TEJGNENwbDIxNA?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQanJ2Vy1aLVpxUExDcF84eWx2YUlCNWZnY2JZbFp5YVlLMktzM3d5THFxTnpEajNHakd6bnNtNGRrTDJnNkprX1dWYVFwRTFudF9zcHh3QWpJZ1pxNlB6eHVVbTJLanNOYndlSURJSDBEYkFnckRCOWxSV1BoQnNOX3doTmlWNWVCeGM3SlNCelZSYVVKX2IxNnRjUW84eU5JMkFMT09uTFZsVmVrY3AzS2RSdw?oc=5",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-106"
+  },
+  {
+    "title": "‘Grand Theft Auto VI’ Sells $3.79 Billion, Making It Biggest Entertainment Launch Ever - Bloomberg.com",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "‘Grand Theft Auto VI’ Sells $3.79 Billion, Making It Biggest Entertainment Launch Ever&nbsp;&nbsp;Bloomberg.com",
+      "Reporting Desk: Bloomberg Markets",
+      "Source Stamp: Fri, 20 Nov 2026 21:11:55 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Markets",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaXlBc2U0Q3k4dUxvNElJOEk5X0w4dEU0T0cyNzF4R3g0SVBoZGRQX0xLYTc5Sk5Lc2FjaDZSWFRFWXJ2UlZwNGZLRkJSQVhyeWljRGgyelNsSUMyR0pmaWl6X050WHNoSngwZ2p0UUJURlJFOW93aUZOVDJfUWZWUlc3ZXNJNm1fOVdGVG42SzhFWHRWYnVuVS1yemNZUDlLNEdoNkJ0LUgwQ1BwSUIxTWtMSzJ0WnlQZGk5UkR4cFA0VFh6RzVyNjBfaWxJZm8?oc=5",
         "bias": "CENTER"
       }
     ],
@@ -2160,24 +2160,44 @@
     "id": "story-108"
   },
   {
-    "title": "Microsoft to Pay Top Cloud Workers More, Crack Down on Others - Bloomberg.com",
+    "title": "Bitcoin Falls to More than Two-Year Low as Global Markets Sink - Bloomberg.com",
     "category": "Economy",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Microsoft to Pay Top Cloud Workers More, Crack Down on Others&nbsp;&nbsp;Bloomberg.com",
+      "Bitcoin Falls to More than Two-Year Low as Global Markets Sink&nbsp;&nbsp;Bloomberg.com",
       "Reporting Desk: Bloomberg Markets",
-      "Source Stamp: Fri, 20 Nov 2026 18:05:46 GMT"
+      "Source Stamp: Sat, 21 Nov 2026 04:34:00 GMT"
     ],
     "sources": [
       {
         "name": "Bloomberg Markets",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM3hLaXdod0Myc1NGcVJDbHZlMEEyaS1FdzJpVmZKeEVLN3BRQzIzVDJXd1g3RXdzVHVlaXJuOWpmQ1ZwZ0IyVGJPMHVMLWhKZHluYjRmYXhQZkZWOXY3Z0ItS0NHREE0a05KUUVuUUM5MDdpb3drSzhzb2hHdjlvTHNOY2lnOXViSkdKUXI4cndxMjZocEx5LTM5TnFYRzlLY1NBdHY4VFZTdm53MHl0Rw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ3l4RFFsS191QTB1b2VicGdIRlZESmozTURmT2NKbUFiMU5qVUZIcDdFM0ctV3p6Vmgwc2JoYi16WFh2dGxkTERLTHE5aW9jcmRHaF9uVGd4QXJFcHUyVzRndVRQTmZwcFZZbV9pWlFlNGZVNVNhWWp5MmQ3ckh0ZF8wTGRxeHZ0dUs0ZDN4SktpRVBCc1JqWEZsQVVJOXgzbFdBOUx1V011TEJGNENwbDIxNA?oc=5",
         "bias": "CENTER"
       }
     ],
     "id": "story-109"
+  },
+  {
+    "title": "The Blame Game Has Begun Over Anthropic’s Turbulent Trading Debut - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "The Blame Game Has Begun Over Anthropic’s Turbulent Trading Debut&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Sat, 21 Nov 2026 02:16:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd0p4QVlqUGxNcEQwUVJFWkU2cnBwOGRoMjk0ZDRSaFlNZzZMdmt5d3p0QzZzeDZXZks1TGhyN1JPNDI0clRKSHMtSWpOdHNMeUMyNHU5YlpJY0NITnJ4MUhJeTByWmtKdU9QdlZIZGtvYmJlZW1oTjVKZ25WRGowQVRXSWp1cDZYLTRONXRoVkRSc3ZjdDNvWE5jLUhnY2lHd202LXd5Umk3ZlQt?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-110"
   },
   {
     "title": "Exclusive | Databricks In Early Talks To Raise Funds At $225 Billion Valuation - WSJ",
@@ -2197,27 +2217,67 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-110"
+    "id": "story-111"
   },
   {
-    "title": "Exclusive | Wonder Explores Sale of Food-Delivery Business Grubhub - WSJ",
+    "title": "Anthropic’s IPO Turmoil Caps $4 Trillion AI Wipeout on Wall Street - WSJ",
     "category": "Economy",
     "country": "United States",
     "leaning": "RIGHT",
     "feelGood": false,
     "keyFacts": [
-      "Exclusive | Wonder Explores Sale of Food-Delivery Business Grubhub&nbsp;&nbsp;WSJ",
+      "Anthropic’s IPO Turmoil Caps $4 Trillion AI Wipeout on Wall Street&nbsp;&nbsp;WSJ",
       "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Fri, 20 Nov 2026 22:48:32 GMT"
+      "Source Stamp: Fri, 20 Nov 2026 23:36:00 GMT"
     ],
     "sources": [
       {
         "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMUE1UjBFeTY1Uk05TzAtS0x6TkdRLWZXNVFsNlVMLW5HQ1dGMFMyV1JldEFrYmlOd2d2YWdIT0QwdHN3VDJPSVJOUjFHNl8zeXBIM0tseFlXVWc5NGE2X1k2TlJwU3lfVzRjcXVSa05KRWlIWXE0WlplZGkybnpScUYyUWtrbXBfTXhKTWRuODBSXzNCRnZwVmxhbTVFS2xJ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNlRWTmU1NlRGMjRnb2JGWUVrSTk4V3dTRWgyb2hlSXF6Y0FtVi1tREhvSUFPby1IVkphYVlXdGtpR2pvYmltRnpaUkI3RFBMeG05aExMWUs4Yi1rb05oTlBvNWpRUFhSNWc2NlRER205T1QzZU5PbVcwaTJEU1hpM1M2ZDFtd2RNamMtS2trTGtjWThBTXZ3MFJ6bEYxTTdxMmExQ1cwRXVTYk9OOENzTA?oc=5",
         "bias": "RIGHT"
       }
     ],
-    "id": "story-111"
+    "id": "story-112"
+  },
+  {
+    "title": "Denmark Accuses Russia of Trying to Kill Ukrainian Rapper - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "Denmark Accuses Russia of Trying to Kill Ukrainian Rapper&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Sat, 21 Nov 2026 00:39:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRURXYnNWSjhSdVdUUUdMam9EUXVHLUdEODUyY25SWGhjMWtvM1R1WC1tVFNOb19xSVJ3LVNZNlRQdjV3TGRpX0U4YW5xcGFGT1BOVHdzbGY1WGxfUjFLVndncTRSSWotano3UUFVejJ3OGljTnNJZ0xkV1FGRUFJYlVGTlI4eDduTUszWW92UVRqdXJkNmk5ZXV4YmE4Y19x?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-113"
+  },
+  {
+    "title": "Nasdaq Turns Red For The Year - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "Nasdaq Turns Red For The Year&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Fri, 20 Nov 2026 21:50:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RaUhWLVdDQi05aHVLU1hiMkdFRnIyYmNObm9fNV93R3Z5ZEt1b0QzTHdUSmVJOWZaNGlheDdnckJWNWNKcW5zNkMtOUJHWmg3Q1hNUkFyTUwxSFNlMUVacV95dGllbkM1MlUxV2FlUVl3YmRMdXpjdWxWemV1Zw?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-114"
   },
   {
     "title": "U.S. Stocks Extend Plunge as AI Boom Turns to Bust - WSJ",
@@ -2237,27 +2297,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-112"
-  },
-  {
-    "title": "Exclusive | Top Republican Senator Says Lutnick Ignored His China Chip Warnings - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "Exclusive | Top Republican Senator Says Lutnick Ignored His China Chip Warnings&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Fri, 20 Nov 2026 19:39:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZE1FLUpGTW9zeVJKbndTVUV6MTF3dmVQTE4zd2h4SVlCdzI4Qm1xNmtPWW0xTGR0TjRHRnVVZjg0RERoZXB2MEpMazY5akdSU0phSEc2WEU3NURBdWMwVEtBd2ZmamNRRXF5LVZnMms5QnlYNldTQ1NCVWNMVkpSZjRzc283dlY0eWkxVEVLWTQ1ekJrRGY5Zk5yM2NqcXhtSGoxdFlmcGx1X0tjYkRUaU5nZnRNNS1BZW5tRGlZRmM?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-113"
+    "id": "story-115"
   },
   {
     "title": "New Satellite Photos Show Expansion of North Korean Uranium-Enrichment Plant - WSJ",
@@ -2277,7 +2317,27 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-114"
+    "id": "story-116"
+  },
+  {
+    "title": "Exclusive | Top Republican Senator Says Lutnick Ignored His China Chip Warnings - WSJ",
+    "category": "Economy",
+    "country": "United States",
+    "leaning": "RIGHT",
+    "feelGood": false,
+    "keyFacts": [
+      "Exclusive | Top Republican Senator Says Lutnick Ignored His China Chip Warnings&nbsp;&nbsp;WSJ",
+      "Reporting Desk: Wall Street Journal",
+      "Source Stamp: Fri, 20 Nov 2026 19:39:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "Wall Street Journal",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZE1FLUpGTW9zeVJKbndTVUV6MTF3dmVQTE4zd2h4SVlCdzI4Qm1xNmtPWW0xTGR0TjRHRnVVZjg0RERoZXB2MEpMazY5akdSU0phSEc2WEU3NURBdWMwVEtBd2ZmamNRRXF5LVZnMms5QnlYNldTQ1NCVWNMVkpSZjRzc283dlY0eWkxVEVLWTQ1ekJrRGY5Zk5yM2NqcXhtSGoxdFlmcGx1X0tjYkRUaU5nZnRNNS1BZW5tRGlZRmM?oc=5",
+        "bias": "RIGHT"
+      }
+    ],
+    "id": "story-117"
   },
   {
     "title": "American State Capitalism Helped Produce the Nvidia Scandal - WSJ",
@@ -2297,27 +2357,7 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-115"
-  },
-  {
-    "title": "Anthropic Mathematician Says AI Has Solved the Most Famous Problem in Math - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "Anthropic Mathematician Says AI Has Solved the Most Famous Problem in Math&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Fri, 20 Nov 2026 21:56:50 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2R1UU5HMEVNTGhtYWxQaTNBMjVRZnZxZjJVU0U1MVk0U2dIRHh6akhYNV9tNWxXYjNmeU16UzdqZDM3bUpDS1BxOEd2b3oySzVMako4Z25JMmNFUVd5ZlFWNTZ4WmJ6d2NXT0R5Z1JsNVNGMi04MGowVF9CQkl4dEEtXzJNYWRDeHA3Rk1hV250dEZWQjNRLW5RZHZPQ0ZMMlNLSDdkejFKTklvZW1ZNDZZalFOQQ?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-116"
+    "id": "story-118"
   },
   {
     "title": "Trump Says He Will Penalize Companies That Build Data Centers Outside the U.S. - WSJ",
@@ -2337,47 +2377,27 @@
         "bias": "RIGHT"
       }
     ],
-    "id": "story-117"
-  },
-  {
-    "title": "The U.S. Is Auctioning Off a Slice of the Pacific Ocean Floor in Push for Minerals - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "The U.S. Is Auctioning Off a Slice of the Pacific Ocean Floor in Push for Minerals&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Fri, 20 Nov 2026 14:29:06 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObVVxb3VOc2lzaEZ0ZnMzaXVJZDhkR2RBZk8tSVY2RXZCRk9qQTlWcG1LSldxZGpjLUZBQUdYQThlWmFwWGVxUFV0WHVpTGFCdTBhdWdaTUZwWmFRYTI1YUNMRnQtTEU1eUs1TlhsUm1CWG5OTElHdUk4M1RKcEhid0RmMDNCUm5CbEdPaEdqU1NLaGE0ZEd2cG1Nb2ZrNGk0UlFxYnI5NlJocWZ4aGhRWFVKOTcwSGZtdkYw?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
-    "id": "story-118"
-  },
-  {
-    "title": "Russia Steps Up Attacks on Kyiv’s Bridges - WSJ",
-    "category": "Economy",
-    "country": "United States",
-    "leaning": "RIGHT",
-    "feelGood": false,
-    "keyFacts": [
-      "Russia Steps Up Attacks on Kyiv’s Bridges&nbsp;&nbsp;WSJ",
-      "Reporting Desk: Wall Street Journal",
-      "Source Stamp: Fri, 20 Nov 2026 13:34:00 GMT"
-    ],
-    "sources": [
-      {
-        "name": "Wall Street Journal",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSjQzVW1YNGlOS3hPaDQtempvLWh0MnRuNjNCa2NFV1dUQ0I3R3VzS3NodURZRTdtZ1BmZkNrMkg3RVluTTZ5VFN3YjcwMS14UE9QdEh2Ry1QZU5VSkdLalhmNlNlQnRBZHlVRmpaMFd5VEFXbUNHUExibkc5WjRXRg?oc=5",
-        "bias": "RIGHT"
-      }
-    ],
     "id": "story-119"
+  },
+  {
+    "title": "Antonelli fastest but penalty leaves Verstappen on pole",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Mercedes' Kimi Antonelli is fastest in qualifying for the Las Vegas Grand Prix but a grid penalty hands pole position to Red Bull's Max Verstappen.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 21 Nov 2026 05:54:10 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/formula1/articles/cqlyj4yg366wo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-120"
   },
   {
     "title": "Price beats Kotaskova to become undisputed champion",
@@ -2397,7 +2417,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-120"
+    "id": "story-121"
   },
   {
     "title": "Cost of Man Utd hiring and firing managers nears £100m",
@@ -2417,47 +2437,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-121"
-  },
-  {
-    "title": "Stacked England aim to pile on style and add to All Black misery",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "England's easy-on-the-eye revival will be stress-tested by a New Zealand side under sudden pressure on Saturday",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Fri, 20 Nov 2026 16:51:17 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqrmgjpp0l48o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
     "id": "story-122"
-  },
-  {
-    "title": "NFL great Brady could buy Chelsea stake",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "American football great Tom Brady is looking to invest in Chelsea through ownership group Clearlake Capital.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Fri, 20 Nov 2026 22:36:35 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cmg46k97k92do?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-123"
   },
   {
     "title": "Price survives match darts to reach Grand Slam semis",
@@ -2477,87 +2457,47 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-124"
+    "id": "story-123"
   },
   {
-    "title": "Filming training by drones should be illegal - Iraola",
+    "title": "Athlete who lost hand saving friends in attack 'would do it again'",
     "category": "Sports",
     "country": "United Kingdom",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Liverpool head coach Andoni Iraola says filming with drones around training grounds should be illegal.",
+      "Ismael Ox was 11 years old when he lost his hand trying to protect his friends from a grenade - and now competes in Para-taekwondo for the USA.",
       "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Fri, 20 Nov 2026 15:08:51 GMT"
+      "Source Stamp: Sat, 21 Nov 2026 06:35:06 GMT"
     ],
     "sources": [
       {
         "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cqdr1xmekmg5o?at_medium=RSS&at_campaign=rss",
+        "url": "https://www.bbc.co.uk/sport/taekwondo/articles/crpdwljj0v89o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-124"
+  },
+  {
+    "title": "Stacked England aim to pile on style and add to All Black misery",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "England's easy-on-the-eye revival will be stress-tested by a New Zealand side under sudden pressure on Saturday",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Fri, 20 Nov 2026 16:51:17 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqrmgjpp0l48o?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-125"
-  },
-  {
-    "title": "Osimhen keen on Man Utd move - Saturday's gossip",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Victor Osimhen is keen on a move to Manchester United, Aston Villa are interested in Amad Diallo and Ivan Toney is a target for Crystal Palace, plus more.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Fri, 20 Nov 2026 20:06:51 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c60qj1924wyeo?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-126"
-  },
-  {
-    "title": "Alcaraz puts aside injury concerns to take apart Cobolli",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "A ruthless Carlos Alcaraz puts aside his injury concerns to dismantle Flavio Cobolli and ensure a perfect record in the ATP Finals group stages.",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Fri, 20 Nov 2026 21:58:24 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/tennis/articles/cqrkgn17emr2o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-127"
-  },
-  {
-    "title": "Man Utd fan criticism has gone too far at times - Berrada",
-    "category": "Sports",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Manchester United chief executive Omar Berrada says some of the recent criticism of the club's hierarchy has \"crossed a line\".",
-      "Reporting Desk: BBC Sports Desk",
-      "Source Stamp: Fri, 20 Nov 2026 16:55:11 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC Sports Desk",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cwz0k32j9kr9o?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-128"
   },
   {
     "title": "Shevchenko lying about drugs test claims - Mudryk",
@@ -2574,6 +2514,66 @@
       {
         "name": "BBC Sports Desk",
         "url": "https://www.bbc.co.uk/sport/football/articles/cjn502n9vqp4o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-126"
+  },
+  {
+    "title": "Jeers, injuries and doubters - White's journey back to the top",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "When Ben White wheeled away after scoring England's third goal against world champions Spain, it was more than just a strike which ended up being the winner in a special win.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Sat, 21 Nov 2026 06:17:32 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cv7028xeler2o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-127"
+  },
+  {
+    "title": "Cummins retains Cricket Australia support as captain",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Pat Cummins will retain backing from Cricket Australia to remain as Test captain despite ongoing and explosive allegations about the sandpaper controversy.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Fri, 20 Nov 2026 10:13:23 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/cricket/articles/c6808y17r0l0o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-128"
+  },
+  {
+    "title": "A men's netball World Cup - not a question of if, but when?",
+    "category": "Sports",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "England and Jamaica's men's netball teams will act as curtain-raisers for the women's sides in this weekend's Horizon Series in London - and as the sport grows, an inaugural men's World Cup is on the cards.",
+      "Reporting Desk: BBC Sports Desk",
+      "Source Stamp: Fri, 20 Nov 2026 18:00:20 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC Sports Desk",
+        "url": "https://www.bbc.co.uk/sport/netball/articles/c60evgr13deyo?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
@@ -2960,204 +2960,224 @@
     "id": "story-148"
   },
   {
-    "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
+    "title": "Mint Mobile Discounts for November 2026",
     "category": "Tech",
     "country": "United States",
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.",
+      "Reduce your monthly cell phone bill with these active Mint Mobile coupons and promos, limited-time promotions, and 5G plan savings.",
       "Reporting Desk: Wired Tech",
-      "Source Stamp: Fri, 20 Nov 2026 23:24:02 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:00:00 +0000"
     ],
     "sources": [
       {
         "name": "Wired Tech",
-        "url": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
+        "url": "https://www.wired.com/story/mint-mobile-promo-code/",
         "bias": "LEFT"
       }
     ],
     "id": "story-149"
   },
   {
-    "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
+    "title": "Mountain Hardwear Coupon Code 15% Off November",
     "category": "Tech",
     "country": "United States",
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”",
+      "High-performance mountaineering and hiking apparel doesn't have to break the bank.",
       "Reporting Desk: Wired Tech",
-      "Source Stamp: Fri, 20 Nov 2026 19:52:21 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:00:00 +0000"
     ],
     "sources": [
       {
         "name": "Wired Tech",
-        "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+        "url": "https://www.wired.com/story/mountain-hardwear-promo-codes/",
         "bias": "LEFT"
       }
     ],
     "id": "story-150"
   },
   {
-    "title": "Internet Archive Staffers Are Unionizing",
+    "title": "Google Workspace Promo Codes: 14% Off for November 2026",
     "category": "Tech",
     "country": "United States",
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "A supermajority of eligible workers at the nonprofit digital library voted in favor of joining the Communications Workers of America.",
+      "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and Plus tiers.",
       "Reporting Desk: Wired Tech",
-      "Source Stamp: Fri, 20 Nov 2026 18:00:00 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:00:00 +0000"
     ],
     "sources": [
       {
         "name": "Wired Tech",
-        "url": "https://www.wired.com/story/internet-archive-staffers-are-unionizing/",
+        "url": "https://www.wired.com/story/google-workspace-promo-code/",
         "bias": "LEFT"
       }
     ],
     "id": "story-151"
   },
   {
-    "title": "The 23 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
+    "title": "Motorola Coupon Code for November 2026",
     "category": "Tech",
     "country": "United States",
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now.",
+      "Upgrade your smartphone for less with the latest Motorola promo codes, free shipping offers, and exclusive seasonal discounts.",
       "Reporting Desk: Wired Tech",
-      "Source Stamp: Fri, 20 Nov 2026 17:01:45 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:00:00 +0000"
     ],
     "sources": [
       {
         "name": "Wired Tech",
-        "url": "https://www.wired.com/story/best-black-friday-deals-11-20-2026/",
+        "url": "https://www.wired.com/story/motorola-coupon-code/",
         "bias": "LEFT"
       }
     ],
     "id": "story-152"
   },
   {
-    "title": "Don’t Bring Jensen Back",
+    "title": "Total Wireless Promo Codes & Deals: 50% Off Select Plans",
     "category": "Tech",
     "country": "United States",
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "A mob of tech bros is clamoring for Nvidia to reinstate Jensen Huang as CEO. It’s a bad idea.",
+      "Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings.",
       "Reporting Desk: Wired Tech",
-      "Source Stamp: Fri, 20 Nov 2026 16:00:00 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:00:00 +0000"
     ],
     "sources": [
       {
         "name": "Wired Tech",
-        "url": "https://www.wired.com/story/dont-bring-jensen-back/",
+        "url": "https://www.wired.com/story/total-wireless-promo-code/",
         "bias": "LEFT"
       }
     ],
     "id": "story-153"
   },
   {
-    "title": "The Best Pura Deals for Cyber Week (2026)",
+    "title": "Nike Promo Codes and Discounts: 30% for November 2026",
     "category": "Tech",
     "country": "United States",
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "Pura fragrances are 20 percent off, and diffusers are 30 percent off through December 6. Here’s what I’d buy after having tested three generations of Pura devices.",
+      "Check out our deals for Nike this November 2026, including 15% off select purchases.",
       "Reporting Desk: Wired Tech",
-      "Source Stamp: Fri, 20 Nov 2026 13:30:00 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:00:00 +0000"
     ],
     "sources": [
       {
         "name": "Wired Tech",
-        "url": "https://www.wired.com/story/pura-black-friday-2026/",
+        "url": "https://www.wired.com/story/nike-promo-code/",
         "bias": "LEFT"
       }
     ],
     "id": "story-154"
   },
   {
-    "title": "The Birdfy Gifts I’d Buy for Backyard Birders",
+    "title": "Ulta Promo Codes: Up to 20% Off in November 2026",
     "category": "Tech",
     "country": "United States",
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "After more than two years of testing smart bird feeders, these are the picks I’d give others, including a simple camera feeder and a nest box that let me watch chickadees raise their young.",
+      "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
       "Reporting Desk: Wired Tech",
-      "Source Stamp: Fri, 20 Nov 2026 13:00:00 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:00:00 +0000"
     ],
     "sources": [
       {
         "name": "Wired Tech",
-        "url": "https://www.wired.com/story/best-birdfy-gifts-2026/",
+        "url": "https://www.wired.com/story/ulta-coupon/",
         "bias": "LEFT"
       }
     ],
     "id": "story-155"
   },
   {
-    "title": "Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites",
+    "title": "Therabody Promo Codes: 15% Off November 2026",
     "category": "Tech",
     "country": "United States",
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
+      "Save on the science-backed devices you’ve been eyeing with 15% off Theragun discount code and 30% off other great deals.",
       "Reporting Desk: Wired Tech",
-      "Source Stamp: Fri, 20 Nov 2026 13:00:00 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:00:00 +0000"
     ],
     "sources": [
       {
         "name": "Wired Tech",
-        "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-20-2026/",
+        "url": "https://www.wired.com/story/therabody-promo-code/",
         "bias": "LEFT"
       }
     ],
     "id": "story-156"
   },
   {
-    "title": "Best Robot Vacuum Early Black Friday Deals from Roborock (2026)",
+    "title": "20% Off Brooks Promo Code | November 2026",
     "category": "Tech",
     "country": "United States",
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "A few of the best robot vacuums I’ve tested from the brand are at their lowest prices ever.",
+      "Enjoy 20% off your first order with a Brooks coupon code, plus top discounts and deals on our favorite Brooks running shoes.",
       "Reporting Desk: Wired Tech",
-      "Source Stamp: Fri, 20 Nov 2026 12:15:00 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:00:00 +0000"
     ],
     "sources": [
       {
         "name": "Wired Tech",
-        "url": "https://www.wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026/",
+        "url": "https://www.wired.com/story/brooks-promo-code/",
         "bias": "LEFT"
       }
     ],
     "id": "story-157"
   },
   {
-    "title": "Which MacBook to Buy (2026): Here’s Which Laptop Is Right for You",
+    "title": "Uplift Promo Codes: $300 Off",
     "category": "Tech",
     "country": "United States",
     "leaning": "LEFT",
     "feelGood": false,
     "keyFacts": [
-      "With the introduction of the OLED MacBook Pro and MacBook Neo, there are now more Apple laptops than ever to choose from.",
+      "Upgrade your home office with the best Uplift Desk discount codes. Save on standing desks, ergonomic chairs, and accessories.",
       "Reporting Desk: Wired Tech",
-      "Source Stamp: Fri, 20 Nov 2026 12:00:00 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:00:00 +0000"
     ],
     "sources": [
       {
         "name": "Wired Tech",
-        "url": "https://www.wired.com/story/which-macbook-should-you-buy/",
+        "url": "https://www.wired.com/story/uplift-desk-coupon-code/",
         "bias": "LEFT"
       }
     ],
     "id": "story-158"
+  },
+  {
+    "title": "APOD: 2026 November 21 – Voyager’s Neptune",
+    "category": "Tech",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss   APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating univer...",
+      "Reporting Desk: NASA Science",
+      "Source Stamp: Sat, 21 Nov 2026 05:05:00 +0000"
+    ],
+    "sources": [
+      {
+        "name": "NASA Science",
+        "url": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-159"
   },
   {
     "title": "Curiosity Spots Drifting Twilight Clouds",
@@ -3177,7 +3197,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-159"
+    "id": "story-160"
   },
   {
     "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
@@ -3197,7 +3217,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-160"
+    "id": "story-161"
   },
   {
     "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
@@ -3217,7 +3237,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-161"
+    "id": "story-162"
   },
   {
     "title": "NASA’s Curiosity Mars Rover Collects Samples",
@@ -3237,7 +3257,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-162"
+    "id": "story-163"
   },
   {
     "title": "APOD: 2026 November 20 – V-G-R",
@@ -3257,7 +3277,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-163"
+    "id": "story-164"
   },
   {
     "title": "The Stormy Southwest Pacific",
@@ -3277,7 +3297,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-164"
+    "id": "story-165"
   },
   {
     "title": "Challenge: Public Input on Life and the World in 2075",
@@ -3297,7 +3317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-165"
+    "id": "story-166"
   },
   {
     "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
@@ -3317,7 +3337,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-166"
+    "id": "story-167"
   },
   {
     "title": "Lake Pelku",
@@ -3337,27 +3357,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-167"
+    "id": "story-168"
   },
   {
-    "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
+    "title": "Startup sues Apple in India over tap-to-share contacts feature",
     "category": "Tech",
     "country": "United States",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "NASA tested RS-25 engine No. 10001 on Nov. 18 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for the planned duration of three minutes and 20 seconds (200 seconds...",
-      "Reporting Desk: NASA Science",
-      "Source Stamp: Thu, 19 Nov 2026 14:44:39 +0000"
+      "A U.S. startup is seeking $162 million in damages and an injunction to impact iPhone and Apple Watch imports to India.",
+      "Reporting Desk: TechCrunch",
+      "Source Stamp: Sat, 21 Nov 2026 04:00:00 +0000"
     ],
     "sources": [
       {
-        "name": "NASA Science",
-        "url": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
         "bias": "CENTER"
       }
     ],
-    "id": "story-168"
+    "id": "story-169"
   },
   {
     "title": "Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now",
@@ -3377,7 +3397,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-169"
+    "id": "story-170"
   },
   {
     "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
@@ -3397,7 +3417,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-170"
+    "id": "story-171"
   },
   {
     "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
@@ -3417,7 +3437,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-171"
+    "id": "story-172"
   },
   {
     "title": "Super-hot rock geothermal could end data center energy woes",
@@ -3437,7 +3457,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-172"
+    "id": "story-173"
   },
   {
     "title": "Chips can survive the space environment — can their financing?",
@@ -3457,7 +3477,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-173"
+    "id": "story-174"
   },
   {
     "title": "Bending Spoons buys Mailchimp for $3.68B",
@@ -3477,7 +3497,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-174"
+    "id": "story-175"
   },
   {
     "title": "A transcription firm used by police, prosecutors, and tech giants exposed customer data online",
@@ -3497,7 +3517,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-175"
+    "id": "story-176"
   },
   {
     "title": "Six AI-powered gadgets that could make your home office smarter",
@@ -3517,7 +3537,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-176"
+    "id": "story-177"
   },
   {
     "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
@@ -3534,26 +3554,6 @@
       {
         "name": "TechCrunch",
         "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-177"
-  },
-  {
-    "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
-    "category": "Tech",
-    "country": "United States",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "\"The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,\" California AG Rob Bonta said.",
-      "Reporting Desk: TechCrunch",
-      "Source Stamp: Fri, 20 Nov 2026 13:21:11 +0000"
-    ],
-    "sources": [
-      {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
         "bias": "CENTER"
       }
     ],
@@ -4140,44 +4140,24 @@
     "id": "story-207"
   },
   {
-    "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+    "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
     "category": "World",
     "country": "United Kingdom",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
+      "Brussels sources had previously suggested the bloc might not apply the wider deal until fees were lowered for EU students in Britain.",
       "Reporting Desk: BBC News World",
-      "Source Stamp: Fri, 20 Nov 2026 17:49:48 GMT"
+      "Source Stamp: Sat, 21 Nov 2026 06:00:09 GMT"
     ],
     "sources": [
       {
         "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+        "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-208"
-  },
-  {
-    "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-    "category": "World",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
-      "Reporting Desk: BBC News World",
-      "Source Stamp: Fri, 20 Nov 2026 16:54:29 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-209"
   },
   {
     "title": "French police officers sentenced for beating of music producer Michel Zecler",
@@ -4197,7 +4177,47 @@
         "bias": "CENTER"
       }
     ],
+    "id": "story-209"
+  },
+  {
+    "title": "Man convicted of starting Palisades fire in Los Angeles",
+    "category": "World",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The 30-year-old LA resident was convicted of arson leading to wildfires that killed 12 people and destroyed more than 6,800 buildings.",
+      "Reporting Desk: BBC News World",
+      "Source Stamp: Sat, 21 Nov 2026 04:34:00 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC News World",
+        "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
     "id": "story-210"
+  },
+  {
+    "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+    "category": "World",
+    "country": "United Kingdom",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship.",
+      "Reporting Desk: BBC News World",
+      "Source Stamp: Sat, 21 Nov 2026 05:15:41 GMT"
+    ],
+    "sources": [
+      {
+        "name": "BBC News World",
+        "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-211"
   },
   {
     "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
@@ -4217,7 +4237,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-211"
+    "id": "story-212"
   },
   {
     "title": "Gérard Depardieu and French author investigated over sexual allegations",
@@ -4234,26 +4254,6 @@
       {
         "name": "BBC News World",
         "url": "https://www.bbc.co.uk/news/articles/c9ly43pj10mvo?at_medium=RSS&at_campaign=rss",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-212"
-  },
-  {
-    "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-    "category": "World",
-    "country": "United Kingdom",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Russia launched one of its biggest air attacks yet as it rejected the prospect of security guarantees for Ukraine.",
-      "Reporting Desk: BBC News World",
-      "Source Stamp: Fri, 20 Nov 2026 13:01:16 GMT"
-    ],
-    "sources": [
-      {
-        "name": "BBC News World",
-        "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
         "bias": "CENTER"
       }
     ],
@@ -4320,200 +4320,200 @@
     "id": "story-216"
   },
   {
-    "title": "Overturned boat carrying mourners to funeral kills at least four in Nigeria",
+    "title": "Sudan’s war will end, but will it be too late?",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Police say two children among dead as search continues for more victims.",
+      "Pressure from within Sudan may achieve what international diplomacy has not.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Fri, 20 Nov 2026 23:36:36 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:32:04 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/20/overturned-boat-carrying-mourners-to-funeral-kills-at-least-four-in-nigeria?traffic_source=rss",
+        "url": "https://www.aljazeera.com/opinions/2026/11/21/sudans-war-will-end-but-will-it-be-too-late?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-217"
   },
   {
-    "title": "Rahul Gandhi backs strong India-Israel ties despite Gaza war",
+    "title": "Netanyahu is playing with the fire that killed Rabin",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "India’s opposition leader Rahul Gandhi, says New Delhi should continue to maintain strong ties with Israel.",
+      "His attacks on Arab lawmakers echo the incitement that preceded Rabin’s assassination and risk unleashing new violence.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Fri, 20 Nov 2026 23:20:50 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 06:21:03 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/rahul-gandhi-backs-strong-india-israel-ties-despite-gaza-war?traffic_source=rss",
+        "url": "https://www.aljazeera.com/opinions/2026/11/21/netanyahu-is-playing-with-the-fire-that-killed-rabin?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-218"
   },
   {
-    "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
+    "title": "Can Israel’s opposition bloc stay united against Netanyahu?",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "EU warns COP31 risks turning into a &#039;fossil summit&#039; as critical climate commitments are omitted from the draft deal.",
+      "Eisenkot&#039;s fragile alliance must overcome deep ideological divisions to turn its opposition into a government.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Fri, 20 Nov 2026 23:06:41 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 05:46:29 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
+        "url": "https://www.aljazeera.com/news/2026/11/21/can-israels-opposition-bloc-stay-united-against-netanyahu?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-219"
   },
   {
-    "title": "US lawmakers push for tougher AI chip rules amid China export crackdown",
+    "title": "Funeral held for New York teen shot while walking to school",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Washington has new rules restricting remote access to advanced US AI chips, but lawmakers want more.",
+      "Funeral held for New York teen shot while walking to school",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Fri, 20 Nov 2026 22:15:07 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 05:16:15 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown?traffic_source=rss",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/funeral-held-for-new-york-teen-shot-while-walking-to-school?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-220"
   },
   {
-    "title": "Iraq PM targets militia stronghold in bid to assert state control",
+    "title": "Al Jazeera explains: The US-China AI race is entering a new phase",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Iraqi PM Ali al-Zaidi said an operation in Jurf al-Sakhar marks the start of a nationwide push to assert state control.",
+      "Al Jazeera’s Matthew Torres unpacks the latest from the world of artificial intelligence.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Fri, 20 Nov 2026 21:28:25 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 05:08:40 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_iraq-pm-targets-militia-stronghold-jurf-al-sakhar-201126?traffic_source=rss",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/al-jazeera-explains-the-us-china-ai-race-is-entering-a-new-phase?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-221"
   },
   {
-    "title": "Trump threatens tax on US tech firms building AI data centres abroad",
+    "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "US President Donald Trump warned US tech companies will face “a tremendous tax” if they build AI data centres abroad.",
+      "Saudi Arabia issues emergency alerts in Riyadh for third night in row, as the Houthis threaten ports and power station.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Fri, 20 Nov 2026 21:10:53 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 04:32:07 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126?traffic_source=rss",
+        "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-222"
   },
   {
-    "title": "Trump defends Putin relationship, warns AI data centres must stay in US",
+    "title": "Three French police officers sentenced over racist assault on Black man",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "The US president also spoke about the war in Iran and praised trip to China during a wide-ranging news conference.",
+      "Paris criminal court finds racism was an aggravating factor in the 2020 assault of Black music producer Michel Zecler.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Fri, 20 Nov 2026 21:05:07 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 03:01:24 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
+        "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-223"
   },
   {
-    "title": "Two Salvadoran soldiers killed in Haiti while handling explosives",
+    "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Two others were injured in the explosion, marking the first deaths among troops deployed to Haiti since late October.",
+      "Thousands of Gen Z protesters rallied across 25 European countries over living costs, military spending and climate.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Fri, 20 Nov 2026 20:59:04 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 02:49:16 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-224"
   },
   {
-    "title": "Can the UK and EU turn the page on Brexit?",
+    "title": "Trump calls for Nvidia to reinstate ‘brilliant’ Jensen Huang",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "A decade after the Brexit vote, the UK and EU have struck deals. But divisions persist.",
+      "US president calls tech giant to give former CEO &#039;a second chance&#039; and urges him to &#039;make a big apology&#039;.",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Fri, 20 Nov 2026 20:51:19 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 01:49:07 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/can-the-uk-and-eu-turn-the-page-on-brexit?traffic_source=rss",
+        "url": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
     "id": "story-225"
   },
   {
-    "title": "Gaza’s displaced children celebrate World Children’s Day",
+    "title": "COP31 deal stalls as nations struggle to agree on climate plan",
     "category": "World",
     "country": "International",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Displaced children gathered in al-Nuseirat refugee camp to mark World Children’s Day.",
+      "COP31 deal stalls as nations struggle to agree on climate plan",
       "Reporting Desk: Al Jazeera English",
-      "Source Stamp: Fri, 20 Nov 2026 20:45:09 +0000"
+      "Source Stamp: Sat, 21 Nov 2026 01:44:09 +0000"
     ],
     "sources": [
       {
         "name": "Al Jazeera English",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/gazas-displaced-children-celebrate-world-childrens-day?traffic_source=rss",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss",
         "bias": "CENTER"
       }
     ],
@@ -4540,6 +4540,26 @@
     "id": "story-227"
   },
   {
+    "title": "Dems aim to block Iran war funding. And, Army delays lead azide detonation in Iowa",
+    "category": "World",
+    "country": "United States",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Congress needs to pass a funding measure to avoid a shutdown next month, providing Dems an opportunity to leverage power. And, the Army says waiting to detonate lead azide could become dangerous.",
+      "Reporting Desk: NPR World News",
+      "Source Stamp: Fri, 20 Nov 2026 07:04:57 -0500"
+    ],
+    "sources": [
+      {
+        "name": "NPR World News",
+        "url": "https://www.npr.org/2026/11/20/g-s1-154582/up-first-newsletter-democrats-iran-war-trump-xi-jinping-iowa-army",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-228"
+  },
+  {
     "title": "GOP Sen. Johnson rejects tying government funding to an end to the Iran war",
     "category": "World",
     "country": "United States",
@@ -4557,7 +4577,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-228"
+    "id": "story-229"
   },
   {
     "title": "The U.K. and EU hold a rare summit to strengthen ties",
@@ -4577,7 +4597,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-229"
+    "id": "story-230"
   },
   {
     "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
@@ -4597,7 +4617,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-230"
+    "id": "story-231"
   },
   {
     "title": "Anthropic raises more than $100B in IPO. And, Dems nominate Jeffries for House speaker",
@@ -4617,7 +4637,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-231"
+    "id": "story-232"
   },
   {
     "title": "Top House Democrat questions what Trump accomplished in Xi-Putin summit",
@@ -4637,7 +4657,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-232"
+    "id": "story-233"
   },
   {
     "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
@@ -4657,7 +4677,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-233"
+    "id": "story-234"
   },
   {
     "title": "Trump, Xi and Putin meet as global alliances hang in the balance",
@@ -4677,7 +4697,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-234"
+    "id": "story-235"
+  },
+  {
+    "title": "Brazil ex-President Jair Bolsonaro taken to hospital over abdominal pain",
+    "category": "Governance",
+    "country": "Germany",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Jair Bolsonaro has been hospitalized in Brasilia with intestinal obstruction. The former far-right Brazilian leader is receiving pain medications, his son Carlos said.",
+      "Reporting Desk: Deutsche Welle",
+      "Source Stamp: Recent Wire"
+    ],
+    "sources": [
+      {
+        "name": "Deutsche Welle",
+        "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648?maca=en-rss-en-world-4025-rdf",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-236"
   },
   {
     "title": "Russian ornithologist jailed over small donations to Navalny's foundation",
@@ -4697,7 +4737,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-235"
+    "id": "story-237"
   },
   {
     "title": "Repression against Iranian lawyers increases",
@@ -4717,7 +4757,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-236"
+    "id": "story-238"
   },
   {
     "title": "Is Pakistan backing anti-Taliban groups in Afghanistan?",
@@ -4737,7 +4777,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-237"
+    "id": "story-239"
   },
   {
     "title": "EU and UK strike 'landmark deal' to strengthen ties after Brexit",
@@ -4757,7 +4797,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-238"
+    "id": "story-240"
   },
   {
     "title": "Turkey takes control of opposition broadcaster Sozcu TV",
@@ -4777,7 +4817,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-239"
+    "id": "story-241"
   },
   {
     "title": "Africa at COP31: Will climate cash finally flow?",
@@ -4797,7 +4837,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-240"
+    "id": "story-242"
   },
   {
     "title": "Myanmar genocide ruling: Rohingya say struggle for justice not over",
@@ -4817,7 +4857,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-241"
+    "id": "story-243"
   },
   {
     "title": "China's Xi praises 'turnaround' in relationship with Australia",
@@ -4837,7 +4877,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-242"
+    "id": "story-244"
   },
   {
     "title": "White House replaces cyber security chief after tech outages",
@@ -4857,27 +4897,47 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-243"
+    "id": "story-245"
   },
   {
-    "title": "Putin proposes second humanitarian ceasefire — is it a trap?",
-    "category": "Governance",
-    "country": "Germany",
+    "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
+    "category": "World",
+    "country": "France",
     "leaning": "CENTER",
     "feelGood": false,
     "keyFacts": [
-      "Russian President Putin has suggested evacuating civilians from the embattled Ukrainian city of Kostiantynivka. But experts warn this could serve military, not humanitarian, aims. What should Kyiv do?",
-      "Reporting Desk: Deutsche Welle",
-      "Source Stamp: Recent Wire"
+      "Hackers breached systerms at the US Agriculture Department and the FBI, US media reported, amid a recent wave of major technology disruptions across the country.",
+      "Reporting Desk: France 24",
+      "Source Stamp: Sat, 21 Nov 2026 07:01:04 GMT"
     ],
     "sources": [
       {
-        "name": "Deutsche Welle",
-        "url": "https://www.dw.com/en/putin-proposes-second-humanitarian-ceasefire-is-it-a-trap/a-79996772?maca=en-rss-en-world-4025-rdf",
+        "name": "France 24",
+        "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report",
         "bias": "CENTER"
       }
     ],
-    "id": "story-244"
+    "id": "story-246"
+  },
+  {
+    "title": "House of Cards: America's enemies \"no longer fear it, its allies no longer trust it'",
+    "category": "World",
+    "country": "France",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "The Economist's deputy editor Tom Standage joins us for a futuristic retrospective, taking us back to the future as we spotlight \"The World Ahead 2027\". We begin with the \"leader of the free world\", the FIFA Peace Prize recipient presiding over an Am...",
+      "Reporting Desk: France 24",
+      "Source Stamp: Fri, 20 Nov 2026 22:13:21 GMT"
+    ],
+    "sources": [
+      {
+        "name": "France 24",
+        "url": "https://www.france24.com/en/tv-shows/spotlight/20261120-house-of-cards-america-s-enemies-no-longer-fear-it-its-allies-no-longer-trust-it",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-247"
   },
   {
     "title": "Paris police officers sentenced to prison over 2020 beating of Black man",
@@ -4897,7 +4957,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-245"
+    "id": "story-248"
   },
   {
     "title": "Guinea bans Burkina Faso broadcaster, escalating diplomatic tensions",
@@ -4917,7 +4977,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-246"
+    "id": "story-249"
   },
   {
     "title": "'Licence to kill': French parliament adopts police shootings law slammed by activists",
@@ -4937,7 +4997,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-247"
+    "id": "story-250"
   },
   {
     "title": "'Friends' But Who Benefits? Notes from an Historic Summit, Myanmar's Genocide Ruling, Time to 'Bre-join' the EU?",
@@ -4957,7 +5017,27 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-248"
+    "id": "story-251"
+  },
+  {
+    "title": "Yemen's Houthis target Riyadh after Saudi coalition's 'special operation'",
+    "category": "World",
+    "country": "France",
+    "leaning": "CENTER",
+    "feelGood": false,
+    "keyFacts": [
+      "Yemen's Houthi rebels launched strikes on Riyadh on Saturday after Saudi-led coalition air raids on Yemen, escalating a months-long surge in cross-border attacks.",
+      "Reporting Desk: France 24",
+      "Source Stamp: Fri, 20 Nov 2026 18:36:15 GMT"
+    ],
+    "sources": [
+      {
+        "name": "France 24",
+        "url": "https://www.france24.com/en/middle-east/20261120-yemen-s-houthis-target-riyadh-after-saudi-coalition-s-special-operation",
+        "bias": "CENTER"
+      }
+    ],
+    "id": "story-252"
   },
   {
     "title": "🦛 USA: Fiona, Cincinnati Zoo’s famous hippo, has died",
@@ -4977,7 +5057,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-249"
+    "id": "story-253"
   },
   {
     "title": "🔴Watch live: Trump holds press conference after meeting with Xi, Putin",
@@ -4997,7 +5077,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-250"
+    "id": "story-254"
   },
   {
     "title": "UK and EU strike ‘landmark’ deal to rebuild ties after Brexit",
@@ -5017,67 +5097,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-251"
-  },
-  {
-    "title": "A cultural stroll through Paris with singer-songwriters Mariam Doumbia and Zaho",
-    "category": "World",
-    "country": "France",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "Two women, two voices, two destinies: Malian performer Mariam continues her musical journey after the 2025 passing of Amadou, her partner in life and on stage. \"Amadou and I sang about love. We wanted to share love with everyone. We sang of peace, of...",
-      "Reporting Desk: France 24",
-      "Source Stamp: Fri, 20 Nov 2026 17:04:59 GMT"
-    ],
-    "sources": [
-      {
-        "name": "France 24",
-        "url": "https://www.france24.com/en/tv-shows/paris-des-arts/20261120-a-cultural-stroll-through-paris-with-singer-songwriters-mariam-doumbia-and-zaho",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-252"
-  },
-  {
-    "title": "‘A more expensive EU is not a better EU’: Austria's Minister for Europe, Claudia Bauer",
-    "category": "World",
-    "country": "France",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "This week's programme hosted Claudia Bauer, Austria’s Federal Minister for Europe, Integration and Family while she was in Paris for the recent G7 meeting. She offered her thoughts on the diplomatic moves surrounding Ukraine, transatlantic relations,...",
-      "Reporting Desk: France 24",
-      "Source Stamp: Fri, 20 Nov 2026 16:53:27 GMT"
-    ],
-    "sources": [
-      {
-        "name": "France 24",
-        "url": "https://www.france24.com/en/tv-shows/talking-europe/20261120-a-more-expensive-eu-is-not-a-better-eu-austria-s-minister-for-europe-claudia-bauer",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-253"
-  },
-  {
-    "title": "Trump hails 'fantastic' relationships with China's Xi, Russia's Putin after three-way talks",
-    "category": "World",
-    "country": "France",
-    "leaning": "CENTER",
-    "feelGood": false,
-    "keyFacts": [
-      "US President Donald Trump played up his \"fantastic\" relationships with China's Xi Jinping and Russia's Vladimir Putin during a White House press conference on Friday following his return to Washington after a first-ever trilateral meeting with the Ch...",
-      "Reporting Desk: France 24",
-      "Source Stamp: Fri, 20 Nov 2026 16:30:04 GMT"
-    ],
-    "sources": [
-      {
-        "name": "France 24",
-        "url": "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin",
-        "bias": "CENTER"
-      }
-    ],
-    "id": "story-254"
+    "id": "story-255"
   },
   {
     "title": "California’s coastal communities on alert as biggest waves in years hit state",
@@ -5097,7 +5117,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-255"
+    "id": "story-256"
   },
   {
     "title": "Race to replant five South African baobabs after export blocked",
@@ -5117,7 +5137,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-256"
+    "id": "story-257"
   },
   {
     "title": "One in four women globally unable to refuse sex within marriage, says UN",
@@ -5137,7 +5157,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-257"
+    "id": "story-258"
   },
   {
     "title": "Fears grow that US will put Nobel-winning judge under sanctions after Myanmar genocide ruling",
@@ -5157,7 +5177,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-258"
+    "id": "story-259"
   },
   {
     "title": "European Commission accused of sugarcoating figures to release funds to Egypt",
@@ -5177,7 +5197,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-259"
+    "id": "story-260"
   },
   {
     "title": "‘Weak and dizzy’: the secretive ICE force-feeding tactics that ended a Cuban father’s hunger strike",
@@ -5197,7 +5217,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-260"
+    "id": "story-261"
   },
   {
     "title": "Race to be next UN secretary general exposes divisions among world powers",
@@ -5217,7 +5237,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-261"
+    "id": "story-262"
   },
   {
     "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
@@ -5237,7 +5257,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-262"
+    "id": "story-263"
   },
   {
     "title": "Hegseth uses Venezuela visit to boast of Maduro’s capture by US military",
@@ -5257,7 +5277,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-263"
+    "id": "story-264"
   },
   {
     "title": "Caribbean nations fear economic impact of shuttering citizenship program after EU threats",
@@ -5277,7 +5297,7 @@
         "bias": "LEFT"
       }
     ],
-    "id": "story-264"
+    "id": "story-265"
   },
   {
     "title": "‘You will not be alone’: General Assembly President tells Rohingya refugees after genocide ruling",
@@ -5297,7 +5317,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-265"
+    "id": "story-266"
   },
   {
     "title": "West Bank: Record settler attacks mar olive harvest as UN urges Israel to protect farmers",
@@ -5317,7 +5337,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-266"
+    "id": "story-267"
   },
   {
     "title": "Shattered playgrounds and freezing classrooms: Inside Ukraine’s deadliest year for children",
@@ -5337,7 +5357,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-267"
+    "id": "story-268"
   },
   {
     "title": "WFP plans to assist 91 million in 2027 as hunger crisis deepens",
@@ -5357,7 +5377,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-268"
+    "id": "story-269"
   },
   {
     "title": "COP31: Countries demand stronger climate deal as talks in Antalya reach final day",
@@ -5377,7 +5397,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-269"
+    "id": "story-270"
   },
   {
     "title": "Afghanistan restrictions prevent pregnant women from seeking medical help",
@@ -5397,7 +5417,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-270"
+    "id": "story-271"
   },
   {
     "title": "Battle to control GPS and radio signals raises civilian safety concerns",
@@ -5417,7 +5437,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-271"
+    "id": "story-272"
   },
   {
     "title": "Peacekeeping: With 500 paternity and child support claims unresolved, UN scales up accountability",
@@ -5437,7 +5457,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-272"
+    "id": "story-273"
   },
   {
     "title": "‘Losing the battle’: AI hands predators new ways to target children",
@@ -5457,7 +5477,7 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-273"
+    "id": "story-274"
   },
   {
     "title": "COP31: Ambition goes missing as fossil fuel language drops from draft deal",
@@ -5477,6 +5497,6 @@
         "bias": "CENTER"
       }
     ],
-    "id": "story-274"
+    "id": "story-275"
   }
 ]
